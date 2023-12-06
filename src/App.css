@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+/*  --  FONTS  --  */
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 300, 400, 500, 600, 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/hankengrotesk/v8/ieVn2YZDLWuGJpnzaiwFXS9tYtpd59A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/*  --  GLOBAL VARIABLES  --  */
+
+:root {
+  /*  colors  */
+  --main-white: #f5f5f5;
+  --main-black: #222222;
+  --main-yellow: #fed502;
+  /*  font size  */
+  --reg-p-14-desktop: 1vw;
+  --reg-p-14-tablet: 1.2vw;
+  --reg-p-16-desktop: 1.14vw;
+  --reg-p-16-tablet: 1.37vw;
+  --reg-p-16-mobile: 3.01vw;
+  --reg-p-20-mobile: 3.78vw;
+  /*  margins  */
+  --lr-margin-desktop: 3.57vw;
+  --lr-margin-tablet: 2.98vw;
+  --lr-margin-mobile: 3vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/*  -- RESET & GLOBAL STYLES  --  */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--main-white);
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: var(--main-black);
+  line-height: 1.25;
+  letter-spacing: 0.01vw;
+  font-size: var(--reg-p-16-desktop);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  cursor: pointer;
+  color: var(--main-black);
+  text-decoration-line: none;
+  position: relative;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    letter-spacing: 0.012vw;
+    font-size: var(--reg-p-16-tablet);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 576px) {
+  body {
+    letter-spacing: 0.026vw;
+    font-size: var(--reg-p-16-mobile);
   }
 }
