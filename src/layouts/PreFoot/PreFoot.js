@@ -6,12 +6,12 @@ import Link from '../../util/Link/Link.js';
 const Footer = () => {
     return(
         <>
-        <footer className={styles.footer}>
-            <div className={styles.footerHolder}>
-                <div className={styles.footerImageBox}>
-                    <img className={styles.footerImage} src='' alt='' />
+        <footer className={styles.preFoot}>
+            <div className={styles.preFooterHolder}>
+                <div className={styles.preFooterImageBox}>
+                    <img className={styles.preFooterImage} src='' alt='' />
                 </div>
-                <div className={styles.footer}>
+                <div className={styles.preFooter}>
                     <p></p>
                     <h3></h3>
                     <p></p>

@@ -1,5 +1,5 @@
 import Navbar from "../../layouts/Navbar/Navbar.js";
-import Footer from '../../layouts/PreFoot/PreFoot.js';
+import Footer from '../../layouts/Footer/Footer.js';
 import Link from '../../util/Link/Link.js';
 
 const Root = () => {
@@ -13,9 +13,7 @@ const Root = () => {
             <p>Esto es la layout de la pagina</p>
             <Link text={'Mi link favorito'} link={'https://www.awwwards.com/'} />
         </main>
-        <footer>
-            <Footer />
-        </footer>
+        <Footer />
         </>
     )
 };

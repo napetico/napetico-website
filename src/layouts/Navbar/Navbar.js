@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className={styles.navContainer}>
                 <div className={styles.navLogoBox}>
                     <a className={styles.logoLinkBlock} href='#'>
-                        <img className={styles.navLogo} src='./images/napo-logo.svg' alt='napo logo'/>
+                        <img className='nav-logo' src='./images/napo-logo.svg' alt='napo logo'/>
                     </a>
                     <a className={styles.navBreadcrumLink} href='#'>@napetico</a>
                 </div>

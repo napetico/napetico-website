@@ -28,6 +28,8 @@
   --lr-margin-desktop: 3.57vw;
   --lr-margin-tablet: 2.98vw;
   --lr-margin-mobile: 3vw;
+  --tb-margin-desktop: 7.86vw
+
 }
 
 
@@ -76,16 +78,29 @@ a {
   isolation: isolate;
 }
 
+.nav-logo {
+  height: 1.43vw;
+}
+
 @media only screen and (max-width: 992px) {
   body {
     letter-spacing: 0.012vw;
     font-size: var(--reg-p-16-tablet);
   }
+
+  .nav-logo {
+    height: 1.72vw;
+  }
+
 }
 
 @media only screen and (max-width: 576px) {
   body {
     letter-spacing: 0.026vw;
     font-size: var(--reg-p-16-mobile);
+  }
+
+  .nav-logo {
+    height: 4.4vw;
   }
 }
