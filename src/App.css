@@ -23,13 +23,19 @@
   --reg-p-16-desktop: 1.14vw;
   --reg-p-16-tablet: 1.37vw;
   --reg-p-16-mobile: 3.01vw;
+  --reg-p-20-desktop: 1.43vw;
+  --reg-p-20-tablet: 1.72vw;
   --reg-p-20-mobile: 3.78vw;
+  --h3-30-desktop: 2.14vw;
+  --h3-30-tablet: 2.57vw;
+  --h3-30-mobile: 5.65vw;
   /*  margins  */
   --lr-margin-desktop: 3.57vw;
   --lr-margin-tablet: 2.98vw;
   --lr-margin-mobile: 3vw;
-  --tb-margin-desktop: 7.86vw
-
+  --tb-margin-desktop: 7.86vw;
+  --tb-margin-tablet: 9.4vw;
+  --tb-margin-mobile: 20.88vw;
 }
 
 
@@ -91,7 +97,6 @@ a {
   .nav-logo {
     height: 1.72vw;
   }
-
 }
 
 @media only screen and (max-width: 576px) {

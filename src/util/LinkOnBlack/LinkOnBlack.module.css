@@ -1,0 +1,39 @@
+.linkOnBlackHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.linkOnBlackText {
+    font-weight: 600;
+    color: var(--main-white);
+}
+
+.linkOnBlackUnderlineTrack {
+    height: 0.05vw;
+    background-color: #f5f5f590;
+}
+
+.linkOnBlackUnderline {
+    width: 0%;
+    height: 100%;
+    background-color: var(--main-white);
+    transition: width 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.linkOnBlackHolder:hover .linkOnBlackUnderline {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .linkOnBlackUnderlineTrack {
+        height: 0.06vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .linkOnBlackUnderlineTrack {
+        height: 0.13vw;
+    }
+}

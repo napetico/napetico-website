@@ -1,6 +1,8 @@
-import Navbar from "../../layouts/Navbar/Navbar.js";
+import Navbar from '../../layouts/Navbar/Navbar.js';
 import Footer from '../../layouts/Footer/Footer.js';
-import Link from '../../util/Link/Link.js';
+import PreFoot from '../../layouts/PreFoot/PreFoot.js';
+import OptionsBar from '../../layouts/OptionsBar/OptionsBar.js';
+
 
 const Root = () => {
 
@@ -8,10 +10,11 @@ const Root = () => {
         <>
         <header>
             <Navbar />
+            <OptionsBar />
         </header>
         <main>
             <p>Esto es la layout de la pagina</p>
-            <Link text={'Mi link favorito'} link={'https://www.awwwards.com/'} />
+            <PreFoot />
         </main>
         <Footer />
         </>
