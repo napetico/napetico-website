@@ -29,6 +29,9 @@
   --h3-30-desktop: 2.14vw;
   --h3-30-tablet: 2.57vw;
   --h3-30-mobile: 5.65vw;
+  --h1-80-desktop: 5.72vw;
+  --h1-80-tablet: 6.86vw;
+  --h1-80-mobile: 15.09vw;
   /*  margins  */
   --lr-margin-desktop: 3.57vw;
   --lr-margin-tablet: 2.98vw;
@@ -73,6 +76,12 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+h1 {
+  font-size: var(--h1-80-desktop);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 a {
   cursor: pointer;
   color: var(--main-black);
@@ -88,14 +97,87 @@ a {
   height: 1.43vw;
 }
 
+/* CSS for the links with the arrow */
+.link-group-holder {
+  display: flex;
+  gap: 1.79vw;
+  align-items: center;
+  margin-top: 0.71vw;
+}
+
+.link-group-arrow {
+  width: 1.79vw;
+}
+
+.link-group-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* CSS for the text loop component */
+.text-loop-track, .text-loop-holder {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+
+.text-loop-holder {
+  animation: text-loop 15000ms linear infinite;
+}
+
+.hero-loop-header-bold {
+  font-weight: 700;
+  font-size: var(--h3-30-desktop);
+  white-space: nowrap;
+}
+
+.hero-loop-header-light {
+  font-weight: 400;
+  font-size: var(--h3-30-desktop);
+  white-space: nowrap;
+}
+
+@keyframes text-loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 @media only screen and (max-width: 992px) {
   body {
     letter-spacing: 0.012vw;
     font-size: var(--reg-p-16-tablet);
   }
 
+  h1 {
+    font-size: var(--h1-80-tablet);
+  }
+
   .nav-logo {
     height: 1.72vw;
+  }
+
+  /* CSS for the links with the arrow */
+  .link-group-holder {
+    gap: 2.15vw;
+    margin-top: 0.85vw;
+  }
+
+  .link-group-arrow {
+    width: 2.15vw;
+  }
+
+  /* CSS for the text loop component */
+  .hero-loop-header-bold {
+    font-size: var(--h3-30-tablet);
+  }
+
+  .hero-loop-header-light {
+    font-size: var(--h3-30-tablet);
   }
 }
 
@@ -105,7 +187,30 @@ a {
     font-size: var(--reg-p-16-mobile);
   }
 
+  h1 {
+    font-size: var(--h1-80-mobile);
+  }
+
   .nav-logo {
     height: 4.4vw;
+  }
+
+  /* CSS for the links with the arrow */
+  .link-group-holder {
+    gap: 3.87vw;
+    margin-top: 1.87vw;
+  }
+
+  .link-group-arrow {
+    width: 4.73vw;
+  }
+
+  /* CSS for the text loop component */
+  .hero-loop-header-bold {
+    font-size: var(--h3-30-mobile);
+  }
+
+  .hero-loop-header-light {
+    font-size: var(--h3-30-mobile);
   }
 }

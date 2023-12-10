@@ -1,0 +1,29 @@
+.heroContainer {
+    margin: 1.43vw var(--lr-margin-desktop) var(--tb-margin-desktop);
+}
+
+.heroHolder {
+    display: flex;
+    justify-content: space-between;
+    gap: 6.43vw;
+}
+
+.heroTextBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    gap: 2.14vw;
+    overflow: hidden;
+}
+
+.heroText {
+    font-size: var(--reg-p-20-desktop);
+    line-height: 1.6;
+}
+
+.heroImageBox {
+    width: 50%;
+    height: 35.71vw;
+}

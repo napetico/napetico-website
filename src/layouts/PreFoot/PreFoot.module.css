@@ -43,26 +43,6 @@
     line-height: 1.7;
 }
 
-.ctaGroupHolder {
-    display: flex;
-    gap: 1.79vw;
-    align-items: center;
-    margin-top: 0.71vw;
-}
-
-.ctaGroupTag {
-
-}
-
-.ctaGroupArrow {
-    width: 1.79vw;
-}
-
-.ctaGroupLinkBox {
-    display: flex;
-    align-items: center;
-}
-
 @media only screen and (max-width: 992px) {
     .preFoot {
         padding: var(--tb-margin-tablet) var(--lr-margin-tablet);
@@ -93,15 +73,6 @@
     
     .preFootText {
         font-size: var(--reg-p-16-tablet);
-    }
-    
-    .ctaGroupHolder {
-        gap: 2.15vw;
-        margin-top: 0.85vw;
-    }
-    
-    .ctaGroupArrow {
-        width: 2.15vw;
     }
 }
 
@@ -134,14 +105,5 @@
     
     .preFootText {
         font-size: var(--reg-p-16-mobile);
-    }
-    
-    .ctaGroupHolder {
-        gap: 3.87vw;
-        margin-top: 1.87vw;
-    }
-    
-    .ctaGroupArrow {
-        width: 4.73vw;
     }
 }
