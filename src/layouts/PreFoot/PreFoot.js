@@ -9,13 +9,13 @@ const PreFoot = (props) => {
         <section className={styles.preFoot}>
             <div className={styles.preFootHolder}>
                 <div className={styles.preFootImageBox}>
-                    <img className={styles.preFootImage} src='' alt='' />
+                    <img className={styles.preFootImage} src='https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg' alt='' />
                 </div>
                 <div className={styles.preFootTextBox}>
                     <p className={styles.preFootTag}>Dame un toque</p>
                     <h3 className={styles.preFootTitle}>Encantado de hablar contigo.</h3>
-                    <p className={styles.preFootText}>Sin presiones. Me gusta compartir ideas, comentar estrategias y ampliar perspectivas. Si tienes un proyecto y quieres ayuda, opinión, o simplemente un sesion de ideas, dame un toque y nos tomamos un café.</p>
-                    <div className='link-group-holder'>
+                    <p className={styles.preFootText}>Sin presiones. Me gusta compartir ideas, comentar estrategias y ampliar perspectivas. Si tienes un proyecto y quieres ayuda, opinión, o simplemente un sesion de ideas, dame un toque y hablamos lo que quieras con unas cervezas, un café, o un vinito.</p>
+                    <div className='link-group-holder-hero'>
                         <p className='link-group-tag'>Contáctame por </p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-white.svg' alt='' />
                         <div className='link-group-wrapper'>

@@ -1,29 +1,115 @@
-.heroContainer {
-    margin: 1.43vw var(--lr-margin-desktop) var(--tb-margin-desktop);
+.displayContainer {
+    padding: var(--tb-margin-desktop) var(--lr-margin-desktop);
 }
 
-.heroHolder {
-    display: flex;
-    justify-content: space-between;
-    gap: 6.43vw;
-}
-
-.heroTextBox {
+.displayHolder {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    gap: 3.57vw;
+}
+
+.displayContent {
+    display: flex;
+    gap: 3.57vw;                                 
+}
+
+.displayDirectory {
+    display: flex;
+    flex-direction: column;
     width: 50%;
+}
+
+.displayCarousel {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* */
+.carouselContainer {
+    border-top: 0.035vw solid #cccccc80;
+    padding: 1.79vw 0;
+    display: flex;
     gap: 2.14vw;
-    overflow: hidden;
 }
 
-.heroText {
-    font-size: var(--reg-p-20-desktop);
-    line-height: 1.6;
+
+.projectCardHolder {
+    width: 20.71vw;
+}
+/*  */
+
+.displayCTA {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.56vw;
 }
 
-.heroImageBox {
-    width: 50%;
-    height: 35.71vw;
+@media only screen and (max-width: 992px) {
+    .displayContainer {
+        padding: var(--tb-margin-tablet) var(--lr-margin-tablet);
+    }
+    
+    .displayHolder {
+        gap: 4.28vw;
+    }
+
+    .displayContent {
+        gap: 2.98vw;                                 
+    }
+
+    .carouselContainer {
+        border-top: 0.042vw solid #cccccc80;
+        padding: 2.15vw 0;
+        gap: 1.78vw;
+    }
+
+    .projectCardHolder {
+        width: 24.85vw;
+    }
+
+    .displayCTA {
+        padding-top: 3.07vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .displayContainer {
+        padding: var(--tb-margin-mobile) var(--lr-margin-mobile);
+    }
+    
+    .displayHolder {
+        gap: 9.42vw;
+    }
+
+    .displayContent {
+        flex-direction: column;
+        gap: 6.56vw;                                 
+    }
+    
+    .displayDirectory {
+        width: 100%;
+    }
+    
+    .displayCarousel {
+        width: 100%;
+    }
+
+    /* */
+    .carouselContainer {
+        border-top: 0.092vw solid #cccccc80;
+        padding: 4.73vw 0;
+        flex-direction: column;
+        gap: 5.65vw;
+    }
+    
+    .projectCardHolder {
+        width: 100%;
+    }
+    /*  */
+    
+    .displayCTA {
+        padding-top: 6.75vw;
+    }
 }

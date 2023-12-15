@@ -1,0 +1,83 @@
+.directoryCard {
+    display: flex;
+    align-items: center;
+    padding: 1.79vw 1.07vw;
+    gap: 1.43vw;
+    border-top: 0.035vw solid #cccccc80;
+    transition: background-color 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.directoryCard:hover {
+    background-color: #f1f1f1;
+}
+
+.dirCardCircle {
+    width: 4.29vw;
+    height: 4.29vw;
+    border-radius: 100%;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.dirCardCircle:hover {
+    opacity: 0.75;
+}
+
+.dirCardInfoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.36vw;
+    flex-grow: 1;
+}
+
+.dirCardTextWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dirCardText {
+    font-weight: 300;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 992px) {
+    .directoryCard {
+        padding: 2.15vw 0.89vw;
+        gap: 1.19vw;
+        border-top: 0.042vw solid #cccccc80;
+    }
+    
+    .dirCardCircle {
+        width: 5.15vw;
+        height: 5.15vw;
+    }
+    
+    .dirCardInfoBox {
+        gap: 0.43vw;
+    }
+
+    .dirCardTextWrap {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .directoryCard {
+        padding: 4.73vw 0vw;
+        gap: 3.36vw;
+        border-top: 0.092vw solid #cccccc80;
+    }
+    
+    .dirCardCircle {
+        width: 11.33vw;
+        height: 11.33vw;
+    }
+    
+    .dirCardInfoBox {
+        gap: 1.13vw;
+    }
+}

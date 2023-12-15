@@ -23,7 +23,7 @@ const Hero = (props) => {
                         </div>
                     </div>
                     <p className={styles.heroText}>{props.description}</p>
-                    <div className='link-group-holder'>
+                    <div className='link-group-holder-hero'>
                         <p className='link-group-tag'>Perfil</p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt='' />
                         <div className='link-group-wrapper'>

@@ -1,0 +1,73 @@
+.featTagBoxBlack {
+    padding: 0.29vw 0.43vw;
+    background-color: var(--main-black);
+    border-radius: 0.29vw;
+}
+  
+.featTagTextBlack {
+    color: var(--main-white);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.71vw;
+}
+
+.featTagBoxYellow {
+    padding: 0.29vw 0.43vw;
+    background-color: var(--main-yellow);
+    border-radius: 0.29vw;
+}
+  
+.featTagTextYellow {
+    color: var(--main-black);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.71vw;
+}
+
+@media only screen and (max-width: 992px) {
+    .featTagBoxBlack {
+        padding: 0.35vw 0.52vw;
+        border-radius: 0.35vw;
+        position: absolute;
+        right: 0;
+        top: 130%;
+    }
+      
+    .featTagTextBlack {
+        font-size: 0.85vw;
+        white-space: nowrap;
+    }
+    
+    .featTagBoxYellow {
+        padding: 0.35vw 0.52vw;
+        border-radius: 0.35vw;
+    }
+      
+    .featTagTextYellow {
+        font-size: 0.85vw;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .featTagBoxBlack {
+        padding: 0.77vw 1.14vw;
+        border-radius: 0.77vw;
+        position: absolute;
+        right: 0;
+        top: 140%
+    }
+      
+    .featTagTextBlack {
+        font-size: 1.87vw;
+    }
+    
+    .featTagBoxYellow {
+        padding: 0.77vw 1.14vw;
+        border-radius: 0.77vw;
+    }
+      
+    .featTagTextYellow {
+        font-size: 1.87vw;
+    }
+}

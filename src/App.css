@@ -29,6 +29,9 @@
   --h3-30-desktop: 2.14vw;
   --h3-30-tablet: 2.57vw;
   --h3-30-mobile: 5.65vw;
+  --h2-45-desktop: 3.21vw;
+  --h2-45-tablet: 3.85vw;
+  --h2-45-mobile: 6.93vw;
   --h1-80-desktop: 5.72vw;
   --h1-80-tablet: 6.86vw;
   --h1-80-mobile: 15.09vw;
@@ -40,7 +43,6 @@
   --tb-margin-tablet: 9.4vw;
   --tb-margin-mobile: 20.88vw;
 }
-
 
 /*  -- RESET & GLOBAL STYLES  --  */
 
@@ -68,6 +70,12 @@ img, picture, video, canvas, svg {
   max-width: 100%;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 input, button, textarea, select {
   font: inherit;
 }
@@ -80,6 +88,23 @@ h1 {
   font-size: var(--h1-80-desktop);
   font-weight: 700;
   line-height: 1.2;
+}
+
+h2 {
+  font-size: var(--h2-45-desktop);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.h3-card-title-22 {
+  font-size: 1.57vw;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.h3-card-title-18 {
+  font-size: 1.29vw;
+  font-weight: 700;
 }
 
 a {
@@ -95,10 +120,16 @@ a {
 
 .nav-logo {
   height: 1.43vw;
+  width: auto;
+}
+
+.bold-tag {
+  font-weight: 700;
+  margin: 2.14vw 0;
 }
 
 /* CSS for the links with the arrow */
-.link-group-holder {
+.link-group-holder, .link-group-holder-hero {
   display: flex;
   gap: 1.79vw;
   align-items: center;
@@ -107,6 +138,8 @@ a {
 
 .link-group-arrow {
   width: 1.79vw;
+  width: auto;
+  height: auto;
 }
 
 .link-group-wrapper {
@@ -157,12 +190,29 @@ a {
     font-size: var(--h1-80-tablet);
   }
 
+  h2 {
+    font-size: var(--h2-45-tablet);
+    line-height: 1.2;
+  }
+
+  .h3-card-title-22 {
+    font-size: 1.88vw;
+  }
+
+  .h3-card-title-18 {
+    font-size: 1.55vw;
+  }
+
   .nav-logo {
     height: 1.72vw;
   }
 
+  .bold-tag {
+    margin: 2.57vw 0;
+  }
+
   /* CSS for the links with the arrow */
-  .link-group-holder {
+  .link-group-holder, .link-group-holder-hero {
     gap: 2.15vw;
     margin-top: 0.85vw;
   }
@@ -191,14 +241,43 @@ a {
     font-size: var(--h1-80-mobile);
   }
 
+  h2 {
+    font-size: var(--h2-45-mobile);
+    line-height: 1.2;
+  }
+
+  .h3-card-title-22 {
+    font-size: 4.14vw;
+  }
+
+  .h3-card-title-18 {
+    font-size: 3.41vw;
+  }
+
   .nav-logo {
     height: 4.4vw;
+  }
+
+  .bold-tag {
+    margin: 5.65vw 0;
   }
 
   /* CSS for the links with the arrow */
   .link-group-holder {
     gap: 3.87vw;
     margin-top: 1.87vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .link-group-holder-hero {
+    gap: 3.87vw;
+    margin-top: 1.87vw;
+  }
+
+  .link-group-tag {
+    text-align: center;
   }
 
   .link-group-arrow {

@@ -1,0 +1,193 @@
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    /*align-items: stretch;*/
+    justify-content: space-between;
+    gap: 1.43vw;
+}
+
+.cardImageHolder {
+    height: 14.29vw;
+    position: relative;
+}
+
+.cardImage {
+    border-radius: 0.57vw;
+}
+
+.cardImageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 0.57vw;
+    background-image: linear-gradient(transparent, #222222cc);
+    z-index: 5;
+    display: flex;
+    opacity: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cardImageOverlay:hover {
+    display: flex;
+    opacity: 1;
+}
+
+.cardHoverBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.38vw;
+    padding: 0 1.07vw 1.07vw 0;
+}
+
+.cardOpenText {
+    color: var(--main-white);
+}
+
+.cardOpenArrow {
+    width: 1.2vw;
+    transform: rotateZ(180deg);
+}
+
+
+.cardFeatTagHolder {
+    position: absolute;
+    top: 0.71vw;
+    bottom: auto;
+    right: 0.71vw;
+    left: auto;
+}
+
+.cardDataHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 0.86vw;
+}
+
+.cardProjectInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.71vw;
+}
+
+.cardWorkTag {
+    font-weight: 300;
+}
+
+.cardClientInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.38vw; 
+}
+
+.cardClientImageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.43vw;
+    height: 1.43vw;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .projectCard {
+        gap: 1.72vw;
+    }
+    
+    .cardImageHolder {
+        height: 17.15vw;
+    }
+    
+    .cardImage {
+        border-radius: 0.68vw;
+    }
+    
+    .cardImageOverlay {
+        border-radius: 0.68vw;
+    }
+    
+    .cardHoverBox {
+        gap: 0.46vw;
+        padding: 0 1.28vw 1.28vw 0;
+    }
+    
+    .cardOpenArrow {
+        width: 1.44vw;
+    }
+    
+    .cardFeatTagHolder {
+        top: 0.85vw;
+        right: 0.85vw;
+    }
+    
+    .cardDataHolder {
+        gap: 1.03vw;
+    }
+    
+    .cardProjectInfo {
+        gap: 0.85vw;
+    }
+    
+    .cardClientInfo {
+        gap: 0.46vw; 
+    }
+    
+    .cardClientImageBox {
+        width: 1.72vw;
+        height: 1.72vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .projectCard {
+        gap: 3.78vw;
+    }
+    
+    .cardImageHolder {
+        height: 50vw;
+    }
+    
+    .cardImage {
+        border-radius: 1.5vw;
+    }
+    
+    .cardImageOverlay {
+        border-radius: 1.5vw;
+    }
+    
+    .cardHoverBox {
+        gap: 1.01vw;
+        padding: 0 2.82vw 2.82vw 0;
+    }
+    
+    .cardOpenArrow {
+        width: 3.17vw;
+    }
+    
+    .cardFeatTagHolder {
+        top: 1.87vw;
+        right: 1.87vw;
+    }
+    
+    .cardDataHolder {
+        gap: 2.27vw;
+    }
+    
+    .cardProjectInfo {
+        gap: 1.87vw;
+    }
+    
+    .cardClientInfo {
+        gap: 1.01vw; 
+    }
+    
+    .cardClientImageBox {
+        width: 3.78vw;
+        height: 3.78vw;
+    }
+}

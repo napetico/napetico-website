@@ -57,6 +57,7 @@
 
 .cardLinkImage {
     height: 1.07vw;
+    width: auto;
 }
 
 .conectNavBox, .conectLinkWrap {
