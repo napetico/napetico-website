@@ -16,7 +16,7 @@ const Footer = () => {
                         <div className={styles.footLinkWrap}>
                             <h3 className={styles.footLinkCategory}>Experiencia</h3>
                             <NavLink text={'Project Manager'} link={''} />
-                            <NavLink text={'Programador Full Stack'} link={''} />
+                            <NavLink text='Programador Full Stack' link='/full-stack-developer' />
                             <NavLink text={'Webs para Pymes'} link={''} />
                         </div>
                         <div className={styles.footLinkWrap}>

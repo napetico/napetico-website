@@ -5,6 +5,7 @@ import Root from './pages/root/Root.js';
 import Construction from './pages/Construction/Construction.js';
 import Home from './pages/Home/Home.js'
 import Coding from './pages/Coding/Coding.js';
+import CodingWork from './pages/Coding/CodingWork.js';
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -12,6 +13,7 @@ function App() {
       <Route index element={ <Home/> }/>
       <Route path='/under-construction' element={ <Construction/> }/>
       <Route path='/full-stack-developer' element={ <Coding/> }/>
+      <Route path='/full-stack-portfolio' element={ <CodingWork/> } />
     </Route>
   ));
 

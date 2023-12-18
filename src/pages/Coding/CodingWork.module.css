@@ -1,0 +1,12 @@
+.codingWorkSection {
+    padding: 4.29vw var(--lr-margin-desktop) var(--tb-margin-desktop);
+    display: flex;
+    flex-direction: column;
+    gap: 3.57vw;
+}
+
+.codingWorkGalleryHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 5.71vw;
+}

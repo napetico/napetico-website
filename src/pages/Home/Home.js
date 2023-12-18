@@ -42,7 +42,7 @@ const Home = () => {
                         />
                         <DirectoryCard 
                             image={['https://i.pinimg.com/564x/f8/69/10/f869109f41754f72d38bcb85f0f47a17.jpg', '']}
-                            href='#'
+                            href='/full-stack-developer'
                             featTag={[false, '', '']}
                             info='Desde el 2023 - Software Engineer'
                             title='Programador Full Stack'
@@ -89,11 +89,11 @@ const Home = () => {
                         <p className='link-group-tag'>Mira más proyectos</p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text={'Dirección'} link={''} />
+                            <LinkOnWhite text='Dirección' link='' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <LinkOnWhite text={'Programación'} link={''} />
+                            <LinkOnWhite text='Programación' link='/full-stack-portfolio' />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <LinkOnWhite text={'Webs'} link={''} />
+                            <LinkOnWhite text='Webs' link='' />
                         </div>
                     </div>
                 </div>
@@ -178,11 +178,11 @@ const Home = () => {
                         <p className='link-group-tag'>Explora más</p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text={'Libros'} link={''} />
+                            <LinkOnWhite text='Libros' link='' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <LinkOnWhite text={'Cursos'} link={''} />
+                            <LinkOnWhite text='Cursos' link='' />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <LinkOnWhite text={'Certificados'} link={''} />
+                            <LinkOnWhite text='Certificados' link='' />
                         </div>
                     </div>
                 </div>
@@ -256,11 +256,11 @@ const Home = () => {
                         <p className='link-group-tag'>Mira más a fondo</p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text={'Ideas'} link={''} />
+                            <LinkOnWhite text='Ideas' link='' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <LinkOnWhite text={'Ilustraciones'} link={''} />
+                            <LinkOnWhite text='Ilustraciones' link='' />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <LinkOnWhite text={'Artículos'} link={''} />
+                            <LinkOnWhite text='Artículos' link='' />
                         </div>
                     </div>
                 </div>

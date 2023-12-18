@@ -5,12 +5,11 @@ import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js';
 import OptionsBar from '../../layouts/OptionsBar/OptionsBar.js';
 import PreFoot from '../../layouts/PreFoot/PreFoot.js';
 import BigPhrase from '../../layouts/BigPhrase/BigPhrase.js';
-import CodeCard from '../../cards/CodeCard/CodeCard.js';
 import CODE_PROJECTS from '../../data/CODE_PROJECTS.js';
 import SectionIntro from '../../util/SectionIntro/SectionIntro.js';
 import ToolLabel from '../../util/ToolLabel/ToolLabel.js';
 import CertLabel from '../../util/CertLabel/CertLabel.js';
-import BigTextLoop from '../../layouts/BigTextLoop/BigTextLoop.js'
+import BigTextLoop from '../../layouts/BigTextLoop/BigTextLoop.js';
 import Gallery from '../../layouts/Gallery/Gallery.js';
 
 const Coding = () => {
@@ -34,7 +33,7 @@ const Coding = () => {
             academy: 'Flux Academy',
             image: ['https://media.licdn.com/dms/image/C560BAQF1jGIZPnd39w/company-logo_200_200/0/1630577098289?e=2147483647&v=beta&t=zZcymiVMoFJZEnfGFlBW6cd5CV0qbTV41cgvgZ4sm0E', 'Flux Academy Logo']
         }
-    ]
+    ];
 
     return(
         <>
@@ -43,7 +42,7 @@ const Coding = () => {
             header='Programador Full-Stack'
             loopText={['HTML, CSS y JavaScript', 'React & Redux', 'Node.js, SQL y Databases', 'UX & Creative Design']}
             description='Un vistazo rápido de mi camino como programador, de las cosas que voy aprendiendo, y de los proyectos que voy haciendo.'
-            linkData={['Proyectos', 'Repositorios', '#']}
+            linkData={['Proyectos', 'Repositorios', '/full-stack-portfolio']}
             cardProject={true}
             cardImage={['https://assets.materialup.com/uploads/56d36b87-856d-4154-abcd-284aa019afb1/preview.jpg', 'Reddit Clone Project Cover']}
             cardTag={[true, 'yellow', 'último proyecto']}
@@ -63,7 +62,7 @@ const Coding = () => {
                     <p className='link-group-tag'>Mira más proyectos</p>
                     <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
-                        <LinkOnWhite text={'Ir al Portafolio'} link={''} />
+                        <LinkOnWhite text='Ir al Portafolio' link='/full-stack-portfolio' />
                     </div>
                 </div>
             </div>
@@ -128,9 +127,9 @@ const Coding = () => {
                     <p className='link-group-tag'>Mira más de mis</p>
                     <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
-                        <LinkOnWhite text={'Certificados'} link={''} />
+                        <LinkOnWhite text='Certificados' link='' />
                         <p className='link-group-inner-text'>&nbsp;ó&nbsp;</p>
-                        <LinkOnWhite text={'Cursos'} link={''} />
+                        <LinkOnWhite text='Cursos' link='' />
                     </div>
                 </div>
             </div>
