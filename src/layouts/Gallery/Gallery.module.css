@@ -1,0 +1,19 @@
+.galleryGrid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 3.57vw 2.56vw;
+}
+
+@media only screen and (max-width: 992px) {
+    .galleryGrid {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        gap: 4.28vw 3.07vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .galleryGrid {
+        grid-template: repeat(6, 1fr) / repeat(1, 1fr);
+        gap: 9.42vw 5.63vw;
+    }
+}

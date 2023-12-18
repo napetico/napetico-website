@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -14,53 +15,53 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.navContainer}>
                 <div className={styles.navLogoBox}>
-                    <a className={styles.logoLinkBlock} href='#'>
+                    <Link className={styles.logoLinkBlock} href='/'>
                         <img className='nav-logo' src='./images/napo-logo.svg' alt='napo logo'/>
-                    </a>
-                    <a className={styles.navBreadcrumLink} href='#'>@napetico</a>
+                    </Link>
+                    <Link className={styles.navBreadcrumLink} href='/'>@napetico</Link>
                 </div>
                 <div className={styles.navMenuBox}>
                     <ul className={styles.navMenu}>
                         <li className={styles.navLinkHolder}>
-                            <a className={styles.navLink} href='#'>n.trabajando</a>
+                            <p className={styles.navLink}>n.trabajando</p>
                             <div className={styles.navLinkUnderlineTrack}>
                                 <div className={styles.linkUnderline}></div>
                             </div>
                             <div className={styles.navLinkDropdown}>
-                                <a className={styles.dropdownLink} href='#'>Director de Proyectos</a>
-                                <a className={styles.dropdownLink} href='#'>Programador Full Stack</a>
-                                <a className={styles.dropdownLink} href='#'>Diseñador Web</a>
+                                <Link className={styles.dropdownLink} to='/under-construction'>Director de Proyectos</Link>
+                                <Link className={styles.dropdownLink} to='/full-stack-developer'>Programador Full Stack</Link>
+                                <Link className={styles.dropdownLink} to='/under-construction'>Diseñador Web</Link>
                             </div>
                         </li>
                         <li className={styles.navLinkHolder}>
-                            <a className={styles.navLink} href='#'>n.aprendiendo</a>
+                            <p className={styles.navLink}>n.aprendiendo</p>
                             <div className={styles.navLinkUnderlineTrack}>
                                 <div className={styles.linkUnderline}></div>
                             </div>
                             <div className={styles.navLinkDropdown}>
-                                <a className={styles.dropdownLink} href='#'>Libros y más</a>
-                                <a className={styles.dropdownLink} href='#'>Cursos y Talleres</a>
-                                <a className={styles.dropdownLink} href='#'>Certificaciones</a>
+                                <Link className={styles.dropdownLink} to='/under-construction'>Libros y más</Link>
+                                <Link className={styles.dropdownLink} to='/under-construction'>Cursos y Talleres</Link>
+                                <Link className={styles.dropdownLink} to='/under-construction'>Certificaciones</Link>
                             </div>
                         </li>
                         <li className={styles.navLinkHolder}>
-                            <a className={styles.navLink} href='#'>n.creando</a>
+                            <p className={styles.navLink} href='#'>n.creando</p>
                             <div className={styles.navLinkUnderlineTrack}>
                                 <div className={styles.linkUnderline}></div>
                             </div>
                             <div className={styles.navLinkDropdown}>
-                                <a className={styles.dropdownLink} href='#'>Ideas de Negocios</a>
-                                <a className={styles.dropdownLink} href='#'>Hiperealismo</a>
-                                <a className={styles.dropdownLink} href='#'>Bitácora de Napoleón</a>
+                                <Link className={styles.dropdownLink} to='/under-construction'>Ideas de Negocios</Link>
+                                <Link className={styles.dropdownLink} to='/under-construction'>Hiperealismo</Link>
+                                <Link className={styles.dropdownLink} to='/under-construction'>Bitácora de Napoleón</Link>
                             </div>
                         </li>
                         <li className={styles.navLinkHolder}>
-                            <a className={styles.navLink} href='#'>n.sobre mí</a>
+                            <Link className={styles.navLink} to='/under-construction'>n.sobre mí</Link>
                             <div className={styles.navLinkUnderlineTrack}>
                                 <div className={styles.linkUnderline}></div>
                             </div>
                         </li>
-                        <a className={styles.navButton} href=''>Dame un toque</a>
+                        <Link className={styles.navButton} to='/under-construction'>Dame un toque</Link>
                     </ul>
                     <div className={styles.dropdownButton}>
                         <img className={`${styles.dropdownArrow} ${open ? styles.arrowTurn : ''}`} src='./images/napo-arrow-menu.svg' alt='' onClick={toggleMenu}/>
@@ -75,19 +76,19 @@ const Navbar = () => {
                         <p className={styles.categoryTitle}>n.trabajando</p>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Director de Proyectos</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Director de Proyectos</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Programador Full Stack</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Programador Full Stack</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Diseñador Web</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Diseñador Web</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
@@ -98,19 +99,19 @@ const Navbar = () => {
                         <p className={styles.categoryTitle}>n.aprendiendo</p>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Libros y más</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Libros y más</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Cursos y Talleres</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Cursos y Talleres</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Certificaciones</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Certificaciones</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
@@ -121,19 +122,19 @@ const Navbar = () => {
                         <p className={styles.categoryTitle}>n.creando</p>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Ideas de Negocios</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Ideas de Negocios</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Hiperrealismo</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Hiperrealismo</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Bitácora de Napoleón</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Bitácora de Napoleón</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
@@ -144,14 +145,14 @@ const Navbar = () => {
                         <p className={styles.categoryTitle}>n.perfil</p>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <a className={styles.navLinkMobileDropdown} href='#'>Sobre mí</a>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction'>Sobre mí</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                 </ul>
                 <ul className={styles.mobileMenuButtonBox}>
-                    <a className={styles.navButton} href=''>Dame un toque</a>
+                    <Link className={styles.navButton} to='/under-construction'>Dame un toque</Link>
                 </ul>
             </div>
         </nav>

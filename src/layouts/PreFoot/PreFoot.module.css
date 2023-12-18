@@ -1,7 +1,3 @@
-.preFoot {
-    padding: var(--tb-margin-desktop) var(--lr-margin-desktop);
-}
-
 .preFootHolder {
     display: flex;
     justify-content: space-between;
@@ -45,10 +41,6 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .preFoot {
-        padding: var(--tb-margin-tablet) var(--lr-margin-tablet);
-    }
-    
     .preFootHolder {
         padding: 6.85vw;
         gap: 6.85vw;
@@ -78,10 +70,6 @@
 }
 
 @media only screen and (max-width: 576px) {
-    .preFoot {
-        padding: var(--tb-margin-mobile) var(--lr-margin-mobile);
-    }
-    
     .preFootHolder {
         padding: 6.85vw;
         border-radius: 1.87vw;

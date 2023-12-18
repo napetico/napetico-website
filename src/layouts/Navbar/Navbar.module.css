@@ -1,5 +1,7 @@
 .navbar {
   padding: 1.14vw var(--lr-margin-desktop);
+  position: relative;
+  z-index: 10;
 }
 
 .navContainer {
@@ -45,6 +47,7 @@
 
 .navLink {
   font-weight: 400;
+  cursor: pointer;
 }
 
 .navLinkMobileDropdown {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Footer.module.css';
-import Link from '../../util/Link/Link.js'
+import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js'
 import NavLink from '../../util/NavLink/NavLink.js';
 
 const Footer = () => {
@@ -41,14 +41,14 @@ const Footer = () => {
                                 <p className={styles.cardLinkText}>Consígueme</p>
                                 <img className={styles.cardLinkImage} src='./images/napo-whatsapp-logo-black.png' alt='' />
                                 <div>
-                                    <Link text={'+34 673250200'} link={''} />
+                                    <LinkOnWhite text={'+34 673250200'} link={''} />
                                 </div>
                             </div>
                             <div className={styles.cardLinkBox}>
                                 <p className={styles.cardLinkText}>Escríbeme</p>
                                 <img className={styles.cardLinkImage} src='./images/napo-email-logo-black.png' alt='' />
                                 <div>
-                                    <Link text={'napo@napetico.com'} link={''} />
+                                    <LinkOnWhite text={'napo@napetico.com'} link={''} />
                                 </div>
                             </div>
                         </div>

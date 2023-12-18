@@ -1,6 +1,6 @@
 import styles from './ProjectCard.module.css';
 import FeatTag from '../../util/FeatTag/FeatTag';
-import Link from '../../util/Link/Link';
+import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js';
 
 const ProjectCard = ({image, href, info, title, client, clientImage, featTag}) => {
     return(
@@ -16,7 +16,7 @@ const ProjectCard = ({image, href, info, title, client, clientImage, featTag}) =
                 </div>
                 {featTag[0] ?
                     <div className={styles.cardFeatTagHolder}>
-                    <FeatTag color={featTag[1]} text={featTag[2]}/>
+                        <FeatTag color={featTag[1]} text={featTag[2]}/>
                     </div> : <></> 
                 }
             </a>
@@ -28,7 +28,7 @@ const ProjectCard = ({image, href, info, title, client, clientImage, featTag}) =
                             <div className={styles.cardClientImageBox}>
                                 <img className={styles.cardClientImage} src={clientImage[0]} alt={clientImage[1]}/>
                             </div>
-                            <Link text={client[1]} link={client[2]} />
+                            <LinkOnWhite text={client[1]} link={client[2]} />
                         </a> : <></>
                     }
                 </div>

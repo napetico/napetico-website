@@ -1,0 +1,49 @@
+.underConstructionSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.79vw;
+}
+
+.constructionImage {
+    width: 7.94vw;
+    border-radius: 100%;
+}
+
+.constructionTitle {
+    text-align: center;
+}
+
+.constructionText {
+    width: 35.71vw;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .underConstructionSection {
+        gap: 2.15vw;
+    }
+    
+    .constructionImage {
+        width: 8.99vw;
+    }
+    
+    .constructionText {
+        width: 42.85vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .underConstructionSection {
+        gap: 7.14vw;
+    }
+    
+    .constructionImage {
+        width: 35.71vw;
+    }
+    
+    .constructionText {
+        width: 100%;
+    }
+}

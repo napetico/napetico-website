@@ -1,0 +1,40 @@
+.bigTextLoop {
+    overflow: hidden;
+}
+
+.bigTextLoopTrack {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.bigTextLoopHolder {
+    animation: big-text-loop 18000ms linear infinite;
+}
+
+.bigTextLoopHeader {
+    font-size: var(--h1-80-desktop);
+    white-space: nowrap;
+}
+
+@keyframes big-text-loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .bigTextLoopHeader {
+      font-size: var(--h1-80-tablet);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .bigTextLoopHeader {
+    font-size: var(--h1-80-mobile);
+}
+}

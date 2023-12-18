@@ -1,0 +1,73 @@
+.certLabelWrapper {
+    padding: 1.07vw 1.79vw;
+    border: solid 0.11vw #22222250;
+    border-radius: 50vw;
+    display: flex;
+    align-items: center;
+    gap: 1.07vw;
+}
+
+.certLabelImageBox {
+    width: 2.56vw;
+    height: 2.56vw;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.certLabelTextBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.certLabelTitle {
+    font-size: var(--reg-p-18-desktop);
+    font-weight: 600;
+}
+
+.certLabelText {
+    font-size: var(--reg-p-14-desktop);
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 992px) {
+    .certLabelWrapper {
+        padding: 1.28vw 2.15vw;
+        border: solid 0.13vw #22222250;
+        gap: 1.28vw;
+    }
+    
+    .certLabelImageBox {
+        width: 3.07vw;
+        height: 3.07vw;
+    }
+    
+    .certLabelTitle {
+        font-size: var(--reg-p-18-tablet);
+    }
+    
+    .certLabelText {
+        font-size: var(--reg-p-14-tablet);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .certLabelWrapper {
+        padding: 2.82vw 4.73vw;
+        border: solid 0.27vw #22222250;
+        gap: 2.82vw;
+    }
+    
+    .certLabelImageBox {
+        width: 6.75vw;
+        height: 6.75vw;
+    }
+    
+    .certLabelTitle {
+        font-size: var(--reg-p-18-mobile);
+    }
+    
+    .certLabelText {
+        font-size: var(--reg-p-14-mobile);
+    }
+}

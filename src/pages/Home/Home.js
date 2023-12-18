@@ -2,7 +2,7 @@ import styles from './Home.module.css';
 import OptionsBar from '../../layouts/OptionsBar/OptionsBar';
 import PreFoot from '../../layouts/PreFoot/PreFoot';
 import Hero from '../../layouts/Hero/Hero.js';
-import Link from '../../util/Link/Link.js';
+import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js';
 import SectionIntro from '../../util/SectionIntro/SectionIntro.js';
 import ProjectCard from '../../cards/ProjectCard/ProjectCard.js';
 import DirectoryCard from '../../cards/DirectoryCard/DirectoryCard.js';
@@ -10,16 +10,16 @@ import DirectoryCard from '../../cards/DirectoryCard/DirectoryCard.js';
 const Home = () => {
     return(
         <>
-        <OptionsBar />
+        <OptionsBar/>
         <Hero 
             header='Napoleón Bazán'
             loopText={['Director de Proyectos', 'Programador Full Stack', 'Diseñador Web', 'Estratega Creativo & COO']}
             description='Explorando mi pasión por ayudar a idear y construir negocios y equipos de alto rendimiento a través del dinamismo creativo, la excelencia operacional y el poder de una visión antifrágil.'
-            linkTag='Perfil'
-            linkText='Sobre mí'
-            href='#'
-            card={false}
-            data={['./images/napo-main-photo-provisional.jpg', 'Napoleon Bazan profile picture']}
+            linkData={['Perfil', 'Sobre mí', '#']}
+            cardProject={false}
+            cardImage={['./images/napo-main-photo-provisional.jpg', 'Napoleon Bazan profile picture']}
+            cardTag={[true, 'color', 'text']}
+            cardInfo={['title', 'info', 'href']}
         />
         {/* WORK */}
         <section className={styles.displayContainer}>
@@ -28,6 +28,7 @@ const Home = () => {
                     tag='Un mini-curriculum'
                     header='Sigue mis trabajos y últimos proyectos.'
                     info='Las tres cosas que más disfruto hacer y en las que puedo ayudarte.'
+                    align='right'
                 />
                 <div className={styles.displayContent}>
                     <div className={styles.displayDirectory}>
@@ -83,16 +84,16 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.displayCTA}>
+                <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Mira más proyectos</p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <Link text={'Dirección'} link={''} />
+                            <LinkOnWhite text={'Dirección'} link={''} />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <Link text={'Programación'} link={''} />
+                            <LinkOnWhite text={'Programación'} link={''} />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <Link text={'Webs'} link={''} />
+                            <LinkOnWhite text={'Webs'} link={''} />
                         </div>
                     </div>
                 </div>
@@ -105,6 +106,7 @@ const Home = () => {
                     tag='Aprendizaje constante'
                     header='Cosas muy útiles que voy aprendiendo.'
                     info='Una colección de libros y videos con los que suelo llenar mi cabeza.'
+                    align='right'
                 />
                 <div className={styles.displayContent}>
                     <div className={styles.displayDirectory}>
@@ -171,16 +173,16 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.displayCTA}>
+                <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Explora más</p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <Link text={'Libros'} link={''} />
+                            <LinkOnWhite text={'Libros'} link={''} />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <Link text={'Cursos'} link={''} />
+                            <LinkOnWhite text={'Cursos'} link={''} />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <Link text={'Certificados'} link={''} />
+                            <LinkOnWhite text={'Certificados'} link={''} />
                         </div>
                     </div>
                 </div>
@@ -193,6 +195,7 @@ const Home = () => {
                     tag='En mis ratos libres'
                     header='Proyectos laterales que me divierten.'
                     info='Un popurri de ideas, sueños, hobbies y puntos de vista.'
+                    align='right'
                 />
                 <div className={styles.displayContent}>
                     <div className={styles.displayDirectory}>
@@ -248,22 +251,27 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.displayCTA}>
+                <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Mira más a fondo</p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <Link text={'Ideas'} link={''} />
+                            <LinkOnWhite text={'Ideas'} link={''} />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <Link text={'Ilustraciones'} link={''} />
+                            <LinkOnWhite text={'Ilustraciones'} link={''} />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <Link text={'Artículos'} link={''} />
+                            <LinkOnWhite text={'Artículos'} link={''} />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <PreFoot />
+        <PreFoot
+            image={['https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg', 'Napoleon en el estudio.']}
+            tag='Dame un toque'
+            title='Encantado de hablar contigo.'
+            text='Sin presiones. Me gusta compartir ideas, comentar estrategias y ampliar perspectivas. Si tienes un proyecto y quieres ayuda, opinión, o simplemente un sesion de ideas, dame un toque y hablamos lo que quieras con unas cervezas, un café, o un vinito.'
+        />
         </>
     )
 }

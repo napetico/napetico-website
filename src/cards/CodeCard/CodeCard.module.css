@@ -1,0 +1,220 @@
+.codeCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.71vw;
+    overflow: hidden;
+}
+
+.cardImageHolder {
+    height: 21.43vw;
+    position: relative;
+}
+
+.cardImageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #22222233;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cardImageOverlay:hover {
+    opacity: 1;
+}
+
+.cardFeatTagHolder {
+    position: absolute;
+    top: 0.71vw;
+    bottom: auto;
+    right: 0.71vw;
+    left: auto;
+}
+
+.cardInfoHolder {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.cardInfoWrapper {
+    padding: 1.79vw 1.43vw 1.43vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.43vw;
+}
+
+.cardTitle {
+    font-size: var(--reg-p-20-desktop);
+    line-height: 1.1;
+}
+
+.cardDescription {
+    font-weight: 300;
+}
+
+.cardDetailsWrapper {
+    padding: 1.43vw;
+    border-top: 0.035vw solid #cccccc80;
+    display: flex;
+    gap: 2.14vw;
+}
+
+.madeWithBox, .madeToBox {
+    display: flex;
+    gap: 0.38vw;
+    font-size: var(--reg-p-14-desktop);
+}
+
+.detailTools {
+    font-weight: 600;
+}
+
+
+.cardLinksWrapper {
+    padding: 1.43vw;
+    border-top: 0.035vw solid #cccccc80;
+}
+
+.linkGroupHolder, .linkGroupWrapper {
+    display: flex;
+    gap: 1.07vw;
+    align-items: center;
+}
+
+.linkGroupTag {
+    font-weight: 300;
+}
+
+.linkGroupArrow {
+    width: 1.43vw;
+    height: auto;
+}
+
+.cardLinkWithImageBox{
+    display: flex;
+    gap: 0.43vw;
+    align-items: center;
+}
+
+.cardClientImageBox {
+    width: 1.07vw;
+    height: 1.10vw;
+}
+
+@media only screen and (max-width: 992px) {
+    .codeCard {
+        border-radius: 0.85vw;
+    }
+    
+    .cardImageHolder {
+        height: 25.72vw;
+    }
+    
+    .cardFeatTagHolder {
+        top: 0.85vw;
+        right: 0.85vw;
+    }
+    
+    .cardInfoWrapper {
+        padding: 2.15vw 1.72vw 1.72vw;
+        gap: 0.52vw;
+    }
+
+    .cardTitle {
+        font-size: var(--reg-p-20-tablet);
+    }
+    
+    .cardDetailsWrapper {
+        padding: 1.72vw;
+        border-top: 0.042vw solid #cccccc80;
+        gap: 2.57vw;
+    }
+    
+    .madeWithBox, .madeToBox {
+        gap: 0.46vw;
+        font-size: var(--reg-p-14-tablet);
+    }
+    
+    .cardLinksWrapper {
+        padding: 1.72vw;
+        border-top: 0.042vw solid #cccccc80;
+    }
+    
+    .linkGroupHolder, .linkGroupWrapper {
+        gap: 1.28vw;
+    }
+    
+    .linkGroupArrow {
+        width: 1.72vw;
+    }
+    
+    .cardLinkWithImageBox{
+        gap: 0.52vw;
+    }
+    
+    .cardClientImageBox {
+        width: 1.28vw;
+        height: 1.32vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .codeCard {
+        border-radius: 1.87vw;
+    }
+    
+    .cardImageHolder {
+        height: 61.73vw;
+    }
+    
+    .cardFeatTagHolder {
+        top: 1.87vw;
+        right: 1.87vw;
+    }
+    
+    .cardInfoWrapper {
+        padding: 4.73vw 3.78vw 3.78vw;
+        gap: 1.14vw;
+    }
+
+    .cardTitle {
+        font-size: var(--reg-p-20-mobile);
+    }
+    
+    .cardDetailsWrapper {
+        padding: 3.78vw;
+        border-top: 0.092vw solid #cccccc80;
+        gap: 5.65vw;
+    }
+    
+    .madeWithBox, .madeToBox {
+        gap: 1.01vw;
+        font-size: var(--reg-p-14-mobile);
+    }
+    
+    .cardLinksWrapper {
+        padding: 3.78vw;
+        border-top: 0.092vw solid #cccccc80;
+    }
+    
+    .linkGroupHolder, .linkGroupWrapper {
+        gap: 2.82vw;
+    }
+    
+    .linkGroupArrow {
+        width: 3.78vw;
+    }
+    
+    .cardLinkWithImageBox{
+        gap: 1.14vw;
+    }
+    
+    .cardClientImageBox {
+        width: 2.82vw;
+        height: 2.90vw;
+    }
+}

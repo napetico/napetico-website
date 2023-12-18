@@ -1,0 +1,148 @@
+.heroCard {
+    width: 50%;
+    height: 35.71vw;
+    border-radius: 1.43vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.cardImageHolder {
+    width: 100%;
+    height: 100%;
+}
+
+.cardImageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 0.57vw;
+    background-image: linear-gradient(transparent, #222222dd);
+    z-index: 5;
+    display: flex;
+    opacity: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    transition: opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cardImageOverlay:hover {
+    opacity: 1;
+}
+
+.cardTextBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 1.96vw 2.56vw;
+    color: var(--main-white);
+}
+
+.cardInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.38vw;
+}
+
+.cardTitle {
+    font-size: var(--h2-45-desktop);
+}
+
+.cardOpenWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.38vw;
+    padding-bottom: 0.38vw;
+}
+
+.cardOpenArrow {
+    width: 1.2vw;
+    transform: rotateZ(180deg);
+}
+
+.cardFeatTagHolder {
+    position: absolute;
+    top: 1.79vw;
+    bottom: auto;
+    right: auto;
+    left: 1.79vw;
+}
+
+@media only screen and (max-width: 992px) {
+    .heroCard {
+        height: 42.85vw;
+    }
+    
+    .cardImageOverlay {
+        border-radius: 0.68vw;
+    }
+    
+    .cardTextBox {
+        padding: 2.35vw 3.07vw;
+    }
+    
+    .cardInfoWrapper {
+        gap: 0.46vw;
+    }
+    
+    .cardTitle {
+        font-size: var(--h2-45-tablet);
+    }
+    
+    .cardOpenWrapper {
+        gap: 0.46vw;
+        padding-bottom: 0.46vw;
+    }
+    
+    .cardOpenArrow {
+        width: 1.44vw;
+    }
+    
+    .cardFeatTagHolder {
+        top: 2.15vw;
+        left: 2.15vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .heroCard {
+        width: 100%;
+        height: 77.14vw;
+        border-radius: 3.78vw;
+    }
+    
+    .cardImageOverlay {
+        border-radius: 1.5vw;
+    }
+    
+    .cardTextBox {
+        padding: 5.17vw 6.75vw;
+    }
+    
+    .cardInfoWrapper {
+        gap: 1.01vw;
+    }
+    
+    .cardTitle {
+        font-size: var(--h2-45-mobile);
+    }
+    
+    .cardOpenWrapper {
+        gap: 1.01vw;
+        padding-bottom: 1.01vw;
+    }
+    
+    .cardOpenArrow {
+        width: 3.17vw;
+    }
+    
+    .cardFeatTagHolder {
+        top: 4.73vw;
+        left: 4.73vw;
+    }
+}

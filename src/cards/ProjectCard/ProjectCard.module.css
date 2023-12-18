@@ -32,7 +32,6 @@
 }
 
 .cardImageOverlay:hover {
-    display: flex;
     opacity: 1;
 }
 

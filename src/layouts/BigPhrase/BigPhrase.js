@@ -1,11 +1,11 @@
 import styles from './BigPhrase.module.css'
 
-const BigPhrase = (props) => {
+const BigPhrase = ({text}) => {
     return(
         <>
         <section className={styles.bigPhraseSection}>
             <div className={styles.bigPhraseHolder}>
-                <h2 className={styles.bigPhrase}>{props.text}</h2>
+                <h2 className={styles.bigPhrase}>{text}</h2>
             </div>
         </section>
         </>
