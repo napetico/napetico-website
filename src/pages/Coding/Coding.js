@@ -1,5 +1,4 @@
 import styles from './Coding.module.css';
-import { Link } from 'react-router-dom';
 import Hero from '../../layouts/Hero/Hero.js';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js';
 import OptionsBar from '../../layouts/OptionsBar/OptionsBar.js';
@@ -56,7 +55,7 @@ const Coding = () => {
                 info='Casi todos de práctica, pero bien currados.'
                 align='center'
             />
-            <Gallery data={lastSixProjects}/>
+            <Gallery card='code' data={lastSixProjects}/>
             <div className='centered-link-holder'>
                 <div className='link-group-holder'>
                     <p className='link-group-tag'>Mira más proyectos</p>
@@ -134,7 +133,7 @@ const Coding = () => {
                 </div>
             </div>
         </section>
-        <BigTextLoop text='' />
+        <BigTextLoop text='Código impecable para tus proyectos digitales, de punta a punta&nbsp;&nbsp;-&nbsp;&nbsp;' />
         <PreFoot
             image={['https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg', 'Napoleon en el estudio.']}
             tag='Dame un toque'

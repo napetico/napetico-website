@@ -21,7 +21,7 @@ const CodingWork = () => {
                 />
             </div>
             <div className={styles.codingWorkGalleryHolder}>
-                <Gallery data={allProjects} />
+                <Gallery card='code' data={allProjects} />
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Volver al</p>

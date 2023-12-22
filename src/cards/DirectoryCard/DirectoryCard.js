@@ -5,6 +5,7 @@ import scrollToTop from '../../util/ScrollToTop.js';
 
 const DirectoryCard = ({image, href, featTag, title, info}) => {
     return(
+        <>
         <div className={styles.directoryCard}>
             <Link className={styles.dirCardCircle} to={href} onClick={scrollToTop}>
                 <img className={styles.dirCardImage} src={image[0]} alt={image[1]} />
@@ -19,6 +20,7 @@ const DirectoryCard = ({image, href, featTag, title, info}) => {
                 </Link>
             </div>
         </div>
+        </>
     )
 }
 

@@ -31,7 +31,7 @@ const Navbar = () => {
                             <div className={styles.navLinkDropdown}>
                                 <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>Director de Proyectos</Link>
                                 <Link className={styles.dropdownLink} to='/full-stack-developer' onClick={scrollToTop}>Programador Full Stack</Link>
-                                <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>Diseñador Web</Link>
+                                <Link className={styles.dropdownLink} to='/web-designer' onClick={scrollToTop}>Diseñador Web</Link>
                             </div>
                         </li>
                         <li className={styles.navLinkHolder}>
@@ -83,13 +83,13 @@ const Navbar = () => {
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollToTop}>Programador Full Stack</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/full-stack-developer' onClick={scrollToTop}>Programador Full Stack</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollToTop}>Diseñador Web</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/web-designer' onClick={scrollToTop}>Diseñador Web</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>

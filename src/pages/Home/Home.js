@@ -49,7 +49,7 @@ const Home = () => {
                         />
                         <DirectoryCard 
                             image={['https://i.pinimg.com/564x/f7/04/c4/f704c4a5def121feb30ec1ef159dc31c.jpg', '']}
-                            href='#'
+                            href='/web-designer'
                             featTag={[false, '', '']}
                             info='Desde el 2018 - Desarrollador y Webflow Expert'
                             title='Diseño y Optimización Web'

@@ -6,7 +6,7 @@ const CodeCard = ({data}) => {
     return(
         <>
         <div className={styles.codeCard}>
-            <a className={styles.cardImageHolder} href={data.repositoryLink}>
+            <a className={styles.cardImageHolder} href={data.repositoryLink} target='_blank' rel='noopener noreferrer'>
                 <img className={styles.cardImage} src={data.cardImage[0]} alt={data.cardImage[1]}/>
                 <div className={styles.cardImageOverlay}></div>
                 {data.featTag[0] ?
@@ -17,7 +17,7 @@ const CodeCard = ({data}) => {
             </a>
             <div className={styles.cardInfoHolder}>
                 <div className={styles.cardInfoWrapper}>
-                    <a href={data.repositoryLink}>
+                    <a href={data.repositoryLink} target='_blank' rel='noopener noreferrer'>
                         <h3 className={styles.cardTitle}>{data.cardTitle}</h3>
                     </a>
                     <p className={styles.cardDescription}>{data.cardInfo}</p>
@@ -29,7 +29,7 @@ const CodeCard = ({data}) => {
                     </div>
                     <div className={styles.madeToBox}>
                         <p className={styles.detailTag}>para</p>
-                        <LinkOnWhite link={data.madeFor[1]} text={data.madeFor[0]}/>
+                        <LinkOnWhite link={data.madeFor[1]} text={data.madeFor[0]} newTab={true}/>
                     </div>
                 </div>
                 <div className={styles.cardLinksWrapper}>
@@ -37,13 +37,13 @@ const CodeCard = ({data}) => {
                         <p className={styles.linkGroupTag}>Abrir</p>
                         <img className={styles.linkGroupArrow} src='./images/napo-link-arrow-black.svg' alt=''/>
                         <div className={styles.linkGroupWrapper}>
-                            <LinkOnWhite text={'Live Site'} link={data.liveSiteLink} />
+                            <LinkOnWhite text={'Live Site'} link={data.liveSiteLink} newTab={true}/>
                             <p className='link-group-inner-text'>ó</p>
                             <div className={styles.cardLinkWithImageBox}>
                                 <div className={styles.cardClientImageBox}>
                                     <img className={styles.cardClientImage} src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt=''/>
                                 </div>
-                                <LinkOnWhite text={'Repository'} link={data.repositoryLink} />
+                                <LinkOnWhite text={'Repository'} link={data.repositoryLink} newTab={true}/>
                             </div>
                         </div>
                     </div>

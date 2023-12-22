@@ -1,0 +1,147 @@
+.webCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1.43vw;
+}
+
+.cardImageHolder {
+    height: 21.43vw;
+    position: relative;
+    border-radius: 0.71vw;
+    overflow: hidden;
+}
+
+.cardImageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #22222240;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cardImageOverlay:hover {
+    opacity: 1;
+}
+
+.cardFeatTagHolder {
+    position: absolute;
+    top: 0.71vw;
+    bottom: auto;
+    right: 0.71vw;
+    left: auto;
+}
+
+.cardInfoHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 0.38vw;
+}
+
+.cardProjectInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.71vw;
+}
+
+.cardTitleSnippet {
+    font-size: var(--reg-p-20-desktop);
+    font-weight: 600;
+}
+
+.cardClientInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.38vw;
+    font-size: var(--reg-p-20-desktop);
+    font-weight: 600;
+}
+
+.cardClientImageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.14vw;
+    height: 2.14vw;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .webCard {
+        gap: 1.72vw;
+    }
+    
+    .cardImageHolder {
+        height: 25.72vw;
+        border-radius: 0.85vw;
+    }
+    
+    .cardFeatTagHolder {
+        top: 0.85vw;
+        right: 0.85vw;
+    }
+    
+    .cardInfoHolder {
+        gap: 0.46vw;
+    }
+    
+    .cardProjectInfo {
+        gap: 0.85vw;
+    }
+    
+    .cardTitleSnippet {
+        font-size: var(--reg-p-20-tablet);
+    }
+    
+    .cardClientInfo {
+        gap: 0.46vw;
+        font-size: var(--reg-p-20-tablet);
+    }
+    
+    .cardClientImageBox {
+        width: 2.57vw;
+        height: 2.57vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .webCard {
+        gap: 3.78vw;
+    }
+    
+    .cardImageHolder {
+        height: 61.73vw;
+        border-radius: 1.87vw;
+    }
+    
+    .cardFeatTagHolder {
+        top: 1.87vw;
+        right: 1.87vw;
+    }
+    
+    .cardInfoHolder {
+        gap: 1.01vw;
+    }
+    
+    .cardProjectInfo {
+        gap: 1.01vw;
+    }
+    
+    .cardTitleSnippet {
+        font-size: var(--reg-p-20-mobile);
+    }
+    
+    .cardClientInfo {
+        gap: 1.01vw;
+        font-size: var(--reg-p-20-mobile);
+    }
+    
+    .cardClientImageBox {
+        width: 5.65vw;
+        height: 5.65vw;
+    }
+}

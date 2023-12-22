@@ -1,12 +1,13 @@
 import styles from './ProjectCard.module.css';
 import FeatTag from '../../util/FeatTag/FeatTag';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js';
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({image, href, info, title, client, clientImage, featTag}) => {
     return(
         <>
         <div className={styles.projectCard}>
-            <a className={styles.cardImageHolder} href={href}>
+            <Link className={styles.cardImageHolder} to={href}>
                 <img className={styles.cardImage} src={image[0]} alt={image[1]}/>
                 <div className={styles.cardImageOverlay}>
                     <div className={styles.cardHoverBox}>
@@ -19,17 +20,17 @@ const ProjectCard = ({image, href, info, title, client, clientImage, featTag}) =
                         <FeatTag color={featTag[1]} text={featTag[2]}/>
                     </div> : <></> 
                 }
-            </a>
+            </Link>
             <div className={styles.cardDataHolder}>
                 <div className={styles.cardProjectInfo}>
                     <p className={styles.cardworkTag}>{info}</p>
                     {client[0] ?
-                        <a className={styles.cardClientInfo}>
+                        <div className={styles.cardClientInfo}>
                             <div className={styles.cardClientImageBox}>
                                 <img className={styles.cardClientImage} src={clientImage[0]} alt={clientImage[1]}/>
                             </div>
-                            <LinkOnWhite text={client[1]} link={client[2]} />
-                        </a> : <></>
+                            <LinkOnWhite text={client[1]} link={client[2]} newTab={true} />
+                        </div> : <></>
                     }
                 </div>
                 <a className={styles.cardProjectTitle} href={href}>
