@@ -69,7 +69,7 @@ const Webs = () => {
             header='Páginas web para Pymes'
             loopText={['Con y sin código', 'Responsive y dinámicas', 'Estrategia impecable y SEO básico', 'Gestor de contenidos y CMS']}
             description='Una web ideal. Sin complejidades, ni bancarrotas.'
-            linkData={['Proyectos', 'Portafolio Web', '/web-designer-portfolio']}
+            linkData={['Proyectos', 'Portafolio Web', '/web-design-portfolio']}
             cardProject={true}
             cardImage={['./images/TEST-web-bl.png', 'Reddit Clone Project Cover']}
             cardTag={[true, 'yellow', 'web más reciente']}
@@ -90,7 +90,7 @@ const Webs = () => {
                     <p className='link-group-tag'>Mira más webs</p>
                     <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
-                        <LinkOnWhite text='Ir al Portafolio' link='/web-designer-portfolio' />
+                        <LinkOnWhite text='Ir al Portafolio' link='/web-design-portfolio' />
                     </div>
                 </div>
             </div>

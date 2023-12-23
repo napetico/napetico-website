@@ -10,3 +10,25 @@
     flex-direction: column;
     gap: 5.71vw;
 }
+
+@media only screen and (max-width: 992px) {
+    .codingWorkSection {
+        padding: 5.15vw var(--lr-margin-tablet) var(--tb-margin-tablet);
+        gap: 4.28vw;
+    }
+    
+    .codingWorkGalleryHolder {
+        gap: 6.85vw;
+    }
+}
+
+@media only screen and (max-width: 576vw) {
+    .codingWorkSection {
+        padding: 11.33vw var(--lr-margin-mobile) var(--tb-margin-mobile);
+        gap: 9.42vw;
+    }
+    
+    .codingWorkGalleryHolder {
+        gap: 15.07vw;
+    }
+}

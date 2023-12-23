@@ -7,6 +7,7 @@ import Home from './pages/Home/Home.js'
 import Coding from './pages/Coding/Coding.js';
 import CodingWork from './pages/Coding/CodingWork.js';
 import Webs from './pages/Webs/Webs.js'
+import WebWork from './pages/Webs/WebWork.js';
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -16,6 +17,7 @@ function App() {
       <Route path='/full-stack-developer' element={ <Coding/> }/>
       <Route path='/full-stack-portfolio' element={ <CodingWork/> } />
       <Route path='/web-designer' element={ <Webs/> } />
+      <Route path='/web-design-portfolio' element={ <WebWork/> } />
     </Route>
   ));
 

@@ -7,7 +7,7 @@ import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite';
 
 const CodingWork = () => {
 
-    const allProjects = CODE_PROJECTS.slice().reverse();;
+    const allProjects = CODE_PROJECTS.slice().reverse();
 
     return(
         <>
