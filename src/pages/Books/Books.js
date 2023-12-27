@@ -35,7 +35,7 @@ const Books = () => {
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
                             <div className={styles.linkHolder}>
-                                <a className={styles.linkText} href='#content'>Podcasts y Otros</a>
+                                <a className={styles.linkText} href='#content'>Vídeos y Podcasts</a>
                                 <div className={styles.linkUnderlineTrack}>
                                     <div className={styles.linkUnderline}></div>
                                 </div>
@@ -50,9 +50,9 @@ const Books = () => {
         </section>
         <section className={styles.galleryContainer} id='content'>
             <div className={styles.galleryIntro}>
-                <p className={styles.sectionTag}>Podcasts, Videos y más</p>
+                <p className={styles.sectionTag}>Otro formatos.</p>
                 <div className={styles.sectionHeaderBox}>
-                    <h2 className={styles.sectionHeader}>Otros contenidos.</h2>
+                    <h2 className={styles.sectionHeader}>Vídeos y Podcasts.</h2>
                     <div className={styles.linkGroupHolder}>
                         <p className='link-group-tag'>Saltar a</p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>

@@ -8,20 +8,7 @@ const CONTENT_LIST = [
             image: ['https://i.scdn.co/image/ab6765630000ba8ab0c79194b26b4179b00bda3f', 'Podcast cover poster'],
             featTag: [false, '', '']
         },
-        bookPacontentPageDataeData: {
-            
-        }
-    },
-    {
-        contentId: '',
-        contentCardData: {
-            path: '#',
-            channel: 'How to Take Over the World',
-            description: 'Un podcasts sobre biografías fascinantes',
-            image: ['https://i.scdn.co/image/ab6765630000ba8ab0c79194b26b4179b00bda3f', 'Podcast cover poster'],
-            featTag: [false, '', '']
-        },
-        bookPacontentPageDataeData: {
+        contentPageDataa: {
             
         }
     },
@@ -30,8 +17,21 @@ const CONTENT_LIST = [
         contentCardData: {
             path: '#',
             channel: 'The Futur with Chris Do',
-            description: 'Contenido super útil sobre diseño y negocios',
+            description: 'Contenido útil sobre diseño y negocios',
             image: ['https://i1.sndcdn.com/avatars-000753460939-da0bd6-t500x500.jpg', 'Podcast cover poster'],
+            featTag: [false, '', '']
+        },
+        contentPageData: {
+            
+        }
+    },
+    {
+        contentId: '',
+        contentCardData: {
+            path: '#',
+            channel: 'How to Take Over the World',
+            description: 'Un podcasts de biografías fascinantes',
+            image: ['https://i.scdn.co/image/ab6765630000ba8ab0c79194b26b4179b00bda3f', 'Podcast cover poster'],
             featTag: [false, '', '']
         },
         contentPageData: {
