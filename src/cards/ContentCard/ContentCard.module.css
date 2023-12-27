@@ -1,0 +1,146 @@
+.contentCard {
+    display: flex;
+    align-items: center;
+    padding: 1.43vw 1.07vw;
+    gap: 1.43vw;
+    /* border-top: 0.035vw solid #cccccc80; */
+    transition: background-color 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.contentCard:hover {
+    background-color: #f1f1f1;
+}
+
+/* BOOKS */
+.contentCardPoster {
+    width: 3.21vw;
+    height: 4.29vw;
+    border-radius: 0.36vw;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.contentCardPoster:hover {
+    opacity: 0.75;
+}
+
+/* OTHER CONTENT */
+.contentCardCircle {
+    width: 4.29vw;
+    height: 4.29vw;
+    border-radius: 100%;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.contentCardCircle:hover {
+    opacity: 0.75;
+}
+
+/* COURSES */
+.contentCardSquare {
+    width: 5.71vw;
+    height: 4.29vw;
+    border-radius: 0.36vw;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.contentCardSquare:hover {
+    opacity: 0.75;
+}
+
+.contentCardInfoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.36vw;
+    flex-grow: 1;
+}
+
+.contentCardTextWrap {
+    display: flex;
+    align-items: center;
+    gap: 1.07vw;
+    position: relative;
+}
+
+.contentCardText {
+    font-weight: 300;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 992px) {
+    .contentCard {
+        padding: 1.72vw 1.28vw;
+        gap: 1.72vw;
+    }
+    
+    /* BOOKS */
+    .contentCardPoster {
+        width: 3.85vw;
+        height: 5.15vw;
+        border-radius: 0.43vw;
+    }
+    
+    /* OTHER CONTENT */
+    .contentCardCircle {
+        width: 5.15vw;
+        height: 5.15vw;
+    }
+    
+    /* COURSES */
+    .contentCardSquare {
+        width: 6.85vw;
+        height: 5.15vw;
+        border-radius: 0.43vw;
+    }
+    
+    .contentCardInfoBox {
+        gap: 0.43vw;
+    }
+    
+    .contentCardTextWrap {
+        gap: 1.28vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .contentCard {
+        padding: 3.78vw 0vw;
+        gap: 3.78vw;
+        border-top: 0.035vw solid #cccccc80;
+    }
+    
+    /* BOOKS */
+    .contentCardPoster {
+        width: 8.47vw;
+        height: 11.33vw;
+        border-radius: 0.95vw;
+    }
+    
+    /* OTHER CONTENT */
+    .contentCardCircle {
+        width: 11.33vw;
+        height: 11.33vw;
+    }
+    
+    /* COURSES */
+    .contentCardSquare {
+        width: 15.07vw;
+        height: 11.33vw;
+        border-radius: 0.95vw;
+    }
+    
+    .contentCardInfoBox {
+        gap: 0.95vw;
+    }
+    
+    .contentCardTextWrap {
+        gap: 2.82vw;
+    }
+}

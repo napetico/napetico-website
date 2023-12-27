@@ -11,7 +11,6 @@ import CertLabel from '../../util/CertLabel/CertLabel.js';
 import BigTextLoop from '../../layouts/BigTextLoop/BigTextLoop.js';
 import Gallery from '../../layouts/Gallery/Gallery.js';
 import Accordion from '../../util/Accordion/Accordion.js';
-import { useState } from 'react';
 
 const Webs = () => {
 

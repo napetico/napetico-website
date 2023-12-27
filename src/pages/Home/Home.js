@@ -36,7 +36,7 @@ const Home = () => {
                         <DirectoryCard 
                             image={['./images/napo-pm-directory-image.jpg', '']}
                             href='#'
-                            featTag={[true, 'black', 'mi especialidad']}
+                            featTag={[false, '', '']}
                             info='Desde el 2007 - Operaciones, Creatividad y Estrategia'
                             title='Director de Proyectos | COO'
                         />
@@ -93,7 +93,7 @@ const Home = () => {
                             <p className='link-group-inner-text'>,&nbsp;</p>
                             <LinkOnWhite text='Programación' link='/full-stack-portfolio' />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <LinkOnWhite text='Webs' link='' />
+                            <LinkOnWhite text='Webs' link='/web-design-portfolio' />
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ const Home = () => {
                         <p className='bold-tag'>n.aprendizajes</p>
                         <DirectoryCard 
                             image={['./images/napo-books-directory-image(2).png', '']}
-                            href='#'
+                            href='/reading-list'
                             featTag={[false, '', '']}
                             info='Un saludable popurri de ficción y no-ficción'
                             title='Libros y otros contenidos'

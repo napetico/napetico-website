@@ -1,5 +1,4 @@
 import styles from './WebCard.module.css';
-import scrollToTop from '../../util/ScrollToTop.js';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js';
 import FeatTag from '../../util/FeatTag/FeatTag.js';
 import { Link } from 'react-router-dom';

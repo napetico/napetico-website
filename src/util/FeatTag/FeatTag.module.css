@@ -28,9 +28,6 @@
     .featTagBoxBlack {
         padding: 0.35vw 0.52vw;
         border-radius: 0.35vw;
-        position: absolute;
-        right: 0;
-        top: 130%;
     }
       
     .featTagTextBlack {
@@ -53,9 +50,6 @@
     .featTagBoxBlack {
         padding: 0.77vw 1.14vw;
         border-radius: 0.77vw;
-        position: absolute;
-        right: 0;
-        top: 140%
     }
       
     .featTagTextBlack {

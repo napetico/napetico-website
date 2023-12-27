@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
 import styles from './Footer.module.css';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js'
 import NavLink from '../../util/NavLink/NavLink.js';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -9,9 +9,9 @@ const Footer = () => {
         <footer className={styles.footer}>
             <div className={styles.footerContainer}>
                 <div className={styles.pagesNavBox}>
-                    <a className={styles.logoLinkBlock} href='#'>
+                    <Link className={styles.logoLinkBlock} to='/'>
                         <img className='nav-logo' src='./images/napo-logo.svg' alt='napo logo'/>
-                    </a>
+                    </Link>
                     <div className={styles.footLinksHolder}>
                         <div className={styles.footLinkWrap}>
                             <h3 className={styles.footLinkCategory}>Experiencia</h3>
@@ -57,16 +57,16 @@ const Footer = () => {
                 <div className={styles.conectNavBox}>
                     <div className={styles.conectLinkWrap}>
                         <p className={styles.footNote}>@napetico, 2023 - Earth</p>
-                        <a href='' target='_blank'>Cookies</a>
-                        <a href='' target='_blank'>Privacy</a>
+                        <a href='https://github.com/napetico' target='_blank'>Cookies</a>
+                        <a href='https://github.com/napetico' target='_blank'>Privacy</a>
                     </div>
                     <div className={styles.conectLinkWrap}>
                         <p className={styles.footNote}>Conecta:</p>
-                        <a href='' target='_blank'>Instagram</a>
-                        <a href='' target='_blank'>LinkedIn</a>
-                        <a href='' target='_blank'>Github</a>
-                        <a href='' target='_blank'>Twitter</a>
-                        <a href='' target='_blank'>Discord</a>
+                        <a href='https://github.com/napetico' target='_blank'>Instagram</a>
+                        <a href='https://github.com/napetico' target='_blank'>LinkedIn</a>
+                        <a href='https://github.com/napetico' target='_blank'>Github</a>
+                        <a href='https://github.com/napetico' target='_blank'>Twitter</a>
+                        <a href='https://github.com/napetico' target='_blank'>Discord</a>
                     </div>
                 </div>
             </div>
