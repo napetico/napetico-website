@@ -81,8 +81,8 @@
 
     .sectionHeaderBox {
         flex-direction: column;
-        justify-content: start;
-        align-items: start;
+        justify-content: flex-start;
+        align-items: flex-start;
         gap: 4.29vw;
     }
     
@@ -94,7 +94,7 @@
         gap: 4.73vw;
         margin-bottom: 0.26vw;
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: flex-start;
         width: 80%;
     }
 
