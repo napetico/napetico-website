@@ -35,6 +35,10 @@
     margin-bottom: 0.1vw;
 }
 
+.backHomeSection {
+    padding-top: 3.66vw;
+}
+
 @media only screen and (max-width: 992px) {
     .mainIntro {
         padding: 5.15vw var(--lr-margin-tablet) 2.15vw;
@@ -55,6 +59,10 @@
     .linkGroupHolder {
         gap: 2.15vw;
         margin-bottom: 0.6vw;
+    }
+
+    .backHomeSection {
+        padding-top: 3.99vw;
     }
 }
 
@@ -88,6 +96,10 @@
         flex-wrap: wrap;
         justify-content: start;
         width: 80%;
+    }
+
+    .backHomeSection {
+        padding-top: 7.76vw;
     }
 }
 

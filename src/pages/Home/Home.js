@@ -105,7 +105,7 @@ const Home = () => {
                 <SectionIntro
                     tag='Aprendizaje constante'
                     header='Cosas muy útiles que voy aprendiendo.'
-                    info='Una colección de libros y videos con los que suelo llenar mi cabeza.'
+                    info='Los libros, videos y cursos con los que suelo llenar mi cabeza.'
                     align='right'
                 />
                 <div className={styles.displayContent}>
@@ -120,7 +120,7 @@ const Home = () => {
                         />
                         <DirectoryCard 
                             image={['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgOMuuG13xR2Jnc4MqxT_7LUeO4wPZKi8u0xQkT9JqUcs3CefyKLuKxN80NL4S60GnaQY&usqp=CAU', '']}
-                            href='#'
+                            href='/courses'
                             featTag={[false, '', '']}
                             info='Un mix de intereses alrededor de mi trabajo'
                             title='Cursos y Seminarios'
@@ -178,9 +178,9 @@ const Home = () => {
                         <p className='link-group-tag'>Explora más</p>
                         <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text='Libros' link='' />
+                            <LinkOnWhite text='Libros' link='/reading-list' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <LinkOnWhite text='Cursos' link='' />
+                            <LinkOnWhite text='Cursos' link='/courses' />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
                             <LinkOnWhite text='Certificados' link='' />
                         </div>

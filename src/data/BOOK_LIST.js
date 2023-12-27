@@ -1,6 +1,6 @@
 const BOOK_LIST = [
     {
-        bookId: '',
+        bookId: 'PADRE RICO',
         bookCardData: {
             path: '#',
             title: 'Padre Rico, Padre Pobre',
@@ -14,7 +14,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'INTELIGENCIA EMOCIONAL',
         bookCardData: {
             path: '#',
             title: 'Inteligencia Emocional',
@@ -28,7 +28,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'DOMINA EL MUNDO',
         bookCardData: {
             path: '#',
             title: 'Así se Domina El Mundo',
@@ -42,7 +42,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'INTELIGENCIAS MULTIPLES',
         bookCardData: {
             path: '#',
             title: 'Teoria de la Inteligencias Múltiples',
@@ -56,7 +56,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'MENTES DEL FUTURO',
         bookCardData: {
             path: '#',
             title: 'Las Cinco Mentes del Futuro',
@@ -70,7 +70,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'MONJE FERRARI',
         bookCardData: {
             path: '#',
             title: "El Monje que Vendió su Ferrari",
@@ -84,7 +84,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'MAN THINK',
         bookCardData: {
             path: '#',
             title: "As a Man Thinketh",
@@ -98,7 +98,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'SEARCH MEANING',
         bookCardData: {
             path: '#',
             title: "Man's Search For Meaning",
@@ -112,7 +112,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'STEVE JOBS',
         bookCardData: {
             path: '#',
             title: 'Steve Jobs Biography',
@@ -126,7 +126,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'MANDELA',
         bookCardData: {
             path: '#',
             title: 'El Largo Camino Hacia la Libertad',
@@ -140,7 +140,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'GROW RICH',
         bookCardData: {
             path: '#',
             title: 'Think and Grow Rich',
@@ -154,7 +154,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'AGREEMENTS',
         bookCardData: {
             path: '#',
             title: 'The Four Agreements',
@@ -168,7 +168,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'NAPO LADRONES',
         bookCardData: {
             path: '#',
             title: 'El Napoleón de los Ladrones',
@@ -182,7 +182,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'EGO',
         bookCardData: {
             path: '#',
             title: 'Ego is the Enemy',
@@ -196,7 +196,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: '48 PODER',
         bookCardData: {
             path: '#',
             title: 'Las 48 Leyes del Poder',
@@ -210,10 +210,10 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'BREATH',
         bookCardData: {
             path: '#',
-            title: 'And Breath',
+            title: 'And Breathe',
             author: 'Rebecca Dennis',
             category: 'Breathwork',
             image: ['https://images.squarespace-cdn.com/content/v1/59ccecae46c3c43c9617aeaf/1508624963427-ZI290YWUO5NDD8A5D5SN/IMG_2245.JPG', 'And Breath book cover'],
@@ -224,7 +224,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'SPRINT',
         bookCardData: {
             path: '#',
             title: 'Sprint',
@@ -238,7 +238,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'DO',
         bookCardData: {
             path: '#',
             title: 'Pocket Full of Do',
@@ -252,7 +252,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'TRADING DUMMIES',
         bookCardData: {
             path: '#',
             title: 'Day Trading y Operativa Bursátil',
@@ -266,7 +266,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'MINDSET',
         bookCardData: {
             path: '#',
             title: 'Mindset',
@@ -280,7 +280,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'GIVE A FUCK',
         bookCardData: {
             path: '#',
             title: 'The Subtle Art of Not Giving a F*ck',
@@ -294,7 +294,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'COACH HABITS',
         bookCardData: {
             path: '#',
             title: 'The Coaching Habits',
@@ -308,7 +308,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'THINK FAST',
         bookCardData: {
             path: '#',
             title: 'Thinking, Fast and Slow',
@@ -322,7 +322,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'BRAND GAP',
         bookCardData: {
             path: '#',
             title: 'The Brand Gap',
@@ -336,7 +336,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'VISHEN CODE',
         bookCardData: {
             path: '#',
             title: 'The Code of the Extraordinary Mind',
@@ -350,7 +350,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'ALMACK',
         bookCardData: {
             path: '#',
             title: 'The Almanack of Naval Ravikant',
@@ -364,7 +364,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'LEAN STARTUP',
         bookCardData: {
             path: '#',
             title: 'The Lean Startup',
@@ -378,7 +378,7 @@ const BOOK_LIST = [
         }
     },
     {
-        bookId: '',
+        bookId: 'LEAN PRODUCT',
         bookCardData: {
             path: '#',
             title: 'The Lean Product Playbook',
@@ -391,7 +391,7 @@ const BOOK_LIST = [
 
         }
     },{
-        bookId: '',
+        bookId: 'TOOO TITANS',
         bookCardData: {
             path: '#',
             title: 'Tools of Titans',

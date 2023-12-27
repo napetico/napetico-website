@@ -3,6 +3,19 @@ const CONTENT_LIST = [
         contentId: '',
         contentCardData: {
             path: '#',
+            channel: 'Impact Theory',
+            description: 'Un podcasts con temas muy chulos',
+            image: ['https://i.scdn.co/image/ab6765630000ba8ab0c79194b26b4179b00bda3f', 'Podcast cover poster'],
+            featTag: [false, '', '']
+        },
+        bookPacontentPageDataeData: {
+            
+        }
+    },
+    {
+        contentId: '',
+        contentCardData: {
+            path: '#',
             channel: 'How to Take Over the World',
             description: 'Un podcasts sobre biografías fascinantes',
             image: ['https://i.scdn.co/image/ab6765630000ba8ab0c79194b26b4179b00bda3f', 'Podcast cover poster'],

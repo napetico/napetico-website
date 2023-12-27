@@ -16,6 +16,19 @@ const COURSE_LIST = [
         coursetId: '',
         courseCardData: {
             path: '#',
+            course: 'CORE Discovery',
+            academy: 'The Futur + José Caballer',
+            image: ['https://assets-global.website-files.com/5d816b07d269382588dbcab1/62cc7689cb19c90a06d96056_60f99df47ff70a015cca4969_CORE-thumbnail-square-p-500.jpeg', 'Course poster'],
+            featTag: [false, '', '']
+        },
+        coursePageData: {
+            
+        }
+    },
+    {
+        coursetId: '',
+        courseCardData: {
+            path: '#',
             course: 'Web Designer Pro',
             academy: 'Flux Academy',
             image: ['https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/c1slTKcXQGWTsoDKVNXu', 'Course poster'],

@@ -9,6 +9,8 @@ import CodingWork from './pages/Coding/CodingWork.js';
 import Webs from './pages/Webs/Webs.js'
 import WebWork from './pages/Webs/WebWork.js';
 import Books from './pages/Books/Books.js';
+import Courses from './pages/Courses/Courses.js';
+import Certifications from './pages/Certifications/Certifications.js';
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -20,6 +22,8 @@ function App() {
       <Route path='/web-designer' element={ <Webs/> }/>
       <Route path='/web-design-portfolio' element={ <WebWork/> }/>
       <Route path='/reading-list' element={ <Books/> }/>
+      <Route path='/courses' element={ <Courses/> }/>
+      <Route path='/certifications' element={ <Certifications/> }/>
     </Route>
   ));
 

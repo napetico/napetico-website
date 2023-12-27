@@ -3,15 +3,14 @@ import SectionIntro from '../../util/SectionIntro/SectionIntro';
 import Gallery from '../../layouts/Gallery/Gallery';
 import BOOK_LIST from '../../data/BOOK_LIST';
 import CONTENT_LIST from '../../data/CONTENT_LIST';
-import COURSE_LIST from '../../data/COURSE_LIST';
 import PreFoot from '../../layouts/PreFoot/PreFoot';
 import OptionsBar from '../../layouts/OptionsBar/OptionsBar';
+import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite';
 
 const Books = () => {
 
     const allBooks = BOOK_LIST.slice().reverse();
     const allContent = CONTENT_LIST.slice().reverse();
-    const allCourses = COURSE_LIST.slice().reverse();
 
     return(
         <>
@@ -72,27 +71,15 @@ const Books = () => {
                 <Gallery card='content' data={allContent}/>
             </div>
         </section>
-        <section className={styles.galleryContainer} id='content'>
-            <div className={styles.galleryIntro}>
-                <p className={styles.sectionTag}>Podcasts, Videos y más</p>
-                <div className={styles.sectionHeaderBox}>
-                    <h2 className={styles.sectionHeader}>Otros contenidos.</h2>
-                    <div className={styles.linkGroupHolder}>
-                        <p className='link-group-tag'>Saltar a</p>
-                        <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
-                        <div className='link-group-wrapper'>
-                            <div className={styles.linkHolder}>
-                                <a className={styles.linkText} href='#books'>Libros recientes</a>
-                                <div className={styles.linkUnderlineTrack}>
-                                    <div className={styles.linkUnderline}></div>
-                                </div>
-                            </div>
-                        </div>
+        <section className={styles.backHomeSection}>
+            <div className='centered-link-holder'>
+                <div className='link-group-holder'>
+                    <p className='link-group-tag'>Volver a</p>
+                    <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                    <div className='link-group-wrapper'>
+                        <LinkOnWhite text='Página de Inicio' link='' />
                     </div>
                 </div>
-            </div>
-            <div className={styles.galleryHolder}>
-                <Gallery card='course' data={allCourses}/>
             </div>
         </section>
         <PreFoot

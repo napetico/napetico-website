@@ -15,26 +15,31 @@ const Footer = () => {
                     <div className={styles.footLinksHolder}>
                         <div className={styles.footLinkWrap}>
                             <h3 className={styles.footLinkCategory}>Experiencia</h3>
-                            <NavLink text={'Project Manager'} link={''} />
+                            <NavLink text={'Project Manager'} link={'/under-constructions'} />
                             <NavLink text='Programador Full Stack' link='/full-stack-developer' />
                             <NavLink text='Webs para Pymes' link='/web-designer' />
                         </div>
                         <div className={styles.footLinkWrap}>
                             <h3 className={styles.footLinkCategory}>Destrezas</h3>
-                            <NavLink text={'Libros'} link={''} />
-                            <NavLink text={'Cursos'} link={''} />
-                            <NavLink text={'Certificaciones'} link={''} />
+                            <NavLink text='Libros' link='/reading-list' />
+                            <NavLink text='Cursos' link='/courses' />
+                            <NavLink text='Certificaciones' link='/certifications' />
                         </div>
                         <div className={styles.footLinkWrap}>
                             <h3 className={styles.footLinkCategory}>Hobbies</h3>
-                            <NavLink text={'Bunker de Ideas'} link={''} />
-                            <NavLink text={'Hiperrealismo'} link={''} />
-                            <NavLink text={'Proto-Blog'} link={''} />
+                            <NavLink text={'Bunker de Ideas'} link={'/under-construction'} />
+                            <NavLink text={'Hiperrealismo'} link={'/under-construction'} />
+                            <NavLink text={'Proto-Blog'} link={'/under-construction'} />
                         </div>
                         <div className={styles.footLinkWrap}>
                             <h3 className={styles.footLinkCategory}>Navega</h3>
-                            <NavLink text={'Sobre mí'} link={''} />
-                            <NavLink text={'Descarga mi CV'} link={''} />
+                            <NavLink text={'Sobre mí'} link={'/under-construction'} />
+                            <div className={styles.navLinkHolder}>
+                                <a className={styles.navLinkText} href='./napoleon-cv.pdf' target='_blank' rel='noopener noreferrer'>Descarga mi CV</a>
+                                <div className={styles.navLinkUnderlineTrack}>
+                                    <div className={styles.navLinkUnderline}></div>
+                                </div>
+                            </div>
                         </div>
                         <div className={styles.contactCard}>
                             <div className={styles.cardLinkBox}>
@@ -57,16 +62,16 @@ const Footer = () => {
                 <div className={styles.conectNavBox}>
                     <div className={styles.conectLinkWrap}>
                         <p className={styles.footNote}>@napetico, 2023 - Earth</p>
-                        <a href='https://github.com/napetico' target='_blank'>Cookies</a>
-                        <a href='https://github.com/napetico' target='_blank'>Privacy</a>
+                        <Link to='/'>Cookies</Link>
+                        <Link to='/'>Privacy</Link>
                     </div>
                     <div className={styles.conectLinkWrap}>
                         <p className={styles.footNote}>Conecta:</p>
-                        <a href='https://github.com/napetico' target='_blank'>Instagram</a>
-                        <a href='https://github.com/napetico' target='_blank'>LinkedIn</a>
-                        <a href='https://github.com/napetico' target='_blank'>Github</a>
-                        <a href='https://github.com/napetico' target='_blank'>Twitter</a>
-                        <a href='https://github.com/napetico' target='_blank'>Discord</a>
+                        <a href='https://www.instagram.com/napetico/' target='_blank' rel="noopener noreferrer">Instagram</a>
+                        <a href='https://www.linkedin.com/in/napoleon-bazan/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+                        <a href='https://github.com/napetico' target='_blank' rel="noopener noreferrer">Github</a>
+                        <a href='https://twitter.com/napoleon_bazan' target='_blank' rel="noopener noreferrer">Twitter</a>
+                        <a href='https://discord.com/users/1114347606756294687' target='_blank' rel="noopener noreferrer">Discord</a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,32 @@
+.galleryContainer {
+    padding: 4.29vw var(--lr-margin-desktop) var(--tb-margin-desktop);
+    display: flex;
+    flex-direction: column;
+    gap: 3.57vw;
+}
+
+.backHomeSection {
+    padding-top: 3.66vw;
+}
+
+@media only screen and (max-width: 992px) {
+    .galleryContainer {
+        padding: 5.15vw var(--lr-margin-tablet) var(--tb-margin-tablet);
+        gap: 4.28vw;
+    }
+    
+    .backHomeSection {
+        padding-top: 3.99vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .galleryContainer {
+        padding: 11.33vw var(--lr-margin-mobile) var(--tb-margin-mobile);
+        gap: 9.42vw;
+    }
+
+    .backHomeSection {
+        padding-top: 7.76vw;
+    }
+}
