@@ -5,15 +5,15 @@ import { Outlet } from 'react-router-dom';
 
 const Root = () => {
 
-    return(
+    return (
         <>
-        <header>
-            <Navbar />
-        </header>
-        <main>
-            <Outlet/>
-        </main>
-        <Footer />
+            <header>
+                <Navbar />
+            </header>
+            <main>
+                <Outlet />
+            </main>
+            <Footer />
         </>
     )
 };

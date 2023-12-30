@@ -20,7 +20,7 @@ const Gallery = ({card, data}) => {
             <>
             <div className={styles.galleryGrid}>
                 {data.map((project, index) => {
-                    return <WebCard data={project.projectCardData} key={index}/>;
+                    return <WebCard data={project} key={index}/>;
                 })}
             </div>
             </>

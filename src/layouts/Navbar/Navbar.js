@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className={styles.navContainer}>
                 <div className={styles.navLogoBox}>
                     <Link className={styles.logoLinkBlock} to='/' onClick={scrollToTop}>
-                        <img className='nav-logo' src='./images/napo-logo.svg' alt='napo logo'/>
+                        <img className='nav-logo' src='/images/napo-logo.svg' alt='napo logo'/>
                     </Link>
                     <Link className={styles.navBreadcrumLink} to='/' onClick={scrollToTop}>@napetico</Link>
                 </div>

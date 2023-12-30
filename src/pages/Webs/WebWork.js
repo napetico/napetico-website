@@ -4,6 +4,7 @@ import SectionIntro from '../../util/SectionIntro/SectionIntro';
 import Gallery from '../../layouts/Gallery/Gallery';
 import PreFoot from '../../layouts/PreFoot/PreFoot';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite';
+import OptionsBar from '../../layouts/OptionsBar/OptionsBar';
 
 const WebWork = () => {
 
@@ -11,6 +12,7 @@ const WebWork = () => {
 
     return(
         <>
+        <OptionsBar/>
         <section className={styles.webWorkSection}>
             <div className={styles.webWorkIntroHolder}>
                 <SectionIntro

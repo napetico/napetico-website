@@ -22,7 +22,7 @@
     }
 }
 
-@media only screen and (max-width: 576vw) {
+@media only screen and (max-width: 576px) {
     .codingWorkSection {
         padding: 11.33vw var(--lr-margin-mobile) var(--tb-margin-mobile);
         gap: 9.42vw;

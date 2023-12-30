@@ -4,6 +4,7 @@ import SectionIntro from '../../util/SectionIntro/SectionIntro';
 import Gallery from '../../layouts/Gallery/Gallery';
 import PreFoot from '../../layouts/PreFoot/PreFoot';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite';
+import OptionsBar from '../../layouts/OptionsBar/OptionsBar';
 
 const CodingWork = () => {
 
@@ -11,6 +12,7 @@ const CodingWork = () => {
 
     return(
         <>
+        <OptionsBar/>
         <section className={styles.codingWorkSection}>
             <div className={styles.codingWorkIntroHolder}>
                 <SectionIntro
