@@ -65,7 +65,7 @@ const Navbar = () => {
                         <Link className={styles.navButton} to='/under-construction' onClick={scrollToTop}>Dame un toque</Link>
                     </ul>
                     <div className={styles.dropdownButton}>
-                        <img className={`${styles.dropdownArrow} ${open ? styles.arrowTurn : ''}`} src='./images/napo-arrow-menu.svg' alt='' onClick={toggleMenu}/>
+                        <img className={`${styles.dropdownArrow} ${open ? styles.arrowTurn : ''}`} src='/images/napo-arrow-menu.svg' alt='' onClick={toggleMenu}/>
                     </div>
                 </div>
             </div>

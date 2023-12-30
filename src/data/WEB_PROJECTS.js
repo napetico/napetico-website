@@ -6,7 +6,7 @@ const WEB_PROJECTS = [
         client: {
             name: 'The Hiking Club',
             image: ['https://napetico.github.io/the-hiking-club/media/club-logo.png', 'The Hiking Club logo'],
-            bio: '',
+            bio: 'The Hiking Club es un club de senderismo local que organiza excursiones y escaladas de fin de semana para grandes, chicos, aficionados y profesionales. Su misión es acercar a su comunidad a las bellas montañas y senderos de la zona para fomentar una vida activa y el cuidado de la naturaleza. Todo fue inventado para poder hacer la web, pero si conoces un club de senderismo que quiera una web avísame.',
         },
         category: 'Club de Senderismo',
         mainImages: {
@@ -18,10 +18,10 @@ const WEB_PROJECTS = [
         homeTitle: '',
         featTag: [true, 'black', 'made with code'],
         page: {
-            sectionTitle: '',
-            sectionInfo: '',
-            goal: '',
-            plan: '',
+            sectionTitle: 'Un portal informativo para la comunidad.',
+            sectionInfo: 'Donde el deporte y la naturaleza muestren su mejor cara.',
+            goal: 'En mi imaginación, The Hiking Club necesitaba urgentemente renovar su antigua web. La comunidad de excursionistas crecía super rápido y les vendría super bien una web que fuese un punto de información e interacciones. Sus tres prioridades eran: un diseño sencillo, poder publicar el calendario y los detalles de excursiones, y tener un sitio donde compartir historias y fotos de las aventuras.',
+            plan: 'El plan era hacer una página de inicio que sirviera de distribuidor para el calendario de excursions y el blog. Incluiríamos una función para que los usuarios pudiese apuntarse a las excursions con solo llenar los datos de su grupo. Por último, quise darle un toque bien social con el blog, las fotos, y algunas otras interacciones (como compartir, ver quienes se ha apuntado, y dejar algún "me gusta").',
             outcome: '',
         },
         introImages: [
@@ -30,6 +30,9 @@ const WEB_PROJECTS = [
             {image: ['', ''], tag: ''},
         ],
         projectImages: [
+            {image: ['', ''], tag: ''},
+            {image: ['', ''], tag: ''},
+            {image: ['', ''], tag: ''},
             {image: ['', ''], tag: ''},
             {image: ['', ''], tag: ''},
             {image: ['', ''], tag: ''},

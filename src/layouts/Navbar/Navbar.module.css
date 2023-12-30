@@ -245,7 +245,8 @@
     bottom: auto;
     left: auto;
     right: 0%;
-    z-index: 5;
+    z-index: 10;
+    background-color: var(--main-white);
     color: transparent;
     width: 0;
     height: 0;
@@ -294,7 +295,7 @@
   }
 
   .navLinkMobileDropdown {
-    font-size: var(--reg-p-20-mobile);
+    font-size: var(--reg-p-16-mobile);
   }
 
   .mobileMenuButtonBox {
@@ -303,13 +304,13 @@
     align-items: flex-start;
     justify-content: center;
     gap: 5.71vw;
-    margin: 3.5vw 15vw 0vw 15vw;
+    margin: 2vw 15vw 0vw 15vw;
   }
 
   .navButton {
-    padding: 5vw 10vw;
+    padding: 4vw 8vw;
     border-radius: 0.6vw;
-    font-size: var(--reg-p-20-mobile);
+    font-size: var(--reg-p-16-mobile);
     border-radius: 1.32vw;
     background-color: #0000c4;
   }
