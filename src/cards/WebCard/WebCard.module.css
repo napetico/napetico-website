@@ -18,7 +18,7 @@
     right: 0;
     left: 0;
     background-color: #22222240;
-    z-index: 5;
+    z-index: 2;
     opacity: 0;
     transition: opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }

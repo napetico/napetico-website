@@ -23,7 +23,7 @@
     left: 0;
     border-radius: 0.57vw;
     background-image: linear-gradient(transparent, #222222cc);
-    z-index: 5;
+    z-index: 2;
     display: flex;
     opacity: 0;
     justify-content: flex-end;
