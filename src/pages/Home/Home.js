@@ -35,7 +35,7 @@ const Home = () => {
                         <p className='bold-tag'>n.experiencia</p>
                         <DirectoryCard 
                             image={['./images/napo-pm-directory-image.jpg', '']}
-                            href='#'
+                            href='/project-manager'
                             featTag={[false, '', '']}
                             info='Desde el 2007 - Operaciones, Creatividad y Estrategia'
                             title='Director de Proyectos | COO'
@@ -87,7 +87,7 @@ const Home = () => {
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Mira más proyectos</p>
-                        <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                        <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
                             <LinkOnWhite text='Dirección' link='' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
@@ -176,7 +176,7 @@ const Home = () => {
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Explora más</p>
-                        <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                        <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
                             <LinkOnWhite text='Libros' link='/reading-list' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
@@ -254,7 +254,7 @@ const Home = () => {
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Mira más a fondo</p>
-                        <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                        <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
                             <LinkOnWhite text='Ideas' link='' />
                             <p className='link-group-inner-text'>,&nbsp;</p>

@@ -10,12 +10,12 @@ const Footer = () => {
             <div className={styles.footerContainer}>
                 <div className={styles.pagesNavBox}>
                     <Link className={styles.logoLinkBlock} to='/'>
-                        <img className='nav-logo' src='./images/napo-logo.svg' alt='napo logo'/>
+                        <img className='nav-logo' src='./images/icons/napo-logo.svg' alt='napo logo'/>
                     </Link>
                     <div className={styles.footLinksHolder}>
                         <div className={styles.footLinkWrap}>
                             <h3 className={styles.footLinkCategory}>Experiencia</h3>
-                            <NavLink text={'Project Manager'} link={'/under-constructions'} />
+                            <NavLink text='Project Manager' link='/project-manager' />
                             <NavLink text='Programador Full Stack' link='/full-stack-developer' />
                             <NavLink text='Webs para Pymes' link='/web-designer' />
                         </div>
@@ -44,14 +44,14 @@ const Footer = () => {
                         <div className={styles.contactCard}>
                             <div className={styles.cardLinkBox}>
                                 <p className={styles.cardLinkText}>Consígueme</p>
-                                <img className={styles.cardLinkImage} src='./images/napo-whatsapp-logo-black.png' alt='' />
+                                <img className={styles.cardLinkImage} src='/images/icons/napo-whatsapp-logo-black.png' alt='' />
                                 <div>
                                     <LinkOnWhite text={'+34 673250200'} link={''} />
                                 </div>
                             </div>
                             <div className={styles.cardLinkBox}>
                                 <p className={styles.cardLinkText}>Escríbeme</p>
-                                <img className={styles.cardLinkImage} src='./images/napo-email-logo-black.png' alt='' />
+                                <img className={styles.cardLinkImage} src='/images/icons/napo-email-logo-black.png' alt='' />
                                 <div>
                                     <LinkOnWhite text={'napo@napetico.com'} link={''} />
                                 </div>

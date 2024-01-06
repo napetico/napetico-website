@@ -12,7 +12,7 @@ const ProjectCard = ({image, href, info, title, client, clientImage, featTag}) =
                 <div className={styles.cardImageOverlay}>
                     <div className={styles.cardHoverBox}>
                         <p className={styles.cardOpenText}>Abrir</p>
-                        <img className={styles.cardOpenArrow} src='./images/napo-arrow-menu.svg' alt=''/>
+                        <img className={styles.cardOpenArrow} src='./images/icons/napo-arrow-menu.svg' alt=''/>
                     </div>
                 </div>
                 {featTag[0] ?

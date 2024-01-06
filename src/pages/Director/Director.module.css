@@ -1,0 +1,299 @@
+.profileCardSection {
+    padding: var(--tb-margin-desktop) var(--lr-margin-desktop);
+}
+
+.profileCardHolder {
+    display: flex;
+    padding: 5.71vw;
+    gap: 5.71vw;
+    border-radius: 1.43vw;
+    background-color: #d9d9d9;
+}
+
+.titleWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.43vw;
+    width: 30%;
+}
+
+.sectionTag {
+    font-weight: 300;
+}
+
+.bioCardHeader {
+    font-size: var(--h2-45-desktop);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.79vw;
+    width: 40%;
+    padding-top: 2.86vw;
+}
+
+.bioText {
+    line-height: 1.65;
+}
+
+.detailsHolder {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.07vw;
+}
+
+.detailsBox {
+    display: flex;
+    align-items: center;
+    gap: 1.07vw;
+}
+
+.icon {
+    width: 1.43vw;
+    height: 1.43vw;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.photoWrapper {
+    width: 30%;
+    padding-top: 2.86vw;
+}
+
+.bioPhotoBox {
+    width: 17.85vw;
+    height: 17.85vw;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.sectionIntroWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.43vw;
+}
+
+.sectionTag {
+    font-weight: 300;
+}
+
+.sectionHeaderBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sectionHeader {
+    width: 37.14vw;
+}
+
+.sectionInfo {
+    width: 42vw;
+    line-height: 1.65;
+}
+
+.projectsGallery{
+    display: flex;
+    flex-direction: column;
+    gap: 5.71vw;
+}
+
+.processSection, .examplesSection, .skillsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 3.57vw;
+}
+
+.examplesHolder {
+    display: flex;
+    gap: 3.57vw;
+}
+
+.exampleBox {
+    width: 33.33%;
+}
+
+.exampleText {
+    font-weight: 300;
+    line-height: 1.55;
+}
+
+.toolsWrapper {
+    padding-top: 2.14vw;
+    border-top: dashed 0.07vw #22222250;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.43vw;
+}
+
+@media only screen and (max-width: 992px) {
+    .profileCardSection {
+        padding: var(--tb-margin-tablet) var(--lr-margin-tablet);
+    }
+    
+    .profileCardHolder {
+        padding: 4.76vw;
+        gap: 4.76vw;
+        border-radius: 1.72vw;
+    }
+    
+    .titleWrapper {
+        gap: 1.72vw;
+    }
+
+    .bioCardHeader {
+        font-size: var(--h2-45-tablet);
+    }
+    
+    .infoWrapper {
+        gap: 2.15vw;
+        padding-top: 3.43vw;
+    }
+    
+    .detailsHolder, .detailsBox {
+        gap: 1.28vw;
+    }
+    
+    .icon {
+        width: 1.72vw;
+        height: 1.72vw;
+    }
+    
+    .photoWrapper {
+        width: 24%;
+        padding-top: 3.43vw;
+    }
+    
+    .bioPhotoBox {
+        width: 18.5vw;
+        height: 18.5vw;
+    }
+    
+    .sectionIntroWrapper {
+        gap: 1.72vw;
+    }
+
+    .sectionHeader {
+        width: 44vw;
+    }
+    
+    .sectionInfo {
+        width: 40vw;
+    }
+    
+    .projectsGallery{
+        gap: 6.85vw;
+    }
+    
+    .processSection, .examplesSection, .skillsSection {
+        gap: 4.28vw;
+    }
+    
+    .examplesHolder {
+        gap: 4.28vw;
+    }
+    
+    .toolsWrapper {
+        padding-top: 2.57vw;
+        border-top: dashed 0.08vw #22222250;
+        gap: 1.72vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .profileCardSection {
+        padding: var(--tb-margin-mobile) var(--lr-margin-mobile);
+    }
+    
+    .profileCardHolder {
+        flex-direction: column;
+        padding: 14vw 9.5vw;
+        gap: 11vw;
+        border-radius: 3vw;
+    }
+    
+    .titleWrapper {
+        gap: 3.78vw;
+        width: auto;
+    }
+    
+    .bioCardHeader {
+        font-size: var(--h2-45-mobile);
+    }
+    
+    .infoWrapper {
+        gap: 4.73vw;
+        width: auto;
+        padding-top: 0;
+    }
+    
+    .detailsHolder, .detailsBox {
+        gap: 2.82vw;
+    }
+    
+    .icon {
+        width: 3.78vw;
+        height: 3.78vw;
+    }
+    
+    .photoWrapper {
+        width: auto;
+    }
+    
+    .bioPhotoBox {
+        width: 55vw;
+        height: 55vw;
+    }
+    
+    .sectionIntroWrapper {
+        gap: 3.78vw;
+    }
+    
+    .sectionHeaderBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 9.46vw;
+    }
+    
+    .sectionHeader {
+        width: 90%;
+    }
+    
+    .sectionInfo {
+        width: 96%;
+    }
+    
+    .projectsGallery{
+        gap: 15.07vw;
+    }
+    
+    .processSection, .examplesSection, .skillsSection {
+        gap: 9.42vw;
+    }
+    
+    .examplesHolder {
+        flex-direction: column;
+        gap: 6.85vw;
+    }
+    
+    .exampleBox {
+        width: 95%;
+    }
+    
+    .exampleText {
+        line-height: 1.65;
+    }
+    
+    .toolsWrapper {
+        padding-top: 5.65vw;
+        border-top: dashed 0.18vw #22222250;
+        gap: 3.78vw;
+    }
+}

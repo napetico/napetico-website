@@ -26,7 +26,7 @@ const Hero = ({header, loopText, description, linkData, cardProject, cardImage, 
                     <p className={styles.heroText}>{description}</p>
                     <div className='link-group-holder-hero'>
                         <p className='link-group-tag'>{linkData[0]}</p>
-                        <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt='' />
+                        <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt='' />
                         <div className='link-group-wrapper'>
                             <LinkOnWhite text={linkData[1]} link={linkData[2]} />
                         </div>

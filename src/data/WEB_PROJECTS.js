@@ -11,7 +11,7 @@ const WEB_PROJECTS = [
         category: 'Club de Senderismo',
         mainImages: {
             card: ['/images/napo-thc-web-image.png', 'Website mockups'],
-            poster: ['', ''],
+            poster: ['/images/napo-thc-poster.png', 'Website mockups'],
         },
         cardSnippet: 'Web para',
         homeSnippet: '',
@@ -22,7 +22,7 @@ const WEB_PROJECTS = [
             sectionInfo: 'Donde el deporte y la naturaleza muestren su mejor cara.',
             goal: 'En mi imaginación, The Hiking Club necesitaba urgentemente renovar su antigua web. La comunidad de excursionistas crecía super rápido y les vendría super bien una web que fuese un punto de información e interacciones. Sus tres prioridades eran: un diseño sencillo, poder publicar el calendario y los detalles de excursiones, y tener un sitio donde compartir historias y fotos de las aventuras.',
             plan: 'El plan era hacer una página de inicio que sirviera de distribuidor para el calendario de excursions y el blog. Incluiríamos una función para que los usuarios pudiese apuntarse a las excursions con solo llenar los datos de su grupo. Por último, quise darle un toque bien social con el blog, las fotos, y algunas otras interacciones (como compartir, ver quienes se ha apuntado, y dejar algún "me gusta").',
-            outcome: '',
+            outcome: 'Las web para THC quedo genial. Al final solo hice una landing page para poder mostrar como se vería la página de inicio, pero verás que incluí como pude todas las funciones que tenia en mente, como las tarjetas para suscrbirse a los eventos, ver los blogs, compartir, conocer a otros excursionistas y más.',
         },
         introImages: [
             {image: ['', ''], tag: ''},
@@ -30,12 +30,10 @@ const WEB_PROJECTS = [
             {image: ['', ''], tag: ''},
         ],
         projectImages: [
-            {image: ['', ''], tag: ''},
-            {image: ['', ''], tag: ''},
-            {image: ['', ''], tag: ''},
-            {image: ['', ''], tag: ''},
-            {image: ['', ''], tag: ''},
-            {image: ['', ''], tag: ''},
+            {image: ['/images/napo-thc-portfolio-1.png', 'Website mockup'], tag: 'Hero section at Home page'},
+            {image: ['/images/napo-thc-portfolio-2.png', 'Website mockup'], tag: 'Cards for Events calendar'},
+            {image: ['/images/napo-thc-portfolio-3.png', 'Website mockup'], tag: 'Cards for Blog posts'},
+            {image: ['/images/napo-thc-portfolio-4.png', 'Code screenshot'], tag: 'Part of the HTML and CSS code'},
         ],
     },
     {

@@ -59,7 +59,7 @@ const Coding = () => {
             <div className='centered-link-holder'>
                 <div className='link-group-holder'>
                     <p className='link-group-tag'>Mira más proyectos</p>
-                    <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                    <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
                         <LinkOnWhite text='Ir al Portafolio' link='/full-stack-portfolio' />
                     </div>
@@ -124,7 +124,7 @@ const Coding = () => {
             <div className={styles.cvLinkHolder}>
                 <div className='link-group-holder'>
                     <p className='link-group-tag'>Mira más de mis</p>
-                    <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                    <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
                         <LinkOnWhite text='Certificados' link='' />
                         <p className='link-group-inner-text'>&nbsp;ó&nbsp;</p>

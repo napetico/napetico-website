@@ -16,7 +16,7 @@ const HeroCard = ({image, href, info, title, featTag}) => {
                         </div>
                         <div className={styles.cardOpenWrapper}>
                             <p className={styles.cardOpenText}>Abrir</p>
-                            <img className={styles.cardOpenArrow} src='./images/napo-arrow-menu.svg' alt=''/>
+                            <img className={styles.cardOpenArrow} src='/images/icons/napo-arrow-menu.svg' alt=''/>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,270 @@
+.managerCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.71vw;
+    overflow: hidden;
+}
+
+.cardImageHolder {
+    height: 21.43vw;
+    position: relative;
+}
+
+.cardImageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #22222233;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cardImageOverlay:hover {
+    opacity: 1;
+}
+
+.cardFeatTagHolder {
+    position: absolute;
+    top: 0.71vw;
+    bottom: auto;
+    right: 0.71vw;
+    left: auto;
+}
+
+.cardInfoHolder {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.cardInfoWrapper {
+    padding: 1.79vw 1.43vw 1.43vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.cardProjectInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.71vw;
+    font-size: var(--reg-p-14-desktop);
+}
+
+.cardWorkTag {
+    font-weight: 300;
+}
+
+.cardClientInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.38vw;
+}
+
+.cardClientImageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.43vw;
+    height: 1.43vw;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.cardTitle {
+    font-size: var(--reg-p-20-desktop);
+    line-height: 1.1;
+}
+
+.cardDetailsWrapper {
+    padding: 1.43vw;
+    border-top: 0.035vw solid #cccccc80;
+    display: flex;
+    gap: 2.14vw;
+}
+
+.cardDescription {
+    font-weight: 300;
+    line-height: 1.35;
+}
+
+.cardLinksWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.43vw;
+    border-top: 0.035vw solid #cccccc80;
+}
+
+.categoryBox {
+    display: flex;
+    align-items: center;
+    gap: 0.43vw;
+}
+
+.icon {
+    width: 1.43vw;
+    height: 1.43vw;
+}
+
+.categoryTag {
+    font-size: var(--reg-p-14-desktop);
+    font-weight: 500;
+}
+
+.linkGroupHolder {
+    display: flex;
+    gap: 1.07vw;
+    align-items: center;
+}
+
+.linkGroupTag {
+    font-weight: 300;
+}
+
+.linkGroupArrow {
+    width: 1.43vw;
+    height: auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .managerCard {
+        border-radius: 0.85vw;
+    }
+    
+    .cardImageHolder {
+        height: 25.72vw;
+    }
+    
+    .cardFeatTagHolder {
+        top: 0.85vw;
+        right: 0.85vw;
+    }
+    
+    .cardInfoWrapper {
+        padding: 2.15vw 1.72vw 1.72vw;
+        gap: 0.6vw;
+    }
+    
+    .cardProjectInfo {
+        gap: 0.85vw;
+        font-size: var(--reg-p-14-tablet);
+    }
+    
+    .cardClientInfo {
+        gap: 0.46vw;
+    }
+    
+    .cardClientImageBox {
+        width: 1.72vw;
+        height: 1.72vw;
+    }
+    
+    .cardTitle {
+        font-size: var(--reg-p-20-tablet);
+    }
+    
+    .cardDetailsWrapper {
+        padding: 1.72vw;
+        border-top: 0.042vw solid #cccccc80;
+        gap: 2.57vw;
+    }
+    
+    .cardLinksWrapper {
+        padding: 1.72vw;
+        border-top: 0.042vw solid #cccccc80;
+    }
+    
+    .categoryBox {
+        gap: 0.52vw;
+    }
+    
+    .icon {
+        width: 1.72vw;
+        height: 1.72vw;
+    }
+    
+    .categoryTag {
+        font-size: var(--reg-p-14-tablet);
+    }
+    
+    .linkGroupHolder {
+        gap: 1.28vw;
+    }
+    
+    .linkGroupArrow {
+        width: 1.72vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .managerCard {
+        border-radius: 1.87vw;
+    }
+    
+    .cardImageHolder {
+        height: 61.73vw;
+    }
+
+    .cardFeatTagHolder {
+        top: 1.87vw;
+        right: 1.87vw;
+    }
+    
+    .cardInfoWrapper {
+        padding: 4.73vw 3.78vw 3.78vw;
+        gap: 1.32vw;
+    }
+    
+    .cardProjectInfo {
+        gap: 1.87vw;
+        font-size: var(--reg-p-14-mobile);
+    }
+    
+    .cardClientInfo {
+        gap: 1.01vw;
+    }
+    
+    .cardClientImageBox {
+        width: 3.78vw;
+        height: 3.78vw;
+    }
+    
+    .cardTitle {
+        font-size: var(--reg-p-20-mobile);
+    }
+    
+    .cardDetailsWrapper {
+        padding: 3.78vw;
+        border-top: 0.092vw solid #cccccc80;
+        gap: 5.65vw;
+    }
+    
+    .cardLinksWrapper {
+        padding: 3.78vw;
+        border-top: 0.092vw solid #cccccc80;
+    }
+    
+    .categoryBox {
+        gap: 1.14vw;
+    }
+    
+    .icon {
+        width: 3.78vw;
+        height: 3.78vw;
+    }
+    
+    .categoryTag {
+        font-size: var(--reg-p-14-mobile);
+    }
+    
+    .linkGroupHolder {
+        gap: 2.82vw;
+    }
+    
+    .linkGroupArrow {
+        width: 3.78vw;
+    }
+}

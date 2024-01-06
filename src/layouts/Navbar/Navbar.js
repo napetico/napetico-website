@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className={styles.navContainer}>
                 <div className={styles.navLogoBox}>
                     <Link className={styles.logoLinkBlock} to='/' onClick={scrollToTop}>
-                        <img className='nav-logo' src='/images/napo-logo.svg' alt='napo logo'/>
+                        <img className='nav-logo' src='/images/icons/napo-logo.svg' alt='napo logo'/>
                     </Link>
                     <Link className={styles.navBreadcrumLink} to='/' onClick={scrollToTop}>@napetico</Link>
                 </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
                                 <div className={styles.linkUnderline}></div>
                             </div>
                             <div className={styles.navLinkDropdown}>
-                                <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>Director de Proyectos</Link>
+                                <Link className={styles.dropdownLink} to='/project-manager' onClick={scrollToTop}>Director de Proyectos</Link>
                                 <Link className={styles.dropdownLink} to='/full-stack-developer' onClick={scrollToTop}>Programador Full Stack</Link>
                                 <Link className={styles.dropdownLink} to='/web-designer' onClick={scrollToTop}>Diseñador Web</Link>
                             </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
                         <Link className={styles.navButton} to='/under-construction' onClick={scrollToTop}>Dame un toque</Link>
                     </ul>
                     <div className={styles.dropdownButton}>
-                        <img className={`${styles.dropdownArrow} ${open ? styles.arrowTurn : ''}`} src='/images/napo-arrow-menu.svg' alt='' onClick={toggleMenu}/>
+                        <img className={`${styles.dropdownArrow} ${open ? styles.arrowTurn : ''}`} src='/images/icons/napo-arrow-menu.svg' alt='' onClick={toggleMenu}/>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ const Navbar = () => {
                         <p className={styles.categoryTitle}>n.trabajando</p>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Director de Proyectos</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/project-manager' onClick={scrollAndClose}>Director de Proyectos</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>

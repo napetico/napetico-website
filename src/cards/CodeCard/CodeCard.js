@@ -35,7 +35,7 @@ const CodeCard = ({data}) => {
                 <div className={styles.cardLinksWrapper}>
                     <div className={styles.linkGroupHolder}>
                         <p className={styles.linkGroupTag}>Abrir</p>
-                        <img className={styles.linkGroupArrow} src='./images/napo-link-arrow-black.svg' alt=''/>
+                        <img className={styles.linkGroupArrow} src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className={styles.linkGroupWrapper}>
                             <LinkOnWhite text={'Live Site'} link={data.liveSiteLink} newTab={true}/>
                             <p className='link-group-inner-text'>ó</p>

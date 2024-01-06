@@ -28,7 +28,7 @@ const Accordion = ({data}) => {
                                 <p className={styles.toggleText}>{item.span}</p>
                             </div>
                             <div className={activeItem === index ? styles.toggleArrowBoxActive : styles.toggleArrowBox}>
-                                <img className={styles.toggleArrow} src='./images/napo-accordion-arrow.svg' alt=''/>
+                                <img className={styles.toggleArrow} src='./images/icons/napo-accordion-arrow.svg' alt=''/>
                             </div>
                         </div>
                         <div className={activeItem === index ? styles.accordionAnswerActive : styles.accordionAnswer}>

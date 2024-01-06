@@ -58,7 +58,7 @@ const WebProject = ({ data }) => {
                         <h2 className={styles.sectionHeader}>Mira los elementos más destacados.</h2>
                         <div className={styles.linkGroupHolder}>
                             <p className='link-group-tag'>Si quieres ver la web terminada</p>
-                            <img className='link-group-arrow' src='/images/napo-link-arrow-black.svg' alt=''/>
+                            <img className='link-group-arrow' src='/images/icons/napo-link-arrow-black.svg' alt=''/>
                             <div className='link-group-wrapper'>
                                 <div className={styles.linkHolder}>
                                     <a className={styles.linkText} href={data.url} target='_blank' rel='noopener noreferrer'>Abrir Live Site</a>
@@ -87,7 +87,7 @@ const WebProject = ({ data }) => {
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Navegar a</p>
-                        <img className='link-group-arrow' src='/images/napo-link-arrow-black.svg' alt=''/>
+                        <img className='link-group-arrow' src='/images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
                             <LinkOnWhite text='Portafolio Web' link='/web-design-portfolio' />
                         </div>

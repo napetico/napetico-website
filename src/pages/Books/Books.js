@@ -32,7 +32,7 @@ const Books = () => {
                     <h2 className={styles.sectionHeader}>Libros recientes.</h2>
                     <div className={styles.linkGroupHolder}>
                         <p className='link-group-tag'>Saltar a</p>
-                        <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                        <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
                             <div className={styles.linkHolder}>
                                 <a className={styles.linkText} href='#content'>Vídeos y Podcasts</a>
@@ -55,7 +55,7 @@ const Books = () => {
                     <h2 className={styles.sectionHeader}>Vídeos y Podcasts.</h2>
                     <div className={styles.linkGroupHolder}>
                         <p className='link-group-tag'>Saltar a</p>
-                        <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                        <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
                             <div className={styles.linkHolder}>
                                 <a className={styles.linkText} href='#books'>Libros recientes</a>
@@ -75,7 +75,7 @@ const Books = () => {
             <div className='centered-link-holder'>
                 <div className='link-group-holder'>
                     <p className='link-group-tag'>Volver a</p>
-                    <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                    <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
                         <LinkOnWhite text='Página de Inicio' link='' />
                     </div>

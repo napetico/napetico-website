@@ -1,9 +1,21 @@
 import styles from './Gallery.module.css';
+import ManagerCard from '../../cards/ManagerCard/ManagerCard.js';
 import CodeCard from '../../cards/CodeCard/CodeCard.js';
 import WebCard from '../../cards/WebCard/WebCard.js';
 import ContentCard from '../../cards/ContentCard/ContentCard.js';
 
 const Gallery = ({card, data}) => {
+    if (card === 'pm') {
+        return (
+            <>
+            <div className={styles.galleryGrid}>
+                {data.map((project, index) => {
+                    return <ManagerCard data={project} key={index}/>;
+                })}
+            </div>
+            </>
+        )
+    }
     if (card === 'code') {
         return (
             <>

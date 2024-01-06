@@ -27,7 +27,7 @@ const CodingWork = () => {
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Volver al</p>
-                        <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                        <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
                             <LinkOnWhite text='Programador Full Stack' link='/full-stack-developer' />
                         </div>

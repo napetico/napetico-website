@@ -79,15 +79,14 @@ const Webs = () => {
             <SectionIntro
                 tag='Proyectos destacados'
                 header='Portafolio'
-                info='Da un vistazo a mis webs. Si te gusta algo dame un toque.
-                '
+                info='Da un vistazo a mis webs. Si te gusta algo dame un toque.'
                 align='center'
             />
             <Gallery card='web' data={lastSixProjects}/>
             <div className='centered-link-holder'>
                 <div className='link-group-holder'>
                     <p className='link-group-tag'>Mira más webs</p>
-                    <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                    <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
                         <LinkOnWhite text='Ir al Portafolio' link='/web-design-portfolio' />
                     </div>
@@ -164,7 +163,7 @@ const Webs = () => {
             <div className={styles.cvLinkHolder}>
                 <div className='link-group-holder'>
                     <p className='link-group-tag'>Mira más de mis</p>
-                    <img className='link-group-arrow' src='./images/napo-link-arrow-black.svg' alt=''/>
+                    <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
                         <LinkOnWhite text='Certificados' link='' />
                         <p className='link-group-inner-text'>&nbsp;ó&nbsp;</p>
