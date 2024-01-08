@@ -14,28 +14,28 @@ const Footer = () => {
                     </Link>
                     <div className={styles.footLinksHolder}>
                         <div className={styles.footLinkWrap}>
-                            <h3 className={styles.footLinkCategory}>Experiencia</h3>
-                            <NavLink text='Project Manager' link='/project-manager' />
-                            <NavLink text='Programador Full Stack' link='/full-stack-developer' />
-                            <NavLink text='Webs para Pymes' link='/web-designer' />
+                            <h3 className={styles.footLinkCategory}>Experience</h3>
+                            <NavLink text='Project Manager - COO' link='/project-manager' />
+                            <NavLink text='Full Stack Developer' link='/full-stack-developer' />
+                            <NavLink text='Webs for SMBs' link='/web-designer' />
                         </div>
                         <div className={styles.footLinkWrap}>
-                            <h3 className={styles.footLinkCategory}>Destrezas</h3>
-                            <NavLink text='Libros' link='/reading-list' />
-                            <NavLink text='Cursos' link='/courses' />
-                            <NavLink text='Certificaciones' link='/certifications' />
+                            <h3 className={styles.footLinkCategory}>Skills</h3>
+                            <NavLink text='Books' link='/reading-list' />
+                            <NavLink text='Courses' link='/courses' />
+                            <NavLink text='Certifications' link='/certifications' />
                         </div>
                         <div className={styles.footLinkWrap}>
                             <h3 className={styles.footLinkCategory}>Hobbies</h3>
-                            <NavLink text={'Bunker de Ideas'} link={'/under-construction'} />
-                            <NavLink text={'Hiperrealismo'} link={'/under-construction'} />
-                            <NavLink text={'Proto-Blog'} link={'/under-construction'} />
+                            <NavLink text={'$1M Ideas'} link={'/under-construction'} />
+                            <NavLink text={'Hyperrealism'} link={'/under-construction'} />
+                            <NavLink text={"Napoleon's Log"} link={'/under-construction'} />
                         </div>
                         <div className={styles.footLinkWrap}>
-                            <h3 className={styles.footLinkCategory}>Navega</h3>
-                            <NavLink text={'Sobre mí'} link={'/under-construction'} />
+                            <h3 className={styles.footLinkCategory}>Navigate</h3>
+                            <NavLink text={'About me'} link={'/under-construction'} />
                             <div className={styles.navLinkHolder}>
-                                <a className={styles.navLinkText} href='./napoleon-cv.pdf' target='_blank' rel='noopener noreferrer'>Descarga mi CV</a>
+                                <a className={styles.navLinkText} href='./napoleon-cv.pdf' target='_blank' rel='noopener noreferrer'>Download my CV</a>
                                 <div className={styles.navLinkUnderlineTrack}>
                                     <div className={styles.navLinkUnderline}></div>
                                 </div>
@@ -43,14 +43,14 @@ const Footer = () => {
                         </div>
                         <div className={styles.contactCard}>
                             <div className={styles.cardLinkBox}>
-                                <p className={styles.cardLinkText}>Consígueme</p>
+                                <p className={styles.cardLinkText}>Talk to me</p>
                                 <img className={styles.cardLinkImage} src='/images/icons/napo-whatsapp-logo-black.png' alt='' />
                                 <div>
                                     <LinkOnWhite text={'+34 673250200'} link={''} />
                                 </div>
                             </div>
                             <div className={styles.cardLinkBox}>
-                                <p className={styles.cardLinkText}>Escríbeme</p>
+                                <p className={styles.cardLinkText}>Email me</p>
                                 <img className={styles.cardLinkImage} src='/images/icons/napo-email-logo-black.png' alt='' />
                                 <div>
                                     <LinkOnWhite text={'napo@napetico.com'} link={''} />
@@ -66,7 +66,7 @@ const Footer = () => {
                         <Link to='/'>Privacy</Link>
                     </div>
                     <div className={styles.conectLinkWrap}>
-                        <p className={styles.footNote}>Conecta:</p>
+                        <p className={styles.footNote}>Connect:</p>
                         <a href='https://www.instagram.com/napetico/' target='_blank' rel="noopener noreferrer">Instagram</a>
                         <a href='https://www.linkedin.com/in/napoleon-bazan/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
                         <a href='https://github.com/napetico' target='_blank' rel="noopener noreferrer">Github</a>

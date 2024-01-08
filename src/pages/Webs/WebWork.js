@@ -17,8 +17,8 @@ const WebWork = () => {
             <div className={styles.webWorkIntroHolder}>
                 <SectionIntro
                     tag='Webflow Expert'
-                    header='Portafolio Web'
-                    info='Aquí tienes todas mis webs y trabajos destacados, desde páginas enteras hasta elementos que quedaron mejor de los que esparaba.'
+                    header='Web Portfolio'
+                    info='Here you have all my webs and featured work, from full sites and layouts to single elements that look better that what I thought.'
                     align='right'
                 />
             </div>
@@ -37,9 +37,9 @@ const WebWork = () => {
         </section>
         <PreFoot
             image={['https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg', 'Napoleon en el estudio.']}
-            tag='Dame un toque'
-            title='Hablemos de tu web ideal.'
-            text='¿Inspirado? ¿Interesado? ¿Con dudas? Charlemos! Con un cafecito dejaremos todo claro para que puedas tomar una decision informada. Y, hagas la web o no, seguro que te vas con algunas buenas ideas. Abajo te dejo los datos.'
+            tag='Get in touch'
+            title='Tell me about you website.'
+            text="Did I got you interested? Let's talk it over a casual coffee and breakdown the details so you can make an informed decision. No matter what you decide, you'll walk with great insights. My contact details are below :)"
         />
         </>
     )

@@ -2,6 +2,7 @@ import styles from './Home.module.css';
 import OptionsBar from '../../layouts/OptionsBar/OptionsBar';
 import PreFoot from '../../layouts/PreFoot/PreFoot';
 import Hero from '../../layouts/Hero/Hero.js';
+import BigPhrase from '../../layouts/BigPhrase/BigPhrase.js';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js';
 import SectionIntro from '../../util/SectionIntro/SectionIntro.js';
 import ProjectCard from '../../cards/ProjectCard/ProjectCard.js';
@@ -13,69 +14,70 @@ const Home = () => {
         <OptionsBar/>
         <Hero 
             header='Napoleón Bazán'
-            loopText={['Director de Proyectos', 'Programador Full Stack', 'Diseñador Web', 'Estratega Creativo & COO']}
-            description='Explorando mi pasión por ayudar a idear y construir negocios y equipos de alto rendimiento a través del dinamismo creativo, la excelencia operacional y el poder de una visión antifrágil.'
-            linkData={['Perfil', 'Sobre mí', '#']}
+            loopText={['Project Manager', 'Creative Strategist & COO', 'Full Stack Developer', 'Web & Brand Expert',]}
+            description="Hey! Welcome to my little corner on the web. Here I keep tidy record of my work, projects, learnings, and ideas worth exploring. Click around, enjoy, and reach out if you feel like talking."
+            linkData={['Profile', 'About me', '/under-construction']}
             cardProject={false}
             cardImage={['./images/napo-main-photo-provisional.jpg', 'Napoleon Bazan profile picture']}
             cardTag={[true, 'color', 'text']}
             cardInfo={['title', 'info', 'href']}
         />
+        <BigPhrase text='Navigating my passion to help ideate and build strong businesses and high-performance teams through creative, organizational, and operational excellence.'/>
         {/* WORK */}
         <section className={styles.displayContainer}>
             <div className={styles.displayHolder}>
                 <SectionIntro
-                    tag='Un mini-curriculum'
-                    header='Sigue mis trabajos y últimos proyectos.'
-                    info='Las tres cosas que más disfruto hacer y en las que puedo ayudarte.'
+                    tag='A mini-curriculum'
+                    header='Follow my work and my latest projects.'
+                    info='I can provide top-level help (and lots of good energy) as:'
                     align='right'
                 />
                 <div className={styles.displayContent}>
                     <div className={styles.displayDirectory}>
-                        <p className='bold-tag'>n.experiencia</p>
+                        <p className='bold-tag'>n.experience</p>
                         <DirectoryCard 
-                            image={['./images/napo-pm-directory-image.jpg', '']}
+                            image={['./images/napo-pm-directory-image.jpg', 'Illustration of person thinking creativelly']}
                             href='/project-manager'
-                            featTag={[false, '', '']}
-                            info='Desde el 2007 - Operaciones, Creatividad y Estrategia'
-                            title='Director de Proyectos | COO'
+                            featTag={[true, 'black', 'top choice']}
+                            info='Since 2007 - Creativity, Strategy, and Operations'
+                            title='Project Manager | COO'
                         />
                         <DirectoryCard 
-                            image={['https://i.pinimg.com/564x/f8/69/10/f869109f41754f72d38bcb85f0f47a17.jpg', '']}
+                            image={['https://i.pinimg.com/564x/f8/69/10/f869109f41754f72d38bcb85f0f47a17.jpg', 'Mug with JavaScript logo']}
                             href='/full-stack-developer'
                             featTag={[false, '', '']}
-                            info='Desde el 2023 - Software Engineer'
-                            title='Programador Full Stack'
+                            info='Since 2023 - Software Engineer'
+                            title='Full Stack Developer'
                         />
                         <DirectoryCard 
-                            image={['https://i.pinimg.com/564x/f7/04/c4/f704c4a5def121feb30ec1ef159dc31c.jpg', '']}
+                            image={['https://i.pinimg.com/564x/f7/04/c4/f704c4a5def121feb30ec1ef159dc31c.jpg', 'Website mockups on mobile screens']}
                             href='/web-designer'
                             featTag={[false, '', '']}
-                            info='Desde el 2018 - Desarrollador y Webflow Expert'
-                            title='Diseño y Optimización Web'
+                            info='Since 2018 - Developer and Webflow Expert'
+                            title='Web Design & Optimization'
                         />
                     </div>
                     <div className={styles.displayCarousel}>
-                        <p className='bold-tag'>n.últimos proyectos</p>
+                        <p className='bold-tag'>n.latest projects</p>
                         <div className={styles.carouselContainer}> 
                         {/* Here goes the card slider */}
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
                                     image={['./images/TEST-project-image.jpeg', '']}
                                     href='#'
-                                    info='Dirección para'
-                                    title='Definiendo la estrategia ideal para un proyecto audiovisual'
+                                    info='PM for'
+                                    title='Putting together a rewarding pre-funding strategy'
                                     client={[true, 'Biting Lemons', 'http://www.bitinglemons.com/']}
                                     clientImage={['./images/TEST-bl-client-image.png', '']}
-                                    featTag={[true, 'yellow', 'en proceso']}
+                                    featTag={[true, 'yellow', 'in progress']}
                                 />
                             </div>
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
                                     image={['./images/TEST-flipcards-react-redux.jpg', 'Pantallazo del diseño de una aplicación clon de Reddit']}
                                     href='#'
-                                    info='Código para Mi Portafolio'
-                                    title='Proyecto: Tarjetas de Estudio con React y Redux'
+                                    info='Code for My Portfolio'
+                                    title='Project: Flashcards with JS, React, and Redux'
                                     client={[false, '', '']}
                                     clientImage={['', '']}
                                     featTag={[false, '', '']}
@@ -86,13 +88,13 @@ const Home = () => {
                 </div>
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
-                        <p className='link-group-tag'>Mira más proyectos</p>
+                        <p className='link-group-tag'>See more projects in</p>
                         <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text='Dirección' link='' />
+                            <LinkOnWhite text='Management' link='' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <LinkOnWhite text='Programación' link='/full-stack-portfolio' />
-                            <p className='link-group-inner-text'>, o&nbsp;</p>
+                            <LinkOnWhite text='Programming' link='/full-stack-portfolio' />
+                            <p className='link-group-inner-text'>, or&nbsp;</p>
                             <LinkOnWhite text='Webs' link='/web-design-portfolio' />
                         </div>
                     </div>
@@ -103,38 +105,38 @@ const Home = () => {
         <section className={styles.displayContainer}>
             <div className={styles.displayHolder}>
                 <SectionIntro
-                    tag='Aprendizaje constante'
-                    header='Cosas muy útiles que voy aprendiendo.'
-                    info='Los libros, videos y cursos con los que suelo llenar mi cabeza.'
+                    tag='Skills and trainings'
+                    header="Keep posted on the things I'm learning."
+                    info='The books, videos, courses and ideas I like to fill up my brain with.'
                     align='right'
                 />
                 <div className={styles.displayContent}>
                     <div className={styles.displayDirectory}>
-                        <p className='bold-tag'>n.aprendizajes</p>
+                        <p className='bold-tag'>n.learnings</p>
                         <DirectoryCard 
-                            image={['./images/napo-books-directory-image(2).png', '']}
+                            image={['https://i.pinimg.com/236x/f3/ac/d8/f3acd8ea2d6bd06f8d8198599b967612.jpg', 'Opened book']}
                             href='/reading-list'
                             featTag={[false, '', '']}
-                            info='Un saludable popurri de ficción y no-ficción'
-                            title='Libros y otros contenidos'
+                            info='A healthy mix of topics and formats'
+                            title='Books, Videos & Podcasts'
                         />
                         <DirectoryCard 
-                            image={['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgOMuuG13xR2Jnc4MqxT_7LUeO4wPZKi8u0xQkT9JqUcs3CefyKLuKxN80NL4S60GnaQY&usqp=CAU', '']}
+                            image={['https://i.pinimg.com/236x/3d/fd/9a/3dfd9a0750b47e9b5e4f0672031ad7c7.jpg', 'Business evenet poster']}
                             href='/courses'
                             featTag={[false, '', '']}
-                            info='Un mix de intereses alrededor de mi trabajo'
-                            title='Cursos y Seminarios'
+                            info='Interesting stuff I signed up for'
+                            title='Courses and Workshops'
                         />
                         <DirectoryCard 
-                            image={['https://i.pinimg.com/564x/72/a7/ed/72a7ed84b5ece119560af64b14a94a31.jpg', 'Certifications']}
+                            image={['https://i.pinimg.com/236x/59/8d/d8/598dd8b6b33385c22753fe680b41712e.jpg', 'Diploma photography']}
                             href='#'
                             featTag={[false, '', '']}
-                            info='Un registro de títulos y diplomas, por si acaso...'
-                            title='Certificaciones'
+                            info='My collection of diplomas'
+                            title='Certifications'
                         />
                     </div>
                     <div className={styles.displayCarousel}>
-                        <p className='bold-tag'>n.aprendiendo ahora</p>
+                        <p className='bold-tag'>n.exploring now</p>
                         <div className={styles.carouselContainer}> 
                         {/* Here goes the card slider */}
                             <div className={styles.projectCardHolder}>
@@ -145,7 +147,7 @@ const Home = () => {
                                     title='The Lean Product Playbook'
                                     client={[false, '', '']}
                                     clientImage={['', '']}
-                                    featTag={[true, 'yellow', 'leyendo ahora']}
+                                    featTag={[true, 'yellow', 'reading now']}
                                 />
                             </div>
                             <div className={styles.projectCardHolder}>
@@ -167,7 +169,7 @@ const Home = () => {
                                     title='Google Project Management'
                                     client={[false, '', '']}
                                     clientImage={['', '']}
-                                    featTag={[true, 'black', 'cursando ahora']}
+                                    featTag={[true, 'black', 'taking now']}
                                 />
                             </div>
                         </div>
@@ -175,14 +177,14 @@ const Home = () => {
                 </div>
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
-                        <p className='link-group-tag'>Explora más</p>
+                        <p className='link-group-tag'>Explore more</p>
                         <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text='Libros' link='/reading-list' />
+                            <LinkOnWhite text='Books' link='/reading-list' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <LinkOnWhite text='Cursos' link='/courses' />
+                            <LinkOnWhite text='Courses' link='/courses' />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <LinkOnWhite text='Certificados' link='' />
+                            <LinkOnWhite text='Certifications' link='' />
                         </div>
                     </div>
                 </div>
@@ -192,49 +194,49 @@ const Home = () => {
         <section className={styles.displayContainer}>
             <div className={styles.displayHolder}>
                 <SectionIntro
-                    tag='En mis ratos libres'
-                    header='Proyectos laterales que me divierten.'
-                    info='Un popurri de ideas, sueños, hobbies y puntos de vista.'
+                    tag='On my free time'
+                    header='Side projects and ideas I have fun with.'
+                    info='Random thinking, painting, writing, planning, and more.'
                     align='right'
                 />
                 <div className={styles.displayContent}>
                     <div className={styles.displayDirectory}>
-                        <p className='bold-tag'>n.proyectos laterales</p>
+                        <p className='bold-tag'>n.side projects</p>
                         <DirectoryCard 
                             image={['https://i.pinimg.com/1200x/41/b5/5c/41b55cd126a1e001087df43f28b6943f.jpg', '']}
                             href='#'
                             featTag={[false, '', '']}
-                            info='Modelos y conceptos que valen 1 millon'
-                            title='Un bunker de ideas de negocios'
+                            info='A bunch of my 1-million-dollars ideas'
+                            title='Biz Models Backlog'
                         />
                         <DirectoryCard 
                             image={['./images/dibujo-buho.jpg', '']}
                             href='#'
                             featTag={[false, '', '']}
-                            info='La huperbole de los dibujitos'
-                            title='Hiperrealismo con lápices de colores'
+                            info='The exageration of coloring'
+                            title='Pencil Colors Hyperrealism'
                         />
                         <DirectoryCard 
                             image={['https://i.pinimg.com/564x/9d/e5/58/9de558cb5abb551c381b0906db7b964f.jpg', '']}
                             href='#'
                             featTag={[false, '', '']}
-                            info='Un blog, o al menos el intento de uno'
-                            title='Bitácora de Napoleón'
+                            info='My preposterous attempt to run a blog'
+                            title="Random Napoleon's Log"
                         />
                     </div>
                     <div className={styles.displayCarousel}>
-                        <p className='bold-tag'>n.últimos proyectos</p>
+                        <p className='bold-tag'>n.latest news</p>
                         <div className={styles.carouselContainer}> 
                         {/* Here goes the card slider */}
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
                                     image={['https://scontent.falc2-1.fna.fbcdn.net/v/t31.18172-8/22496202_741114852751608_5414144444795781619_o.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=c2f564&_nc_ohc=ATO0y4j4ZtsAX9jBc1l&_nc_ht=scontent.falc2-1.fna&oh=00_AfC6NMDf7WMyA14VSlzP6q-vHF1vo0FdjtVZ3QB-8tiN3w&oe=65A3ACD0', '']}
                                     href='#'
-                                    info='Hiperrealismo en colores'
-                                    title='Extinguidor con nudo: Escultura de Alex Chinnek'
+                                    info='Pencil Color Hyperrealism'
+                                    title='Pineapple in Technicolor: Taken from a Pinterest post'
                                     client={[false, '', '']}
                                     clientImage={['./images/TEST-bl-client-image.png', '']}
-                                    featTag={[true, 'black', 'en proceso']}
+                                    featTag={[true, 'black', 'coloring now']}
                                 />
                             </div>
                             <div className={styles.projectCardHolder}>
@@ -253,14 +255,14 @@ const Home = () => {
                 </div>
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
-                        <p className='link-group-tag'>Mira más a fondo</p>
+                        <p className='link-group-tag'>Look further</p>
                         <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
                             <LinkOnWhite text='Ideas' link='' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <LinkOnWhite text='Ilustraciones' link='' />
+                            <LinkOnWhite text='Drawings' link='' />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <LinkOnWhite text='Artículos' link='' />
+                            <LinkOnWhite text='Blog Posts' link='' />
                         </div>
                     </div>
                 </div>
@@ -268,9 +270,9 @@ const Home = () => {
         </section>
         <PreFoot
             image={['https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg', 'Napoleon en el estudio.']}
-            tag='Dame un toque'
-            title='Encantado de hablar contigo.'
-            text='Sin presiones. Me gusta compartir ideas, comentar estrategias y ampliar perspectivas. Si tienes un proyecto y quieres ayuda, opinión, o simplemente un sesion de ideas, dame un toque y hablamos lo que quieras con unas cervezas, un café, o un vinito.'
+            tag='Get in touch'
+            title="I'll be happy to talk to you."
+            text="For business or for fun, creative conversations is something I enjoy very much. If you have a project and you're looking for some help, useful feedback, new strategies, or fresh ideas please let me know. Nothing like a casual brainstorming session over a nice drink."
         />
         </>
     )

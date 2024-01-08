@@ -29,45 +29,45 @@ const Navbar = () => {
                 <div className={styles.navMenuBox}>
                     <ul className={styles.navMenu}>
                         <li className={styles.navLinkHolder}>
-                            <p className={styles.navLink}>n.trabajando</p>
+                            <p className={styles.navLink}>n.work</p>
                             <div className={styles.navLinkUnderlineTrack}>
                                 <div className={styles.linkUnderline}></div>
                             </div>
                             <div className={styles.navLinkDropdown}>
-                                <Link className={styles.dropdownLink} to='/project-manager' onClick={scrollToTop}>Director de Proyectos</Link>
-                                <Link className={styles.dropdownLink} to='/full-stack-developer' onClick={scrollToTop}>Programador Full Stack</Link>
-                                <Link className={styles.dropdownLink} to='/web-designer' onClick={scrollToTop}>Diseñador Web</Link>
+                                <Link className={styles.dropdownLink} to='/project-manager' onClick={scrollToTop}>Project Manager - COO</Link>
+                                <Link className={styles.dropdownLink} to='/full-stack-developer' onClick={scrollToTop}>Full Stack Developer</Link>
+                                <Link className={styles.dropdownLink} to='/web-designer' onClick={scrollToTop}>Webs for SMBs</Link>
                             </div>
                         </li>
                         <li className={styles.navLinkHolder}>
-                            <p className={styles.navLink}>n.aprendiendo</p>
+                            <p className={styles.navLink}>n.learn</p>
                             <div className={styles.navLinkUnderlineTrack}>
                                 <div className={styles.linkUnderline}></div>
                             </div>
                             <div className={styles.navLinkDropdown}>
-                                <Link className={styles.dropdownLink} to='/reading-list' onClick={scrollToTop}>Libros y más</Link>
-                                <Link className={styles.dropdownLink} to='/courses' onClick={scrollToTop}>Cursos y Talleres</Link>
-                                <Link className={styles.dropdownLink} to='/certifications' onClick={scrollToTop}>Certificaciones</Link>
+                                <Link className={styles.dropdownLink} to='/reading-list' onClick={scrollToTop}>Books & more</Link>
+                                <Link className={styles.dropdownLink} to='/courses' onClick={scrollToTop}>Courses</Link>
+                                <Link className={styles.dropdownLink} to='/certifications' onClick={scrollToTop}>Certifications</Link>
                             </div>
                         </li>
                         <li className={styles.navLinkHolder}>
-                            <p className={styles.navLink}>n.creando</p>
+                            <p className={styles.navLink}>n.create</p>
                             <div className={styles.navLinkUnderlineTrack}>
                                 <div className={styles.linkUnderline}></div>
                             </div>
                             <div className={styles.navLinkDropdown}>
-                                <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>Ideas de Negocios</Link>
-                                <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>Hiperealismo</Link>
-                                <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>Bitácora de Napoleón</Link>
+                                <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>$1M Ideas</Link>
+                                <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>Hyperrealism</Link>
+                                <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>Napoleon's Log</Link>
                             </div>
                         </li>
                         <li className={styles.navLinkHolder}>
-                            <Link className={styles.navLink} to='/under-construction' onClick={scrollToTop}>n.sobre mí</Link>
+                            <Link className={styles.navLink} to='/under-construction' onClick={scrollToTop}>n.about me</Link>
                             <div className={styles.navLinkUnderlineTrack}>
                                 <div className={styles.linkUnderline}></div>
                             </div>
                         </li>
-                        <Link className={styles.navButton} to='/under-construction' onClick={scrollToTop}>Dame un toque</Link>
+                        <Link className={styles.navButton} to='/under-construction' onClick={scrollToTop}>Contact me</Link>
                     </ul>
                     <div className={styles.dropdownButton}>
                         <img className={`${styles.dropdownArrow} ${open ? styles.arrowTurn : ''}`} src='/images/icons/napo-arrow-menu.svg' alt='' onClick={toggleMenu}/>
@@ -79,45 +79,22 @@ const Navbar = () => {
             <div className={`${styles.mobileMenuHolder} ${open ? styles.holderGrow : ''}`}>
                 <ul className={styles.mobileMenuCategory}>
                     <li className={styles.categoryWrap}>
-                        <p className={styles.categoryTitle}>n.trabajando</p>
+                        <p className={styles.categoryTitle}>n.work</p>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/project-manager' onClick={scrollAndClose}>Director de Proyectos</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/project-manager' onClick={scrollAndClose}>Project Manager - COO</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/full-stack-developer' onClick={scrollAndClose}>Programador Full Stack</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/full-stack-developer' onClick={scrollAndClose}>Full Stack Developer</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/web-designer' onClick={scrollAndClose}>Diseñador Web</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                </ul>
-                <ul className={styles.mobileMenuCategory}>
-                    <li className={styles.categoryWrap}>
-                        <p className={styles.categoryTitle}>n.aprendiendo</p>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/reading-list' onClick={scrollAndClose}>Libros y más</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/courses' onClick={scrollAndClose}>Cursos y Talleres</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/certifications' onClick={scrollAndClose}>Certificaciones</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/web-designer' onClick={scrollAndClose}>Webs for SMBs</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
@@ -125,22 +102,22 @@ const Navbar = () => {
                 </ul>
                 <ul className={styles.mobileMenuCategory}>
                     <li className={styles.categoryWrap}>
-                        <p className={styles.categoryTitle}>n.creando</p>
+                        <p className={styles.categoryTitle}>n.learn</p>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Ideas de Negocios</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/reading-list' onClick={scrollAndClose}>Books & more</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Hiperrealismo</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/courses' onClick={scrollAndClose}>Courses</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Bitácora de Napoleón</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/certifications' onClick={scrollAndClose}>Certifications</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
@@ -148,17 +125,40 @@ const Navbar = () => {
                 </ul>
                 <ul className={styles.mobileMenuCategory}>
                     <li className={styles.categoryWrap}>
-                        <p className={styles.categoryTitle}>n.perfil</p>
+                        <p className={styles.categoryTitle}>n.create</p>
                     </li>
                     <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollToTop}>Sobre mí</Link>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>$1M Ideas</Link>
+                        <div className={styles.navLinkUnderlineTrack}>
+                            <div className={styles.linkUnderlineWhite}></div>
+                        </div>
+                    </li>
+                    <li className={styles.navLinkHolder}>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Hyperrealism</Link>
+                        <div className={styles.navLinkUnderlineTrack}>
+                            <div className={styles.linkUnderlineWhite}></div>
+                        </div>
+                    </li>
+                    <li className={styles.navLinkHolder}>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Napoleon's Log</Link>
+                        <div className={styles.navLinkUnderlineTrack}>
+                            <div className={styles.linkUnderlineWhite}></div>
+                        </div>
+                    </li>
+                </ul>
+                <ul className={styles.mobileMenuCategory}>
+                    <li className={styles.categoryWrap}>
+                        <p className={styles.categoryTitle}>n.profile</p>
+                    </li>
+                    <li className={styles.navLinkHolder}>
+                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollToTop}>About me</Link>
                         <div className={styles.navLinkUnderlineTrack}>
                             <div className={styles.linkUnderlineWhite}></div>
                         </div>
                     </li>
                 </ul>
                 <ul className={styles.mobileMenuButtonBox}>
-                    <Link className={styles.navButton} to='/under-construction' onClick={scrollToTop}>Dame un toque</Link>
+                    <Link className={styles.navButton} to='/under-construction' onClick={scrollToTop}>Contact me</Link>
                 </ul>
             </div>
         </nav>

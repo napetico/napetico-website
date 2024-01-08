@@ -65,30 +65,30 @@ const Webs = () => {
         <>
         <OptionsBar />
         <Hero
-            header='Páginas web para Pymes'
-            loopText={['Con y sin código', 'Responsive y dinámicas', 'Estrategia impecable y SEO básico', 'Gestor de contenidos y CMS']}
-            description='Una web ideal. Sin complejidades, ni bancarrotas.'
-            linkData={['Proyectos', 'Portafolio Web', '/web-design-portfolio']}
+            header='Webs for SMBs'
+            loopText={['Code or No Code', 'Responsive and Interactive', 'Solid Strategies & Basic SEO', 'Sharp CMS & Backend']}
+            description='The ideal web. Without complexities or crazy budgets.'
+            linkData={['Projects', 'Web Portfolio', '/web-design-portfolio']}
             cardProject={true}
             cardImage={['./images/TEST-web-bl.png', 'Reddit Clone Project Cover']}
-            cardTag={[true, 'yellow', 'web más reciente']}
+            cardTag={[true, 'yellow', 'latest website']}
             cardInfo={['Biting Lemons', 'Revista Online | Webflow + CMS', '#']}
         />
-        <BigPhrase text='Te haré una web guapa y productiva, en sintonía perfecta con tu modelo de negocio y coherente con tu contexto y tus objetivos, para que tu marca gane en posicionamiento y tus ideas generen el buen rendimiento que tanto buscas.'/>
+        <BigPhrase text="I'll build you a beautiful and productive website, aligned with your business model and coherent with your context and goals, so you can sky-rocket your brand's positioning, performance, and results."/>
         <section className={styles.projectsGallery}>
             <SectionIntro
-                tag='Proyectos destacados'
-                header='Portafolio'
-                info='Da un vistazo a mis webs. Si te gusta algo dame un toque.'
+                tag='Featured projects'
+                header='Web Portfolio'
+                info='Check out my websites. If you like something reach out.'
                 align='center'
             />
             <Gallery card='web' data={lastSixProjects}/>
             <div className='centered-link-holder'>
                 <div className='link-group-holder'>
-                    <p className='link-group-tag'>Mira más webs</p>
+                    <p className='link-group-tag'>See more websites</p>
                     <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
-                        <LinkOnWhite text='Ir al Portafolio' link='/web-design-portfolio' />
+                        <LinkOnWhite text='Go to Portfolio' link='/web-design-portfolio' />
                     </div>
                 </div>
             </div>
@@ -96,39 +96,39 @@ const Webs = () => {
         <section className={styles.curriculumSection}>
             <div className={styles.processWrapper}>
                 <SectionIntro 
-                    tag='Como ira el tema'
-                    header='Un proceso simple para hacerlo bien.'
-                    info='Diseño en ciclos divergentes y convergentes. Lo normal. No siempre son iguales, pero más o menos lucen así.'
+                    tag='How it rolls'
+                    header='A simple process for getting great results.'
+                    info='I design in divergent and convergent cycles. It always looks different for each project, but it usually falls into these steps:'
                     align='right'
                 />
                 <div>
-                    <p className='bold-tag'>n.proceso creativo</p>
+                    <p className='bold-tag'>n.creative process</p>
                     <Accordion data={accordionData}/>
                 </div>
             </div>
             <div className={styles.infoWrapper}>
                 <SectionIntro 
-                    tag='Algunas cifras'
-                    header='Hazte una idea con números promedios.'
-                    info='Un buen punto de partida, pero según tu proyecto, lo hablamos.'
+                    tag='Estimated investment'
+                    header='Get an idea of the average numbers.'
+                    info="We'll get to more accurate estimates once we breakdown the details of your project, but for now this is a great starting point."
                     align='right'
                 />
                 <div>
-                    <p className='bold-tag'>n.estadísticas</p>
+                    <p className='bold-tag'>n.stats</p>
                     <div className={styles.tableHolder}>
                         <table className={styles.statsTable}>
                             <tbody>
                                 <tr>
-                                    <th>tiempo</th>
-                                    <th>inversión</th>
-                                    <th>idiomas</th>
-                                    <th>proyectos a la vez</th>
+                                    <th>timeline</th>
+                                    <th>investment</th>
+                                    <th>languages</th>
+                                    <th>Projects at once</th>
                                 </tr>
                                 <tr>
-                                    <td>2 - 8 sem.</td>
+                                    <td>2 - 8 weeks</td>
                                     <td>€1.000 - €7.000</td>
-                                    <td>Español, Ingles</td>
-                                    <td>Solo uno (el tuyo)</td>
+                                    <td>Spanish, English</td>
+                                    <td>Just one (yours)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -137,13 +137,13 @@ const Webs = () => {
             </div>
             <div className={styles.skillsWrapper}>
                 <SectionIntro
-                    tag='Lo que puedo aportar'
-                    header='Habilidades que traeré a la mesa.'
-                    info='Las de siempre, supongo. Si algo te falta, pregúntame.'
+                    tag='My two cents'
+                    header='Useful skills I will bring to the table.'
+                    info='Theese are the standard, but you need further skills, let me know.'
                     align='right'
                 />
                 <div>
-                    <p className='bold-tag'>n.tecnologías y herramientas</p>
+                    <p className='bold-tag'>n.tech and tools</p>
                     <div className={styles.toolsWrapper}>
                         {toolsList.map((item, index) => {
                             return <ToolLabel text={item} key={index}/>
@@ -151,7 +151,7 @@ const Webs = () => {
                     </div>
                 </div>
                 <div>
-                    <p className='bold-tag'>n.certificados y cursos</p>
+                    <p className='bold-tag'>n.certifications</p>
                     <div className={styles.toolsWrapper}>
                         {certList.map((cert, index) => {
                             const {title, academy, image} = cert;
@@ -162,22 +162,22 @@ const Webs = () => {
             </div>
             <div className={styles.cvLinkHolder}>
                 <div className='link-group-holder'>
-                    <p className='link-group-tag'>Mira más de mis</p>
+                    <p className='link-group-tag'>See more of my </p>
                     <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
-                        <LinkOnWhite text='Certificados' link='' />
-                        <p className='link-group-inner-text'>&nbsp;ó&nbsp;</p>
-                        <LinkOnWhite text='Cursos' link='' />
+                        <LinkOnWhite text='Certificates' link='' />
+                        <p className='link-group-inner-text'>&nbsp;and&nbsp;</p>
+                        <LinkOnWhite text='Courses' link='' />
                     </div>
                 </div>
             </div>
         </section>
-        <BigTextLoop text='La web ideal para que tus ideas lleguen fuerte, claro y lejos&nbsp;&nbsp;-&nbsp;&nbsp;' />
+        <BigTextLoop text='High-performing websites to boost your business growth&nbsp;&nbsp;-&nbsp;&nbsp;' />
         <PreFoot
             image={['https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg', 'Napoleon en el estudio.']}
-            tag='Dame un toque'
-            title='Háblame de tu gran web.'
-            text='¿Inspirado? ¿Interesado? ¿Con dudas? Charlemos! Con un cafecito dejaremos todo claro para que puedas tomar una decision informada. Y, hagas la web o no, seguro que te vas con algunas buenas ideas. Abajo te dejo los datos.'
+            tag='Get in touch'
+            title='Tell me about you website.'
+            text="Did I got you interested? Let's talk it over a casual coffee and breakdown the details so you can make an informed decision. No matter what you decide, you'll walk with great insights. My contact details are below :)"
         />
         </>
     )

@@ -11,7 +11,7 @@ const WebProject = ({ data }) => {
             <OptionsBar />
             <section className={styles.introSection}>
                 <SectionIntro
-                    tag='Proyecto Web'
+                    tag='Web Project'
                     header={data.client.name}
                     info={data.category}
                     clientInfo={[data.client.name, data.url]}
@@ -25,18 +25,18 @@ const WebProject = ({ data }) => {
             <BigPhrase text={data.client.bio} />
             <section className={styles.briefSection}>
                 <SectionIntro
-                    tag='Brief inicial'
+                    tag='Initial brief'
                     header={data.page.sectionTitle}
                     info={data.page.sectionInfo}
                     align='right'
                 />
                 <div className={styles.briefWrapper}>
                     <div className={styles.goalsHolder}>
-                        <p className='bold-tag'>n.objetivo</p>
+                        <p className='bold-tag'>n.goals</p>
                         <p className={styles.briefText}>{data.page.goal}</p>
                     </div>
                     <div className={styles.planHolder}>
-                        <p className='bold-tag'>n.estrategia</p>
+                        <p className='bold-tag'>n.strategy</p>
                         <p className={styles.briefText}>{data.page.plan}</p>
                     </div>
                 </div>
@@ -53,15 +53,15 @@ const WebProject = ({ data }) => {
             </section>
             <section className={styles.outcomeSection}>
                 <div className={styles.galleryIntro}>
-                    <p className={styles.sectionTag}>Diseño final</p>
+                    <p className={styles.sectionTag}>Final design</p>
                     <div className={styles.sectionHeaderBox}>
-                        <h2 className={styles.sectionHeader}>Mira los elementos más destacados.</h2>
+                        <h2 className={styles.sectionHeader}>See the highligths and featured elements.</h2>
                         <div className={styles.linkGroupHolder}>
-                            <p className='link-group-tag'>Si quieres ver la web terminada</p>
+                            <p className='link-group-tag'>Looking for the final design?</p>
                             <img className='link-group-arrow' src='/images/icons/napo-link-arrow-black.svg' alt=''/>
                             <div className='link-group-wrapper'>
                                 <div className={styles.linkHolder}>
-                                    <a className={styles.linkText} href={data.url} target='_blank' rel='noopener noreferrer'>Abrir Live Site</a>
+                                    <a className={styles.linkText} href={data.url} target='_blank' rel='noopener noreferrer'>Open Live Site</a>
                                     <div className={styles.linkUnderlineTrack}>
                                         <div className={styles.linkUnderline}></div>
                                     </div>
@@ -83,22 +83,22 @@ const WebProject = ({ data }) => {
             </section>
             <BigPhrase text={data.page.outcome} />
             <section className={styles.moreWebsSection}>
-                <h2 className={styles.moreWebsText}>Explora más webs</h2>
+                <h2 className={styles.moreWebsText}>Explore more webs</h2>
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
-                        <p className='link-group-tag'>Navegar a</p>
+                        <p className='link-group-tag'>Navigate to</p>
                         <img className='link-group-arrow' src='/images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text='Portafolio Web' link='/web-design-portfolio' />
+                            <LinkOnWhite text='Web Portfolio' link='/web-design-portfolio' />
                         </div>
                     </div>
                 </div>
             </section>
             <PreFoot
                 image={['https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg', 'Napoleon en el estudio.']}
-                tag='Dame un toque'
-                title='Háblame de tu gran web.'
-                text='¿Inspirado? ¿Interesado? ¿Con dudas? Charlemos! Con un cafecito dejaremos todo claro para que puedas tomar una decision informada. Y, hagas la web o no, seguro que te vas con algunas buenas ideas. Abajo te dejo los datos.'
+                tag='Get in touch'
+                title='Tell me about you website.'
+                text="Did I got you interested? Let's talk it over a casual coffee and breakdown the details so you can make an informed decision. No matter what you decide, you'll walk with great insights. My contact details are below :)"
             />
         </>
     )

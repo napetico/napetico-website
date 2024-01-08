@@ -11,7 +11,7 @@ const ProjectCard = ({image, href, info, title, client, clientImage, featTag}) =
                 <img className={styles.cardImage} src={image[0]} alt={image[1]}/>
                 <div className={styles.cardImageOverlay}>
                     <div className={styles.cardHoverBox}>
-                        <p className={styles.cardOpenText}>Abrir</p>
+                        <p className={styles.cardOpenText}>Open</p>
                         <img className={styles.cardOpenArrow} src='./images/icons/napo-arrow-menu.svg' alt=''/>
                     </div>
                 </div>

@@ -15,12 +15,12 @@ const PreFoot = ({image, tag, title, text}) => {
                     <h3 className={styles.preFootTitle}>{title}</h3>
                     <p className={styles.preFootText}>{text}</p>
                     <div className='link-group-holder-hero'>
-                        <p className='link-group-tag'>Contáctame por </p>
+                        <p className='link-group-tag'>Find me here </p>
                         <img className='link-group-arrow' src='./images/icons/napo-link-arrow-white.svg' alt='' />
                         <div className='link-group-wrapper'>
                             <LinkOnBlack text={'Email'} link={''} />
-                            <p className='link-group-inner-text'>, o por&nbsp;</p>
-                            <LinkOnBlack text={'Teléfono'} link={''} />
+                            <p className='link-group-inner-text'>, or&nbsp;</p>
+                            <LinkOnBlack text={'Phone'} link={''} />
                         </div>
                     </div>
                 </div>
