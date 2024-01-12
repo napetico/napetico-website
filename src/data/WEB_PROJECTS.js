@@ -1,7 +1,7 @@
 const WEB_PROJECTS = [
     {
         id: 'THC',
-        path: 'hiking-club',
+        path: '/web-design-portfolio/hiking-club',
         url: 'https://napetico.github.io/the-hiking-club/',
         client: {
             name: 'The Hiking Club',
@@ -17,6 +17,7 @@ const WEB_PROJECTS = [
         homeSnippet: '',
         homeTitle: '',
         featTag: [true, 'black', 'made with code'],
+        heroCard: ['Title', 'Description'],
         page: {
             sectionTitle: 'An informative hub for the community.',
             sectionInfo: 'Where sports, nature, and good vibes collide.',
@@ -38,22 +39,23 @@ const WEB_PROJECTS = [
     },
     {
         id: 'OL',
-        path: 'olearn',
+        path: '/web-design-portfolio/olearn',
         url: 'https://olearn.webflow.io/',
         client: {
             name: 'Olearn.eu',
             image: ['https://uploads-ssl.webflow.com/645ac9a45ae22711e88cbad7/645b93948e93274d69a07db6_olearn-logo-circle-instagram.svg', 'Olearn logo'],
             bio: '',
         },
-        category: 'Escuela de Español',
+        category: 'Abroad Spanish School',
         mainImages: {
             card: ['/images/napo-ol-web-image.png', 'Website mockups'],
             poster: ['', ''],
         },
-        cardSnippet: 'Web para',
+        cardSnippet: 'Website for',
         homeSnippet: '',
         homeTitle: '',
         featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
         page: {
             sectionTitle: '',
             sectionInfo: '',
@@ -74,22 +76,23 @@ const WEB_PROJECTS = [
     },
     {
         id: 'BL',
-        path: 'biting-lemons',
+        path: '/web-design-portfolio/biting-lemons',
         url: 'https://bitinglemons.webflow.io/',
         client: {
             name: 'Biting Lemons',
             image: ['/images/TEST-bl-client-image.png', 'Biting Lemons logo'],
             bio: 'Biting Lemons es un proyecto audiovisual que tiene como objetivo mostrar, sin tapujos, filtros ni prejuicios, las múltiples y subjetivas perspectivas de la humanidad a través de historias que abordan temas profundos, complejos y trascendentales; con el propósito de fomentar la empatía, la reflexión y un diálogo abierto y respetuoso sobre quiénes somos y qué futuro estamos creando.',
         },
-        category: 'Productora de Documentales',
+        category: 'Films & Content Producer',
         mainImages: {
             card: ['/images/napo-bl-web-image.png', 'Website mockups'],
             poster: ['/images/napo-bl-web-poster.png', 'Website mockups'],
         },
-        cardSnippet: 'Web + CMS para',
+        cardSnippet: 'Website + CMS for',
         homeSnippet: '',
         homeTitle: '',
         featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
         page: {
             sectionTitle: 'Un web en la que brillan las historias.',
             sectionInfo: 'Donde poder leer, escuchar y ver el mejor contenido.',
@@ -113,22 +116,23 @@ const WEB_PROJECTS = [
     },
     {
         id: 'NK',
-        path: 'nukka',
+        path: '/web-design-portfolio/nukka',
         url: 'https://thenukka.com/',
         client: {
             name: 'The Nukka Co.',
-            image: ['https://thenukka.com/wp-content/uploads/2022/01/NUKKA-103.jpg', 'The Nukka Coompany logo'],
+            image: ['https://i.pinimg.com/1200x/dc/ec/4f/dcec4ff83bbdd60223e0839e57e7dd98.jpg', 'The Nukka Coompany logo'],
             bio: '',
         },
-        category: 'Tienda Online - Ecoshaving',
+        category: 'Startup - Ecoshaving',
         mainImages: {
             card: ['/images/napo-wireframes-nukka.png', 'Website mockups'],
             poster: ['', ''],
         },
-        cardSnippet: 'Wireframes para',
+        cardSnippet: 'Wireframes for',
         homeSnippet: '',
         homeTitle: '',
         featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
         page: {
             sectionTitle: '',
             sectionInfo: '',
@@ -149,22 +153,23 @@ const WEB_PROJECTS = [
     },
     {
         id: 'LH',
-        path: 'lahdo-renovations',
+        path: '/web-design-portfolio/lahdo-renovations',
         url: 'https://lahdo.webflow.io/',
         client: {
             name: 'Lahdo Renovations',
             image: ['https://media.licdn.com/dms/image/D4D03AQHez5WhAOswfQ/profile-displayphoto-shrink_800_800/0/1669851094690?e=2147483647&v=beta&t=FG0k0UyTs2vF97jGwCHdDc6XPs4Pu8022h_e0hY_O6k', 'Lahdo Renovations logo'],
             bio: '',
         },
-        category: 'Construcción y Reformas',
+        category: 'Home Renovations',
         mainImages: {
             card: ['/images/napo-lh-web-image.png', 'Website mockups'],
             poster: ['', ''],
         },
-        cardSnippet: 'Web para',
+        cardSnippet: 'Website for',
         homeSnippet: '',
         homeTitle: '',
         featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
         page: {
             sectionTitle: '',
             sectionInfo: '',
@@ -185,22 +190,23 @@ const WEB_PROJECTS = [
     },
     {
         id: 'SV',
-        path: 'supervillanos',
+        path: '/web-design-portfolio/supervillanos',
         url: 'https://supervillanos.webflow.io/',
         client: {
             name: 'Supervillanos.co',
-            image: ['/images/TEST-sv-client-image.jpg', 'Supervillanos.co logo'],
+            image: ['/images/napo-sv-logo.png', 'Supervillanos.co logo'],
             bio: '',
         },
-        category: 'Estudio Creativo y de Negocios',
+        category: 'Business & Creative Studio',
         mainImages: {
             card: ['/images/napo-sv-web-image.png', 'Website mockups'],
             poster: ['', ''],
         },
-        cardSnippet: 'Web + CMS para',
+        cardSnippet: 'Website + CMS for',
         homeSnippet: '',
         homeTitle: '',
-        featTag: [true, 'yellow', 'más reciente'],
+        featTag: [true, 'yellow', 'latest website'],
+        heroCard: ['Supervillanos.co', 'Creative Studio | Webflow site + CMS'],
         page: {
             sectionTitle: '',
             sectionInfo: '',

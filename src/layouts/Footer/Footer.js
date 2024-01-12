@@ -2,6 +2,7 @@ import styles from './Footer.module.css';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js'
 import NavLink from '../../util/NavLink/NavLink.js';
 import { Link } from 'react-router-dom';
+import scrollToTop from '../../util/ScrollToTop.js';
 
 const Footer = () => {
     return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <footer className={styles.footer}>
             <div className={styles.footerContainer}>
                 <div className={styles.pagesNavBox}>
-                    <Link className={styles.logoLinkBlock} to='/'>
+                    <Link className={styles.logoLinkBlock} to='/' onClick={scrollToTop}>
                         <img className='nav-logo' src='./images/icons/napo-logo.svg' alt='napo logo'/>
                     </Link>
                     <div className={styles.footLinksHolder}>
@@ -43,14 +44,14 @@ const Footer = () => {
                         </div>
                         <div className={styles.contactCard}>
                             <div className={styles.cardLinkBox}>
-                                <p className={styles.cardLinkText}>Talk to me</p>
+                                <p className={styles.cardLinkText}>Find me here</p>
                                 <img className={styles.cardLinkImage} src='/images/icons/napo-whatsapp-logo-black.png' alt='' />
                                 <div>
                                     <LinkOnWhite text={'+34 673250200'} link={''} />
                                 </div>
                             </div>
                             <div className={styles.cardLinkBox}>
-                                <p className={styles.cardLinkText}>Email me</p>
+                                <p className={styles.cardLinkText}>Email me at</p>
                                 <img className={styles.cardLinkImage} src='/images/icons/napo-email-logo-black.png' alt='' />
                                 <div>
                                     <LinkOnWhite text={'napo@napetico.com'} link={''} />

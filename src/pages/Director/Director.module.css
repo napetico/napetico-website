@@ -4,8 +4,8 @@
 
 .profileCardHolder {
     display: flex;
-    padding: 5.71vw;
-    gap: 5.71vw;
+    padding: 5vw;
+    gap: 5vw;
     border-radius: 1.43vw;
     background-color: #d9d9d9;
 }
@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.43vw;
-    width: 30%;
+    /* width: 30%; */
 }
 
 .sectionTag {
@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.79vw;
-    width: 40%;
+    width: 100%;
     padding-top: 2.86vw;
 }
 
@@ -39,7 +39,7 @@
     line-height: 1.65;
 }
 
-.detailsHolder {
+/* .detailsHolder {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -59,17 +59,17 @@
 
 .bold {
     font-weight: 600;
-}
+} */
 
 .photoWrapper {
-    width: 30%;
+    /* width: 30%; */
     padding-top: 2.86vw;
 }
 
 .bioPhotoBox {
     width: 17.85vw;
     height: 17.85vw;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     overflow: hidden;
 }
 
@@ -132,6 +132,61 @@
     gap: 1.43vw;
 }
 
+/* TABLE CSS */
+table {
+    border-collapse: separate;
+    display: table;
+    border-color: var(--main-black);
+    width: 100%;
+}
+
+.statsTable {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.statsTable th, .statsTable td {
+    border-right: 0.07vw solid var(--main-black);
+    border-bottom: 0.07vw solid var(--main-black);
+}
+
+.statsTable th:first-child, .statsTable td:first-child {
+    border-left: 0.07vw solid var(--main-black);
+}
+
+.statsTable th {
+    padding: 1.79vw;
+    border-top: 0.07vw solid var(--main-black);
+    font-size: var(--reg-p-14-desktop);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.statsTable td {
+    padding: 1.79vw;
+    font-size: var(--reg-p-20-desktop);
+    font-weight: 600;
+}
+
+.statsTable tr:first-child th:first-child {
+    border-top-left-radius: 0.71vw;
+}
+
+.statsTable tr:first-child th:last-child {
+    border-top-right-radius: 0.71vw;
+}
+
+.statsTable tr:last-child td:first-child {
+    border-bottom-left-radius: 0.71vw;
+}
+
+.statsTable tr:last-child td:last-child {
+    border-bottom-right-radius: 0.71vw;
+}
+/* TABLE CSS */
+
 @media only screen and (max-width: 992px) {
     .profileCardSection {
         padding: var(--tb-margin-tablet) var(--lr-margin-tablet);
@@ -156,14 +211,14 @@
         padding-top: 3.43vw;
     }
     
-    .detailsHolder, .detailsBox {
+    /* .detailsHolder, .detailsBox {
         gap: 1.28vw;
     }
     
     .icon {
         width: 1.72vw;
         height: 1.72vw;
-    }
+    } */
     
     .photoWrapper {
         width: 24%;
@@ -204,6 +259,44 @@
         border-top: dashed 0.08vw #22222250;
         gap: 1.72vw;
     }
+
+    /* TABLE CSS */
+    .statsTable th, .statsTable td {
+        border-right: 0.08vw solid var(--main-black);
+        border-bottom: 0.08vw solid var(--main-black);
+    }
+
+    .statsTable th:first-child, .statsTable td:first-child {
+        border-left: 0.08vw solid var(--main-black);
+    }
+
+    .statsTable th {
+        padding: 2.15vw;
+        border-top: 0.08vw solid var(--main-black);
+        font-size: var(--reg-p-14-tablet);
+    }
+
+    .statsTable td {
+        padding: 2.15vw;
+        font-size: var(--reg-p-20-tablet);
+    }
+
+    .statsTable tr:first-child th:first-child {
+        border-top-left-radius: 0.85vw;
+    }
+
+    .statsTable tr:first-child th:last-child {
+        border-top-right-radius: 0.85vw;
+    }
+
+    .statsTable tr:last-child td:first-child {
+        border-bottom-left-radius: 0.85vw;
+    }
+
+    .statsTable tr:last-child td:last-child {
+        border-bottom-right-radius: 0.85vw;
+    }
+    /* TABLE CSS */
 }
 
 @media only screen and (max-width: 576px) {
@@ -214,7 +307,7 @@
     .profileCardHolder {
         flex-direction: column;
         padding: 14vw 9.5vw;
-        gap: 11vw;
+        gap: 8vw;
         border-radius: 3vw;
     }
     
@@ -233,14 +326,14 @@
         padding-top: 0;
     }
     
-    .detailsHolder, .detailsBox {
+    /* .detailsHolder, .detailsBox {
         gap: 2.82vw;
     }
     
     .icon {
         width: 3.78vw;
         height: 3.78vw;
-    }
+    } */
     
     .photoWrapper {
         width: auto;
@@ -296,4 +389,40 @@
         border-top: dashed 0.18vw #22222250;
         gap: 3.78vw;
     }
+
+    /* TABLE CSS */
+    .statsTable th, .statsTable td {
+        border-right: 0.18vw solid var(--main-black);
+        border-bottom: 0.18vw solid var(--main-black);
+    }
+
+    .statsTable th:first-child, .statsTable td:first-child {
+        border-left: 0.18vw solid var(--main-black);
+    }
+
+    .statsTable th {
+        border-top: 0.18vw solid var(--main-black);
+        font-size: var(--reg-p-14-mobile);
+    }
+
+    .statsTable td {
+        font-size: var(--reg-p-20-mobile);
+    }
+
+    .statsTable tr:first-child th:first-child {
+        border-top-left-radius: 0.85vw;
+    }
+
+    .statsTable tr:first-child th:last-child {
+        border-top-right-radius: 0.85vw;
+    }
+
+    .statsTable tr:last-child td:first-child {
+        border-bottom-left-radius: 0.85vw;
+    }
+
+    .statsTable tr:last-child td:last-child {
+        border-bottom-right-radius: 0.85vw;
+    }
+    /* TABLE CSS */
 }

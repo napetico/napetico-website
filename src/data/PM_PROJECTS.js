@@ -1,7 +1,7 @@
 const PM_PROJECTS = [
     {
         id: 'ARP',
-        path: 'agatha-peru',
+        path: '/project-manager-portfolio/agatha-peru',
         url: '',
         client: {
             name: 'Agatha Ruiz de la Prada Perú',
@@ -19,10 +19,11 @@ const PM_PROJECTS = [
         homeSnippet: '',
         homeTitle: '',
         featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
     },
     {
         id: 'OL',
-        path: 'olearn',
+        path: '/project-manager-portfolio/olearn',
         url: '',
         client: {
             name: 'Olearn.eu',
@@ -40,10 +41,11 @@ const PM_PROJECTS = [
         homeSnippet: '',
         homeTitle: '',
         featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
     },
     {
         id: 'LH',
-        path: 'lahdo-renovations',
+        path: '/project-manager-portfolio/lahdo-renovations',
         url: '',
         client: {
             name: 'Lahdo Renovations',
@@ -61,10 +63,11 @@ const PM_PROJECTS = [
         homeSnippet: '',
         homeTitle: '',
         featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
     },
     {
         id: 'SV',
-        path: 'supervillanos',
+        path: '/project-manager-portfolio/supervillanos',
         url: '',
         client: {
             name: 'Supervillanos.co',
@@ -82,10 +85,11 @@ const PM_PROJECTS = [
         homeSnippet: '',
         homeTitle: '',
         featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
     },
     {
         id: 'VG',
-        path: 'vagabond',
+        path: '/project-manager-portfolio/vagabond',
         url: '',
         client: {
             name: 'Vagabond',
@@ -103,17 +107,18 @@ const PM_PROJECTS = [
         homeSnippet: '',
         homeTitle: '',
         featTag: [true, 'black', 'most recent'],
+        heroCard: ['Title', 'Description'],
     },
     {
         id: 'BL',
-        path: 'biting-lemons',
+        path: '/project-manager-portfolio/biting-lemons',
         url: '',
         client: {
             name: 'Biting Lemons',
             image: ['/images/TEST-bl-client-image.png', 'Biting Lemons logo'],
             bio: '',
         },
-        category: 'Documentales, Contenido',
+        category: 'Content, Documentaries',
         mainImages: {
             card: ['https://assets-global.website-files.com/5e5030689c8b3c644e70daaa/64fcb7c8cf0e897a276bf57b_Sensitivita_April%202023-141-2-p-1600.jpg', 'Fast food team'],
             poster: ['', ''],
@@ -124,6 +129,7 @@ const PM_PROJECTS = [
         homeSnippet: '',
         homeTitle: '',
         featTag: [true, 'yellow', 'in progress'],
+        heroCard: ['Biting Lemons', 'Business Strategy and Project Management'],
     },
 
 ]

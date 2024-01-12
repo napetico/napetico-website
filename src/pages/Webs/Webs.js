@@ -15,6 +15,7 @@ import Accordion from '../../util/Accordion/Accordion.js';
 const Webs = () => {
 
     const lastSixProjects = WEB_PROJECTS.slice(-6).reverse();
+    const lastProject = WEB_PROJECTS[WEB_PROJECTS.length -1];
 
     const toolsList = ['Webflow', 'HTML & CSS', 'JavaScript', 'Animaciones', 'React', 'Back-End', 'APIs', 'Wireframes', 'Figma', 'Prototipos', 'U/X & U/I', 'CMS - Gestor de contenidos', 'Rediseño', 'Estrategias de Marca y Comunicación'];
     const certList = [
@@ -37,26 +38,26 @@ const Webs = () => {
     const accordionData = [
         {
             tag: '1',
-            title: 'Contexto y Estrategia',
-            span: 'Para ser asertivo y coherente con tus expectativas',
+            title: 'Context & Strategy',
+            span: 'To be asertive and coherent with your expectations',
             content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
         },
         {
             tag: '2',
-            title: 'Concepto y Diseño',
-            span: 'Para conseguir el look y las funciones que necesitas',
+            title: 'Concept & Design',
+            span: 'To find the perfect look & feel and site features ',
             content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
         },
         {
             tag: '3',
-            title: 'Implementación',
-            span: 'Programaré pixel a pixel todo el diseño final',
+            title: 'Implementation & Testing',
+            span: 'Getting the site pixel perfect for testing',
             content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
         },
         {
             tag: '4',
-            title: 'Optimización y Lanzamiento',
-            span: 'Revisión, retoques finales y “a la calle”',
+            title: 'Optimization and Launch',
+            span: 'Refinements, preparations, and going live baby!',
             content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
         },
     ]
@@ -69,10 +70,10 @@ const Webs = () => {
             loopText={['Code or No Code', 'Responsive and Interactive', 'Solid Strategies & Basic SEO', 'Sharp CMS & Backend']}
             description='The ideal web. Without complexities or crazy budgets.'
             linkData={['Projects', 'Web Portfolio', '/web-design-portfolio']}
-            cardProject={true}
-            cardImage={['./images/TEST-web-bl.png', 'Reddit Clone Project Cover']}
-            cardTag={[true, 'yellow', 'latest website']}
-            cardInfo={['Biting Lemons', 'Revista Online | Webflow + CMS', '#']}
+            heroCard={true}
+            newTab={false}
+            database={lastProject}
+            cardImage={['', '']}
         />
         <BigPhrase text="I'll build you a beautiful and productive website, aligned with your business model and coherent with your context and goals, so you can sky-rocket your brand's positioning, performance, and results."/>
         <section className={styles.projectsGallery}>
@@ -98,7 +99,7 @@ const Webs = () => {
                 <SectionIntro 
                     tag='How it rolls'
                     header='A simple process for getting great results.'
-                    info='I design in divergent and convergent cycles. It always looks different for each project, but it usually falls into these steps:'
+                    info='I design in divergent and convergent cycles. It always looks different for each project, but it usually falls into these four simple steps:'
                     align='right'
                 />
                 <div>
@@ -139,7 +140,7 @@ const Webs = () => {
                 <SectionIntro
                     tag='My two cents'
                     header='Useful skills I will bring to the table.'
-                    info='Theese are the standard, but you need further skills, let me know.'
+                    info='These is a pretty standard list, but if you need further skills, ask me.'
                     align='right'
                 />
                 <div>

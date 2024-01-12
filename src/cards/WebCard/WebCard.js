@@ -8,7 +8,7 @@ const WebCard = ({data}) => {
     return(
         <>
         <div className={styles.webCard}>
-            <Link className={styles.cardImageHolder} to={`/web-design-portfolio/${data.path}`} onClick={scrollToTop}>
+            <Link className={styles.cardImageHolder} to={data.path} onClick={scrollToTop}>
                 <img className={styles.cardImage} src={data.mainImages.card[0]} alt={data.mainImages.card[1]}/>
                 <div className={styles.cardImageOverlay}></div>
                 <div className={styles.cardFeatTagHolder}>
@@ -17,7 +17,7 @@ const WebCard = ({data}) => {
             </Link>
             <div className={styles.cardInfoHolder}>
                 <div className={styles.cardProjectInfo}>
-                    <Link to={`/web-design-portfolio/${data.path}`} onClick={scrollToTop}>
+                    <Link to={data.path} onClick={scrollToTop}>
                         <h3 className={styles.cardTitleSnippet}>{data.cardSnippet}</h3>
                     </Link>
                     <div className={styles.cardClientInfo}>

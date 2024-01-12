@@ -28,7 +28,7 @@ function App() {
       <Route path='/web-designer' element={ <Webs/> }/>
       <Route path='/web-design-portfolio' element={ <WebWork/> }/>
       {WEB_PROJECTS.map((web, index) => {
-        return <Route path={`/web-design-portfolio/${web.path}`} element={ <WebProject data={web}/> } key={index}/>
+        return <Route path={web.path} element={ <WebProject data={web}/> } key={index}/>
       })}
       <Route path='/reading-list' element={ <Books/> }/>
       <Route path='/courses' element={ <Courses/> }/>

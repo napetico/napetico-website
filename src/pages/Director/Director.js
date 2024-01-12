@@ -15,6 +15,7 @@ import BigTextLoop from '../../layouts/BigTextLoop/BigTextLoop';
 const Director = () => {
 
     const lastSixProjects = PM_PROJECTS.slice(-6).reverse();
+    const lastProject = PM_PROJECTS[PM_PROJECTS.length -1];
 
     const toolsList = ['Notion', 'Slack', 'Google Suite', 'Microsoft', 'Web Platforms', 'Full Stack Developer', 'Digital Marketing', 'Figma', 'Stock Management Systems', 'Process Optimization','POS', 'CMS', 'Project Management', '... and more'];
     const methodsList = ['Lean', 'Agile', 'Scrum', 'Waterfall', 'Sprints', 'Product-Market Fit', 'Porter Competitive Advantage', 'Branding', 'Digital Marketing', 'Funnels', 'AIDA', ' Team Building', 'Storytelling', 'Six Sigma', '... and more'];
@@ -57,13 +58,13 @@ const Director = () => {
         {
             tag: '4',
             title: 'Orchestate the action',
-            span: 'Executing, measuring, and optimizing each step in our roadmap -and pivoting if needed-.',
+            span: 'Executing our roadmap, measuring, optimizing -and pivoting if needed.',
             content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
         },
         {
             tag: '5',
             title: 'Put systems in place',
-            span: 'Breaking down the good results and turning them into bullet proof, automated processes',
+            span: 'Breaking down good results and turning them into consistent processes.',
             content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
         },
     ];
@@ -73,24 +74,24 @@ const Director = () => {
             <OptionsBar />
             <Hero
                 header='COO - Project Manager'
-                loopText={['Strategy and Planning', 'Creativity & Communication', 'Systems & Operational Excellence', 'Vision and Leadership']}
-                description='Ayudo a Pymes y emprendedores a idear, construir y optimizar sus negocios a traves de la gestión impecable de sus esfuerzos estrategicos, creativos y operativos.'
-                linkData={['Portfolio', 'Managed Projects', '/project-manager-portfolio']}
-                cardProject={true}
-                cardImage={['./images/TEST-web-bl.png', 'Reddit Clone Project Cover']}
-                cardTag={[true, 'yellow', 'web más reciente']}
-                cardInfo={['Biting Lemons', 'Revista Online | Webflow + CMS', '#']}
+                loopText={['Strategy and Planning', 'Creativity & Communication', 'Systems & Operational Excellence', 'Vision and Growth Culture']}
+                description='Helping SMBs and entrepreneurs ideate, build, and scale their businesses through the impeccable management of their creative, strategic, and operational efforts.'
+                linkData={['Projects', 'PM Portfolio', '/project-manager-portfolio']}
+                heroCard={true}
+                newTab={false}
+                database={lastProject}
+                cardImage={['', '']}
             />
-            <BigPhrase text='¿Tienes una idea que necesita despegar? ¿Un proyecto estancado tras contratiempos? ¿O un negocio que crece pero que se sale de control? Hagamos equipo y permíteme darle un gran impulso a tus esfuerzos estratégicos, operativos y creativos mientras que tú te enfocas en hacer lo que haces mejor: liderar y generar más ideas y oportunidades. Yo me encargo del resto.' />
+            <BigPhrase text="Do you have an idea that needs to get off the ground? A project lagged under setbacks? Or a business growing fast but out of control? Let's team up and allow me to power up your strategic, creative, and operational efforts while you focus on doing what you do best: being a great leader and generating more ideas and opportunities. I will take care of the rest." />
             <section className={styles.profileCardSection}>
                 <div className={styles.profileCardHolder}>
                     <div className={styles.titleWrapper}>
-                        <p className={styles.sectionTag}>Mi objetivo</p>
-                        <h2 className={styles.bioCardHeader}>Optimizar al máximo los motores que dan tracción a tus ideas.</h2>
+                        <p className={styles.sectionTag}>My goal</p>
+                        <h2 className={styles.bioCardHeader}>Optimize your business performance from every angle.</h2>
                     </div>
                     <div className={styles.infoWrapper}>
-                        <p className={styles.bioText}>Hola! Soy Napoleon. Director de proyectos auto-proclamado y COO por vocación. Estratega con mente de coach y el impetu de un pasante. No soy un guru de los negocios, pero si soy un manitas de las estrategias y las operaciones, y un freaky de la creatividad. Tengo una decente y variada lista de habilidades técnicas, victorias educativas y errores espantosos que hacen que de los mejor en cada proyecto. Pero el trabajo que mas me gusta (y el que aporta mas valor) es asegurarme de que vamos juntos en la direccion correcta con pasos firmes, eficientes y precisos.</p>
-                        <ul className={styles.detailsHolder}>
+                        <p className={styles.bioText}>Any business goal, no matter how ambitious or challenging, requires the execution of the right sequence of actions in order to produce some kind of desirable result. The quality of this output depends highly on the quality of the planning and execution of that sequence, which in time is an indicator of how closer or further away are we from our business goal.  If we use this lens across the entire business we’ll see multiple sequences running at the same time, all producing results, even if we are controlling them or not.</p>
+                        {/* <ul className={styles.detailsHolder}>
                             <li className={styles.detailsBox}>
                                 <img className={styles.icon} src='/images/icons/napo-language-icon.png' alt='Languages icon'/>
                                 <p><span className={styles.bold}>Hablo muy bien: </span>Español e Inglés</p>
@@ -103,7 +104,7 @@ const Director = () => {
                                 <img className={styles.icon} src='/images/icons/napo-rock-hands-icon.png' alt='Rock hands icon'/>
                                 <p><span className={styles.bold}>Me gusta: </span>Los equipos y los sistemas</p>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                     <div className={styles.photoWrapper}>
                         <div className={styles.bioPhotoBox}>
@@ -114,10 +115,10 @@ const Director = () => {
             </section>
             <section className={styles.purposeSection}>
                 <div className={styles.sectionIntroWrapper}>
-                    <p className={styles.sectionTag}>My perspective</p>
+                    <p className={styles.sectionTag}>My focus</p>
                     <div className={styles.sectionHeaderBox}>
-                        <h2 className={styles.sectionHeader}>Streamlined creativity, operational excellence, and an antifragile vision.</h2>
-                        <p className={styles.sectionInfo}>Por supuesto que una empresa exitosa tambien va de finanzas, recursos humanos o tecnología, pero estas tres perspectivas son lo mio. Mi especialidad, mi obsesion. Y el impacto que generan marca una gran diferencia. Tambien te digo que al final todo esta interconectado y que las mejores soluciones e innovaciones vienen del esfuerzo colectivo y multidisciplinar. Mi mision es promover esa alineación, y que todo el proyecto entre en “la zona” gracias a una vision clara e inspiradora, estrategias eficientes y vibrantres, y sistemas afinados cual relojes, que transforman ideas en historias de exito </p>
+                        <h2 className={styles.sectionHeader}>Streamlined creativity, resilient strategies, and operational excellence.</h2>
+                        <p className={styles.sectionInfo}>Of course building a successful business takes more than just focusing on these three things. It will also need good finance, killer marketing, clever product development, and the list goes on. But these three approaches are catalyzers of great work and the impact they have on the business is a game changer. Not only for making it run at peak performance but also -and specially- for bringing everyone together under one empowering vision and work ethics -which makes for an unstoppable organization. Big success is collective, multidisciplinary, and systematic. My intent is to ignite this synergy and make it consistent over time through creativity, good strategies, and smart work.</p>
                     </div>
                 </div>
             </section>
@@ -141,9 +142,9 @@ const Director = () => {
             </section>
             <section className={styles.processSection}>
                 <SectionIntro 
-                    tag='How I direct, sort of...'
+                    tag='My direction style'
                     header='A simple process to build great things.'
-                    info='Each project is unique in its own complexity and needs. The processes and methodologies I use vary in consecuense to fit them best. Regardless, I always make sure to have taken the time to: '
+                    info='Each project is its own universe and my process and methods adapts with it. Regardless, I always make sure to take time to: '
                     align='right'
                 />
                 <div>
@@ -155,7 +156,7 @@ const Director = () => {
                 <SectionIntro 
                     tag='Most usual deliverables'
                     header='My work tends to look a bit like this.'
-                    info='Of course, it depends on the project. But you can get the idea.'
+                    info='Of course, what gets done depends on the details of every project. The list goes larger than this, but you can get the idea.'
                     align='right'
                 />
                 <div className={styles.examplesHolder}>
@@ -173,11 +174,40 @@ const Director = () => {
                     </div>
                 </div>
             </section>
+            <section className={styles.statsSection}>
+                <SectionIntro 
+                    tag='Estimated investment'
+                    header='Get an idea of the average numbers.'
+                    info="We'll get to more accurate estimates once we breakdown the details of your project, but for now this is a great starting point."
+                    align='right'
+                />
+                <div>
+                    <p className='bold-tag'>n.stats</p>
+                    <div className={styles.tableHolder}>
+                        <table className={styles.statsTable}>
+                            <tbody>
+                                <tr>
+                                    <th>timeline</th>
+                                    <th>investment</th>
+                                    <th>languages</th>
+                                    <th>Projects at once</th>
+                                </tr>
+                                <tr>
+                                    <td>min. 6 months</td>
+                                    <td>€1.700 - €3.000 p/month</td>
+                                    <td>Spanish, English</td>
+                                    <td>Just one (yours)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
             <section className={styles.skillsSection}>
                 <SectionIntro
                     tag='My expertise'
-                    header='Useful skills I could bring to the party.'
-                    info='The usuals. Looking for other skills? Let me know.'
+                    header='Useful skills I will bring to the project.'
+                    info='A multidisciplanry list of technical, creative, and strategic skills paired with business accumen. Looking for more skills? Let me know.'
                     align='right'
                 />
                 <div>
@@ -209,9 +239,9 @@ const Director = () => {
             <BigTextLoop text='Power up you business ideas through creative, organizational, and operational excellence&nbsp;&nbsp;-&nbsp;&nbsp;' />
             <PreFoot
                 image={['https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg', 'Napoleon en el estudio.']}
-                tag='Dame un toque'
-                title='Háblame de tu gran web.'
-                text='¿Inspirado? ¿Interesado? ¿Con dudas? Charlemos! Con un cafecito dejaremos todo claro para que puedas tomar una decision informada. Y, hagas la web o no, seguro que te vas con algunas buenas ideas. Abajo te dejo los datos.'
+                tag='Reach out'
+                title='Trying to pull off a project?'
+                text="I'd love hearing about it. Sharing visions, commenting business plans, ideating strategies... If you're working on an awesome idea and you want some help, feedback, or maybe a brainstorming session please be my guest. We will make gold out of the conversation. Promise :)"
             />
         </>
     )

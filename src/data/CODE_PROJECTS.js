@@ -1,290 +1,251 @@
 const CODE_PROJECTS = [
     {
-        projectID: 'DESIGN SYSTEM',
-        projectCardData: {
-            cardImage: ['https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3VmM2tuYXlpcjV6c295dzFhNjA4aTNiM3VhOTZxaGhoZ3VpNzNydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SpopD7IQN2gK3qN4jS/giphy.gif', 'Manos haciendo scroll en un ordenador'],
-            cardTitle: 'Sistema de Diseño Web',
-            cardInfo: 'Una página sencillita para ordenar elementos y componentes de un sistema de diseño.',
-            madeWith: 'HTML, CSS',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: 'https://napetico.github.io/website-design-system/',
-            repositoryLink: 'https://github.com/napetico/website-design-system',
-            featTag: [false, '', '']
+        id: 'DESIGN SYSTEM',
+        path: 'https://github.com/napetico/website-design-system',
+        url: 'https://napetico.github.io/website-design-system/',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            bio: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'HTML, CSS',
+        mainImages: {
+            card: ['https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3VmM2tuYXlpcjV6c295dzFhNjA4aTNiM3VhOTZxaGhoZ3VpNzNydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SpopD7IQN2gK3qN4jS/giphy.gif', 'Hands using a mouse to scroll a website'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Web Design System',
+        cardInfo: "A very simple page to organize elements and components for a web design system.",
+        featTag: [false, '', ''],
+        heroCard: ['Web Design System', 'Practice Webpage with HTML & CSS']
     },
     {
-        projectID: 'HTML SHEET',
-        projectCardData: {
-            cardImage: ['https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWRvbzVwM3U4bmZkazJxdDF3eHRjcGN0cWtxNHQ4OXBzcHRkY250ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LWJ7cKyiWPCnVyuAhT/giphy.gif', 'Gato tocando un ordenador miniatura'],
-            cardTitle: 'Mis notas de HTML Semántico',
-            cardInfo: 'Página super básica con una tabla que resumen mis notas de una clase de semántica en HTML.',
-            madeWith: 'HTML, CSS',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: 'https://napetico.github.io/semantic-html-cheatsheet/',
-            repositoryLink: 'https://github.com/napetico/semantic-html-cheatsheet',
-            featTag: [false, '', '']
+        id: 'HTML SHEET',
+        path: 'https://github.com/napetico/semantic-html-cheatsheet',
+        url: 'https://napetico.github.io/semantic-html-cheatsheet/',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'HTML, CSS',
+        mainImages: {
+            card: ['https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWRvbzVwM3U4bmZkazJxdDF3eHRjcGN0cWtxNHQ4OXBzcHRkY250ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LWJ7cKyiWPCnVyuAhT/giphy.gif', 'Funny cat working on a computer'],
+            poster: ['', ''],
+        },
+        cardTitle: 'My notes on Semantic HTML',
+        cardInfo: "Basic page summarizing my notes from a semantic HTML class inside a table.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'SNEAKERS',
-        projectCardData: {
-            cardImage: ['./images/napo-sneakers-shop.png', 'Manos sonsteniendo una tablet con un diseño web'],
-            cardTitle: 'Landing Page: Sneaky Sneakers',
-            cardInfo: 'Página de práctica para una marca imaginaria de zapatillas personalizadas por artistas.',
-            madeWith: 'HTML, CSS',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: 'https://napetico.github.io/sneaky-sneakers/',
-            repositoryLink: 'https://github.com/napetico/sneaky-sneakers',
-            featTag: [false, '', '']
+        id: 'SNEAKERS',
+        path: 'https://github.com/napetico/sneaky-sneakers',
+        url: 'https://napetico.github.io/sneaky-sneakers/',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'HTML, CSS',
+        mainImages: {
+            card: ['./images/napo-sneakers-shop.png', 'Hands holding a tablet with a web design'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Landing Page: Sneaky Sneakers',
+        cardInfo: "Practice page for an imaginary brand of customized sneakers made by artists.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'HIKING CLUB',
-        projectCardData: {
-            cardImage: ['./images/napo-hike-club.png', 'Tablero de un juego online'],
-            cardTitle: 'Landing Page: Club de Senderismo',
-            cardInfo: 'Una página simple y de práctica que hice para un club de senderismo que me invente.',
-            madeWith: 'HTML, CSS',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: 'https://napetico.github.io/the-hiking-club/',
-            repositoryLink: 'https://github.com/napetico/the-hiking-club',
-            featTag: [false, '', '']
+        id: 'HIKING CLUB',
+        path: 'https://github.com/napetico/the-hiking-club',
+        url: 'https://napetico.github.io/the-hiking-club/',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'HTML, CSS',
+        mainImages: {
+            card: ['./images/napo-hike-club.png', 'Online game dashboard'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Landing Page: Hiking Club',
+        cardInfo: "Simple one-pager I made for an imaginary local hiking club.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'NUMBER GUESSER',
-        projectCardData: {
-            cardImage: ['./images/napo-number-guesser.png', 'Tablero de un juego online'],
-            cardTitle: 'Juego: ¿Adivinas el número?',
-            cardInfo: 'Juega contra la compu a ver quien acierta o queda más cerca de un número al azar.',
-            madeWith: 'HTML, CSS, JavaScript',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: 'https://napetico.github.io/number-guesser-game/',
-            repositoryLink: 'https://github.com/napetico/number-guesser-game',
-            featTag: [false, '', '']
+        id: 'NUMBER GUESSER',
+        path: 'https://github.com/napetico/number-guesser-game',
+        url: 'https://napetico.github.io/number-guesser-game/',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'HTML, CSS, JavaScript',
+        mainImages: {
+            card: ['./images/napo-number-guesser.png', 'Online game dashboard'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Online Game: Number Guesser',
+        cardInfo: "Play against the computer to see who gets closer to a random number.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'CARD CHECKER',
-        projectCardData: {
-            cardImage: ['https://media.istockphoto.com/id/1356387234/vector/young-boy-holding-a-big-credit-card-concept-of-secure-electronic-payment-transfer-money.jpg?s=612x612&w=0&k=20&c=F66p0-bTZ-AgYxY2K16fK3TH7cXs3Utvu3xtdsyznJw=', 'Dibujo de cientificos trabajando'],
-            cardTitle: 'Verificador de tarjetas de crédito',
-            cardInfo: 'Código muy básico que valida series de tarjetas de credito usando el algoritmo de Luhn.',
-            madeWith: 'JavaScript',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: '/under-construction',
-            repositoryLink: 'https://github.com/napetico/mysterious-organism',
-            featTag: [false, '', '']
+        id: 'CARD CHECKER',
+        path: 'https://github.com/napetico/credit-card-checker',
+        url: '/under-construction',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'JavaScript',
+        mainImages: {
+            card: ['https://media.istockphoto.com/id/1356387234/vector/young-boy-holding-a-big-credit-card-concept-of-secure-electronic-payment-transfer-money.jpg?s=612x612&w=0&k=20&c=F66p0-bTZ-AgYxY2K16fK3TH7cXs3Utvu3xtdsyznJw=', 'Illustration of a man holding a credit card'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Basic credit card checker with JS',
+        cardInfo: "Short piece of code to validate series of credit card numbers using Luhn's algorithm.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'DNA STRANDS',
-        projectCardData: {
-            cardImage: ['./images/napo-dna-strands.png', 'Dibujo de cientificos trabajando'],
-            cardTitle: 'Generador de cadenas de ADN',
-            cardInfo: 'Función que genera cadenas aleatorias de ADN para analizar organismos sin identificar.',
-            madeWith: 'JavaScript',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: '/under-construction',
-            repositoryLink: 'https://github.com/napetico/mysterious-organism',
-            featTag: [false, '', '']
+        id: 'DNA STRANDS',
+        path: 'https://github.com/napetico/mysterious-organism',
+        url: '/under-construction',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'JavaScript',
+        mainImages: {
+            card: ['./images/napo-dna-strands.png', 'Illustration of scientists working'],
+            poster: ['', ''],
+        },
+        cardTitle: 'DNA generator for a mysterious organism',
+        cardInfo: "A piece of code that creates random DNA strands and then analyzes their properties.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'FUNKY MESSAGE',
-        projectCardData: {
-            cardImage: ['./images/napo-funky-message.png', 'Ventana de programación con código'],
-            cardTitle: 'Generador de frases absurdas',
-            cardInfo: 'Una funcion que devuelve una frase sin sentido de personajes muy peculiares.',
-            madeWith: 'JavaScript',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: '/under-construction',
-            repositoryLink: 'https://github.com/napetico/funky-message-generator',
-            featTag: [false, '', '']
+        id: 'FUNKY MESSAGE',
+        path: 'https://github.com/napetico/funky-message-generator',
+        url: '/under-construction',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'JavaScript',
+        mainImages: {
+            card: ['./images/napo-funky-message.png', 'Tab showing lines of code'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Confusing quotes generator with JS',
+        cardInfo: "A funky function that returns random quotes that clearly make no sense to anyone.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'PERSONAL WEB 1',
-        projectCardData: {
-            cardImage: ['./images/napo-personal-web-v1.png', 'Diseño de web personal'],
-            cardTitle: 'Página Web Personal Responsive',
-            cardInfo: 'Una web personal sencilla pero con funciones muy chulas, cambios de color, y animaciones.',
-            madeWith: 'JavaScript, React',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: 'https://napetico.github.io/portfolio-website-v1/',
-            repositoryLink: 'https://github.com/napetico/portfolio-website-v1',
-            featTag: [false, '', '']
+        id: 'PERSONAL WEB 1',
+        path: 'https://github.com/napetico/portfolio-website-v1',
+        url: 'https://napetico.github.io/portfolio-website-v1/',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'JavaScript, React',
+        mainImages: {
+            card: ['./images/napo-personal-web-v1.png', 'Design for personal web'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Responsive personal portolfio',
+        cardInfo: "A simple page to show my personal portfolio using cool features and fun animations.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'JAMMMING',
-        projectCardData: {
-            cardImage: ['./images/napo-jamming-app.png', 'Aplicación de música'],
-            cardTitle: 'Jammming: Music Playlists',
-            cardInfo: 'Crea tus listas de música y sincronízalas con tu cuenta de Spotify, fácil y en unos cuantos clics.',
-            madeWith: 'JavaScript, React, API',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: 'https://napetico.github.io/jamming-app/',
-            repositoryLink: 'https://github.com/napetico/jamming-app',
-            featTag: [false, '', '']
+        id: 'JAMMMING',
+        path: 'https://github.com/napetico/jamming-app',
+        url: 'https://napetico.github.io/jamming-app/',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'JavaScript, React, API',
+        mainImages: {
+            card: ['./images/napo-jamming-app.png', 'Spotify Playlists App'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Jammming: Music Playlists App',
+        cardInfo: "Create music playlists and sync them with your Spotify account in just a few easy clicks.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'APPOINTMENT PLANNER',
-        projectCardData: {
-            cardImage: ['./images/napo-appointment-planner.png', 'Aplicacion de agenda en una tablet'],
-            cardTitle: 'Gestor de Agenda y Tareas con React',
-            cardInfo: 'Aplicación para crear y administrar datos de contactos y actividades pendientes.',
-            madeWith: 'JavaScript, React, Router',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: 'https://main--appointment-planner-napetico.netlify.app',
-            repositoryLink: 'https://github.com/napetico/appointment-planner',
-            featTag: [false, '', '']
+        id: 'APPOINTMENT PLANNER',
+        path: 'https://github.com/napetico/appointment-planner',
+        url: 'https://main--appointment-planner-napetico.netlify.app',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['', ''],
-            cardInfo:'',
-            cardTitle: '',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'JavaScript, React, Router',
+        mainImages: {
+            card: ['./images/napo-appointment-planner.png', 'Tablet showing an appointment management app'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Appointmet Planner with React',
+        cardInfo: "A simple app that helps you manage personal appointments and contacts information.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'FLASHCARDS',
-        projectCardData: {
-            cardImage: ['./images/napo-flashcard-project.png', 'Diseño de una App de Tarjetas de Estudio'],
-            cardTitle: 'Tarjetas de Estudio con React y Redux',
-            cardInfo: 'Las típicas tarjeta de estudio con preguntas de un lado y respuestas del otro, pero más funciones.',
-            madeWith: 'JavaScript, React, Redux',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: 'https://napetico-flashcards-project.netlify.app/',
-            repositoryLink: 'https://github.com/napetico/flashcards',
-            featTag: [true, 'black', 'último proyecto']
+        id: 'FLASHCARDS',
+        path: 'https://github.com/napetico/flashcards',
+        url: 'https://napetico-flashcards-project.netlify.app/',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['./images/TEST-flipcards-react-redux.jpg', 'Pantallazo del diseño de una aplicación clon de Reddit'],
-            cardInfo:'Código para Mi Portafolio',
-            cardTitle: 'Proyecto: Tarjetas de Estudio con React y Redux',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
+        madeWith: 'JavaScript, React, Redux',
+        mainImages: {
+            card: ['./images/napo-flashcard-project.png', 'Flaschards app design mockup'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Flashcard App with React and Redux',
+        cardInfo: "Create and categorize flashcards to help you with your Q&A and study sessions.",
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description']
     },
     {
-        projectID: 'REDDIT CLONE',
-        projectCardData: {
-            cardImage: ['https://www.yourteaminindia.com/hubfs/Imported_Blog_Media/Mobile-App-UI-Design-An-Experts-Complete-Guide-Sep-25-2023-10-23-26-1079-AM.png', 'Pantallazo del diseño de una aplicación clon de Reddit'],
-            cardTitle: 'Clon de Reddit con React y Redux',
-            cardInfo: 'Una versión simplificada de Reddit conectada con la API y que permite navegar sus publicaciones.',
-            madeWith: 'JavaScript, React, Redux',
-            madeFor: ['Codecademy', 'https://www.codecademy.com/'],
-            liveSiteLink: '/under-construction',
-            repositoryLink: 'https://github.com/napetico/semantic-html-cheatsheet',
-            featTag: [true, 'yellow', 'en progreso']
+        id: 'REDDIT CLONE',
+        path: '/under-construction',
+        url: '/under-construction',
+        madeFor: {
+            name: 'Codecademy',
+            image: ['', ''],
+            url: 'https://www.codecademy.com/',
         },
-        homeCardData: {
-            cardImage: ['./images/TEST-flipcards-react-redux.jpg', 'Pantallazo del diseño de una aplicación clon de Reddit'],
-            cardInfo:'Código para Mi Portafolio',
-            cardTitle: 'Proyecto: Tarjetas de Estudio con React y Redux',
-            pageLink: '#',
-            clientInfo: [false, '', ''],
-            clientImage: ['', ''],
-            featTag: [false, '', '']
-        }
-    }
+        madeWith: 'JavaScript, React, Redux',
+        mainImages: {
+            card: ['https://www.yourteaminindia.com/hubfs/Imported_Blog_Media/Mobile-App-UI-Design-An-Experts-Complete-Guide-Sep-25-2023-10-23-26-1079-AM.png', 'Reddit clone design mockup'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Reddit Clone with React and Redux',
+        cardInfo: "A simplified version of Reddit that allows you to navigate posts using Reddit's API.",
+        featTag: [true, 'yellow', 'in progress'],
+        heroCard: ['Reddit Clone', 'App made using React, Redux, and API']
+    },
 ]
 
 export default CODE_PROJECTS;

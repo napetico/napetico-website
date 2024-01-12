@@ -15,9 +15,9 @@ const Courses = () => {
         <OptionsBar />
         <section className={styles.galleryContainer}>
             <SectionIntro 
-                tag='Completados y curso'
-                header='Cursos y Talleres.'
-                info='Disfruto haciendo cursos de temas que me parecen interesantes. Estos son algunos de los más relevantes de los últimos años.'
+                tag='Workshops Library'
+                header='Latest Courses.'
+                info="I enjoy signing up for interesting courses to learn new things. Here's a list of the most relevant ones from the last years."
                 align='right'
             />
             <div className={styles.galleryHolder}>
@@ -27,19 +27,19 @@ const Courses = () => {
         <section className={styles.backHomeSection}>
             <div className='centered-link-holder'>
                 <div className='link-group-holder'>
-                    <p className='link-group-tag'>Volver a</p>
+                    <p className='link-group-tag'>Go back to</p>
                     <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
-                        <LinkOnWhite text='Página de Inicio' link='/' />
+                        <LinkOnWhite text='Home Page' link='/' />
                     </div>
                 </div>
             </div>
         </section>
         <PreFoot
             image={['https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg', 'Napoleon en el estudio.']}
-            tag='Dame un toque'
-            title='¿Algún curso que recomendar?'
-            text='Sin presiones. Me gusta compartir ideas, comentar estrategias y ampliar perspectivas. Si tienes un proyecto y quieres ayuda, opinión, o simplemente un sesion de ideas, dame un toque y hablamos lo que quieras con unas cervezas, un café, o un vinito.'
+            tag='Reach out'
+            title='Any course to recommend?'
+            text="I'm always up for learning new fun things that can help me grow, professionally and personally. Cooking classes? I'm in. Real Estate investing? Save my seat. Algorithms? Let's do it. Ballon animals? Heck yeah :)"
         />
         </>
     )

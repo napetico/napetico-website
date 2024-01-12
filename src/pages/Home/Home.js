@@ -17,10 +17,10 @@ const Home = () => {
             loopText={['Project Manager', 'Creative Strategist & COO', 'Full Stack Developer', 'Web & Brand Expert',]}
             description="Hey! Welcome to my little corner on the web. Here I keep tidy record of my work, projects, learnings, and ideas worth exploring. Click around, enjoy, and reach out if you feel like talking."
             linkData={['Profile', 'About me', '/under-construction']}
-            cardProject={false}
+            heroCard={false}
+            newTab={false}
+            database={null}
             cardImage={['./images/napo-main-photo-provisional.jpg', 'Napoleon Bazan profile picture']}
-            cardTag={[true, 'color', 'text']}
-            cardInfo={['title', 'info', 'href']}
         />
         <BigPhrase text='Navigating my passion to help ideate and build strong businesses and high-performance teams through creative, organizational, and operational excellence.'/>
         {/* WORK */}
@@ -36,10 +36,10 @@ const Home = () => {
                     <div className={styles.displayDirectory}>
                         <p className='bold-tag'>n.experience</p>
                         <DirectoryCard 
-                            image={['./images/napo-pm-directory-image.jpg', 'Illustration of person thinking creativelly']}
+                            image={['./images/napo-pm-directory-image.jpg', 'Illustration of person thinking creatively']}
                             href='/project-manager'
-                            featTag={[true, 'black', 'top choice']}
-                            info='Since 2007 - Creativity, Strategy, and Operations'
+                            featTag={[true, 'black', 'favorite']}
+                            info='Since 2007 - Creativity, Strategy, & Operations'
                             title='Project Manager | COO'
                         />
                         <DirectoryCard 
@@ -74,7 +74,7 @@ const Home = () => {
                             </div>
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
-                                    image={['./images/TEST-flipcards-react-redux.jpg', 'Pantallazo del diseño de una aplicación clon de Reddit']}
+                                    image={['./images/TEST-flipcards-react-redux.jpg', '']}
                                     href='#'
                                     info='Code for My Portfolio'
                                     title='Project: Flashcards with JS, React, and Redux'
@@ -114,14 +114,14 @@ const Home = () => {
                     <div className={styles.displayDirectory}>
                         <p className='bold-tag'>n.learnings</p>
                         <DirectoryCard 
-                            image={['https://i.pinimg.com/236x/f3/ac/d8/f3acd8ea2d6bd06f8d8198599b967612.jpg', 'Opened book']}
+                            image={['https://i.pinimg.com/236x/f3/ac/d8/f3acd8ea2d6bd06f8d8198599b967612.jpg', 'Hand holding a book']}
                             href='/reading-list'
                             featTag={[false, '', '']}
                             info='A healthy mix of topics and formats'
                             title='Books, Videos & Podcasts'
                         />
                         <DirectoryCard 
-                            image={['https://i.pinimg.com/236x/3d/fd/9a/3dfd9a0750b47e9b5e4f0672031ad7c7.jpg', 'Business evenet poster']}
+                            image={['https://i.pinimg.com/236x/3d/fd/9a/3dfd9a0750b47e9b5e4f0672031ad7c7.jpg', 'Business event poster']}
                             href='/courses'
                             featTag={[false, '', '']}
                             info='Interesting stuff I signed up for'
@@ -163,7 +163,7 @@ const Home = () => {
                             </div>
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
-                                    image={['./images/napo-google-pm-certificate.png', 'Pantallazo del diseño de una aplicación clon de Reddit']}
+                                    image={['./images/napo-google-pm-certificate.png', '']}
                                     href='#'
                                     info='Coursera + Google'
                                     title='Google Project Management'
@@ -241,7 +241,7 @@ const Home = () => {
                             </div>
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
-                                    image={['./images/TEST-flipcards-react-redux.jpg', 'Pantallazo del diseño de una aplicación clon de Reddit']}
+                                    image={['./images/TEST-flipcards-react-redux.jpg', '']}
                                     href='#'
                                     info='Código para Mi Portafolio'
                                     title='Proyecto: Tarjetas de Estudio con React y Redux'

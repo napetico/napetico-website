@@ -103,6 +103,9 @@
 .cardClientImageBox {
     width: 1.07vw;
     height: 1.10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 992px) {

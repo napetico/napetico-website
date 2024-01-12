@@ -2,7 +2,7 @@ import styles from './Hero.module.css';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js';
 import HeroCard from '../../cards/HeroCard/HeroCard.js';
 
-const Hero = ({header, loopText, description, linkData, cardProject, cardImage, cardTag, cardInfo}) => {
+const Hero = ({header, loopText, description, linkData, heroCard, newTab, database, cardImage}) => {
     return(
         <>
         <section className={styles.heroContainer}>
@@ -32,14 +32,8 @@ const Hero = ({header, loopText, description, linkData, cardProject, cardImage, 
                         </div>
                     </div>
                 </div>
-                { cardProject ? 
-                    <HeroCard
-                        image={[cardImage[0], cardImage[1]]}
-                        href={cardInfo[2]}
-                        info={cardInfo[1]}
-                        title={cardInfo[0]}
-                        featTag={[cardTag[0], cardTag[1], cardTag[2]]}
-                    />
+                { heroCard ? 
+                    <HeroCard newTab={newTab} data={database}/>
                     : 
                     <div className={styles.heroImageBox}>
                         <img className={styles.heroImage} src={cardImage[0]} alt={cardImage[1]}/>

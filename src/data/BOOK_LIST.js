@@ -371,7 +371,7 @@ const BOOK_LIST = [
             author: 'Eric Ries',
             category: 'Business',
             image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxLNFRhmPXVXdFgZCPIHI_caiNbIFIA3IeEw&usqp=CAU', 'The Lean Startup book cover'],
-            featTag: [true, 'yellow', 'más reciente']
+            featTag: [true, 'yellow', 'most recent']
         },
         bookPageData: {
             
@@ -385,7 +385,7 @@ const BOOK_LIST = [
             author: 'Dan Olsen',
             category: 'Product Design',
             image: ['https://media.karousell.com/media/photos/products/2021/5/17/the_lean_product_playbook_how__1621236965_a242aa7c.jpg', 'The Lean Product Playbook book cover'],
-            featTag: [true, 'black', 'leyendo ahora']
+            featTag: [true, 'black', 'reading now']
         },
         bookPageData: {
 
@@ -398,7 +398,7 @@ const BOOK_LIST = [
             author: 'Tim Ferris',
             category: 'Productivity',
             image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7RO20qgpKMj6hi_mg7iCt4ck21dHsxA8iw&usqp=CAU', 'Tools of Titans book cover'],
-            featTag: [true, 'black', 'leyendo ahora']
+            featTag: [true, 'black', 'reading now']
         },
         bookPageData: {
 

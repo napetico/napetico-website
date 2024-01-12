@@ -14,6 +14,7 @@ import Gallery from '../../layouts/Gallery/Gallery.js';
 const Coding = () => {
 
     const lastSixProjects = CODE_PROJECTS.slice(-6).reverse();
+    const lastProject = CODE_PROJECTS[CODE_PROJECTS.length -1];
     
     const toolsList = ['HTML', 'CSS', 'JavaScript', 'React', 'Router', 'Redux', 'API Requests', 'Node.js', 'SQL', 'Tailwinds', 'U/X', 'Typescript', 'GitHub', 'A.I.', 'Figma'];
     const certList = [
@@ -38,30 +39,30 @@ const Coding = () => {
         <>
         <OptionsBar/>
         <Hero
-            header='Programador Full-Stack'
-            loopText={['HTML, CSS y JavaScript', 'React & Redux', 'Node.js, SQL y Databases', 'UX & Creative Design']}
-            description='Un vistazo rápido de mi camino como programador, de las cosas que voy aprendiendo, y de los proyectos que voy haciendo.'
-            linkData={['Proyectos', 'Repositorios', '/full-stack-portfolio']}
-            cardProject={true}
+            header='Full-Stack Developer'
+            loopText={['HTML, CSS, JavaScript', 'React & Redux', 'Node.js, SQL, and Databases', 'UX & Creative Design']}
+            description="Here's a quick summary of my coding journey, from experiences and learnings to practice projects and client work."
+            linkData={['Projects', 'Repositories', '/full-stack-portfolio']}
+            heroCard={true}
+            newTab={true}
+            database={lastProject}
             cardImage={['https://assets.materialup.com/uploads/56d36b87-856d-4154-abcd-284aa019afb1/preview.jpg', 'Reddit Clone Project Cover']}
-            cardTag={[true, 'yellow', 'último proyecto']}
-            cardInfo={['Clon de Reddit', 'Proyecto con React y Redux', '#']}
         />
-        <BigPhrase text='Todos los proyectos ganan mucho con un poco de código bien pensado e implementado. Las soluciones son infinitas, escalan super bien, y aportan mucho valor. Si tus ideas apuntan al mundo digital y necesitas una cabeza ó un par de manos extra para programar, dame un toque, yo puedo ayudarte.'/>
+        <BigPhrase text="Any idea gets tons of benefits from leveraging a few lines of carefully written code. It opens the project to new solutions that create lots of new value with great scaleability. If your ideas belong to the digital world and you can use an extra brain or a set of extra hands to help you code give me a call, I can be that."/>
         <section className={styles.projectsGallery}>
             <SectionIntro
-                tag='Selección de repositorios'
-                header='<Proyectos/>'
-                info='Casi todos de práctica, pero bien currados.'
+                tag='Repositories'
+                header='<Projects/>'
+                info='Mostly case studies and practice projects (for now), but thoughtfully developed.'
                 align='center'
             />
             <Gallery card='code' data={lastSixProjects}/>
             <div className='centered-link-holder'>
                 <div className='link-group-holder'>
-                    <p className='link-group-tag'>Mira más proyectos</p>
+                    <p className='link-group-tag'>See more projects</p>
                     <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
-                        <LinkOnWhite text='Ir al Portafolio' link='/full-stack-portfolio' />
+                        <LinkOnWhite text='Go to Portfolio' link='/full-stack-portfolio' />
                     </div>
                 </div>
             </div>
@@ -69,27 +70,27 @@ const Coding = () => {
         <section className={styles.curriculumSection}>
             <div className={styles.infoWrapper}>
                 <SectionIntro 
-                    tag='Algunas cifras'
-                    header='Mi experiencia en trocitos de data.'
-                    info='Algunos detalles relevantes de mi carrera como programador.'
+                    tag='Average numbers'
+                    header='Random stats from my coding career.'
+                    info='May they help you paint a good picture of my coding skills.'
                     align='right'
                 />
                 <div>
-                    <p className='bold-tag'>n.estadísticas</p>
+                    <p className='bold-tag'>n.stats</p>
                     <div className={styles.tableHolder}>
                         <table className={styles.statsTable}>
                             <tbody>
                                 <tr>
-                                    <th>experiencia</th>
-                                    <th>idiomas</th>
-                                    <th>crisis existenciales</th>
-                                    <th>modalidad</th>
+                                    <th>experience</th>
+                                    <th>languages</th>
+                                    <th>dark nights of the soul</th>
+                                    <th>can work</th>
                                 </tr>
                                 <tr>
-                                    <td>2 años y contando</td>
-                                    <td>Español, Ingles</td>
-                                    <td>16, por ahora</td>
-                                    <td>Remoto, Presencial</td>
+                                    <td>2 years and counting</td>
+                                    <td>Spanish, English</td>
+                                    <td>16, for now</td>
+                                    <td>Remotely, On Site</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -98,13 +99,13 @@ const Coding = () => {
             </div>
             <div className={styles.skillsWrapper}>
                 <SectionIntro
-                    tag='Lo que puedo aportar'
-                    header='Mis habilidades de programación.'
-                    info='Lenguajes y frameworks que domino. ¿Alguna recomendación?'
+                    tag='My two cents'
+                    header='Useful skills I can bring to the project.'
+                    info="This is my current skillset, but I'm adding new skills every month!"
                     align='right'
                 />
                 <div>
-                    <p className='bold-tag'>n.tecnologías y herramientas</p>
+                    <p className='bold-tag'>n.tech and tools</p>
                     <div className={styles.toolsWrapper}>
                         {toolsList.map((item, index) => {
                             return <ToolLabel text={item} key={index}/>
@@ -112,7 +113,7 @@ const Coding = () => {
                     </div>
                 </div>
                 <div>
-                    <p className='bold-tag'>n.certificados y cursos</p>
+                    <p className='bold-tag'>n.certifications</p>
                     <div className={styles.toolsWrapper}>
                         {certList.map((cert, index) => {
                             const {title, academy, image} = cert;
@@ -123,22 +124,22 @@ const Coding = () => {
             </div>
             <div className={styles.cvLinkHolder}>
                 <div className='link-group-holder'>
-                    <p className='link-group-tag'>Mira más de mis</p>
+                    <p className='link-group-tag'>See more of my</p>
                     <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
-                        <LinkOnWhite text='Certificados' link='' />
-                        <p className='link-group-inner-text'>&nbsp;ó&nbsp;</p>
-                        <LinkOnWhite text='Cursos' link='' />
+                        <LinkOnWhite text='Certificates' link='' />
+                        <p className='link-group-inner-text'>&nbsp;and&nbsp;</p>
+                        <LinkOnWhite text='Courses' link='' />
                     </div>
                 </div>
             </div>
         </section>
-        <BigTextLoop text='Código impecable para tus proyectos digitales, de punta a punta&nbsp;&nbsp;-&nbsp;&nbsp;' />
+        <BigTextLoop text='Impeccable end-to-end code for your digital projects&nbsp;&nbsp;-&nbsp;&nbsp;' />
         <PreFoot
             image={['https://i.pinimg.com/564x/49/d6/b8/49d6b8215fc4212fe21186efd2315768.jpg', 'Napoleon en el estudio.']}
-            tag='Dame un toque'
-            title='Hablemos de programación.'
-            text='Me gusta compartir ideas, comentar estrategias y ampliar perspectivas. Si estas escribiendo código y quieres ayuda, opinión, o simplemente un sesion de ideas, dame un toque y hablamos lo que quieras con unas cervezas, un café, o un vinito.'
+            tag='Reach out'
+            title='Tell me about your code.'
+            text="I love sharing ideas, commenting strategies, and exploring frameworks. If you're coding a project and you want some help, feedback, or maybe a brainstorming session go ahead and text me. We can go over your entire project with a nice drink."
         />
         </>
     )

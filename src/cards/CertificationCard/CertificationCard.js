@@ -7,7 +7,7 @@ const CertificationCard = ({data}) => {
         <div className={styles.certCardHolder}>
             <div className={styles.cardTitlesHolder}>
                 <h3 className={styles.certTitle}>{data.title}</h3>
-                <p>en</p>
+                <p>at</p>
                 <div className={styles.academyInfo}>
                     <div className={styles.academyImageBox}>
                         <img className={styles.academyImage} src={data.image[0]} alt={data.image[1]}/>
@@ -21,10 +21,10 @@ const CertificationCard = ({data}) => {
             <div className={styles.certButtonBox}>
                 {data.completed ? 
                     <a className={styles.openLink} href={data.certificationURL} >
-                        <p>abrir cert.</p>
+                        <p>open cert.</p>
                     </a> :
                     <div className={styles.blackButton}>
-                        <p>cursando</p>
+                        <p>taking now</p>
                     </div>
                 }
             </div>
