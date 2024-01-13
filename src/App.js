@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+
 import Root from './pages/root/Root.js';
 import Construction from './pages/Construction/Construction.js';
 import Home from './pages/Home/Home.js'
@@ -12,9 +13,12 @@ import Webs from './pages/Webs/Webs.js'
 import WebWork from './pages/Webs/WebWork.js';
 import WebProject from './pages/Webs/WebProject.js';
 import Books from './pages/Books/Books.js';
+import BookNotes from './pages/Books/BookNotes.js';
 import Courses from './pages/Courses/Courses.js';
 import Certifications from './pages/Certifications/Certifications.js';
+
 import WEB_PROJECTS from './data/WEB_PROJECTS.js';
+import BOOK_LIST from './data/BOOK_LIST.js';
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -31,6 +35,9 @@ function App() {
         return <Route path={web.path} element={ <WebProject data={web}/> } key={index}/>
       })}
       <Route path='/reading-list' element={ <Books/> }/>
+      {BOOK_LIST.map((book, index) => {
+        return <Route path={book.path} element={ <BookNotes data={book}/> } key={index}/>
+      })}
       <Route path='/courses' element={ <Courses/> }/>
       <Route path='/certifications' element={ <Certifications/> }/>
     </Route>

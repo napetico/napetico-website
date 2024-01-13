@@ -16,7 +16,7 @@ const PreFoot = ({image, tag, title, text}) => {
                     <p className={styles.preFootText}>{text}</p>
                     <div className='link-group-holder-hero'>
                         <p className='link-group-tag'>Find me here </p>
-                        <img className='link-group-arrow' src='./images/icons/napo-link-arrow-white.svg' alt='' />
+                        <img className='link-group-arrow' src='/images/icons/napo-link-arrow-white.svg' alt='' />
                         <div className='link-group-wrapper'>
                             <LinkOnBlack text={'Email'} link={''} />
                             <p className='link-group-inner-text'>, or&nbsp;</p>

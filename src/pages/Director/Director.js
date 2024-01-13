@@ -108,7 +108,7 @@ const Director = () => {
                     </div>
                     <div className={styles.photoWrapper}>
                         <div className={styles.bioPhotoBox}>
-                            <img src='/images/napetico-profile-image.png' alt='Napoleon profile photo'/>
+                            <img src='/images/napetico-profile-image.png' alt='Napoleon'/>
                         </div>
                     </div>
                 </div>

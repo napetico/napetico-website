@@ -37,7 +37,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
     padding: 1.96vw 2.56vw;
     color: var(--main-white);
 }

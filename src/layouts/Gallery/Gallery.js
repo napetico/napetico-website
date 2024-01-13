@@ -43,7 +43,7 @@ const Gallery = ({card, data}) => {
             <>
             <div className={styles.bookGalleryGrid}>
                 {data.map((book, index) => {
-                    return <ContentCard card={card} data={book.bookCardData} key={index}/>;
+                    return <ContentCard card={card} data={book} key={index}/>;
                 })}
             </div>
             </>
