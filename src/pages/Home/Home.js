@@ -20,7 +20,7 @@ const Home = () => {
             heroCard={false}
             newTab={false}
             database={null}
-            cardImage={['./images/napo-main-photo-provisional.jpg', 'Napoleon Bazan profile picture']}
+            cardImage={['./images/napo-home-image.png', 'Napoleon Bazan profile picture']}
         />
         <BigPhrase text='Navigating my passion to help ideate and build strong businesses and high-performance teams through creative, organizational, and operational excellence.'/>
         {/* WORK */}
@@ -63,8 +63,8 @@ const Home = () => {
                         {/* Here goes the card slider */}
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
-                                    image={['./images/TEST-project-image.jpeg', '']}
-                                    href='#'
+                                    image={['https://assets-global.website-files.com/5e5030689c8b3c644e70daaa/64fcb7c8cf0e897a276bf57b_Sensitivita_April%202023-141-2-p-800.jpg', 'Camera crew filming']}
+                                    href='/project-manager-portfolio/biting-lemons'
                                     info='PM for'
                                     title='Putting together a rewarding pre-funding strategy'
                                     client={[true, 'Biting Lemons', 'http://www.bitinglemons.com/']}
@@ -74,7 +74,7 @@ const Home = () => {
                             </div>
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
-                                    image={['./images/TEST-flipcards-react-redux.jpg', '']}
+                                    image={['./images/TEST-flipcards-react-redux.jpg', 'Reddit mockup design']}
                                     href='#'
                                     info='Code for My Portfolio'
                                     title='Project: Flashcards with JS, React, and Redux'
@@ -213,7 +213,7 @@ const Home = () => {
                             image={['./images/dibujo-buho.jpg', '']}
                             href='#'
                             featTag={[false, '', '']}
-                            info='The exageration of coloring'
+                            info='The hyperbole of coloring'
                             title='Pencil Colors Hyperrealism'
                         />
                         <DirectoryCard 
@@ -230,7 +230,7 @@ const Home = () => {
                         {/* Here goes the card slider */}
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
-                                    image={['https://scontent.falc2-1.fna.fbcdn.net/v/t31.18172-8/22496202_741114852751608_5414144444795781619_o.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=c2f564&_nc_ohc=ATO0y4j4ZtsAX9jBc1l&_nc_ht=scontent.falc2-1.fna&oh=00_AfC6NMDf7WMyA14VSlzP6q-vHF1vo0FdjtVZ3QB-8tiN3w&oe=65A3ACD0', '']}
+                                    image={['https://scontent.falc2-1.fna.fbcdn.net/v/t31.18172-8/22496202_741114852751608_5414144444795781619_o.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=c2f564&_nc_ohc=ATO0y4j4ZtsAX9jBc1l&_nc_ht=scontent.falc2-1.fna&oh=00_AfC6NMDf7WMyA14VSlzP6q-vHF1vo0FdjtVZ3QB-8tiN3w&oe=65A3ACD0', 'Color pencil illustration of a pineapple']}
                                     href='#'
                                     info='Pencil Color Hyperrealism'
                                     title='Pineapple in Technicolor: Taken from a Pinterest post'
@@ -241,10 +241,10 @@ const Home = () => {
                             </div>
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
-                                    image={['./images/TEST-flipcards-react-redux.jpg', '']}
+                                    image={['https://i.pinimg.com/564x/d6/77/ab/d677abb7b454e0635273df67c53a204a.jpg', 'Lettering that reads Antifragile']}
                                     href='#'
-                                    info='Código para Mi Portafolio'
-                                    title='Proyecto: Tarjetas de Estudio con React y Redux'
+                                    info="Article for Napoleon's Log"
+                                    title='What does it mean to build an antifragile business?'
                                     client={[false, '', '']}
                                     clientImage={['', '']}
                                     featTag={[false, '', '']}

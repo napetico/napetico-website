@@ -27,7 +27,7 @@ const PM_PROJECTS = [
         url: '',
         client: {
             name: 'Olearn.eu',
-            image: ['/images/napo-olearn-logo.png', 'Olearn.eu logo'],
+            image: ['/images/napo-olearn-logo.png', 'Olearn.eu - Business logo'],
             bio: '',
         },
         category: 'Abroad Spanish School',
@@ -49,7 +49,7 @@ const PM_PROJECTS = [
         url: '',
         client: {
             name: 'Lahdo Renovations',
-            image: ['/images/napo-lh-logo.jpeg', 'Supervillano.co logo'],
+            image: ['/images/napo-lh-logo.jpeg', 'Lahdo Renovation - Business logo'],
             bio: '',
         },
         category: 'Home Renovations',
@@ -71,12 +71,12 @@ const PM_PROJECTS = [
         url: '',
         client: {
             name: 'Supervillanos.co',
-            image: ['/images/napo-sv-logo.png', 'Supervillano.co logo'],
+            image: ['/images/napo-sv-logo.png', 'Supervillano.co - Business logo'],
             bio: '',
         },
         category: 'Business, Creative Services',
         mainImages: {
-            card: ['/images/pm/napo-sv-card-image.jpg', 'Fast food team'],
+            card: ['/images/pm/napo-sv-card-image.jpg', 'Branded truck in front of a business'],
             poster: ['', ''],
         },
         cardTitle: 'Creative services like no other.',
@@ -93,12 +93,12 @@ const PM_PROJECTS = [
         url: '',
         client: {
             name: 'Vagabond',
-            image: ['https://play-lh.googleusercontent.com/vhu0pGB6bHaX05A9UCR_i54OBVj6w_eSkUn4zkcxdMKkOHyfd2IFA9nIdzMc8dk8h93v', 'Vagabond logo'],
+            image: ['https://play-lh.googleusercontent.com/vhu0pGB6bHaX05A9UCR_i54OBVj6w_eSkUn4zkcxdMKkOHyfd2IFA9nIdzMc8dk8h93v', 'Vagabond - Business logo'],
             bio: 'Vagabond es restaurante fast-casual que hace una elegante fusión entre la comida Lebanesa y la Mexicana.',
         },
         category: 'Fast-Casual Restaurant',
         mainImages: {
-            card: ['/images/pm/napo-vg-card-image.png', 'Fast food team'],
+            card: ['/images/pm/napo-vg-card-image.png', 'Happy man holding a shawarma'],
             poster: ['', ''],
         },
         cardTitle: 'Elevating hospitality with systems.',
@@ -120,7 +120,7 @@ const PM_PROJECTS = [
         },
         category: 'Content, Documentaries',
         mainImages: {
-            card: ['https://assets-global.website-files.com/5e5030689c8b3c644e70daaa/64fcb7c8cf0e897a276bf57b_Sensitivita_April%202023-141-2-p-1600.jpg', 'Fast food team'],
+            card: ['/images/pm/napo-bl-card-image.png', 'Camera crew filming a group of people'],
             poster: ['', ''],
         },
         cardTitle: 'The business of impactful content.',
