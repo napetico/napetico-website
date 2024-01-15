@@ -91,7 +91,7 @@ const Home = () => {
                         <p className='link-group-tag'>See more projects in</p>
                         <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text='Management' link='' />
+                            <LinkOnWhite text='Management' link='/project-manager' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
                             <LinkOnWhite text='Programming' link='/full-stack-portfolio' />
                             <p className='link-group-inner-text'>, or&nbsp;</p>
@@ -129,7 +129,7 @@ const Home = () => {
                         />
                         <DirectoryCard 
                             image={['https://i.pinimg.com/236x/59/8d/d8/598dd8b6b33385c22753fe680b41712e.jpg', 'Diploma photography']}
-                            href='#'
+                            href='/certifications'
                             featTag={[false, '', '']}
                             info='My collection of diplomas'
                             title='Certifications'
@@ -142,7 +142,7 @@ const Home = () => {
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
                                     image={['https://cdn.wallapop.com/images/10420/fi/vg/__/c10420p938693264/i3498517058.jpg?pictureSize=W640', 'The Lean Product Playbook']}
-                                    href='#'
+                                    href='/under-construction'
                                     info='Dan Olsen'
                                     title='The Lean Product Playbook'
                                     client={[false, '', '']}
@@ -153,7 +153,7 @@ const Home = () => {
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
                                     image={['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxLNFRhmPXVXdFgZCPIHI_caiNbIFIA3IeEw&usqp=CAU', 'The Lean Startup']}
-                                    href='#'
+                                    href='/under-construction'
                                     info='Eric Ries'
                                     title='The Lean Startup'
                                     client={[false, '', '']}
@@ -164,7 +164,7 @@ const Home = () => {
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
                                     image={['./images/napo-google-pm-certificate.png', '']}
-                                    href='#'
+                                    href='/under-construction'
                                     info='Coursera + Google'
                                     title='Google Project Management'
                                     client={[false, '', '']}
@@ -184,7 +184,7 @@ const Home = () => {
                             <p className='link-group-inner-text'>,&nbsp;</p>
                             <LinkOnWhite text='Courses' link='/courses' />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <LinkOnWhite text='Certifications' link='' />
+                            <LinkOnWhite text='Certifications' link='/certifications' />
                         </div>
                     </div>
                 </div>
@@ -204,21 +204,21 @@ const Home = () => {
                         <p className='bold-tag'>n.side projects</p>
                         <DirectoryCard 
                             image={['https://i.pinimg.com/1200x/41/b5/5c/41b55cd126a1e001087df43f28b6943f.jpg', '']}
-                            href='#'
+                            href='/under-construction'
                             featTag={[false, '', '']}
                             info='A bunch of my 1-million-dollars ideas'
                             title='Biz Models Backlog'
                         />
                         <DirectoryCard 
                             image={['./images/dibujo-buho.jpg', '']}
-                            href='#'
+                            href='/under-construction'
                             featTag={[false, '', '']}
                             info='The hyperbole of coloring'
                             title='Pencil Colors Hyperrealism'
                         />
                         <DirectoryCard 
                             image={['https://i.pinimg.com/564x/9d/e5/58/9de558cb5abb551c381b0906db7b964f.jpg', '']}
-                            href='#'
+                            href='/under-construction'
                             featTag={[false, '', '']}
                             info='My preposterous attempt to run a blog'
                             title="Random Napoleon's Log"
@@ -231,7 +231,7 @@ const Home = () => {
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
                                     image={['https://scontent.falc2-1.fna.fbcdn.net/v/t31.18172-8/22496202_741114852751608_5414144444795781619_o.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=c2f564&_nc_ohc=ATO0y4j4ZtsAX9jBc1l&_nc_ht=scontent.falc2-1.fna&oh=00_AfC6NMDf7WMyA14VSlzP6q-vHF1vo0FdjtVZ3QB-8tiN3w&oe=65A3ACD0', 'Color pencil illustration of a pineapple']}
-                                    href='#'
+                                    href='/under-construction'
                                     info='Pencil Color Hyperrealism'
                                     title='Pineapple in Technicolor: Taken from a Pinterest post'
                                     client={[false, '', '']}
@@ -242,7 +242,7 @@ const Home = () => {
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard
                                     image={['https://i.pinimg.com/564x/d6/77/ab/d677abb7b454e0635273df67c53a204a.jpg', 'Lettering that reads Antifragile']}
-                                    href='#'
+                                    href='/under-construction'
                                     info="Article for Napoleon's Log"
                                     title='What does it mean to build an antifragile business?'
                                     client={[false, '', '']}
@@ -258,11 +258,11 @@ const Home = () => {
                         <p className='link-group-tag'>Look further</p>
                         <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text='Ideas' link='' />
+                            <LinkOnWhite text='Ideas' link='/under-construction' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
-                            <LinkOnWhite text='Drawings' link='' />
+                            <LinkOnWhite text='Drawings' link='/under-construction' />
                             <p className='link-group-inner-text'>, o&nbsp;</p>
-                            <LinkOnWhite text='Blog Posts' link='' />
+                            <LinkOnWhite text='Blog Posts' link='/under-construction' />
                         </div>
                     </div>
                 </div>

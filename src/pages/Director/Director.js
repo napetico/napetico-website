@@ -90,7 +90,7 @@ const Director = () => {
                         <h2 className={styles.bioCardHeader}>Optimize your business performance from every angle.</h2>
                     </div>
                     <div className={styles.infoWrapper}>
-                        <p className={styles.bioText}>Any business goal, no matter how ambitious or challenging, requires the execution of the right sequence of actions in order to produce some kind of desirable result. The quality of this output depends highly on the quality of the planning and execution of that sequence, which in time is an indicator of how closer or further away are we from our business goal.  If we use this lens across the entire business we’ll see multiple sequences running at the same time, all producing results, even if we are controlling them or not.</p>
+                        <p className={styles.bioText}>Our businesses are just the reflection of the hundreds of sequences of actions we execute everyday to keep them running. Some render positive results, some negative, and some are not even happening yet. True competitive advantage requires us to understand that our businesses won’t raise to the level of our goals but fall to the level of our systems. My mission is to help you take control of these systems and get hands-on to consistently improve and implement empowering processes and flawless execution to boost your business performance.</p>
                         {/* <ul className={styles.detailsHolder}>
                             <li className={styles.detailsBox}>
                                 <img className={styles.icon} src='/images/icons/napo-language-icon.png' alt='Languages icon'/>
