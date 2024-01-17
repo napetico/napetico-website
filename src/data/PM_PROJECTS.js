@@ -1,8 +1,52 @@
 const PM_PROJECTS = [
     {
+        id: 'EG',
+        path: '/project-manager-portfolio/tutto-piccolo-peru',
+        url: '',
+        client: {
+            name: 'EFECTOGEMELO',
+            image: ['https://static.wixstatic.com/media/41478a_1460b9f9ffe647359da0c32e30d996e8~mv2_d_2904_4352_s_4_2.jpg/v1/fill/w_717,h_1074,al_c,q_90/41478a_1460b9f9ffe647359da0c32e30d996e8~mv2_d_2904_4352_s_4_2.webp', 'EFECTOGEMELO studio logo'],
+            bio: '',
+        },
+        category: 'Art & Creative Studio',
+        mainImages: {
+            card: ['https://static.wixstatic.com/media/41478a_c9fbb97a70d445c6b343081afdbf1b5e.jpg/v1/fill/w_566,h_566,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/41478a_c9fbb97a70d445c6b343081afdbf1b5e.jpg', 'Art installation by EFECTOGEMELO'],
+            poster: ['', ''],
+        },
+        cardTitle: 'The business of art, flair, and friends.',
+        cardInfo: "Taking a creative art studio from a garage messy hobbie to a profitable -and very fun- business.",
+        cardIcon: '/images/icons/napo-art-icon.svg',
+        homeSnippet: '',
+        homeTitle: '',
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
+    },
+    {
+        id: 'TP',
+        path: '/project-manager-portfolio/tutto-piccolo-peru',
+        url: '',
+        client: {
+            name: 'Grupo Tutto Piccolo Perú',
+            image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiPslBsI2FfK4P-JXnkNHRU23sFf5vC1DytjHpCuJ9bVccG61MrsRhYCbzh8yhTx9gvok&usqp=CAU', 'Tutto Piccolo logo'],
+            bio: '',
+        },
+        category: 'Retail, Fashion Brand',
+        mainImages: {
+            card: ['/images/pm/napo-tp-card-image.png', 'Toddler wearing a Tutto Piccolo outfit'],
+            poster: ['', ''],
+        },
+        cardTitle: 'Wrapping the best of all gifts.',
+        cardInfo: "Stablishing an elegant and classy kids' fashion brand in the highly-competitive Peruvian market.",
+        cardIcon: '/images/icons/napo-shop-icon.svg',
+        homeSnippet: '',
+        homeTitle: '',
+        featTag: [false, '', ''],
+        heroCard: ['Title', 'Description'],
+    },
+    {
         id: 'ARP',
         path: '/project-manager-portfolio/agatha-peru',
-        url: '',
+        url: 'https://www.agatharuizdelaprada.com/inauguracion-corner-agatha-ruiz-de-la-prada-en-lacomar-lima/',
         client: {
             name: 'Agatha Ruiz de la Prada Perú',
             image: ['https://www.agatharuizdelaprada.com/store/modules/bonwhatsappchat/views/img/77c20cae3f406ebfa49176e258df71e0a4329efc_heart.jpg', 'Agatha Ruiz de la Prada logo'],

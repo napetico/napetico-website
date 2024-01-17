@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
 import scrollToTop from '../../util/ScrollToTop';
+import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite';
 
 const Navbar = () => {
 
@@ -77,89 +78,114 @@ const Navbar = () => {
         </nav>
         <nav className={`${styles.mobileMenuDropdown} ${open ? styles.showDropdown : ''}`}>
             <div className={`${styles.mobileMenuHolder} ${open ? styles.holderGrow : ''}`}>
-                <ul className={styles.mobileMenuCategory}>
-                    <li className={styles.categoryWrap}>
+                <div className={styles.mobileMenuCategory}>
+                    <div className={styles.categoryWrap}>
                         <p className={styles.categoryTitle}>n.work</p>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/project-manager' onClick={scrollAndClose}>Project Manager - COO</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/full-stack-developer' onClick={scrollAndClose}>Full Stack Developer</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/web-designer' onClick={scrollAndClose}>Webs for SMBs</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                </ul>
-                <ul className={styles.mobileMenuCategory}>
-                    <li className={styles.categoryWrap}>
+                        <div className={styles.mobileCategoryLine}></div>
+                    </div>
+                    <ul className={styles.linksWrap}>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/project-manager' onClick={scrollAndClose}>Project Manager - COO</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/full-stack-developer' onClick={scrollAndClose}>Full Stack Developer</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/web-designer' onClick={scrollAndClose}>Webs for SMBs</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div className={styles.mobileMenuCategory}>
+                    <div className={styles.categoryWrap}>
                         <p className={styles.categoryTitle}>n.learn</p>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/reading-list' onClick={scrollAndClose}>Books & more</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/courses' onClick={scrollAndClose}>Courses</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/certifications' onClick={scrollAndClose}>Certifications</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                </ul>
-                <ul className={styles.mobileMenuCategory}>
-                    <li className={styles.categoryWrap}>
+                        <div className={styles.mobileCategoryLine}></div>
+                    </div>
+                    <ul className={styles.linksWrap}>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/reading-list' onClick={scrollAndClose}>Books & more</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/courses' onClick={scrollAndClose}>Courses</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/certifications' onClick={scrollAndClose}>Certifications</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div className={styles.mobileMenuCategory}>
+                    <div className={styles.categoryWrap}>
                         <p className={styles.categoryTitle}>n.create</p>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>$1M Ideas</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Hyperrealism</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Napoleon's Log</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
-                        </div>
-                    </li>
-                </ul>
-                <ul className={styles.mobileMenuCategory}>
-                    <li className={styles.categoryWrap}>
+                        <div className={styles.mobileCategoryLine}></div>
+                    </div>
+                    <ul className={styles.linksWrap}>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>$1M Ideas</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Hyperrealism</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>Napoleon's Log</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div className={styles.mobileMenuCategory}>
+                    <div className={styles.categoryWrap}>
                         <p className={styles.categoryTitle}>n.profile</p>
-                    </li>
-                    <li className={styles.navLinkHolder}>
-                        <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollToTop}>About me</Link>
-                        <div className={styles.navLinkUnderlineTrack}>
-                            <div className={styles.linkUnderlineWhite}></div>
+                        <div className={styles.mobileCategoryLine}></div>
+                    </div>
+                    <ul className={styles.linksWrap}>
+                        <li className={styles.navLinkHolder}>
+                            <Link className={styles.navLinkMobileDropdown} to='/under-construction' onClick={scrollAndClose}>About</Link>
+                            <div className={styles.navLinkUnderlineTrack}>
+                                <div className={styles.linkUnderlineWhite}></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div className={styles.contactCard}>
+                    <div className={styles.cardLinkBox}>
+                        <p className={styles.cardLinkText}>Find me</p>
+                        <img className={styles.cardLinkImage} src='/images/icons/napo-whatsapp-logo-black.png' alt='' />
+                        <div>
+                            <LinkOnWhite text={'+34 673250200'} link={'tel:+34673250200'} />
                         </div>
-                    </li>
-                </ul>
-                <ul className={styles.mobileMenuButtonBox}>
-                    <Link className={styles.navButton} to='/under-construction' onClick={scrollToTop}>Contact me</Link>
-                </ul>
+                    </div>
+                    <div className={styles.cardLinkBox}>
+                        <p className={styles.cardLinkText}>Email me</p>
+                        <img className={styles.cardLinkImage} src='/images/icons/napo-email-logo-black.png' alt='' />
+                        <div>
+                            <LinkOnWhite text={'napo@napetico.com'} link={'mailto:enabaro@gmail.com'} />
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
         </>

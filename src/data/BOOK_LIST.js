@@ -319,9 +319,9 @@ const BOOK_LIST = [
         author: 'Vishen Lakhiani',
         category: 'Leadership',
         image: ['https://static-01.daraz.com.bd/p/134f68ff016a8c62ef47bbd2d35e1cb2.jpg_750x750.jpg_.webp', "Book cover: The buddha and the badass"],
-        sinopsis: '',
-        interest: '',
-        takeAways: '',
+        sinopsis: 'This book makes a gratifiying exploration of the intersection between business and spirituality, encouraging to mix thouse babies up for a better, more fullfilling life -personally and professionally. For me, it also describes leadership from a very human and empathetic perspective.',
+        interest: "I got it by serendipity. I was looking for the Code of the Extraordinay Mind (Vishen's previous book) and they didn't have it, so I got offered 'the new one'. The sinopsis online said: ideas for integrating spiritual values into our businesses and using them as foundations for strategies and leadership. Sold.",
+        takeAways: "A few things that stuck with me: His take on breaking out of bullshit rules that are limiting our growth (Brules), how fenomenal Mindvalley got to be thanks to all these mindfull ideas (he gives tons of examples), and the meaning behind the word Blisscipline (a fusion of discipline and bliss) -which he clearly stole from me hahaha. I will tell you why in a blog post, soon.",
         featTag: [false, '', '']
     },
     {
@@ -332,7 +332,7 @@ const BOOK_LIST = [
         author: 'Naval Ravikant',
         category: 'Mindset',
         image: ['https://miro.medium.com/v2/resize:fit:1400/1*4xneZfQMhWQtvUDscH90iQ.jpeg', "Book cover: The almanack of naval ravikant"],
-        sinopsis: '',
+        sinopsis: 'No summary here yet :) I will post some thought soon.',
         interest: '',
         takeAways: '',
         featTag: [false, '', '']
@@ -345,9 +345,9 @@ const BOOK_LIST = [
         author: 'Eric Ries',
         category: 'Business',
         image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxLNFRhmPXVXdFgZCPIHI_caiNbIFIA3IeEw&usqp=CAU', "Book cover: The lean startup"],
-        sinopsis: '',
-        interest: '',
-        takeAways: '',
+        sinopsis: 'This book outlines a methodology for developing succesful businesses and products with a systematic -and scientific- approach in times rapid innovation. For me it was about getting the fuck out of perfectionism and start building shit -haha.',
+        interest: 'I first hear about it years ago, during a Project Manager course, but did not stick. Some time later, I saw it again in an UpFlip video about it (the one with Paul Akers) and I was hooked. The concept of "validated learning" and the Build-Measure-Learn feedback loop continues cycle was key.',
+        takeAways: "However, I might be falling short here. There's way more useful ideas in there (like his deep take on pivoting or his approach to customer feedback) all explain in such a detail that you can resist to go start a BML loop right away -I know I did ;)",
         featTag: [false, '', '']
     },
     {

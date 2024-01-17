@@ -17,7 +17,7 @@ const Courses = () => {
             <SectionIntro 
                 tag='Workshops Library'
                 header='Latest Courses.'
-                info="I enjoy signing up for interesting courses to learn new things. Here's a list of the most relevant ones from the last years."
+                info="I enjoy signing up for interesting courses and workshops to learn new things. Here's a list of the most relevant ones I've taken recently."
                 align='right'
             />
             <div className={styles.galleryHolder}>

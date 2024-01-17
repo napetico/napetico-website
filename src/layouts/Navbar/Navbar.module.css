@@ -263,8 +263,9 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 5.71vw;
+    gap: 7.14vw;
     margin: var(--lr-margin-mobile);
+    padding: 10.71vw;
     width: 100%;
     opacity: 0;
     overflow: hidden;
@@ -278,44 +279,70 @@
   }
 
   .mobileMenuCategory {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
-    justify-content: center;
-    gap: 5.71vw;
-    margin: 0vw 15vw;
-    padding-left: 3vw;
+    gap: 3.57vw;
+  }
+
+  .categoryWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.57vw;
+    flex-grow: 1;
   }
 
   .categoryTitle {
     font-weight: 700;
-    font-size: var(--reg-p-16-mobile);
+    font-size: var(--reg-p-20-mobile);
     color: var(--main-white);
-    margin-left: -3vw;
   }
 
-  .navLinkMobileDropdown {
-    font-size: var(--reg-p-16-mobile);
+  .mobileCategoryLine {
+    background-color: var(--main-white);
+    height: 0.3vw;
+    width: 100%;
   }
 
-  .mobileMenuButtonBox {
+  .linksWrap {
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
     gap: 5.71vw;
-    margin: 2vw 15vw 0vw 15vw;
   }
 
-  .navButton {
-    padding: 4vw 8vw;
-    border-radius: 0.6vw;
-    font-size: var(--reg-p-16-mobile);
-    border-radius: 1.32vw;
-    background-color: #0000c4;
+  .navLinkMobileDropdown {
+    font-size: var(--reg-p-20-mobile);
   }
 
-  .navButton:hover {
-    background-color: #0000c4d1;
+  .contactCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.86vw;
+    background-color: #cccccc;
+    padding: 5.71vw 4.73vw;
+    border-radius: 1.58vw;
+    margin-top: 2.14vw;
+  }
+
+  .cardLinkBox {
+    display: flex;
+    align-items: center;
+    gap: 1.87vw;
+    font-size: var(--reg-p-20-mobile);
+  }
+
+  .cardLinkText {
+    color: var(--main-black);
+    font-weight: 300;
+  }
+
+  .cardLinkImage {
+    height: 3.57vw;
+    width: auto;
   }
 }

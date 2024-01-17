@@ -28,17 +28,17 @@ const ContentCard = ({card, data}) => {
         return(
             <>
             <div className={styles.contentCard}>
-                <Link className={styles.contentCardCircle} to={data.path} onClick={scrollToTop}>
+                <a className={styles.contentCardCircle} href={data.url} target="_blank" rel="noopener noreferrer">
                     <img className={styles.contentCardImage} src={data.image[0]} alt={data.image[1]} />
-                </Link>
+                </a>
                 <div className={styles.contentCardInfoBox}>
                     <div className={styles.contentCardTextWrap}>
-                        <p className={styles.contentCardText}>{data.description}</p>
+                        <p className={styles.contentCardText}>{data.intro}</p>
                         { data.featTag[0] ? <FeatTag color={data.featTag[1]} text={data.featTag[2]}/> : <></>}
                     </div>
-                    <Link className={styles.contentCardTitleLink} to={data.path} onClick={scrollToTop}>
-                        <h3 className='h3-card-title-18'>{data.channel}</h3>
-                    </Link>
+                    <a className={styles.contentCardTitleLink} href={data.url} target="_blank" rel="noopener noreferrer">
+                        <h3 className='h3-card-title-18'>{data.title}</h3>
+                    </a>
                 </div>
             </div>
             </>
@@ -48,17 +48,17 @@ const ContentCard = ({card, data}) => {
         return(
             <>
             <div className={styles.contentCard}>
-                <Link className={styles.contentCardSquare} to={data.path} onClick={scrollToTop}>
+                <a className={styles.contentCardSquare} href={data.url} target="_blank" rel="noopener noreferrer">
                     <img className={styles.contentCardImage} src={data.image[0]} alt={data.image[1]} />
-                </Link>
+                </a>
                 <div className={styles.contentCardInfoBox}>
                     <div className={styles.contentCardTextWrap}>
                         <p className={styles.contentCardText}>{data.academy}</p>
                         { data.featTag[0] ? <FeatTag color={data.featTag[1]} text={data.featTag[2]}/> : <></>}
                     </div>
-                    <Link className={styles.contentCardTitleLink} to={data.path} onClick={scrollToTop}>
-                        <h3 className='h3-card-title-18'>{data.course}</h3>
-                    </Link>
+                    <a className={styles.contentCardTitleLink} href={data.url} target="_blank" rel="noopener noreferrer">
+                        <h3 className='h3-card-title-18'>{data.title}</h3>
+                    </a>
                 </div>
             </div>
             </>
