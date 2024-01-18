@@ -73,11 +73,12 @@
     }
     
     .dirCardCircle {
-        width: 11.33vw;
+        min-width: 11.33vw;
         height: 11.33vw;
     }
     
     .dirCardInfoBox {
         gap: 1.13vw;
+        overflow: hidden;
     }
 }

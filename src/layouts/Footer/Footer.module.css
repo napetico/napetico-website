@@ -139,7 +139,7 @@
     }
     
     .footLinkWrap {
-        width: 35vw;
+        width: 38vw;
         gap: 3.78vw;
     }
     
@@ -149,7 +149,7 @@
     
     .contactCard {
         gap: 2.27vw;
-        padding: 4.73vw;
+        padding: 5.13vw;
         border-radius: 1.58vw;
     }
     
@@ -158,7 +158,7 @@
     }
     
     .cardLinkImage {
-        height: 2.82vw;
+        height: 3.02vw;
     }
     
     .conectNavBox {

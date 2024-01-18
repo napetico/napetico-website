@@ -159,12 +159,13 @@
     
     .sectionHeader {
         width: 84.85vw;
+        line-height: 1.21;
     }
     
     .sectionInfo {
         width: 77.13vw;
         text-align: left;
-        line-height: 1.45;
+        line-height: 1.5;
     }
 
     /* CENTERED */
