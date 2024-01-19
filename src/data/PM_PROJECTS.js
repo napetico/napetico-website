@@ -173,7 +173,7 @@ const PM_PROJECTS = [
         homeSnippet: '',
         homeTitle: '',
         featTag: [true, 'yellow', 'in progress'],
-        heroCard: ['Biting Lemons', 'Business Strategy and Project Management'],
+        heroCard: ['Biting Lemons', 'Project Management & Strategy'],
     },
 
 ]

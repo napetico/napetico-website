@@ -54,6 +54,7 @@
 
 .cardDescription {
     font-weight: 300;
+    line-height: 1.4;
 }
 
 .cardDetailsWrapper {
@@ -102,7 +103,7 @@
 
 .cardClientImageBox {
     width: 1.07vw;
-    height: 1.10vw;
+    height: 1.07vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +162,7 @@
     
     .cardClientImageBox {
         width: 1.28vw;
-        height: 1.32vw;
+        height: 1.28vw;
     }
 }
 
@@ -209,7 +210,7 @@
     }
     
     .linkGroupArrow {
-        width: 3.78vw;
+        width: 3.98vw;
     }
     
     .cardLinkWithImageBox{
@@ -217,7 +218,7 @@
     }
     
     .cardClientImageBox {
-        width: 2.82vw;
-        height: 2.90vw;
+        width: 3.02vw;
+        height: 3.02vw;
     }
 }

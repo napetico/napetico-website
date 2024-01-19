@@ -141,7 +141,7 @@
     }
     
     .briefSection {
-        gap: 9.42vw;
+        gap: 18vw;
     }
     
     .briefWrapper {
@@ -155,11 +155,12 @@
     
     .briefText {
         font-size: 3.41vw;
+        line-height: 1.65;
     }
 
     .briefGalleryGrid {
         grid-template: repeat(3, 1fr) / repeat(1, 1fr);
-        gap: 5.65vw 0vw;
+        gap: 8.65vw 0vw;
     }
     
     .introImageBox, .outcomeImageBox {
@@ -193,7 +194,7 @@
     }
     
     .finalDesignGrid {
-        gap: 8.47vw 5.65vw;
+        gap: 8.65vw 5.65vw;
     }
 }
 

@@ -5,7 +5,7 @@
 .profileCardHolder {
     display: flex;
     padding: 5vw;
-    gap: 5vw;
+    gap: 6vw;
     border-radius: 1.43vw;
     background-color: #d9d9d9;
 }
@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.43vw;
-    width: 38%;
+    width: 28%;
 }
 
 .sectionTag {
@@ -31,35 +31,13 @@
     display: flex;
     flex-direction: column;
     gap: 1.79vw;
-    width: 37%;
+    width: 47%;
     padding-top: 2.86vw;
 }
 
 .bioText {
     line-height: 1.65;
 }
-
-/* .detailsHolder {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.07vw;
-}
-
-.detailsBox {
-    display: flex;
-    align-items: center;
-    gap: 1.07vw;
-}
-
-.icon {
-    width: 1.43vw;
-    height: 1.43vw;
-}
-
-.bold {
-    font-weight: 600;
-} */
 
 .photoWrapper {
     width: 25%;
@@ -69,7 +47,7 @@
 .bioPhotoBox {
     width: 17.85vw;
     height: 17.85vw;
-    /* border-radius: 100%; */
+    border-radius: 100%;
     overflow: hidden;
 }
 
@@ -200,6 +178,7 @@ table {
     
     .titleWrapper {
         gap: 1.72vw;
+        width: 30%;
     }
 
     .bioCardHeader {
@@ -209,6 +188,7 @@ table {
     .infoWrapper {
         gap: 2.15vw;
         padding-top: 3.43vw;
+        width: 45%;
     }
     
     /* .detailsHolder, .detailsBox {
@@ -306,7 +286,7 @@ table {
     
     .profileCardHolder {
         flex-direction: column;
-        padding: 14vw 9.5vw;
+        padding: 10vw 8vw;
         gap: 8vw;
         border-radius: 3vw;
     }
@@ -340,8 +320,9 @@ table {
     }
     
     .bioPhotoBox {
-        width: 55vw;
+        width: 100%;
         height: 55vw;
+        border-radius: 2.54vw;
     }
     
     .sectionIntroWrapper {

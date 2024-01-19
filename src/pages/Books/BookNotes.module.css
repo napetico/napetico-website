@@ -97,7 +97,7 @@
 .notesP {
     font-size: var(--reg-p-20-desktop);
     font-weight: 300;
-    line-height: 1.45;
+    line-height: 1.55;
 }
 
 .centeredLinkHolder {
@@ -214,6 +214,7 @@
     
     .notesP {
         font-size: var(--reg-p-20-mobile);
+        line-height: 1.65;
     }
 
     .centeredLinkHolder {

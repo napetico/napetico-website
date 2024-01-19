@@ -20,13 +20,13 @@
   /*  font size  */
   --reg-p-14-desktop: 1vw;
   --reg-p-14-tablet: 1.2vw;
-  --reg-p-14-mobile: 2.64vw;
+  --reg-p-14-mobile: 3.04vw;
   --reg-p-16-desktop: 1.14vw;
   --reg-p-16-tablet: 1.37vw;
   --reg-p-16-mobile: 3.5vw;
   --reg-p-20-desktop: 1.43vw;
   --reg-p-20-tablet: 1.72vw;
-  --reg-p-20-mobile: 3.78vw;
+  --reg-p-20-mobile: 3.98vw;
   --h3-30-desktop: 2.14vw;
   --h3-30-tablet: 2.57vw;
   --h3-30-mobile: 5.65vw;
@@ -35,7 +35,7 @@
   --h2-45-mobile: 6.93vw;
   --h1-80-desktop: 5.72vw;
   --h1-80-tablet: 6.86vw;
-  --h1-80-mobile: 12.15vw;
+  --h1-80-mobile: 13.15vw;
   /*  margins  */
   --lr-margin-desktop: 3.57vw;
   --lr-margin-tablet: 2.98vw;
@@ -274,11 +274,11 @@ a {
   }
 
   .h3-card-title-22 {
-    font-size: 4.31vw;
+    font-size: 4.21vw;
   }
 
   .h3-card-title-18 {
-    font-size: 3.72vw;
+    font-size: 3.82vw;
   }
 
   .nav-logo {

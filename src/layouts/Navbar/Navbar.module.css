@@ -296,13 +296,13 @@
 
   .categoryTitle {
     font-weight: 700;
-    font-size: var(--reg-p-20-mobile);
+    font-size: var(--reg-p-16-mobile);
     color: var(--main-white);
   }
 
   .mobileCategoryLine {
     background-color: var(--main-white);
-    height: 0.2vw;
+    height: 0.1vw;
     width: 100%;
   }
 
@@ -315,7 +315,7 @@
   }
 
   .navLinkMobileDropdown {
-    font-size: var(--reg-p-20-mobile);
+    font-size: var(--reg-p-16-mobile);
   }
 
   .contactCard {
@@ -333,7 +333,7 @@
     display: flex;
     align-items: center;
     gap: 1.87vw;
-    font-size: var(--reg-p-20-mobile);
+    font-size: var(--reg-p-16-mobile);
   }
 
   .cardLinkText {

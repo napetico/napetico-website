@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 576px) {
     .preFootHolder {
-        padding: 6.85vw;
+        padding: 7.85vw 6.85vw;
         border-radius: 1.87vw;
     }
     

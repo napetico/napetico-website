@@ -163,9 +163,9 @@
     }
     
     .sectionInfo {
-        width: 77.13vw;
+        width: 95%;
         text-align: left;
-        line-height: 1.5;
+        line-height: 1.6;
     }
 
     /* CENTERED */
@@ -183,6 +183,7 @@
 
     .introInfo {
         width: 76.83vw;
+        line-height: 1.6;
     }
 
     /* PROJECT */

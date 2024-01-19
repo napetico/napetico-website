@@ -11,7 +11,7 @@ const Footer = () => {
             <div className={styles.footerContainer}>
                 <div className={styles.pagesNavBox}>
                     <Link className={styles.logoLinkBlock} to='/' onClick={scrollToTop}>
-                        <img className='nav-logo' src='./images/icons/napo-logo.svg' alt='napo logo'/>
+                        <img className='nav-logo' src='/images/icons/napo-logo.svg' alt='napo logo'/>
                     </Link>
                     <div className={styles.footLinksHolder}>
                         <div className={styles.footLinkWrap}>
@@ -47,14 +47,14 @@ const Footer = () => {
                                 <p className={styles.cardLinkText}>Find me here</p>
                                 <img className={styles.cardLinkImage} src='/images/icons/napo-whatsapp-logo-black.png' alt='' />
                                 <div>
-                                    <LinkOnWhite text={'+34 673250200'} link={''} />
+                                    <LinkOnWhite text={'+34 673250200'} link={'tel:+34673250200'} />
                                 </div>
                             </div>
                             <div className={styles.cardLinkBox}>
                                 <p className={styles.cardLinkText}>Email me at</p>
                                 <img className={styles.cardLinkImage} src='/images/icons/napo-email-logo-black.png' alt='' />
                                 <div>
-                                    <LinkOnWhite text={'napo@napetico.com'} link={''} />
+                                    <LinkOnWhite text={'napo@napetico.com'} link={'mailto:enabaro@gmail.com'} />
                                 </div>
                             </div>
                         </div>

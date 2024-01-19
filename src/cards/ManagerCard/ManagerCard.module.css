@@ -88,7 +88,7 @@
 
 .cardDescription {
     font-weight: 300;
-    line-height: 1.35;
+    line-height: 1.4;
 }
 
 .cardLinksWrapper {
@@ -215,7 +215,7 @@
     
     .cardInfoWrapper {
         padding: 4.73vw 3.78vw 3.78vw;
-        gap: 1.32vw;
+        gap: 1.72vw;
     }
     
     .cardProjectInfo {
@@ -228,8 +228,8 @@
     }
     
     .cardClientImageBox {
-        width: 3.78vw;
-        height: 3.78vw;
+        width: 3.98vw;
+        height: 3.98vw;
     }
     
     .cardTitle {
@@ -252,8 +252,8 @@
     }
     
     .icon {
-        width: 3.78vw;
-        height: 3.78vw;
+        width: 3.98vw;
+        height: 3.98vw;
     }
     
     .categoryTag {
@@ -265,6 +265,6 @@
     }
     
     .linkGroupArrow {
-        width: 3.78vw;
+        width: 3.98vw;
     }
 }

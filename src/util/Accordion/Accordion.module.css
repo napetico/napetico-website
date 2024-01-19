@@ -197,6 +197,6 @@
     
     .accordionAnswerText {
         margin-top: 5.65vw;
-        font-size: 3.41vw;
+        font-size: var(--reg-p-16-mobile);
     }
 }

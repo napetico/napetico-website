@@ -6,7 +6,7 @@
 }
 
 .toolLabelText {
-    font-size: var(--reg-p-18-desktop);
+    font-size: var(--reg-p-16-desktop);
     font-weight: 600;
 }
 
@@ -17,7 +17,7 @@
     }
     
     .toolLabelText {
-        font-size: var(--reg-p-18-tablet);
+        font-size: var(--reg-p-18¡6-tablet);
     }
 }
 
@@ -28,6 +28,6 @@
     }
     
     .toolLabelText {
-        font-size: var(--reg-p-18-mobile);
+        font-size: var(--reg-p-16-mobile);
     }
 }

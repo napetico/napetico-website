@@ -87,28 +87,14 @@ const Director = () => {
                 <div className={styles.profileCardHolder}>
                     <div className={styles.titleWrapper}>
                         <p className={styles.sectionTag}>My goal</p>
-                        <h2 className={styles.bioCardHeader}>Optimize your business performance from every angle.</h2>
+                        <h2 className={styles.bioCardHeader}>Optimize performance and maximize opportunities.</h2>
                     </div>
                     <div className={styles.infoWrapper}>
-                        <p className={styles.bioText}>Our businesses are just the reflection of the hundreds of sequences of actions we execute everyday to keep them running. Some render positive results, some negative, and some are not even happening yet. True competitive advantage requires us to understand that our businesses won’t raise to the level of our goals but fall to the level of our systems. My mission is to help you take control of these systems and get hands-on to consistently improve and implement empowering processes and flawless execution to boost your business performance.</p>
-                        {/* <ul className={styles.detailsHolder}>
-                            <li className={styles.detailsBox}>
-                                <img className={styles.icon} src='/images/icons/napo-language-icon.png' alt='Languages icon'/>
-                                <p><span className={styles.bold}>Hablo muy bien: </span>Español e Inglés</p>
-                            </li>
-                            <li className={styles.detailsBox}>
-                                <img className={styles.icon} src='/images/icons/napo-laptop-icon.png' alt='Laptop icon'/>
-                                <p><span className={styles.bold}>Puedo trabajar: </span>Remoto o Presencial</p>
-                            </li>
-                            <li className={styles.detailsBox}>
-                                <img className={styles.icon} src='/images/icons/napo-rock-hands-icon.png' alt='Rock hands icon'/>
-                                <p><span className={styles.bold}>Me gusta: </span>Los equipos y los sistemas</p>
-                            </li>
-                        </ul> */}
+                        <p className={styles.bioText}>Forget shortcuts or expensive magic tricks. If you want to achieve great goals we must get under your business’ hood and work on the engines. Every process you execute and executive decision you make -and the accumulation of them- is rendering an impactful outcome and my mission will be to help you improve the good ones, eliminate the bad ones, and implement the ones that are need but not running yet. Keep in mind that your ideas won’t raise to the level of your goals but fall to the level of the systems to have in place. Let’s make sure you have the best ones.</p>
                     </div>
                     <div className={styles.photoWrapper}>
                         <div className={styles.bioPhotoBox}>
-                            <img src='/images/napetico-profile-image.png' alt='Napoleon'/>
+                            <img src='/images/napo-workshop-image.png' alt='Napoleon running a strategy workshop'/>
                         </div>
                     </div>
                 </div>
@@ -118,7 +104,7 @@ const Director = () => {
                     <p className={styles.sectionTag}>My focus</p>
                     <div className={styles.sectionHeaderBox}>
                         <h2 className={styles.sectionHeader}>Streamlined creativity, resilient strategies, and operational excellence.</h2>
-                        <p className={styles.sectionInfo}>Of course building a successful business takes more than just focusing on these three things. It will also need good finance, killer marketing, clever product development, and the list goes on. But these three approaches are catalyzers of great work and the impact they have on the business is a game changer. Not only for making it run at peak performance but also -and specially- for bringing everyone together under one empowering vision and work ethics -which makes for an unstoppable organization. Big success is collective, multidisciplinary, and systematic. My intent is to ignite this synergy and make it consistent over time through creativity, good strategies, and smart work.</p>
+                        <p className={styles.sectionInfo}>Of course building a successful business takes more than just focusing on these three things. We'll also address good finance, killer marketing, clever product development, and many others. But these three focuses are catalyzers of great work and the impact they have on the business is a game changer. Not only for making it run at peak performance but also -and specially- for bringing everyone together under one empowering vision and work ethics -which makes for an unstoppable organization. Big success is collective, multidisciplinary, and systematic. My intent is to ignite this synergy and make it consistent over time through creativity, good strategies, and smart work.</p>
                     </div>
                 </div>
             </section>
@@ -148,7 +134,7 @@ const Director = () => {
                     align='right'
                 />
                 <div>
-                    <p className='bold-tag'>n.proceso creativo</p>
+                    <p className='bold-tag'>n.creative process</p>
                     <Accordion data={accordionData}/>
                 </div>
             </section>
@@ -162,15 +148,15 @@ const Director = () => {
                 <div className={styles.examplesHolder}>
                     <div className={styles.exampleBox}>
                         <p className='bold-tag'>n.strategic</p>
-                        <p className={styles.exampleText}>Vision, Values, Target Customer, Nich and Market, Trends and Competitors, Direction & Commercial Strategy, Company Culture, Ethics Code, Creative Frameworks and Facilitation, and more.</p>
+                        <p className={styles.exampleText}>Vision · Values · Target Customer · Nich and Market · Trends and Competitors · Direction & Commercial Strategy · Company Culture · Ethics Code · Creative Frameworks and Facilitation · and more.</p>
                     </div>
                     <div className={styles.exampleBox}>
                         <p className='bold-tag'>n.tactical</p>
-                        <p className={styles.exampleText}>Competitive Strategy, Brand Strategy and Design, Product Strategy, Communication Strategy, Business Structures, Web Design and Strategy, User Experience, Protyping and Testing, Positioning, Product-Market Fit, KPIs fetching and analysis, and more.</p>
+                        <p className={styles.exampleText}>Competitive Strategy · Brand Strategy and Design · Product Strategy · Communication Strategy · Business Structures · Web Design & Strategy · User Experience · Protyping and Testing · Positioning · Product-Market Fit · KPIs fetching and analysis · and more.</p>
                     </div>
                     <div className={styles.exampleBox}>
                         <p className='bold-tag'>n.operational</p>
-                        <p className={styles.exampleText}>Processes Optimization, Systems Creation and Implementation, Resources Management, Stock Control, Hardware & Tools, Protocols and Manuals, Cost Optimization, User Experience Improvements, Onboarding and Team Training, and more.</p>
+                        <p className={styles.exampleText}>Processes Optimization · Systems Creation and Implementation · Resources Management · Stock Control · Hardware & Tools · Protocols and Manuals · Cost Optimization · User Experience Improvements · Onboarding and Team Training · and more.</p>
                     </div>
                 </div>
             </section>
@@ -207,7 +193,7 @@ const Director = () => {
                 <SectionIntro
                     tag='My expertise'
                     header='Useful skills I will bring to the project.'
-                    info='A multidisciplanry list of technical, creative, and strategic skills paired with business accumen. Looking for more skills? Let me know.'
+                    info='A multidisciplinary list of technical, creative, and strategic skills paired with business accumen. Looking for more skills? Let me know.'
                     align='right'
                 />
                 <div>
