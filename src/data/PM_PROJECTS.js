@@ -151,30 +151,30 @@ const PM_PROJECTS = [
         homeSnippet: '',
         homeTitle: '',
         featTag: [true, 'black', 'most recent'],
-        heroCard: ['Title', 'Description'],
+        heroCard: ["Vagabond Culture", 'Process Optimization + Company Culture'],
     },
-    {
-        id: 'BL',
-        path: '/project-manager-portfolio/biting-lemons',
-        url: '',
-        client: {
-            name: 'Biting Lemons',
-            image: ['/images/TEST-bl-client-image.png', 'Biting Lemons logo'],
-            bio: '',
-        },
-        category: 'Content, Documentaries',
-        mainImages: {
-            card: ['/images/pm/napo-bl-card-image.png', 'Camera crew filming a group of people'],
-            poster: ['', ''],
-        },
-        cardTitle: 'The business of impactful content.',
-        cardInfo: 'Crafting a solid strategy and engaging pilot to help BL have a powerful kick-off and pre-funding.',
-        cardIcon: '/images/icons/napo-video-icon.svg',
-        homeSnippet: '',
-        homeTitle: '',
-        featTag: [true, 'yellow', 'in progress'],
-        heroCard: ['Biting Lemons', 'Project Management & Strategy'],
-    },
+    // {
+    //     id: 'BL',
+    //     path: '/project-manager-portfolio/biting-lemons',
+    //     url: '',
+    //     client: {
+    //         name: 'Biting Lemons',
+    //         image: ['/images/TEST-bl-client-image.png', 'Biting Lemons logo'],
+    //         bio: '',
+    //     },
+    //     category: 'Content, Documentaries',
+    //     mainImages: {
+    //         card: ['/images/pm/napo-bl-card-image.png', 'Camera crew filming a group of people'],
+    //         poster: ['', ''],
+    //     },
+    //     cardTitle: 'The business of impactful content.',
+    //     cardInfo: 'Crafting a solid strategy and engaging pilot to help BL have a powerful kick-off and pre-funding.',
+    //     cardIcon: '/images/icons/napo-video-icon.svg',
+    //     homeSnippet: '',
+    //     homeTitle: '',
+    //     featTag: [true, 'yellow', 'in progress'],
+    //     heroCard: ['Biting Lemons', 'Project Management & Strategy'],
+    // },
 
 ]
 
