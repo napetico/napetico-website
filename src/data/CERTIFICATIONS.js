@@ -48,7 +48,7 @@ const CERTIFICATIONS = [
         certificationCardData: {
             title: 'Webflow Expert',
             academy: ['Webflow', 'https://webflow.com/'],
-            image: ['https://media.licdn.com/dms/image/D4E0BAQE9CrqNFzJEsw/company-logo_200_200/0/1696534636076/webflow_inc__logo?e=2147483647&v=beta&t=coEEAaLDlvWgkN0YIVUdDfxqpk3HJ6wv_LYV_FztEJ0', ''],
+            image: ['/images/icons/napo-webflow-logo.png', ''],
             description: '2023 · Web Design',
             completed: true, 
             certificationURL: ''

@@ -27,7 +27,7 @@ const Webs = () => {
         {
             title: 'Webflow Expert Certification',
             academy: 'Webflow',
-            image: ['https://scontent.fmad7-1.fna.fbcdn.net/v/t39.30808-6/385306567_719382456899846_9163212455345370930_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=ysiN2QjgMo8AX9oM9Wp&_nc_ht=scontent.fmad7-1.fna&oh=00_AfBYOXKoFdfaSE-z0FQoVlWdQdxr_UpCf0pHSthyckWfpA&oe=6586C8FB', 'Webflow Logo']
+            image: ['/images/icons/napo-webflow-logo.png', 'Webflow Logo']
         },
         {
             title: 'Full Stack Software Engineer',
@@ -40,25 +40,25 @@ const Webs = () => {
             tag: '1',
             title: 'Context & Strategy',
             span: 'To be asertive and coherent with your expectations',
-            content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
+            content: "To start, we'll get together to talk about your business and expectations. I'll make lots of questions, so be ready hehe. My goal is to understand your vision, clarify details, and connect the dots to discover which ideas will have the biggest impact. Depending on the size of your project I will also run a deep research around your business, to see if there's anything useful we could add or improve. From all this, we will get very clear about how to make the most out of this engagement. If something pops up that I can't do I'll be honest, tell you, and help you find solutions. Also, these conversations frequently bring to light very cool ideas about your business that have nothing to do with the website, so bring pen and paper and let's get creative.",
         },
         {
             tag: '2',
             title: 'Concept & Design',
             span: 'To find the perfect look & feel and site features ',
-            content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
+            content: "This phase is to nail the look & feel of your site. First, we'll work on refining your message (purpose, products, benefits, values, story...) and crafting a clear and consistent structure to communicate it -we don't want confused visitors struggling to know about you and what you do. I'll build wireframes and choose together which direction fits best. Second, we'll work on all the visuals (colors, imagery, final text, animations, and so on). I'll build high-fidelity mockups, review them together, and choose a final design. My goal here is to help you explore 2-3 possible directions for your site, get to one you like, and clear every detail or resource we need before moving on to the next phase.",
         },
         {
             tag: '3',
             title: 'Implementation & Testing',
             span: 'Getting the site pixel perfect for testing',
-            content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
+            content: "In this step I'll materialize your approved design using code or Webflow -mostly working by myself. I usually start with the structure and CMS, then move to layouts and design, and finally, animations and other settings. For each of these three milestones I will give you updates so you can see the progress and give feedback (if needed). When everything is done we will test the site's performance together (visual, grammar, loading speed, forms, and so on) and list any improvement that could be made or bug to fix.",
         },
         {
             tag: '4',
             title: 'Optimization and Launch',
             span: 'Refinements, preparations, and going live baby!',
-            content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
+            content: 'With the notes from the previous step I will optimize the site to the last pixel. I will also work on basic SEO settings, connecting hosting and domain, and help you set up Google Analytics. Launching includes a quick class -with you or your team- to show you how to manage your site (edit text, change photos, add data into the CMS, collect form emails, and more), especially if we used Webflow. The last move is to make the site public! I will stay around for a few weeks after launching to track the performance and help you with any questions.',
         },
     ]
 
