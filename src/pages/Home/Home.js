@@ -8,6 +8,13 @@ import SectionIntro from '../../util/SectionIntro/SectionIntro.js';
 import ProjectCard from '../../cards/ProjectCard/ProjectCard.js';
 import DirectoryCard from '../../cards/DirectoryCard/DirectoryCard.js';
 
+import PM_PROJECTS from '../../data/PM_PROJECTS.js';
+import CODE_PROJECTS from '../../data/CODE_PROJECTS.js';
+import WEB_PROJECTS from '../../data/WEB_PROJECTS.js';
+import BOOK_LIST from '../../data/BOOK_LIST.js'
+import COURSE_LIST from '../../data/COURSE_LIST.js'
+import CERTIFICATIONS from '../../data/CERTIFICATIONS.js';
+
 const Home = () => {
     return(
         <>
@@ -62,26 +69,13 @@ const Home = () => {
                         <div className={styles.carouselContainer}> 
                         {/* Here goes the card slider */}
                             <div className={styles.projectCardHolder}>
-                                <ProjectCard
-                                    image={['https://assets-global.website-files.com/5e5030689c8b3c644e70daaa/64fcb7c8cf0e897a276bf57b_Sensitivita_April%202023-141-2-p-800.jpg', 'Camera crew filming']}
-                                    href='/project-manager-portfolio/biting-lemons'
-                                    info='PM for'
-                                    title='Putting together a rewarding pre-funding strategy'
-                                    client={[true, 'Biting Lemons', 'http://www.bitinglemons.com/']}
-                                    clientImage={['./images/TEST-bl-client-image.png', '']}
-                                    featTag={[true, 'yellow', 'in progress']}
-                                />
+                                <ProjectCard link={true} client={true} card='work' data={PM_PROJECTS[PM_PROJECTS.length -1]}/>
                             </div>
+                            {/* <div className={styles.projectCardHolder}>
+                                <ProjectCard link={false} client={true} card='work' data={CODE_PROJECTS[CODE_PROJECTS.length -2]}/>
+                            </div> */}
                             <div className={styles.projectCardHolder}>
-                                <ProjectCard
-                                    image={['./images/TEST-flipcards-react-redux.jpg', 'Reddit mockup design']}
-                                    href='#'
-                                    info='Code for My Portfolio'
-                                    title='Project: Flashcards with JS, React, and Redux'
-                                    client={[false, '', '']}
-                                    clientImage={['', '']}
-                                    featTag={[false, '', '']}
-                                />
+                                <ProjectCard link={true} client={true} card='work' data={WEB_PROJECTS[WEB_PROJECTS.length -1]}/>
                             </div>
                         </div>
                     </div>
@@ -136,41 +130,20 @@ const Home = () => {
                         />
                     </div>
                     <div className={styles.displayCarousel}>
-                        <p className='bold-tag'>n.exploring now</p>
-                        <div className={styles.carouselContainer}> 
+                        <p className='bold-tag'>n.learning now</p>
+                        <div className={styles.carouselContainerBooks}> 
                         {/* Here goes the card slider */}
-                            <div className={styles.projectCardHolder}>
-                                <ProjectCard
-                                    image={['https://cdn.wallapop.com/images/10420/fi/vg/__/c10420p938693264/i3498517058.jpg?pictureSize=W640', 'The Lean Product Playbook']}
-                                    href='/under-construction'
-                                    info='Dan Olsen'
-                                    title='The Lean Product Playbook'
-                                    client={[false, '', '']}
-                                    clientImage={['', '']}
-                                    featTag={[true, 'yellow', 'reading now']}
-                                />
+                            <div className={styles.projectCardHolderBooks}>
+                                <ProjectCard link={true} client={false} card='book' data={BOOK_LIST[BOOK_LIST.length -1]}/>
                             </div>
-                            <div className={styles.projectCardHolder}>
-                                <ProjectCard
-                                    image={['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxLNFRhmPXVXdFgZCPIHI_caiNbIFIA3IeEw&usqp=CAU', 'The Lean Startup']}
-                                    href='/under-construction'
-                                    info='Eric Ries'
-                                    title='The Lean Startup'
-                                    client={[false, '', '']}
-                                    clientImage={['', '']}
-                                    featTag={[false, '', '']}
-                                />
+                            <div className={styles.projectCardHolderBooks}>
+                                <ProjectCard link={true} client={false} card='book' data={BOOK_LIST[BOOK_LIST.length -2]}/>
                             </div>
-                            <div className={styles.projectCardHolder}>
-                                <ProjectCard
-                                    image={['./images/napo-google-pm-certificate.png', '']}
-                                    href='/under-construction'
-                                    info='Coursera + Google'
-                                    title='Google Project Management'
-                                    client={[false, '', '']}
-                                    clientImage={['', '']}
-                                    featTag={[true, 'black', 'taking now']}
-                                />
+                            <div className={styles.projectCardHolderBooks}>
+                                <ProjectCard link={true} client={false} card='course' data={COURSE_LIST[COURSE_LIST.length -2]}/>
+                            </div>
+                            <div className={styles.projectCardHolderBooks}>
+                                <ProjectCard link={true} client={false} card='cert' data={CERTIFICATIONS[CERTIFICATIONS.length -1]}/>
                             </div>
                         </div>
                     </div>
@@ -229,25 +202,23 @@ const Home = () => {
                         <div className={styles.carouselContainer}> 
                         {/* Here goes the card slider */}
                             <div className={styles.projectCardHolder}>
-                                <ProjectCard
-                                    image={['https://scontent.falc2-1.fna.fbcdn.net/v/t31.18172-8/22496202_741114852751608_5414144444795781619_o.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=c2f564&_nc_ohc=ATO0y4j4ZtsAX9jBc1l&_nc_ht=scontent.falc2-1.fna&oh=00_AfC6NMDf7WMyA14VSlzP6q-vHF1vo0FdjtVZ3QB-8tiN3w&oe=65A3ACD0', 'Color pencil illustration of a pineapple']}
-                                    href='/under-construction'
-                                    info='Pencil Color Hyperrealism'
-                                    title='Pineapple in Technicolor: Taken from a Pinterest post'
-                                    client={[false, '', '']}
-                                    clientImage={['./images/TEST-bl-client-image.png', '']}
-                                    featTag={[true, 'black', 'coloring now']}
+                                <ProjectCard link={true} client={false} card='hobbie' data={{
+                                    path: '/under-construction',
+                                    image: ['https://scontent.fmad7-1.fna.fbcdn.net/v/t31.18172-8/22496202_741114852751608_5414144444795781619_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c2f564&_nc_ohc=M34Y7sBXgtEAX_beqA7&_nc_ht=scontent.fmad7-1.fna&oh=00_AfD6hIbVPGDGCCcQ2ZJd8h6e33sLbgByUmB4kkV9K44Ynw&oe=65DF70D0', 'Color pencil illustration of a pineapple'],
+                                    featTag: [true, 'black', 'coloring now'],
+                                    snippet: 'Pencil Color Hyperrealism',
+                                    title: 'Pineapple in Technicolor: Taken from a Pinterest post',
+                                }}
                                 />
                             </div>
                             <div className={styles.projectCardHolder}>
-                                <ProjectCard
-                                    image={['https://i.pinimg.com/564x/d6/77/ab/d677abb7b454e0635273df67c53a204a.jpg', 'Lettering that reads Antifragile']}
-                                    href='/under-construction'
-                                    info="Article for Napoleon's Log"
-                                    title='What does it mean to build an antifragile business?'
-                                    client={[false, '', '']}
-                                    clientImage={['', '']}
-                                    featTag={[false, '', '']}
+                                <ProjectCard link={true} client={false} card='hobbie' data={{
+                                    path: '/under-construction',
+                                    image: ['https://i.pinimg.com/564x/d6/77/ab/d677abb7b454e0635273df67c53a204a.jpg', 'Lettering that reads Antifragile'],
+                                    featTag: [false, '', ''],
+                                    snippet: "Article for Napoleon's Log",
+                                    title: 'What does it mean to build an antifragile business?',
+                                }}
                                 />
                             </div>
                         </div>

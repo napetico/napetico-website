@@ -77,7 +77,7 @@ const COURSE_LIST = [
         title: 'Full Stack Software Engineer',
         academy: 'Codecademy',
         image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR9-pcSbdH5C8fhyx_TSZjKn2e6csGO4OnTnlemDCWrA&s', 'Codecademy course poster'],
-        featTag: [false, 'black', 'taking now']
+        featTag: [true, 'black', 'almost done']
     },
     {
         id: 'GOOGLEPM',
@@ -85,7 +85,7 @@ const COURSE_LIST = [
         title: 'Google Project Manager',
         academy: 'Coursera + Google',
         image: ['https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/600px-Coursera-Logo_600x600.svg.png', 'Coursera and Google course poster'],
-        featTag: [false, 'yellow', 'taking now']
+        featTag: [true, 'black', 'in progress']
     },
 ]
 

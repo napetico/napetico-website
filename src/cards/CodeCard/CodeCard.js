@@ -29,7 +29,7 @@ const CodeCard = ({data}) => {
                     </div>
                     <div className={styles.madeToBox}>
                         <p className={styles.detailTag}>for</p>
-                        <LinkOnWhite link={data.madeFor.url} text={data.madeFor.name} newTab={true}/>
+                        <LinkOnWhite link={data.client.url} text={data.client.name} newTab={true}/>
                     </div>
                 </div>
                 <div className={styles.cardLinksWrapper}>

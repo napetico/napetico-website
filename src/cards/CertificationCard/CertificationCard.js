@@ -10,9 +10,9 @@ const CertificationCard = ({data}) => {
                 <p>at</p>
                 <div className={styles.academyInfo}>
                     <div className={styles.academyImageBox}>
-                        <img className={styles.academyImage} src={data.image[0]} alt={data.image[1]}/>
+                        <img className={styles.academyImage} src={data.academy.image[0]} alt={data.academy.image[1]}/>
                     </div>
-                    <LinkOnWhite text={data.academy[0]} link={data.academy[1]} newTab={true}/>
+                    <LinkOnWhite text={data.academy.name} link={data.academy.site} newTab={true}/>
                 </div>
             </div>
             <div className={styles.certInfoBox}>
@@ -20,7 +20,7 @@ const CertificationCard = ({data}) => {
             </div>
             <div className={styles.certButtonBox}>
                 {data.completed ? 
-                    <a className={styles.openLink} href={data.certificationURL} >
+                    <a className={styles.openLink} href={data.url} >
                         <p>open cert.</p>
                     </a> :
                     <div className={styles.blackButton}>

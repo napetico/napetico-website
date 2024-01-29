@@ -1,0 +1,35 @@
+.introSection {
+    padding: 2.56vw var(--lr-margin-desktop) var(--tb-margin-desktop);
+    display: flex;
+    flex-direction: column;
+    gap: 5.71vw;
+}
+
+.posterImageBox {
+    width: 100%;
+    height: 57.24vw;
+    border-radius: 1.43vw;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 992px) {
+    .introSection {
+        padding: 3.43vw var(--lr-margin-tablet) var(--tb-margin-tablet);
+        gap: 6.85vw;
+    }
+    
+    .posterImageBox {
+        border-radius: 1.72vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .introSection {
+        padding: 7.55vw var(--lr-margin-mobile) var(--tb-margin-mobile);
+        gap: 14.48vw;
+    }
+    
+    .briefSection {
+        gap: 18vw;
+    }
+}

@@ -3,10 +3,10 @@ const CODE_PROJECTS = [
         id: 'DESIGN SYSTEM',
         path: 'https://github.com/napetico/website-design-system',
         url: 'https://napetico.github.io/website-design-system/',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
-            bio: 'https://www.codecademy.com/',
+            url: 'https://www.codecademy.com/',
         },
         madeWith: 'HTML, CSS',
         mainImages: {
@@ -16,13 +16,15 @@ const CODE_PROJECTS = [
         cardTitle: 'Web Design System',
         cardInfo: "A very simple page to organize elements and components for a web design system.",
         featTag: [false, '', ''],
-        heroCard: ['Web Design System', 'Practice Webpage with HTML & CSS']
+        heroCard: ['Web Design System', 'Practice Webpage with HTML & CSS'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'HTML SHEET',
         path: 'https://github.com/napetico/semantic-html-cheatsheet',
         url: 'https://napetico.github.io/semantic-html-cheatsheet/',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -35,13 +37,15 @@ const CODE_PROJECTS = [
         cardTitle: 'My notes on Semantic HTML',
         cardInfo: "Basic page summarizing my notes from a semantic HTML class inside a table.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'SNEAKERS',
         path: 'https://github.com/napetico/sneaky-sneakers',
         url: 'https://napetico.github.io/sneaky-sneakers/',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -54,13 +58,15 @@ const CODE_PROJECTS = [
         cardTitle: 'Landing Page: Sneaky Sneakers',
         cardInfo: "Practice page for an imaginary brand of customized sneakers made by artists.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'HIKING CLUB',
         path: 'https://github.com/napetico/the-hiking-club',
         url: 'https://napetico.github.io/the-hiking-club/',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -73,13 +79,15 @@ const CODE_PROJECTS = [
         cardTitle: 'Landing Page: Hiking Club',
         cardInfo: "Simple one-pager I made for an imaginary local hiking club.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'NUMBER GUESSER',
         path: 'https://github.com/napetico/number-guesser-game',
         url: 'https://napetico.github.io/number-guesser-game/',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -92,13 +100,15 @@ const CODE_PROJECTS = [
         cardTitle: 'Online Game: Number Guesser',
         cardInfo: "Play against the computer to see who gets closer to a random number.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'CARD CHECKER',
         path: 'https://github.com/napetico/credit-card-checker',
         url: '/under-construction',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -111,13 +121,15 @@ const CODE_PROJECTS = [
         cardTitle: 'Basic credit card checker with JS',
         cardInfo: "Short piece of code to validate series of credit card numbers using Luhn's algorithm.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'DNA STRANDS',
         path: 'https://github.com/napetico/mysterious-organism',
         url: '/under-construction',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -130,13 +142,15 @@ const CODE_PROJECTS = [
         cardTitle: 'DNA generator for a mysterious organism',
         cardInfo: "A piece of code that creates random DNA strands and then analyzes their properties.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'FUNKY MESSAGE',
         path: 'https://github.com/napetico/funky-message-generator',
         url: '/under-construction',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -149,13 +163,15 @@ const CODE_PROJECTS = [
         cardTitle: 'Confusing quotes generator with JS',
         cardInfo: "A funky function that returns random quotes that clearly make no sense to anyone.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'PERSONAL WEB 1',
         path: 'https://github.com/napetico/portfolio-website-v1',
         url: 'https://napetico.github.io/portfolio-website-v1/',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -168,13 +184,15 @@ const CODE_PROJECTS = [
         cardTitle: 'Responsive personal portolfio',
         cardInfo: "A simple page to show my personal portfolio using cool features and fun animations.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'JAMMMING',
         path: 'https://github.com/napetico/jamming-app',
         url: 'https://napetico.github.io/jamming-app/',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -187,13 +205,15 @@ const CODE_PROJECTS = [
         cardTitle: 'Jammming: Music Playlists App',
         cardInfo: "Create music playlists and sync them with your Spotify account in just a few easy clicks.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'APPOINTMENT PLANNER',
         path: 'https://github.com/napetico/appointment-planner',
         url: 'https://main--appointment-planner-napetico.netlify.app',
-        madeFor: {
+        client: {
             name: 'Codecademy',
             image: ['', ''],
             url: 'https://www.codecademy.com/',
@@ -206,15 +226,17 @@ const CODE_PROJECTS = [
         cardTitle: 'Appointmet Planner with React',
         cardInfo: "A simple app that helps you manage personal appointments and contacts information.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: '',
+        homeTitle: '',
     },
     {
         id: 'FLASHCARDS',
         path: 'https://github.com/napetico/flashcards',
         url: 'https://napetico-flashcards-project.netlify.app/',
-        madeFor: {
+        client: {
             name: 'Codecademy',
-            image: ['', ''],
+            image: ['https://media.licdn.com/dms/image/D4E0BAQHQ2d_UpqzPHg/company-logo_200_200/0/1688566825101/codecademy_logo?e=2147483647&v=beta&t=i8_Tp0oObfmyo7oDgyLVERLdg0MZADjtAjL47AeA1Ss', 'Academy Logo'],
             url: 'https://www.codecademy.com/',
         },
         madeWith: 'JavaScript, React, Redux',
@@ -225,26 +247,30 @@ const CODE_PROJECTS = [
         cardTitle: 'Flashcard App with React and Redux',
         cardInfo: "Create and categorize flashcards to help you with your Q&A and study sessions.",
         featTag: [false, '', ''],
-        heroCard: ['Title', 'Description']
+        heroCard: ['Title', 'Description'],
+        homeSnippet: 'Code for',
+        homeTitle: 'Practice Project: Flashcards with React and Redux',
     },
     {
         id: 'REDDIT CLONE',
         path: '/under-construction',
         url: '/under-construction',
-        madeFor: {
+        client: {
             name: 'Codecademy',
-            image: ['', ''],
+            image: ['https://media.licdn.com/dms/image/D4E0BAQHQ2d_UpqzPHg/company-logo_200_200/0/1688566825101/codecademy_logo?e=2147483647&v=beta&t=i8_Tp0oObfmyo7oDgyLVERLdg0MZADjtAjL47AeA1Ss', 'Academy Logo'],
             url: 'https://www.codecademy.com/',
         },
         madeWith: 'JavaScript, React, Redux',
         mainImages: {
             card: ['https://www.yourteaminindia.com/hubfs/Imported_Blog_Media/Mobile-App-UI-Design-An-Experts-Complete-Guide-Sep-25-2023-10-23-26-1079-AM.png', 'Reddit clone design mockup'],
-            poster: ['', ''],
+            poster: ['https://www.yourteaminindia.com/hubfs/Imported_Blog_Media/Mobile-App-UI-Design-An-Experts-Complete-Guide-Sep-25-2023-10-23-26-1079-AM.png', 'Reddit clone design mockup'],
         },
         cardTitle: 'Reddit Clone with React and Redux',
         cardInfo: "A simplified version of Reddit that allows you to navigate posts using Reddit's API.",
         featTag: [true, 'yellow', 'in progress'],
-        heroCard: ['Reddit Clone', 'App made using React, Redux, and API']
+        heroCard: ['Reddit Clone', 'App made using React, Redux, and API'],
+        homeSnippet: 'Code for',
+        homeTitle: 'Simplified version of Reddit App using React and Redux',
     },
 ]
 

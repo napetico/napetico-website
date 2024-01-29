@@ -17,7 +17,7 @@ const Webs = () => {
     const lastSixProjects = WEB_PROJECTS.slice(-6).reverse();
     const lastProject = WEB_PROJECTS[WEB_PROJECTS.length -1];
 
-    const toolsList = ['Webflow', 'HTML & CSS', 'JavaScript', 'Animaciones', 'React', 'Back-End', 'APIs', 'Wireframes', 'Figma', 'Prototipos', 'U/X & U/I', 'CMS - Gestor de contenidos', 'Rediseño', 'Estrategias de Marca y Comunicación'];
+    const toolsList = ['Webflow', 'HTML & CSS', 'JavaScript', 'Cool Animations', 'React', 'Back-End', 'APIs', 'Wireframes', 'Figma', 'Prototypes', 'U/X & U/I', 'CMS', 'Re-design', 'Brand Strategy', 'Communication Strategy'];
     const certList = [
         {
             title: 'Web Design Pro',

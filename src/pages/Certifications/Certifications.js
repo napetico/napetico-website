@@ -22,7 +22,7 @@ const Certifications = () => {
             />
             <div className={styles.galleryHolder}>
                 {allCertifications.map((cert, index) => {
-                    return <CertificationCard data={cert.certificationCardData} key={index}/>
+                    return <CertificationCard data={cert} key={index}/>
                 })}
             </div>
         </section>

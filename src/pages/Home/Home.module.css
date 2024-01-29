@@ -29,9 +29,20 @@
     gap: 2.14vw;
 }
 
-
 .projectCardHolder {
     width: 20.71vw;
+}
+
+.carouselContainerBooks {
+    border-top: 0.035vw solid #cccccc80;
+    padding: 1.79vw 0;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+    gap: 2.14vw;
+}
+
+.projectCardHolderBooks {
+    width: auto;
 }
 /*  */
 
@@ -52,6 +63,14 @@
 
     .projectCardHolder {
         width: 24.85vw;
+    }
+
+    .carouselContainerBooks {
+        border-top: 0.042vw solid #cccccc80;
+        padding: 2.15vw 0;
+        display: grid;
+        grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+        gap: 1.78vw;
     }
 }
 
@@ -81,6 +100,18 @@
         gap: 9.65vw;
     }
     
+    .projectCardHolder {
+        width: 100%;
+    }
+
+    .carouselContainerBooks {
+        border-top: 0.092vw solid #cccccc80;
+        padding: 4.73vw 0;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        gap: 9.65vw 6.65vw;
+    }
+
     .projectCardHolder {
         width: 100%;
     }

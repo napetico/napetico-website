@@ -204,7 +204,7 @@ const WEB_PROJECTS = [
         client: {
             name: 'Super-villanos.co',
             image: ['/images/napo-sv-logo.png', 'Supervillanos.co logo'],
-            bio: 'Supervillanos.co is a creative studio helping businesses tackle high-level challenges through an extraordinary branding, powerful strategies, and the continuous optimization of processes. ',
+            bio: 'Supervillanos.co is a creative studio helping businesses tackle high-level challenges through an extraordinary branding, powerful strategies, and the continuous optimization of processes.',
         },
         category: 'Business & Creative Studio',
         mainImages: {
@@ -212,8 +212,8 @@ const WEB_PROJECTS = [
             poster: ['/images/web/napo-sv-web-poster.png', 'Website mockup'],
         },
         cardSnippet: 'Website + CMS for',
-        homeSnippet: '',
-        homeTitle: '',
+        homeSnippet: 'Web for',
+        homeTitle: "Injecting the power of a robust brand into an killer website",
         featTag: [true, 'yellow', 'latest website'],
         heroCard: ['Supervillanos.co', 'Creative Studio | Webflow site + CMS'],
         page: {

@@ -7,6 +7,7 @@ import Construction from './pages/Construction/Construction.js';
 import Home from './pages/Home/Home.js'
 import Director from './pages/Director/Director.js';
 import DirectorWork from './pages/Director/DirectorWork.js';
+import DirectorProject from './pages/Director/DirectorProject.js'
 import Coding from './pages/Coding/Coding.js';
 import CodingWork from './pages/Coding/CodingWork.js';
 import Webs from './pages/Webs/Webs.js'
@@ -19,6 +20,7 @@ import Certifications from './pages/Certifications/Certifications.js';
 
 import WEB_PROJECTS from './data/WEB_PROJECTS.js';
 import BOOK_LIST from './data/BOOK_LIST.js';
+import PM_PROJECTS from './data/PM_PROJECTS.js';
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -27,6 +29,9 @@ function App() {
       <Route path='/under-construction' element={ <Construction/> }/>
       <Route path='/project-manager' element={ <Director/> }/>
       <Route path='/project-manager-portfolio' element={ <DirectorWork/> }/>
+      {PM_PROJECTS.map((project, index) => {
+        return <Route path={project.path} element={ <DirectorProject data={project}/> } key={index}/>
+      })}
       <Route path='/full-stack-developer' element={ <Coding/> }/>
       <Route path='/full-stack-portfolio' element={ <CodingWork/> }/>
       <Route path='/web-designer' element={ <Webs/> }/>

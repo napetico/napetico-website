@@ -1,10 +1,10 @@
 const PM_PROJECTS = [
     {
         id: 'EG',
-        path: '/project-manager-portfolio/tutto-piccolo-peru',
+        path: '/project-manager-portfolio/efectogemelo',
         url: '',
         client: {
-            name: 'EFECTOGEMELO',
+            name: 'EFECTO-GEMELO',
             image: ['https://static.wixstatic.com/media/41478a_1460b9f9ffe647359da0c32e30d996e8~mv2_d_2904_4352_s_4_2.jpg/v1/fill/w_717,h_1074,al_c,q_90/41478a_1460b9f9ffe647359da0c32e30d996e8~mv2_d_2904_4352_s_4_2.webp', 'EFECTOGEMELO studio logo'],
             bio: '',
         },
@@ -26,11 +26,11 @@ const PM_PROJECTS = [
         path: '/project-manager-portfolio/tutto-piccolo-peru',
         url: '',
         client: {
-            name: 'Grupo Tutto Piccolo Perú',
+            name: 'Grupo Tutto Piccolo',
             image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiPslBsI2FfK4P-JXnkNHRU23sFf5vC1DytjHpCuJ9bVccG61MrsRhYCbzh8yhTx9gvok&usqp=CAU', 'Tutto Piccolo logo'],
             bio: '',
         },
-        category: 'Retail, Fashion Brand',
+        category: 'Retail, Fashion',
         mainImages: {
             card: ['/images/pm/napo-tp-card-image.png', 'Toddler wearing a Tutto Piccolo outfit'],
             poster: ['', ''],
@@ -48,11 +48,11 @@ const PM_PROJECTS = [
         path: '/project-manager-portfolio/agatha-peru',
         url: 'https://www.agatharuizdelaprada.com/inauguracion-corner-agatha-ruiz-de-la-prada-en-lacomar-lima/',
         client: {
-            name: 'Agatha Ruiz de la Prada Perú',
+            name: 'Agatha Ruiz de la Prada',
             image: ['https://www.agatharuizdelaprada.com/store/modules/bonwhatsappchat/views/img/77c20cae3f406ebfa49176e258df71e0a4329efc_heart.jpg', 'Agatha Ruiz de la Prada logo'],
             bio: '',
         },
-        category: 'Retail, Designer Brand',
+        category: 'Retail, Designer',
         mainImages: {
             card: ['/images/pm/napo-arp-card-image.png', 'Agatha Ruiz de la Prada products'],
             poster: ['', ''],
@@ -114,14 +114,14 @@ const PM_PROJECTS = [
         path: '/project-manager-portfolio/supervillanos',
         url: '',
         client: {
-            name: 'Supervillanos.co',
+            name: 'Super-villanos.co',
             image: ['/images/napo-sv-logo.png', 'Supervillano.co - Business logo'],
-            bio: '',
+            bio: 'Supervillanos.co is a new breed of creative studio, focused on helping businesses tackle high-level challenges and ambitious goals by leveraging the power of extraordinary branding, powerful strategies, and the continuous optimization of processes.',
         },
-        category: 'Business, Creative Services',
+        category: 'Creativity & Business',
         mainImages: {
             card: ['/images/pm/napo-sv-card-image.jpg', 'Branded truck in front of a business'],
-            poster: ['', ''],
+            poster: ['/images/pm/napo-sv-pm-poster.png', 'Ticket to a business strategy session'],
         },
         cardTitle: 'Creative services like no other.',
         cardInfo: 'Finding the competitive strategy to light up the impact that creativity have on businesses.',
@@ -134,22 +134,22 @@ const PM_PROJECTS = [
     {
         id: 'VG',
         path: '/project-manager-portfolio/vagabond',
-        url: '',
+        url: '/project-manager-portfolio/vagabond',
         client: {
             name: 'Vagabond',
-            image: ['https://play-lh.googleusercontent.com/vhu0pGB6bHaX05A9UCR_i54OBVj6w_eSkUn4zkcxdMKkOHyfd2IFA9nIdzMc8dk8h93v', 'Vagabond - Business logo'],
-            bio: 'Vagabond es restaurante fast-casual que hace una elegante fusión entre la comida Lebanesa y la Mexicana.',
+            image: ['/images/napo-vg-logo.jpg', 'Vagabond - Business logo'],
+            bio: 'Vagabond is a fast-casual restaurant cooking exotic Lebanese-Mexican street food fusion dishes. Their mission is to create the perfectly balanced meal: Food that is high-quality, tasty, simple, healthy, convenient, sustainable, and affordable all at once!',
         },
         category: 'Fast-Casual Restaurant',
         mainImages: {
             card: ['/images/pm/napo-vg-card-image.png', 'Happy man holding a shawarma'],
-            poster: ['', ''],
+            poster: ['/images/pm/napo-vg-pm-poster.png', 'Shawarma and tacos on a tray'],
         },
         cardTitle: 'Elevating hospitality with systems.',
         cardInfo: 'Align and empower the team to be at their best, communicate better, and feel great at work.',
         cardIcon: '/images/icons/napo-food-icon.svg',
-        homeSnippet: '',
-        homeTitle: '',
+        homeSnippet: 'Project for',
+        homeTitle: 'Empowering the team to rock their way up to high-performance',
         featTag: [true, 'black', 'most recent'],
         heroCard: ["Vagabond Culture", 'Process Optimization + Company Culture'],
     },

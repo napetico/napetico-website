@@ -361,7 +361,7 @@ const BOOK_LIST = [
         sinopsis: 'This books is about how to effectively design successful products using Lean concepts. It revolves around software but the ideas are easily transferable to other industries.',
         interest: 'I hear about it during a Design Sprint Workshops course I took on 2019. I was automatically drawn by the Product-Market-Fit framework that Dan used to explain how -and why- to optimize product design within startup environments. I thought "Wow, that must be very useful".',
         takeAways: 'It definitely was. That pyramid was brilliant and I now use it in every project. The book is also a step-by-step guide of the process Dan put together for optimal Lean design and explains in detail what to do in each step -and why it works.',
-        featTag: [true, 'black', 'reading now']
+        featTag: [true, 'black', 'most recent']
     },
     {
         id: 'TOOLS TITANS',
@@ -374,7 +374,7 @@ const BOOK_LIST = [
         sinopsis: 'I recently started reading this book. It was sitting in backlog for a long time and I was holding back on reading it because it felt quite long. I just got my lazy ass to pick it up and start reading. So far so good. The way Ferriss distills the wisdom of his guests into actionable advice and strategies for success had me very curious.',
         interest: 'Come back later for insights on the book once I finish it. See ya :)',
         takeAways: '',
-        featTag: [true, 'black', 'reading now']
+        featTag: [true, 'yellow', 'reading now']
     },
 ]
 

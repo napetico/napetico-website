@@ -26,10 +26,10 @@ const WebWork = () => {
                 <Gallery card='web' data={allProjects} />
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
-                        <p className='link-group-tag'>Volver al</p>
+                        <p className='link-group-tag'>Back to</p>
                         <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text='Web para Pymes' link='/web-designer' />
+                            <LinkOnWhite text='Webs for SMBs' link='/web-designer' />
                         </div>
                     </div>
                 </div>

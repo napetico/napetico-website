@@ -2,12 +2,13 @@ import styles from './ManagerCard.module.css'
 import { Link } from 'react-router-dom';
 import FeatTag from '../../util/FeatTag/FeatTag';
 import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite';
+import scrollToTop from '../../util/ScrollToTop';
 
 const ManagerCard = ({ data }) => {
     return (
         <>
             <div className={styles.managerCard}>
-                <Link className={styles.cardImageHolder} to={data.path}>
+                <Link className={styles.cardImageHolder} to={data.path} onClick={scrollToTop}>
                     <img className={styles.cardImage} src={data.mainImages.card[0]} alt={data.mainImages.card[1]} />
                     <div className={styles.cardImageOverlay}></div>
                     {data.featTag[0] ?
@@ -27,7 +28,7 @@ const ManagerCard = ({ data }) => {
                                 <LinkOnWhite text={data.client.name} link={data.url} newTab={true} />
                             </div>
                         </div>
-                        <Link to={data.path}>
+                        <Link to={data.path} onClick={scrollToTop}>
                             <h3 className={styles.cardTitle}>{data.cardTitle}</h3>
                         </Link>
                     </div>
@@ -39,7 +40,7 @@ const ManagerCard = ({ data }) => {
                             <img className={styles.icon} src={data.cardIcon} alt='' />
                             <p className={styles.categoryTag}>{data.category}</p>
                         </div>
-                        <Link className={styles.linkGroupHolder} to={data.path}>
+                        <Link className={styles.linkGroupHolder} to={data.path} onClick={scrollToTop}>
                             <p className={styles.linkGroupTag}>Open</p>
                             <img className={styles.linkGroupArrow} src='./images/icons/napo-link-arrow-black.svg' alt='' />
                         </Link>
