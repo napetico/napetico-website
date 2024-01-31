@@ -7,6 +7,9 @@ import LinkOnWhite from '../../util/LinkOnWhite/LinkOnWhite.js';
 import SectionIntro from '../../util/SectionIntro/SectionIntro.js';
 import ProjectCard from '../../cards/ProjectCard/ProjectCard.js';
 import DirectoryCard from '../../cards/DirectoryCard/DirectoryCard.js';
+import { Link } from 'react-router-dom';
+import scrollToTop from '../../util/ScrollToTop.js';
+import FeatTag from '../../util/FeatTag/FeatTag.js';
 
 import PM_PROJECTS from '../../data/PM_PROJECTS.js';
 import CODE_PROJECTS from '../../data/CODE_PROJECTS.js';
@@ -30,39 +33,52 @@ const Home = () => {
             cardImage={['./images/napo-home-image.png', 'Napoleon Bazan profile picture']}
         />
         <BigPhrase text='Navigating my passion to help ideate and build strong businesses and high-performance teams through creative, organizational, and operational excellence.'/>
-        {/* WORK */}
+        {/* ----- PROJECT MANAGER SECTION ----- */}
         <section className={styles.displayContainer}>
             <div className={styles.displayHolder}>
                 <SectionIntro
-                    tag='A mini-curriculum'
-                    header='Follow my work and my latest projects.'
-                    info='I can provide top-level help (and lots of good energy) as:'
+                    tag='Main work'
+                    header='Being the best project manager I can be.'
+                    info='Follow my Project Management work, style, and latest projects.'
                     align='right'
                 />
                 <div className={styles.displayContent}>
                     <div className={styles.displayDirectory}>
-                        <p className='bold-tag'>n.experience</p>
-                        <DirectoryCard 
-                            image={['./images/napo-pm-directory-image.jpg', 'Illustration of person thinking creatively']}
-                            href='/project-manager'
-                            featTag={[true, 'black', 'favorite']}
-                            info='Since 2007 - Creativity, Strategy, & Operations'
-                            title='Project Manager | COO'
-                        />
-                        <DirectoryCard 
-                            image={['https://i.pinimg.com/564x/f8/69/10/f869109f41754f72d38bcb85f0f47a17.jpg', 'Mug with JavaScript logo']}
-                            href='/full-stack-developer'
-                            featTag={[false, '', '']}
-                            info='Since 2023 - Software Engineer'
-                            title='Full Stack Developer'
-                        />
-                        <DirectoryCard 
-                            image={['https://i.pinimg.com/564x/f7/04/c4/f704c4a5def121feb30ec1ef159dc31c.jpg', 'Website mockups on mobile screens']}
-                            href='/web-designer'
-                            featTag={[false, '', '']}
-                            info='Since 2018 - Developer and Webflow Expert'
-                            title='Web Design & Optimization'
-                        />
+                        <p className='bold-tag'>n.main expertise</p>
+                        <div className={styles.carouselContainer}>
+                            <div className={styles.managerCard}>
+                                <Link className={styles.cardImageHolder} to='/project-manager' onClick={scrollToTop}>
+                                    <img className={styles.cardImage} src='/images/napo-pm-home-card.png' alt='' />
+                                    <div className={styles.cardImageOverlay}></div>
+                                </Link>
+                                <div className={styles.cardInfoHolder}>
+                                    <div className={styles.directoryCard}>
+                                        <Link className={styles.dirCardCircle} to='/project-manager' onClick={scrollToTop}>
+                                            <img className={styles.dirCardImage} src='./images/napo-pm-directory-image.jpg' alt='Illustration of person thinking creatively' />
+                                        </Link>
+                                        <div className={styles.dirCardInfoBox}>
+                                            <div className={styles.dirCardTextWrap}>
+                                                <p className={styles.dirCardText}>Since 2007 - Creativity, Strategy, & Operations</p>
+                                                <FeatTag color='yellow' text='top expert'/>
+                                            </div>
+                                            <Link className={styles.dirCardTitleLink} to='/project-manager' onClick={scrollToTop}>
+                                                <h3 className='h3-card-title-22'>Project Manager | COO</h3>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className={styles.cardLinksWrapper}>
+                                        <div className={styles.categoryBox}>
+                                            <img className={styles.icon} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1024px-Google_%22G%22_logo.svg.png' alt='Google Logo' />
+                                            <p className={styles.categoryTag}>Google Professional Certification</p>
+                                        </div>
+                                        <Link className={styles.linkGroupHolder} to='/project-manager' onClick={scrollToTop}>
+                                            <p className={styles.linkGroupTag}>Resume</p>
+                                            <img className={styles.linkGroupArrow} src='./images/icons/napo-link-arrow-black.svg' alt='' />
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className={styles.displayCarousel}>
                         <p className='bold-tag'>n.latest projects</p>
@@ -71,12 +87,73 @@ const Home = () => {
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard link={true} client={true} card='work' data={PM_PROJECTS[PM_PROJECTS.length -1]}/>
                             </div>
-                            {/* <div className={styles.projectCardHolder}>
-                                <ProjectCard link={false} client={true} card='work' data={CODE_PROJECTS[CODE_PROJECTS.length -2]}/>
-                            </div> */}
+                            <div className={styles.projectCardHolder}>
+                                <ProjectCard link={true} client={true} card='work' data={PM_PROJECTS[PM_PROJECTS.length -2]}/>
+                            </div>
+                        {/* Here goes the card slider */}
+                        </div>
+                    </div>
+                </div>
+                <div className='centered-link-holder'>
+                    <div className='link-group-holder'>
+                        <p className='link-group-tag'>See more of my</p>
+                        <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
+                        <div className='link-group-wrapper'>
+                            <LinkOnWhite text='Resume' link='/project-manager' />
+                            <p className='link-group-inner-text'>,&nbsp;</p>
+                            <LinkOnWhite text='Projects' link='/project-manager-portfolio' />
+                            <p className='link-group-inner-text'>, or&nbsp;</p>
+                            <LinkOnWhite text='Certifications' link='/certifications' />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {/* ----- COMPLEMENTARY WORK SECTION ----- */}
+        <section className={styles.displayContainer}>
+            <div className={styles.displayHolder}>
+                <SectionIntro
+                    tag='Side skills'
+                    header='Brands, webs, code, marketing... I gotcha.'
+                    info='Additional -and diverse- expertise I can bring to your projects.'
+                    align='right'
+                />
+                <div className={styles.displayContent}>
+                    <div className={styles.displayDirectory}>
+                        <p className='bold-tag'>n.experience</p>
+                        <DirectoryCard 
+                            image={['https://i.pinimg.com/236x/5f/2e/30/5f2e30a47d8efa2efda8f921861e13df.jpg', 'Illustration of person thinking creatively']}
+                            href='/under-construction'
+                            featTag={[true, 'black', 'favorite']}
+                            info='Since 2017 - Strategist & Creative Director'
+                            title='Brand Strategy & Design'
+                        />
+                        <DirectoryCard 
+                            image={['https://i.pinimg.com/564x/f7/04/c4/f704c4a5def121feb30ec1ef159dc31c.jpg', 'Website mockups on mobile screens']}
+                            href='/web-designer'
+                            featTag={[false, '', '']}
+                            info='Since 2018 - Developer and Webflow Expert'
+                            title='Web Design & Optimization'
+                        />
+                        <DirectoryCard 
+                            image={['https://i.pinimg.com/564x/f8/69/10/f869109f41754f72d38bcb85f0f47a17.jpg', 'Mug with JavaScript logo']}
+                            href='/full-stack-developer'
+                            featTag={[false, '', '']}
+                            info='Since 2023 - Software Engineer'
+                            title='Full Stack Developer'
+                        />
+                    </div>
+                    <div className={styles.displayCarousel}>
+                        <p className='bold-tag'>n.latest projects</p>
+                        <div className={styles.carouselContainer}> 
+                        {/* Here goes the card slider */}
+                            <div className={styles.projectCardHolder}>
+                                <ProjectCard link={false} client={true} card='work' data={CODE_PROJECTS[CODE_PROJECTS.length -1]}/>
+                            </div>
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard link={true} client={true} card='work' data={WEB_PROJECTS[WEB_PROJECTS.length -1]}/>
                             </div>
+                        {/* Here goes the card slider */}
                         </div>
                     </div>
                 </div>
@@ -95,11 +172,11 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* LEARN */}
+        {/* ----- LEARNINGS SECTION ----- */}
         <section className={styles.displayContainer}>
             <div className={styles.displayHolder}>
                 <SectionIntro
-                    tag='Skills and trainings'
+                    tag='Body of knowledge'
                     header="Keep posted on the things I'm learning."
                     info='The books, videos, courses and ideas I like to fill up my brain with.'
                     align='right'
@@ -145,6 +222,7 @@ const Home = () => {
                             <div className={styles.projectCardHolderBooks}>
                                 <ProjectCard link={true} client={false} card='cert' data={CERTIFICATIONS[CERTIFICATIONS.length -1]}/>
                             </div>
+                        {/* Here goes the card slider */}
                         </div>
                     </div>
                 </div>
@@ -156,14 +234,14 @@ const Home = () => {
                             <LinkOnWhite text='Books' link='/reading-list' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
                             <LinkOnWhite text='Courses' link='/courses' />
-                            <p className='link-group-inner-text'>, o&nbsp;</p>
+                            <p className='link-group-inner-text'>, or&nbsp;</p>
                             <LinkOnWhite text='Certifications' link='/certifications' />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        {/* HOBBIES */}
+        {/* ----- HOBBIES SECTION ----- */}
         <section className={styles.displayContainer}>
             <div className={styles.displayHolder}>
                 <SectionIntro
@@ -221,6 +299,7 @@ const Home = () => {
                                 }}
                                 />
                             </div>
+                        {/* Here goes the card slider */}
                         </div>
                     </div>
                 </div>
@@ -232,7 +311,7 @@ const Home = () => {
                             <LinkOnWhite text='Ideas' link='/under-construction' />
                             <p className='link-group-inner-text'>,&nbsp;</p>
                             <LinkOnWhite text='Drawings' link='/under-construction' />
-                            <p className='link-group-inner-text'>, o&nbsp;</p>
+                            <p className='link-group-inner-text'>, or&nbsp;</p>
                             <LinkOnWhite text='Blog Posts' link='/under-construction' />
                         </div>
                     </div>

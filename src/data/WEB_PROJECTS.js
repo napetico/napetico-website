@@ -213,7 +213,7 @@ const WEB_PROJECTS = [
         },
         cardSnippet: 'Website + CMS for',
         homeSnippet: 'Web for',
-        homeTitle: "Injecting the power of a robust brand into an killer website",
+        homeTitle: "Injecting the power of brand into an killer website",
         featTag: [true, 'yellow', 'latest website'],
         heroCard: ['Supervillanos.co', 'Creative Studio | Webflow site + CMS'],
         page: {
