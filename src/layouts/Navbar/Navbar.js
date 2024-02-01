@@ -36,6 +36,7 @@ const Navbar = () => {
                             </div>
                             <div className={styles.navLinkDropdown}>
                                 <Link className={styles.dropdownLink} to='/project-manager' onClick={scrollToTop}>Project Manager - COO</Link>
+                                {/* <Link className={styles.dropdownLink} to='/under-construction' onClick={scrollToTop}>Powerful Brands</Link> */}
                                 <Link className={styles.dropdownLink} to='/full-stack-developer' onClick={scrollToTop}>Full Stack Developer</Link>
                                 <Link className={styles.dropdownLink} to='/web-designer' onClick={scrollToTop}>Webs for SMBs</Link>
                             </div>

@@ -18,6 +18,7 @@ const Footer = () => {
                             <h3 className={styles.footLinkCategory}>Experience</h3>
                             <NavLink text='Project Manager - COO' link='/project-manager' />
                             <NavLink text='Full Stack Developer' link='/full-stack-developer' />
+                            <NavLink text='Powerful Brands' link='/under-construction' />
                             <NavLink text='Webs for SMBs' link='/web-designer' />
                         </div>
                         <div className={styles.footLinkWrap}>
@@ -63,8 +64,8 @@ const Footer = () => {
                 <div className={styles.conectNavBox}>
                     <div className={styles.conectLinkWrap}>
                         <p className={styles.footNote}>@napetico, 2023 - Earth</p>
-                        <Link to='/'>Cookies</Link>
-                        <Link to='/'>Privacy</Link>
+                        <Link to='/under-construction'>Cookies</Link>
+                        <Link to='/under-construction'>Privacy</Link>
                     </div>
                     <div className={styles.conectLinkWrap}>
                         <p className={styles.footNote}>Connect:</p>

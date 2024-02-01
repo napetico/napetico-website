@@ -32,14 +32,14 @@ const Home = () => {
             database={null}
             cardImage={['./images/napo-home-image.png', 'Napoleon Bazan profile picture']}
         />
-        <BigPhrase text='Navigating my passion to help ideate and build strong businesses and high-performance teams through creative, organizational, and operational excellence.'/>
+        <BigPhrase text="Quick heads-up: This is all me navigating my passion to help ideate and build strong businesses and high-performance teams through creative, organizational, and operational excellence. Plus, me again sharing random hobbies just for fun. Good? Let's start with..."/>
         {/* ----- PROJECT MANAGER SECTION ----- */}
         <section className={styles.displayContainer}>
             <div className={styles.displayHolder}>
                 <SectionIntro
-                    tag='Main work'
+                    tag="My main focus"
                     header='Being the best project manager I can be.'
-                    info='Follow my Project Management work, style, and latest projects.'
+                    info='You can follow my Project Management work, style, and latest projects in this section. Hit the card to open my PM profile.'
                     align='right'
                 />
                 <div className={styles.displayContent}>
@@ -72,7 +72,7 @@ const Home = () => {
                                             <p className={styles.categoryTag}>Google Professional Certification</p>
                                         </div>
                                         <Link className={styles.linkGroupHolder} to='/project-manager' onClick={scrollToTop}>
-                                            <p className={styles.linkGroupTag}>Resume</p>
+                                            <p className={styles.linkGroupTag}>Open CV</p>
                                             <img className={styles.linkGroupArrow} src='./images/icons/napo-link-arrow-black.svg' alt='' />
                                         </Link>
                                     </div>
@@ -113,9 +113,9 @@ const Home = () => {
         <section className={styles.displayContainer}>
             <div className={styles.displayHolder}>
                 <SectionIntro
-                    tag='Side skills'
+                    tag='Some side skills'
                     header='Brands, webs, code, marketing... I gotcha.'
-                    info='Additional -and diverse- expertise I can bring to your projects.'
+                    info="Here's some of the complementary -and very diverse- expertise I can bring to your projects. Happy to help with any ot them."
                     align='right'
                 />
                 <div className={styles.displayContent}>
@@ -178,12 +178,12 @@ const Home = () => {
                 <SectionIntro
                     tag='Body of knowledge'
                     header="Keep posted on the things I'm learning."
-                    info='The books, videos, courses and ideas I like to fill up my brain with.'
+                    info='These are some of the books, videos, courses, and ideas I like to fill up my brain with. Look around, maybe you find somethig useful.'
                     align='right'
                 />
                 <div className={styles.displayContent}>
                     <div className={styles.displayDirectory}>
-                        <p className='bold-tag'>n.learnings</p>
+                        <p className='bold-tag'>n.wisdom collection</p>
                         <DirectoryCard 
                             image={['https://i.pinimg.com/236x/f3/ac/d8/f3acd8ea2d6bd06f8d8198599b967612.jpg', 'Hand holding a book']}
                             href='/reading-list'
@@ -247,7 +247,7 @@ const Home = () => {
                 <SectionIntro
                     tag='On my free time'
                     header='Side projects and ideas I have fun with.'
-                    info='Random thinking, painting, writing, planning, and more.'
+                    info="And finally, these are some of the by-products of my random thinking, painting, writing, planning, and fooling around. Ha! "
                     align='right'
                 />
                 <div className={styles.displayContent}>
