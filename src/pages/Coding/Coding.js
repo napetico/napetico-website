@@ -127,9 +127,9 @@ const Coding = () => {
                     <p className='link-group-tag'>See more of my</p>
                     <img className='link-group-arrow' src='./images/icons/napo-link-arrow-black.svg' alt=''/>
                     <div className='link-group-wrapper'>
-                        <LinkOnWhite text='Certificates' link='' />
+                        <LinkOnWhite text='Certificates' link='/certifications' />
                         <p className='link-group-inner-text'>&nbsp;and&nbsp;</p>
-                        <LinkOnWhite text='Courses' link='' />
+                        <LinkOnWhite text='Courses' link='/courses' />
                     </div>
                 </div>
             </div>

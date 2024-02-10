@@ -17,18 +17,18 @@ const Director = () => {
     const lastSixProjects = PM_PROJECTS.slice(-6).reverse();
     const lastProject = PM_PROJECTS[PM_PROJECTS.length -1];
 
-    const toolsList = ['Notion', 'Slack', 'Google Suite', 'Microsoft', 'Web Platforms', 'Full Stack Developer', 'Digital Marketing', 'Figma', 'Stock Management Systems', 'Process Optimization','POS', 'CMS', 'Project Management', '... and more'];
-    const methodsList = ['Lean', 'Agile', 'Scrum', 'Waterfall', 'Sprints', 'Product-Market Fit', 'Porter Competitive Advantage', 'Branding', 'Digital Marketing', 'Funnels', 'AIDA', ' Team Building', 'Storytelling', 'Six Sigma', '... and more'];
+    const toolsList = ['Effective Communication', 'Facilitations', 'Flexibility', 'Organizational Skills', 'Negotiation & Mediation', 'KPIs & Metrics', 'Reports', 'Budget Control', 'Planning & Scheduling', 'Stock Management', 'Team Building', 'POSs, CRMs & CMSs', 'System thinking', 'Brand Strategy & Governance', 'Digital Marketing Strategy', 'Full Stack Programmer', 'Web Development', 'UX & UI Design', 'Processes Optimization', 'Company Culture', 'User Behaviour', '... and more'];
+    const methodsList = ['Waterfall', 'Agile', 'Scrum', 'Sprints', 'Lean', 'Kanban', '5S', 'Six Sigma', 'DMAIC', 'Product-Market Fit', 'Lean Six Sigma', "Porter's Competitive Strategies", 'CORE Discovery', 'Cross-functional Teams', 'Notion', 'Slack', 'Miro', 'Trello', 'Gantt', 'Google Suite', 'Microsoft', 'Adobe', 'Figma', 'APIs', '... and more'];
     const certList = [
         {
-            title: 'Web Design Pro',
-            academy: 'Flux Academy',
-            image: ['https://media.licdn.com/dms/image/C560BAQF1jGIZPnd39w/company-logo_200_200/0/1630577098289?e=2147483647&v=beta&t=zZcymiVMoFJZEnfGFlBW6cd5CV0qbTV41cgvgZ4sm0E', 'Flux Academy Logo']
+            title: 'Professional Project Manager',
+            academy: 'Google + Coursera',
+            image: ['https://s0.smartresize.com/wallpaper/363/615/HD-wallpaper-google-technology-logo-colorful-browser.jpg', 'Google Academy Logo']
         },
         {
-            title: 'Webflow Expert Certification',
-            academy: 'Webflow',
-            image: ['https://scontent.fmad7-1.fna.fbcdn.net/v/t39.30808-6/385306567_719382456899846_9163212455345370930_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=ysiN2QjgMo8AX9oM9Wp&_nc_ht=scontent.fmad7-1.fna&oh=00_AfBYOXKoFdfaSE-z0FQoVlWdQdxr_UpCf0pHSthyckWfpA&oe=6586C8FB', 'Webflow Logo']
+            title: 'Brand Strategy Fundamentals',
+            academy: 'The Futur',
+            image: ['https://i1.sndcdn.com/avatars-000753460939-da0bd6-t500x500.jpg', 'Academy Logo']
         },
         {
             title: 'Full Stack Software Engineer',
@@ -41,31 +41,37 @@ const Director = () => {
             tag: '1',
             title: 'Ponder the hypothesis',
             span: 'To carefully understand and articulate the details before hitting the gas.',
-            content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
+            content: "Sorry, I haven't finish this description yet 😅 I'm working on it though. Click around while I find the words to expand on the titles.",
         },
         {
             tag: '2',
             title: 'Calibrate the strategy',
             span: 'Studying and defining the best ones to achieve our goals.',
-            content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
+            content: "Sorry, I haven't finish this description yet 😅 I'm working on it though. Click around while I find the words to expand on the titles.",
         },
         {
             tag: '3',
             title: 'Craft and share the plan',
             span: 'A thoughful one, to guide us and inspire us. And communicate it clearly.',
-            content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
+            content: "Sorry, I haven't finish this description yet 😅 I'm working on it though. Click around while I find the words to expand on the titles.",
         },
         {
             tag: '4',
             title: 'Orchestate the action',
             span: 'Executing our roadmap, measuring, optimizing -and pivoting if needed.',
-            content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
+            content: "Sorry, I haven't finish this description yet 😅 I'm working on it though. Click around while I find the words to expand on the titles.",
         },
         {
             tag: '5',
             title: 'Put systems in place',
             span: 'Breaking down good results and turning them into consistent processes.',
-            content: 'Te haré un montón de preguntas sobre tu negocio y uniremos puntos claves para descubir que ideas tendrán el mayor impacto. Dependiendo del tamaño de tu proyecto haré una investigación, mas o menos profunda, de factores externos que aporten nuevas ideas o den solidez a la que ya tenemos. De todo esto obtendremos un plan para sacarle el maximo al proyecto. Si hay algo que no puedo hacer sere honesto y te lo dire. Tambien suelen salir ideas no relacionadas con la web...',
+            content: "Sorry, I haven't finish this description yet 😅 I'm working on it though. Click around while I find the words to expand on the titles.",
+        },
+        {
+            tag: '6',
+            title: 'Close like a champ',
+            span: 'A glorious hand-off of the project and final deliverables.',
+            content: "Sorry, I haven't finish this description yet 😅 I'm working on it though. Click around while I find the words to expand on the titles.",
         },
     ];
 
@@ -73,7 +79,7 @@ const Director = () => {
         <>
             <OptionsBar />
             <Hero
-                header='COO - Project Manager'
+                header='Project Manager | COO'
                 loopText={['Strategy and Planning', 'Creativity & Communication', 'Systems & Operational Excellence', 'Vision and Growth Culture']}
                 description='Helping SMBs and entrepreneurs ideate, build, and scale their businesses through the impeccable management of their creative, strategic, and operational efforts.'
                 linkData={['Projects', 'PM Portfolio', '/project-manager-portfolio']}
@@ -197,7 +203,7 @@ const Director = () => {
                     align='right'
                 />
                 <div>
-                    <p className='bold-tag'>n.frameworks and concepts</p>
+                    <p className='bold-tag'>n.methodologies and tools</p>
                     <div className={styles.toolsWrapper}>
                         {methodsList.map((item, index) => {
                             return <ToolLabel text={item} key={index}/>
@@ -205,7 +211,7 @@ const Director = () => {
                     </div>
                 </div>
                 <div>
-                    <p className='bold-tag'>n.technologies and tools</p>
+                    <p className='bold-tag'>n.complementary skills</p>
                     <div className={styles.toolsWrapper}>
                         {toolsList.map((item, index) => {
                             return <ToolLabel text={item} key={index}/>

@@ -55,7 +55,7 @@ const PM_PROJECTS = [
         category: 'Retail, Designer',
         mainImages: {
             card: ['/images/pm/napo-arp-card-image.png', 'Agatha Ruiz de la Prada products'],
-            poster: ['', ''],
+            poster: ['https://www.agatharuizdelaprada.com/wp/wp-content/uploads/2016/10/tiendaperuarp004.jpg', 'Napoleon and Agatha Ruiz de la Prada in Lima, Perú'],
         },
         cardTitle: 'Coloring Lima with pink hearts.',
         cardInfo: "Positioning the designer's colorful brand and her broad business into the Peruvian retail market.",
@@ -99,7 +99,7 @@ const PM_PROJECTS = [
         category: 'Home Renovations',
         mainImages: {
             card: ['/images/pm/napo-lh-card-image.png', 'Stylish kitchen'],
-            poster: ['', ''],
+            poster: ['/images/pm/napo-lh-pm-poster.png', 'Stylish kitchen'],
         },
         cardTitle: 'Home renovations, remotely.',
         cardInfo: 'Crafting a business model to build beautiful, high-quality living spaces efficiently and remotely.',

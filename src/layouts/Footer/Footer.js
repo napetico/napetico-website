@@ -18,7 +18,12 @@ const Footer = () => {
                             <h3 className={styles.footLinkCategory}>Experience</h3>
                             <NavLink text='Project Manager - COO' link='/project-manager' />
                             <NavLink text='Full Stack Developer' link='/full-stack-developer' />
-                            <NavLink text='Powerful Brands' link='/under-construction' />
+                            <div className={styles.navLinkHolder}>
+                                <a className={styles.navLinkText} href='https://supervillanos.webflow.io/' target='_blank' rel='noopener noreferrer'>Powerful Brands</a>
+                                <div className={styles.navLinkUnderlineTrack}>
+                                    <div className={styles.navLinkUnderline}></div>
+                                </div>
+                            </div>
                             <NavLink text='Webs for SMBs' link='/web-designer' />
                         </div>
                         <div className={styles.footLinkWrap}>

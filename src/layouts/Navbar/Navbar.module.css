@@ -82,7 +82,7 @@
   width: 100%;
 }
 
-.navLinkDropdown {
+.navLinkDropdown, .navLinkDropdown4 {
   margin-top: 0.8vw;
   padding: 0vw 1vw;
   position: absolute;
@@ -103,6 +103,12 @@
 
 .navLinkHolder:hover .navLinkDropdown {
   height: 9vw;
+  padding: 1vw;
+  opacity: 100%;
+}
+
+.navLinkHolder:hover .navLinkDropdown4 {
+  height: 12vw;
   padding: 1vw;
   opacity: 100%;
 }

@@ -123,7 +123,7 @@ const Home = () => {
                         <p className='bold-tag'>n.experience</p>
                         <DirectoryCard 
                             image={['https://i.pinimg.com/236x/5f/2e/30/5f2e30a47d8efa2efda8f921861e13df.jpg', 'Illustration of person thinking creatively']}
-                            href='/under-construction'
+                            href='https://supervillanos.webflow.io/'
                             featTag={[true, 'black', 'favorite']}
                             info='Since 2017 - Strategist & Creative Director'
                             title='Brand Strategy & Design'

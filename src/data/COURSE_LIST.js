@@ -77,7 +77,7 @@ const COURSE_LIST = [
         title: 'Full Stack Software Engineer',
         academy: 'Codecademy',
         image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR9-pcSbdH5C8fhyx_TSZjKn2e6csGO4OnTnlemDCWrA&s', 'Codecademy course poster'],
-        featTag: [true, 'black', 'almost done']
+        featTag: [true, 'yellow', 'in progress']
     },
     {
         id: 'GOOGLEPM',

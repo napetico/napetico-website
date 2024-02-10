@@ -319,9 +319,9 @@ const BOOK_LIST = [
         author: 'Vishen Lakhiani',
         category: 'Leadership',
         image: ['https://static-01.daraz.com.bd/p/134f68ff016a8c62ef47bbd2d35e1cb2.jpg_750x750.jpg_.webp', "Book cover: The buddha and the badass"],
-        sinopsis: 'This book makes a gratifiying exploration of the intersection between business and spirituality, encouraging to mix thouse babies up for a better, more fullfilling life -personally and professionally. For me, it also describes leadership from a very human and empathetic perspective.',
-        interest: "I got it by serendipity. I was looking for the Code of the Extraordinay Mind (Vishen's previous book) and they didn't have it, so I got offered 'the new one'. The sinopsis online said: ideas for integrating spiritual values into our businesses and using them as foundations for strategies and leadership. Sold.",
-        takeAways: "A few things that stuck with me: His take on breaking out of bullshit rules that are limiting our growth (Brules), how fenomenal Mindvalley got to be thanks to all these mindfull ideas (he gives tons of examples), and the meaning behind the word Blisscipline (a fusion of discipline and bliss) -which he clearly stole from me hahaha. I will tell you why in a blog post, soon.",
+        sinopsis: 'This book makes a gratifying exploration of the intersection between business and spirituality, encouraging to mix those babies up for a better, more fulfilling life -personally and professionally. For me, it also describes leadership from a very human and empathetic perspective.',
+        interest: "I got it by serendipity. I was after the Code of the Extraordinary Mind (Vishen's previous book) and they didn't have it, so I got offered 'the new one'. The sinopsis online stated: ideas for integrating spiritual values into our businesses and using them as foundations for strategies and leadership. Sold.",
+        takeAways: "A few things that stuck with me: His take on breaking out of bullshit rules that are limiting our growth (Brules), how fenomenal Mindvalley got to be thanks to all these mindful ideas (he gives tons of examples), and the meaning behind the word Blisscipline (a fusion of discipline and bliss) -which he clearly stole from me hahaha. I will tell you why in a blog post, soon.",
         featTag: [false, '', '']
     },
     {
@@ -359,9 +359,9 @@ const BOOK_LIST = [
         category: 'Product Design',
         image: ['https://media.karousell.com/media/photos/products/2021/5/17/the_lean_product_playbook_how__1621236965_a242aa7c.jpg', "Book cover: The lean product playbook"],
         sinopsis: 'This books is about how to effectively design successful products using Lean concepts. It revolves around software but the ideas are easily transferable to other industries.',
-        interest: 'I hear about it during a Design Sprint Workshops course I took on 2019. I was automatically drawn by the Product-Market-Fit framework that Dan used to explain how -and why- to optimize product design within startup environments. I thought "Wow, that must be very useful".',
-        takeAways: 'It definitely was. That pyramid was brilliant and I now use it in every project. The book is also a step-by-step guide of the process Dan put together for optimal Lean design and explains in detail what to do in each step -and why it works.',
-        featTag: [true, 'black', 'most recent']
+        interest: 'I hear about it during a Design Sprint Workshops course I took on 2019. I was automatically drawn by the Product-Market-Fit framework that Dan used to explain how -and why- to optimize product design within startup environments. I thought "Wow, that must be very useful". Spoiler alert: It definitely was.',
+        takeAways: 'That pyramid was brilliant and I refer to it in every project. The book is also a step-by-step guide of the entire process Dan put together for optimal Lean design and explains in detail what to do in each step -and why it works. And the final chapter about measuring key metrics is pure GOLD. Worth every page.',
+        featTag: [false, '', '']
     },
     {
         id: 'TOOLS TITANS',
@@ -373,6 +373,32 @@ const BOOK_LIST = [
         image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7RO20qgpKMj6hi_mg7iCt4ck21dHsxA8iw&usqp=CAU', "Book cover: Tools of titans"],
         sinopsis: 'I recently started reading this book. It was sitting in backlog for a long time and I was holding back on reading it because it felt quite long. I just got my lazy ass to pick it up and start reading. So far so good. The way Ferriss distills the wisdom of his guests into actionable advice and strategies for success had me very curious.',
         interest: 'Come back later for insights on the book once I finish it. See ya :)',
+        takeAways: '',
+        featTag: [true, 'yellow', 'reading now']
+    },
+    {
+        id: 'BLUE OCEAN',
+        path: '/reading-list/blue-ocean-strategy',
+        url: '',
+        title: "Blue Ocean Strategy",
+        author: 'W. Chan Kim',
+        category: 'Business',
+        image: ['https://media.licdn.com/dms/image/D4D22AQELZZNjz-nk_Q/feedshare-shrink_800/0/1696557993318?e=2147483647&v=beta&t=W-zHv_X3vyeJbXJKWRQnSfBVuZzzM8Qny-rYlwvu7Mc', "Book cover: Blue Ocean Strategy"],
+        sinopsis: 'I have no comments yet.',
+        interest: 'Come back later for insights on the book once I finish reading it. See ya :)',
+        takeAways: '',
+        featTag: [true, 'black', 'most recent']
+    },
+    {
+        id: 'RICH BABYLON',
+        path: '/reading-list/rich-babylon',
+        url: '',
+        title: "The Richest Man in Babylon",
+        author: 'George S. Clason',
+        category: 'Mindset',
+        image: ['https://media.licdn.com/dms/image/D5612AQG-W39FXjn_uA/article-cover_image-shrink_600_2000/0/1681626477592?e=2147483647&v=beta&t=ICv-EQFDPtzSCkDnOfMpg3Q-4Uhm2s5Hx8UbRHVCkzE', "Book cover: The Richest Man in Babylon"],
+        sinopsis: 'I have no comments yet.',
+        interest: 'Come back later for insights on the book once I finish reading it. See ya :)',
         takeAways: '',
         featTag: [true, 'yellow', 'reading now']
     },
