@@ -381,12 +381,12 @@ const BOOK_LIST = [
         path: '/reading-list/blue-ocean-strategy',
         url: '',
         title: "Blue Ocean Strategy",
-        author: 'W. Chan Kim',
+        author: 'C. Kim & R. Mauborgne',
         category: 'Business',
         image: ['https://media.licdn.com/dms/image/D4D22AQELZZNjz-nk_Q/feedshare-shrink_800/0/1696557993318?e=2147483647&v=beta&t=W-zHv_X3vyeJbXJKWRQnSfBVuZzzM8Qny-rYlwvu7Mc', "Book cover: Blue Ocean Strategy"],
-        sinopsis: 'I have no comments yet.',
-        interest: 'Come back later for insights on the book once I finish reading it. See ya :)',
-        takeAways: '',
+        sinopsis: 'This book is about big shifting of focus, from endlessly fighting in saturated markets where competition will wear you out, to innovating and creating new markets where competition is irrelevant and you own the room. Sounds great, right?',
+        interest: "I heard about it years ago, in random classes. But a few weeks months, I saw Alex Hormozi made a quick summary and I thought it was about time to finally read the real thing. My goal: Get enlighten by this holy strategy that will give me the ability to find and navigate blue oceans. Mine was red enough already haha.",
+        takeAways: "You will find great takeaways and fine tools -like the Strategy Canvas or the Four Actions Framework. But let me tell you what was key for me: Our businesses will never see blue oceans if we sit on our confirmation bias, stick to price competition, and hold on to industry assumptions. We have to challenge conventions, look creatively in other directions, synthetize concepts, understand our customers like never before, and innovate with the purpose of creating more value -not more cheap things. By the way, I loved how Cirque du Soleil made it to be in almost half of this book. That alone paid for the book haha 🎪.",
         featTag: [true, 'black', 'most recent']
     },
     {
@@ -397,10 +397,10 @@ const BOOK_LIST = [
         author: 'George S. Clason',
         category: 'Mindset',
         image: ['https://media.licdn.com/dms/image/D5612AQG-W39FXjn_uA/article-cover_image-shrink_600_2000/0/1681626477592?e=2147483647&v=beta&t=ICv-EQFDPtzSCkDnOfMpg3Q-4Uhm2s5Hx8UbRHVCkzE', "Book cover: The Richest Man in Babylon"],
-        sinopsis: 'I have no comments yet.',
-        interest: 'Come back later for insights on the book once I finish reading it. See ya :)',
-        takeAways: '',
-        featTag: [true, 'yellow', 'reading now']
+        sinopsis: 'This book teaches great lessons about finance through stories based on Babylon parables. Once the richest city in the world, where people had a wise perspective about money, work, and good fortune.',
+        interest: "It came up, on and off, in many podcasts. Always referred to as one of the best book in finance. With real gems hidden in stories and advices told by wealthy men from Babylon. As with many other 'parables books', it got a bit flat form time to time. But c'mon, it's a classic from 1962, what did I expect 😏.",
+        takeAways: "Let me try to sell you the book with this: Fortune is not for whiners and lazy-asses. You have to make it rain, and if you don't know how, go ask some honest person that have. Once you do, control your stupid ego and save a good part of it for the future. When you have enough, invest it wisely (in yourself and in business). When those investments bring you a little profit, guess what? Reinvest that shit too. These, along with honesty, hard-work, and patience will paid off. - Worst summary of a book ever 🤦🏻‍♂️. Just go read it and get smarter :)",
+        featTag: [true, 'yellow', 'most recent']
     },
 ]
 
