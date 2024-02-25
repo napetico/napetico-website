@@ -24,7 +24,7 @@ const Home = () => {
         <OptionsBar/>
         <Hero 
             header='Napoleón Bazán'
-            loopText={['Project Manager', 'Creative Strategist & COO', 'Full Stack Developer', 'Web & Brand Expert',]}
+            loopText={['Project & Operations Manager', 'Creative Strategist', 'Full Stack Developer', 'Web & Brand Expert',]}
             description="Hey! Welcome to my little corner on the web. Here I keep tidy record of my work, projects, learnings, and ideas worth exploring. Click around, enjoy, and reach out if you feel like talking."
             linkData={['Profile', 'About me', '/under-construction']}
             heroCard={false}
@@ -39,7 +39,7 @@ const Home = () => {
                 <SectionIntro
                     tag="My main focus"
                     header='Being the best project manager I can be.'
-                    info='You can follow my Project Management work, style, and latest projects in this section. Hit the card to open my PM profile.'
+                    info='You can follow my Project & Ops Management work, style, and latest projects in this section. Hit the card to open my PM profile.'
                     align='right'
                 />
                 <div className={styles.displayContent}>
@@ -62,7 +62,7 @@ const Home = () => {
                                                 <FeatTag color='yellow' text='top expert'/>
                                             </div>
                                             <Link className={styles.dirCardTitleLink} to='/project-manager' onClick={scrollToTop}>
-                                                <h3 className='h3-card-title-22'>Project Manager | COO</h3>
+                                                <h3 className='h3-card-title-22'>Project & Ops Manager</h3>
                                             </Link>
                                         </div>
                                     </div>

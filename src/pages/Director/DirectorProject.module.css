@@ -12,6 +12,48 @@
     overflow: hidden;
 }
 
+.briefSection, .briefSectionReverse {
+    display: flex;
+    gap: 6.43vw;
+}
+
+.briefText {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.sectionTag {
+    font-weight: 300;
+    margin-bottom: 1.43vw;
+}
+
+.sectionHeader {
+    margin-bottom: 3.57vw;
+}
+
+.sectionInfo {
+    font-size: var(--reg-p-20-desktop);
+    line-height: 1.6;
+}
+
+.briefImageBox {
+    width: 50%;
+    border-radius: 1.43vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.briefImage {
+    height: 53.57vw;
+    width: auto;
+}
+
 @media only screen and (max-width: 992px) {
     .introSection {
         padding: 3.43vw var(--lr-margin-tablet) var(--tb-margin-tablet);
@@ -20,6 +62,30 @@
     
     .posterImageBox {
         border-radius: 1.72vw;
+    }
+
+    .briefSection, .briefSectionReverse {
+        gap: 7.72vw;
+    }
+    
+    .sectionTag {
+        margin-bottom: 1.72vw;
+    }
+    
+    .sectionHeader {
+        margin-bottom: 4.28vw;
+    }
+    
+    .sectionInfo {
+        font-size: var(--reg-p-20-tablet);
+    }
+    
+    .briefImageBox {
+        border-radius: 1.72vw;
+    }
+    
+    .briefImage {
+        height: 64.28vw;
     }
 }
 
@@ -30,6 +96,38 @@
     }
     
     .briefSection {
-        gap: 18vw;
+        flex-direction: column-reverse;
+        gap: 15.44vw;
+    }
+
+    .briefSectionReverse {
+        flex-direction: column;
+        gap: 15.44vw;
+    }
+
+    .briefText {
+        width: 95%;
+    }
+    
+    .sectionTag {
+        margin-bottom: 3.78vw;
+    }
+    
+    .sectionHeader {
+        margin-bottom: 5.99vw;
+    }
+    
+    .sectionInfo {
+        font-size: var(--reg-p-20-mobile);
+    }
+    
+    .briefImageBox {
+        width: auto;
+        border-radius: 3.78vw;
+    }
+    
+    .briefImage {
+        height: 57.24vw;
+        width: auto;
     }
 }

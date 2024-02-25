@@ -41,7 +41,7 @@ const Director = () => {
             tag: '1',
             title: 'Ponder the hypothesis',
             span: 'To carefully understand and articulate the details before hitting the gas.',
-            content: "Sorry, I haven't finish this description yet 😅 I'm working on it though. Click around while I find the words to expand on the titles.",
+            content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
         },
         {
             tag: '2',
@@ -57,7 +57,7 @@ const Director = () => {
         },
         {
             tag: '4',
-            title: 'Orchestate the action',
+            title: 'Orchestrate the action',
             span: 'Executing our roadmap, measuring, optimizing -and pivoting if needed.',
             content: "Sorry, I haven't finish this description yet 😅 I'm working on it though. Click around while I find the words to expand on the titles.",
         },
@@ -79,46 +79,21 @@ const Director = () => {
         <>
             <OptionsBar />
             <Hero
-                header='Project Manager | COO'
-                loopText={['Strategy and Planning', 'Creativity & Communication', 'Systems & Operational Excellence', 'Vision and Growth Culture']}
-                description='Helping SMBs and entrepreneurs ideate, build, and scale their businesses through the impeccable management of their creative, strategic, and operational efforts.'
+                header='Project & Ops Manager'
+                loopText={['Strategy and Planning', 'Creativity & Communication', 'Budgeting & Operational Excellence', 'Vision and Growth Culture']}
+                description='Cultivating creative, organizational, and operational excellence since 2007 —and sharing the crops of living by that motto :)'
                 linkData={['Projects', 'PM Portfolio', '/project-manager-portfolio']}
                 heroCard={true}
                 newTab={false}
                 database={lastProject}
                 cardImage={['', '']}
             />
-            <BigPhrase text="Do you have an idea that needs to get off the ground? A project lagged under setbacks? Or a business growing fast but out of control? Let's team up and allow me to power up your strategic, creative, and operational efforts while you focus on doing what you do best: being a great leader and generating more ideas and opportunities. I will take care of the rest." />
-            <section className={styles.profileCardSection}>
-                <div className={styles.profileCardHolder}>
-                    <div className={styles.titleWrapper}>
-                        <p className={styles.sectionTag}>My goal</p>
-                        <h2 className={styles.bioCardHeader}>Optimize performance and maximize opportunities.</h2>
-                    </div>
-                    <div className={styles.infoWrapper}>
-                        <p className={styles.bioText}>Forget shortcuts or expensive magic tricks. If you want to achieve great goals we must get under your business’ hood and work on the engines. Every process you execute and executive decision you make -and the accumulation of them- is rendering an impactful outcome and my mission will be to help you improve the good ones, eliminate the bad ones, and implement the ones that are need but not running yet. Keep in mind that your ideas won’t raise to the level of your goals but fall to the level of the systems to have in place. Let’s make sure you have the best ones.</p>
-                    </div>
-                    <div className={styles.photoWrapper}>
-                        <div className={styles.bioPhotoBox}>
-                            <img src='/images/napo-workshop-image.png' alt='Napoleon running a strategy workshop'/>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className={styles.purposeSection}>
-                <div className={styles.sectionIntroWrapper}>
-                    <p className={styles.sectionTag}>My focus</p>
-                    <div className={styles.sectionHeaderBox}>
-                        <h2 className={styles.sectionHeader}>Streamlined creativity, resilient strategies, and operational excellence.</h2>
-                        <p className={styles.sectionInfo}>Of course building a successful business takes more than just focusing on these three things. We'll also address good finance, killer marketing, clever product development, and many others. But these three focuses are catalyzers of great work and the impact they have on the business is a game changer. Not only for making it run at peak performance but also -and specially- for bringing everyone together under one empowering vision and work ethics -which makes for an unstoppable organization. Big success is collective, multidisciplinary, and systematic. My intent is to ignite this synergy and make it consistent over time through creativity, good strategies, and smart work.</p>
-                    </div>
-                </div>
-            </section>
+            <BigPhrase text="I help SMBs and ENTRs build, optimize, and grow their businesses through the impeccable management of their resources and efforts. If you're sitting on an idea or pushing a project forward, and you could use some help from a cross-industry savvy that loves keeping things organized, aligned, tracked, profitable, and moving forward, don't think of me... call me instead." />
             <section className={styles.projectsGallery}>
                 <SectionIntro
-                    tag='Directed projects'
-                    header='PM Portfolio'
-                    info='Explore projects and ideas I have been part of. Let me know what you liked.'
+                    tag='PM and OM Portfolio'
+                    header='Work Experience'
+                    info="Here are some projects and ideas I've been part of. Click around to get a better grasp of my expertise, skills, and style. And if you want me to expand on any of them just let me know, I'll be happy to feed you the details."
                     align='center'
                 />
                 <Gallery card='pm' data={lastSixProjects}/>
@@ -132,10 +107,28 @@ const Director = () => {
                     </div>
                 </div>
             </section>
+            <section className={styles.goalsSection}>
+                <SectionIntro 
+                    tag="Manager mindset"
+                    header='The foundations for doing superb work.'
+                    info="A 'Servant-NavySeal-MadScientist' kind of leadership. Is that even a real thing? Nope 😅, but it makes me a better manager -everyday."
+                    align='right'
+                />
+                <div className={styles.goalsHolder}>
+                    <div className={styles.goalsBox}>
+                        <p className='bold-tag'>n.goal</p>
+                        <p className={styles.goalsText}>My goal is to bring the best out of everything and every one involved in the project, and make that performance be the fuel your business needs to achieve great goals. I want to be there to provide the support, guidance, motivation, and accountability to be at the top of our game, as well as the ideas, strategies, processes, metrics, tactics, and best practices to maximize every opportunity.</p>
+                    </div>
+                    <div className={styles.goalsBox}>
+                        <p className='bold-tag'>n.focus</p>
+                        <p className={styles.goalsText}>Beyond all the planning, scheduling, budgeting, monitoring and effectively communicating things, I'll make my daily obsession to escalate three types of excellence: 1) Creative — To streamline innovation, leverage design and UX principles, and make work fun. 2) Organizational — To put us in a remarkable state of alignment and performance regarding culture, strategies, ambitions, work ethic, and protocols. And 3) Operational — To be intentional, efficient, and consistent at optimizing our systems to produce greatest value, both for our customers and for the business.</p>
+                    </div>
+                </div>
+            </section>
             <section className={styles.processSection}>
                 <SectionIntro 
                     tag='My direction style'
-                    header='A simple process to build great things.'
+                    header='A simple framework to build great things.'
                     info='Each project is its own universe and my process and methods adapts with it. Regardless, I always make sure to take time to: '
                     align='right'
                 />
@@ -168,27 +161,27 @@ const Director = () => {
             </section>
             <section className={styles.statsSection}>
                 <SectionIntro 
-                    tag='Estimated investment'
-                    header='Get an idea of the average numbers.'
-                    info="We'll get to more accurate estimates once we breakdown the details of your project, but for now this is a great starting point."
+                    tag='Relevant details'
+                    header='Some information worth highlighting.'
+                    info="Four things to remember from this page, beside my contact details and the fact that you kind-of liked my profile (hypnothic mode 😵)."
                     align='right'
                 />
                 <div>
-                    <p className='bold-tag'>n.stats</p>
+                    <p className='bold-tag'>n.details</p>
                     <div className={styles.tableHolder}>
                         <table className={styles.statsTable}>
                             <tbody>
                                 <tr>
-                                    <th>timeline</th>
-                                    <th>investment</th>
+                                    <th>work experience</th>
+                                    <th>favorite work</th>
                                     <th>languages</th>
-                                    <th>Projects at once</th>
+                                    <th>earnings expectations</th>
                                 </tr>
                                 <tr>
-                                    <td>min. 6 months</td>
-                                    <td>€1.700 - €3.000 p/month</td>
+                                    <td>+15 years across 5 industries</td>
+                                    <td>Long-term projects</td>
                                     <td>Spanish, English</td>
-                                    <td>Just one (yours)</td>
+                                    <td>A fair one. We'll talk.</td>
                                 </tr>
                             </tbody>
                         </table>

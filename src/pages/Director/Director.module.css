@@ -1,91 +1,28 @@
-.profileCardSection {
-    padding: var(--tb-margin-desktop) var(--lr-margin-desktop);
-}
-
-.profileCardHolder {
-    display: flex;
-    padding: 5vw;
-    gap: 6vw;
-    border-radius: 1.43vw;
-    background-color: #d9d9d9;
-}
-
-.titleWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 1.43vw;
-    width: 28%;
-}
-
-.sectionTag {
-    font-weight: 300;
-}
-
-.bioCardHeader {
-    font-size: var(--h2-45-desktop);
-    font-weight: 400;
-    line-height: 1.2;
-}
-
-.infoWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 1.79vw;
-    width: 47%;
-    padding-top: 2.86vw;
-}
-
-.bioText {
-    line-height: 1.65;
-}
-
-.photoWrapper {
-    width: 25%;
-    padding-top: 2.86vw;
-}
-
-.bioPhotoBox {
-    width: 17.85vw;
-    height: 17.85vw;
-    border-radius: 100%;
-    overflow: hidden;
-}
-
-.sectionIntroWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 1.43vw;
-}
-
-.sectionTag {
-    font-weight: 300;
-}
-
-.sectionHeaderBox {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.sectionHeader {
-    width: 37.14vw;
-}
-
-.sectionInfo {
-    width: 42vw;
-    line-height: 1.65;
-}
-
 .projectsGallery{
     display: flex;
     flex-direction: column;
     gap: 5.71vw;
 }
 
-.processSection, .examplesSection, .skillsSection {
+.goalsSection, .processSection, .examplesSection, .skillsSection, .statsSection {
     display: flex;
     flex-direction: column;
     gap: 3.57vw;
+}
+
+.goalsHolder {
+    display: flex;
+    gap: 5.71vw;
+}
+
+.goalsBox {
+    width: 50%;
+}
+
+.goalsText {
+    font-weight: 300;
+    font-size: var(--reg-p-20-desktop);
+    line-height: 1.6;
 }
 
 .examplesHolder {
@@ -226,8 +163,23 @@ table {
         gap: 6.85vw;
     }
     
-    .processSection, .examplesSection, .skillsSection {
+    .goalsSection, .processSection, .examplesSection, .skillsSection, .statsSection {
         gap: 4.28vw;
+    }
+
+    .goalsHolder {
+        display: flex;
+        gap: 6.85vw;
+    }
+    
+    .goalsBox {
+        width: 50%;
+    }
+    
+    .goalsText {
+        font-weight: 300;
+        font-size: var(--reg-p-20-tablet);
+        line-height: 1.6;
     }
     
     .examplesHolder {
@@ -348,8 +300,23 @@ table {
         gap: 15.07vw;
     }
     
-    .processSection, .examplesSection, .skillsSection {
+    .goalsSection, .processSection, .examplesSection, .skillsSection, .statsSection {
         gap: 9.42vw;
+    }
+
+    .goalsHolder {
+        flex-direction: column;;
+        gap: 6.85vw;
+    }
+    
+    .goalsBox {
+        width: 96%;
+    }
+    
+    .goalsText {
+        font-weight: 300;
+        font-size: var(--reg-p-20-mobile);
+        line-height: 1.6;
     }
     
     .examplesHolder {
