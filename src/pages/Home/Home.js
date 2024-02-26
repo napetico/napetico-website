@@ -30,7 +30,7 @@ const Home = () => {
             heroCard={false}
             newTab={false}
             database={null}
-            cardImage={['./images/napo-home-image.png', 'Napoleon Bazan profile picture']}
+            cardImage={['./images/napo-profile-image.png', 'Napoleon Bazan profile picture']}
         />
         <BigPhrase text="Quick heads-up: This is all me navigating my passion to help ideate and build strong businesses and high-performance teams through creative, organizational, and operational excellence. Plus, me again sharing random hobbies just for fun. Good? Let's start with..."/>
         {/* ----- PROJECT MANAGER SECTION ----- */}
