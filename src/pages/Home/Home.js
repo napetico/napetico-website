@@ -39,7 +39,7 @@ const Home = () => {
                 <SectionIntro
                     tag="My main focus"
                     header='Being the best project manager I can be.'
-                    info='You can follow my Project & Ops Management work, style, and latest projects in this section. Hit the card to open my PM profile.'
+                    info='You can follow my Project & Operations Management work, style, and latest projects in this section. Hit the card to open my profile.'
                     align='right'
                 />
                 <div className={styles.displayContent}>

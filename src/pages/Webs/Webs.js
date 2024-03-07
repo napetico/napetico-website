@@ -11,6 +11,7 @@ import CertLabel from '../../util/CertLabel/CertLabel.js';
 import BigTextLoop from '../../layouts/BigTextLoop/BigTextLoop.js';
 import Gallery from '../../layouts/Gallery/Gallery.js';
 import Accordion from '../../util/Accordion/Accordion.js';
+import StatsTable from '../../util/StatsTable/StatsTable.js';
 
 const Webs = () => {
 
@@ -114,27 +115,10 @@ const Webs = () => {
                     info="We'll get to more accurate estimates once we breakdown the details of your project, but for now this is a great starting point."
                     align='right'
                 />
-                <div>
-                    <p className='bold-tag'>n.stats</p>
-                    <div className={styles.tableHolder}>
-                        <table className={styles.statsTable}>
-                            <tbody>
-                                <tr>
-                                    <th>timeline</th>
-                                    <th>investment</th>
-                                    <th>languages</th>
-                                    <th>Projects at once</th>
-                                </tr>
-                                <tr>
-                                    <td>2 - 8 weeks</td>
-                                    <td>€1.000 - €7.000</td>
-                                    <td>Spanish, English</td>
-                                    <td>Just one (yours)</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                <StatsTable
+                    labels={['timeline', 'investment', 'languages', 'projects at once']}
+                    stats={['2 - 8 weeks', '€1.000 - €7.000', 'Spanish, English', 'Just one (yours)']}
+                />
             </div>
             <div className={styles.skillsWrapper}>
                 <SectionIntro

@@ -1,7 +1,7 @@
 import styles from './Accordion.module.css';
 import { useState } from 'react';
 
-const Accordion = ({data}) => {
+const Accordion = ({type, data}) => {
 
     const [activeItem, setActiveItem] = useState(null);
 
@@ -20,15 +20,21 @@ const Accordion = ({data}) => {
                 return (
                     <li className={styles.accordionItem} key={index}>
                         <div className={styles.accordionQuestion} onClick={() => toggleActive(index)}>
-                            <div className={styles.togglePhaseTag}>
-                                <p className={styles.togglePhaseText}>{item.tag}</p>
-                            </div>
+                            {type === "highs" ? 
+                                <div className={styles.highsImageBox}>
+                                    <img className={styles.highsImage} src={item.image} alt=""/>
+                                </div>
+                                :
+                                <div className={styles.togglePhaseTag}>
+                                    <p className={styles.togglePhaseText}>{item.tag}</p>
+                                </div>
+                            }
                             <div className={styles.toggleInfoBox}>
                                 <h3 className={styles.toggleTitle}>{item.title}</h3>
                                 <p className={styles.toggleText}>{item.span}</p>
                             </div>
                             <div className={activeItem === index ? styles.toggleArrowBoxActive : styles.toggleArrowBox}>
-                                <img className={styles.toggleArrow} src='./images/icons/napo-accordion-arrow.svg' alt=''/>
+                                <img className={styles.toggleArrow} src='/images/icons/napo-accordion-arrow.svg' alt=''/>
                             </div>
                         </div>
                         <div className={activeItem === index ? styles.accordionAnswerActive : styles.accordionAnswer}>

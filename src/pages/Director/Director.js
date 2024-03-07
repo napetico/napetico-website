@@ -11,6 +11,7 @@ import Accordion from '../../util/Accordion/Accordion';
 import ToolLabel from '../../util/ToolLabel/ToolLabel';
 import CertLabel from '../../util/CertLabel/CertLabel';
 import BigTextLoop from '../../layouts/BigTextLoop/BigTextLoop';
+import StatsTable from '../../util/StatsTable/StatsTable';
 
 const Director = () => {
 
@@ -166,27 +167,10 @@ const Director = () => {
                     info="Four things to remember from this page, beside my contact details and the fact that you kind-of liked my profile (hypnothic mode 😵)."
                     align='right'
                 />
-                <div>
-                    <p className='bold-tag'>n.details</p>
-                    <div className={styles.tableHolder}>
-                        <table className={styles.statsTable}>
-                            <tbody>
-                                <tr>
-                                    <th>work experience</th>
-                                    <th>favorite work</th>
-                                    <th>languages</th>
-                                    <th>earnings expectations</th>
-                                </tr>
-                                <tr>
-                                    <td>+15 years across 5 industries</td>
-                                    <td>Long-term projects</td>
-                                    <td>Spanish, English</td>
-                                    <td>A fair one. We'll talk.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                <StatsTable
+                    labels={['work experience', 'favorite work', 'languages', 'earnings expectation']}
+                    stats={['+15 years across 5 industries', 'Long-term projects', 'Spanish, English', "A fair one. We'll talk"]}
+                />
             </section>
             <section className={styles.skillsSection}>
                 <SectionIntro

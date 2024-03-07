@@ -20,6 +20,29 @@ const PM_PROJECTS = [
         homeTitle: '',
         featTag: [false, '', ''],
         heroCard: ['Title', 'Description'],
+        problemBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        solutionBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        resultsBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        highlights: [
+            {
+                image: '',
+                title: '',
+                content: "",
+            },
+        ],
+        projectImages: [
+            {image: ["", ""], caption: ""},
+            {image: ["", ""], caption: ""},
+        ]
     },
     {
         id: 'TP',
@@ -42,6 +65,29 @@ const PM_PROJECTS = [
         homeTitle: '',
         featTag: [false, '', ''],
         heroCard: ['Title', 'Description'],
+        problemBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        solutionBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        resultsBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        highlights: [
+            {
+                image: '',
+                title: '',
+                content: "",
+            },
+        ],
+        projectImages: [
+            {image: ["", ""], caption: ""},
+            {image: ["", ""], caption: ""},
+        ]
     },
     {
         id: 'ARP',
@@ -64,6 +110,29 @@ const PM_PROJECTS = [
         homeTitle: '',
         featTag: [false, '', ''],
         heroCard: ['Title', 'Description'],
+        problemBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        solutionBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        resultsBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        highlights: [
+            {
+                image: '',
+                title: '',
+                content: "",
+            },
+        ],
+        projectImages: [
+            {image: ["", ""], caption: ""},
+            {image: ["", ""], caption: ""},
+        ]
     },
     {
         id: 'OL',
@@ -86,6 +155,29 @@ const PM_PROJECTS = [
         homeTitle: '',
         featTag: [false, '', ''],
         heroCard: ['Title', 'Description'],
+        problemBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        solutionBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        resultsBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        highlights: [
+            {
+                image: '',
+                title: '',
+                content: "",
+            },
+        ],
+        projectImages: [
+            {image: ["", ""], caption: ""},
+            {image: ["", ""], caption: ""},
+        ]
     },
     {
         id: 'LH',
@@ -108,6 +200,29 @@ const PM_PROJECTS = [
         homeTitle: '',
         featTag: [false, '', ''],
         heroCard: ['Title', 'Description'],
+        problemBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        solutionBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        resultsBrief:{
+            content: ["", ""],
+            image: ["", ""],
+        },
+        highlights: [
+            {
+                image: '',
+                title: '',
+                content: "",
+            },
+        ],
+        projectImages: [
+            {image: ["", ""], caption: ""},
+            {image: ["", ""], caption: ""},
+        ]
     },
     {
         id: 'SV',
@@ -130,6 +245,39 @@ const PM_PROJECTS = [
         homeTitle: 'Gearing up with the best competitive strategy',
         featTag: [false, '', ''],
         heroCard: ['Title', 'Description'],
+        problemBrief:{
+            content: ["The commoditization of creative services.", "Despite the great improvements Vagabond had made in product quality and kitchen affairs, their operations and customer service were still in the red zone. Management was trying hard to course correct but their efforts were crashing into walls of resistance, confusion, and misinformation. Performance was in a downward spiral, taking a toll on sales, cost efficiency, and team morale. Everyone felt like putting off fires all the time and hiding errors that still ended up wearing down their great cooking and exotic flavors. Frustration and reversion to old habits was building up and things were getting closer to a food fight than to a fine solution. Something had to be."],
+            image: ["", ""],
+        },
+        solutionBrief:{
+            content: ["A competitive strategy tailored for businesses.", "Dome text goes here"],
+            image: ["", ""],
+        },
+        resultsBrief:{
+            content: ["Solving high-level business challenges with branding.", "Some text goes here"],
+            image: ["", ""],
+        },
+        highlights: [
+            {
+                image: '',
+                title: 'Getting to the root of the problem so we could work on the right thing',
+                content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
+            },
+            {
+                image: '',
+                title: 'Helping founder articulate a great vision, identity, and culture',
+                content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
+            },
+            {
+                image: '',
+                title: 'Putting together a powerfull strategy and commercial direction',
+                content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
+            },
+        ],
+        projectImages: [
+            {image: ["", ""], caption: ""},
+            {image: ["", ""], caption: ""},
+        ]
     },
     {
         id: 'VG',
@@ -152,6 +300,44 @@ const PM_PROJECTS = [
         homeTitle: 'Empowering a great team for high-performance',
         featTag: [true, 'black', 'most recent'],
         heroCard: ["Vagabond Culture", 'Process Optimization + Company Culture'],
+        problemBrief:{
+            content: ["Poor performance and adversion to change.", "Despite the great improvements Vagabond had made in product quality and kitchen affairs, their operations and customer service were still in the red zone. Management was trying hard to course correct but their efforts were crashing into walls of resistance, confusion, and misinformation. Performance was in a downward spiral, taking a toll on sales, cost efficiency, and team morale. Everyone felt like putting off fires all the time and hiding errors that still ended up wearing down their great cooking and exotic flavors. Frustration and reversion to old habits was building up and things were getting closer to a food fight than to a fine solution. Something had to be."],
+            image: ["", ""],
+        },
+        solutionBrief:{
+            content: ["Get alignment and clarity, then work on performance.", "Dome text goes here"],
+            image: ["", ""],
+        },
+        resultsBrief:{
+            content: ["Elevating hospitality with systems.", "Some text goes here"],
+            image: ["", ""],
+        },
+        highlights: [
+            {
+                image: 'https://media.istockphoto.com/id/1454741303/vector/problem-identification-root-cause-analysis-and-solving-problem-businessman-with-magnifier.jpg?s=612x612&w=0&k=20&c=87p23vZngXbQCjKoJV2I8nuBLwmGQMMB-fMaC0g8vTE=',
+                title: 'Getting to the root of the problem so we could work on the right thing',
+                content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
+            },
+            {
+                image: 'https://www.onsip.com/hubfs/Business%20Vision%20The%20Fundamentals%20Featured%20Image%20%28iStock-1018003676%29.jpg',
+                title: 'Helping founder articulate a great vision, identity, and culture',
+                content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
+            },
+            {
+                image: '',
+                title: 'Putting together a powerfull strategy and commercial direction',
+                content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
+            },
+        ],
+        projectImages: [
+            {image: ["", ""], caption: ""},
+            {image: ["", ""], caption: ""},
+        ],
+        stats: {
+            labels: ["duration", "team size", "docs generated", "anual revenue"],
+            captions: ["6 months", "+20 people", "96 protocols", "+600K EUR"],
+        },
+        skills: ["Process Optimization", "Company Culture", "Brand Strategy", "Competitive Strategy", "Vision & Ethos", "Organizational Structure", "Employee Handbook", "Training Process", "Restaurant Operations", "SOPs", "Lean Process", "OKRs and KPIs", "Project Planning", ]
     },
     // {
     //     id: 'BL',

@@ -10,6 +10,7 @@ import ToolLabel from '../../util/ToolLabel/ToolLabel.js';
 import CertLabel from '../../util/CertLabel/CertLabel.js';
 import BigTextLoop from '../../layouts/BigTextLoop/BigTextLoop.js';
 import Gallery from '../../layouts/Gallery/Gallery.js';
+import StatsTable from '../../util/StatsTable/StatsTable.js';
 
 const Coding = () => {
 
@@ -75,27 +76,10 @@ const Coding = () => {
                     info='May they help you paint a good picture of my coding skills.'
                     align='right'
                 />
-                <div>
-                    <p className='bold-tag'>n.stats</p>
-                    <div className={styles.tableHolder}>
-                        <table className={styles.statsTable}>
-                            <tbody>
-                                <tr>
-                                    <th>experience</th>
-                                    <th>languages</th>
-                                    <th>dark nights of the soul</th>
-                                    <th>can work</th>
-                                </tr>
-                                <tr>
-                                    <td>2 years and counting</td>
-                                    <td>Spanish, English</td>
-                                    <td>16, for now</td>
-                                    <td>Remotely, On Site</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                <StatsTable
+                    labels={['experience', 'languages', 'dark nights of the soul', 'can work']}
+                    stats={['2 years and counting', 'Spanish, English', '16 (...for now)', 'Remotely, On Site']}
+                />
             </div>
             <div className={styles.skillsWrapper}>
                 <SectionIntro

@@ -43,7 +43,7 @@
     align-items: center;
     flex-grow: 1;
     display: flex;
-    gap: 5.71vw
+    gap: 5.71vw;
 }
 
 .toggleTitle {
@@ -76,13 +76,13 @@
 }
 
 .accordionAnswer {
-    padding: 0 10vw 2.14vw 8vw;
+    padding: 0 10vw 2.14vw 0vw;
     max-height: 0;
     overflow: hidden;
 }
 
 .accordionAnswerActive {
-    padding: 0 10vw 2.14vw 8vw;
+    padding: 0 10vw 2.14vw 0vw;
     height: auto;
     max-height: 9999px;
     overflow: hidden;
@@ -90,9 +90,23 @@
 
 .accordionAnswerText {
     margin-top: 2.14vw;
+    margin-left: 8vw;
     font-size: 1.29vw;
     font-weight: 300;
     line-height: 1.6;
+}
+
+/* --- HIGHS ACCORDION CSS --- */
+
+.highsImageBox {
+    width: 4.29vw;
+    height: 4.29vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: -0.72vw;
 }
 
 @media only screen and (max-width: 992px) {   
@@ -133,16 +147,25 @@
     }
     
     .accordionAnswer {
-        padding: 0 12vw 2.57vw 9.6vw;
+        padding: 0 12vw 2.57vw 0vw;
     }
     
     .accordionAnswerActive {
-        padding: 0 12vw 2.57vw 9.6vw;
+        padding: 0 12vw 2.57vw 0vw;
     }
     
     .accordionAnswerText {
         margin-top: 2.57vw;
+        margin-left: 9.6vw;
         font-size: 1.55vw;
+    }
+
+    /* --- HIGHS ACCORDION CSS --- */
+
+    .highsImageBox {
+        width: 5.15vw;
+        height: 5.15vw;
+        margin-right: -0.87vw;
     }
 }
 
@@ -166,7 +189,7 @@
     }
     
     .toggleInfoBox {
-        gap: 15.07vw
+        gap: 15.07vw;
     }
     
     .toggleTitle {
@@ -183,20 +206,29 @@
     }
     
     .toggleArrowBoxActive {
-        width: 2.82vw;
-        height: 2.82vw;
+        min-width: 2.82vw;
+        min-height: 2.82vw;
     }
     
     .accordionAnswer {
-        padding: 0 5vw 5.65vw 14.5vw;
+        padding: 0 5vw 5.65vw 0vw;
     }
     
     .accordionAnswerActive {
-        padding: 0 5vw 5.65vw 14.5vw;
+        padding: 0 5vw 5.65vw 0vw;
     }
     
     .accordionAnswerText {
         margin-top: 5.65vw;
+        margin-left: 14.5vw;
         font-size: var(--reg-p-16-mobile);
+    }
+
+    /* --- HIGHS ACCORDION CSS --- */
+
+    .highsImageBox {
+        min-width: 11.33vw;
+        min-height: 11.33vw;
+        margin-right: 0vw;
     }
 }
