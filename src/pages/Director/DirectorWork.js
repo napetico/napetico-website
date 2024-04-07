@@ -16,8 +16,8 @@ const DirectorWork = () => {
         <section className={styles.DirectorWorkSection}>
             <div className={styles.DirectorWorkIntroHolder}>
                 <SectionIntro
-                    tag='Work as Project Manager'
-                    header='PM Portfolio'
+                    tag='Work as Project & Ops Manager'
+                    header='Manager Portfolio'
                     info="Here's a collection of the projects, ideas, roles, and industries I've worked in and learned from. Let me know what you think."
                     align='right'
                 />

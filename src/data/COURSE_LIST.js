@@ -82,10 +82,10 @@ const COURSE_LIST = [
     {
         id: 'GOOGLEPM',
         url: 'https://www.coursera.org/professional-certificates/google-project-management',
-        title: 'Google Project Manager',
+        title: 'Professional Project Manager',
         academy: 'Coursera + Google',
         image: ['https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/600px-Coursera-Logo_600x600.svg.png', 'Coursera and Google course poster'],
-        featTag: [true, 'black', 'in progress']
+        featTag: [true, 'black', 'most recent']
     },
 ]
 

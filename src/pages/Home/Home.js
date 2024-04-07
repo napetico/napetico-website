@@ -38,7 +38,7 @@ const Home = () => {
             <div className={styles.displayHolder}>
                 <SectionIntro
                     tag="My main focus"
-                    header='Being the best project manager I can be.'
+                    header='Helping projects and operations outperform.'
                     info='You can follow my Project & Operations Management work, style, and latest projects in this section. Hit the card to open my profile.'
                     align='right'
                 />
@@ -246,7 +246,7 @@ const Home = () => {
             <div className={styles.displayHolder}>
                 <SectionIntro
                     tag='On my free time'
-                    header='Side projects and ideas I have fun with.'
+                    header='Some side projects and ideas I have fun with.'
                     info="And finally, these are some of the by-products of my random thinking, painting, writing, planning, and fooling around. Ha! "
                     align='right'
                 />

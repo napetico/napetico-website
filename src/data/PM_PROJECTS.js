@@ -286,7 +286,7 @@ const PM_PROJECTS = [
         client: {
             name: 'Vagabond',
             image: ['/images/napo-vg-logo.jpg', 'Vagabond - Business logo'],
-            bio: 'Vagabond is a fast-casual restaurant cooking exotic Lebanese-Mexican street food fusion dishes. Their mission is to create the perfectly balanced meal: Food that is high-quality, tasty, simple, healthy, convenient, sustainable, and affordable all at once!',
+            bio: 'Vagabond is a fast-casual Lebanese-Mexican restaurant on a mission to create and share the perfectly balanced eating experience with all Europe. Their tasty cooking was rising up to the challenge but their chaotic operations were pulling the other way around. They needed a 180º change to save the business from taking a hard hit.',
         },
         category: 'Fast-Casual Restaurant',
         mainImages: {
@@ -301,32 +301,47 @@ const PM_PROJECTS = [
         featTag: [true, 'black', 'most recent'],
         heroCard: ["Vagabond Culture", 'Process Optimization + Company Culture'],
         problemBrief:{
-            content: ["Poor performance and adversion to change.", "Despite the great improvements Vagabond had made in product quality and kitchen affairs, their operations and customer service were still in the red zone. Management was trying hard to course correct but their efforts were crashing into walls of resistance, confusion, and misinformation. Performance was in a downward spiral, taking a toll on sales, cost efficiency, and team morale. Everyone felt like putting off fires all the time and hiding errors that still ended up wearing down their great cooking and exotic flavors. Frustration and reversion to old habits was building up and things were getting closer to a food fight than to a fine solution. Something had to be."],
-            image: ["", ""],
+            content: ["Poor performance and aversion to change.", "Despite the great improvements in product quality and kitchen affairs, Vagabond's operations and customer service were spiraling out of control. They were underperforming, constantly improvising, and increasingly burned out. That was making the business unpredictable and reactive and taking a toll on their success. To be fair, they were trying to put things back on track but all their initiatives were received with as little sympathy and efficiency as they were communicated. Resistance, frustration, and reversion to old bad habits was building up, hiding leadership problems under productivity issues that needed a quick fix."],
+            image: ["/images/pm/napo-vg-challenge.png", "Vagabond's shawarma bar"],
         },
         solutionBrief:{
-            content: ["Get alignment and clarity, then work on performance.", "Dome text goes here"],
-            image: ["", ""],
+            content: ["Backing new processes with an empowering culture.", "Sitting with the problem a little longer made it easy to see that pushing for tighter processes alone will not help. Laying the ground for these changes to happen -and stick- requiered everyone to be on board and inspired to follow through. First, I worked with the founders to get clarity on their vision and goals"],
+            image: ["/images/pm/napo-vg-approach.jpg", "Vagabon's team meeting"],
         },
         resultsBrief:{
-            content: ["Elevating hospitality with systems.", "Some text goes here"],
-            image: ["", ""],
+            content: ["An empowered team and streamlined processes.", "Some text goes here"],
+            image: ["/images/pm/napo-vg-outcome.jpg", ""],
         },
         highlights: [
             {
-                image: 'https://media.istockphoto.com/id/1454741303/vector/problem-identification-root-cause-analysis-and-solving-problem-businessman-with-magnifier.jpg?s=612x612&w=0&k=20&c=87p23vZngXbQCjKoJV2I8nuBLwmGQMMB-fMaC0g8vTE=',
+                image: 'https://i.pinimg.com/564x/c5/85/ff/c585ff3508a34fae69358a791a2f28c4.jpg',
                 title: 'Getting to the root of the problem so we could work on the right thing',
-                content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
+                content: "Me and my partner did a first round of discovery sesions with the founders. Then a second round of conversations with the staff and key managers. And then a third round of observations by spending a few days watching them work without any intervention from our part. This allowed us to get a wide perspective of story, patterns, and dynamics and easy the way to unwrap the core issues.",
             },
             {
-                image: 'https://www.onsip.com/hubfs/Business%20Vision%20The%20Fundamentals%20Featured%20Image%20%28iStock-1018003676%29.jpg',
-                title: 'Helping founder articulate a great vision, identity, and culture',
-                content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
+                image: 'https://i.pinimg.com/564x/7c/1e/a2/7c1ea291c25d81bbb8a4418237a88beb.jpg',
+                title: 'Helping founders articulate a great vision and competitive strategy',
+                content: "I'll throw in the details of this milestone soon.",
             },
             {
-                image: '',
-                title: 'Putting together a powerfull strategy and commercial direction',
-                content: "You have no idea how many times I've exceptionally executed on things that made zero impact just because I rushed into action with fuzzy information and vague goals. But chill, those are lessons learned. Now I'm very intentional about how much grasp I have on the project before kicking it off. I ask more questions, carefully listen to the answers, dig deeper into the details, and critically analyze the entire context to make sure that we are addressing the right things, from the best perspective, and with a solid argument. So, get ready for a 6-feet 6-yo asking lots of 'why' questions while breaking down everything you say to map it on a whiteboard. Don't worry, I know how to make this fun, quick, and super insightful.",
+                image: 'https://images.unsplash.com/photo-1541695226403-a09aa08e5135?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGRpcmVjdGlvbnxlbnwwfHwwfHx8MA%3D%3D',
+                title: 'Aligning everyone under their new direction and company culture',
+                content: "I'll throw in the details of this milestone soon.",
+            },
+            {
+                image: 'https://i.pinimg.com/236x/de/5f/e3/de5fe3c6561fb7ea17146a044f5973ca.jpg',
+                title: 'Brainstorming and planning all the optimizations as a team',
+                content: "I'll throw in the details of this milestone soon.",
+            },
+            {
+                image: 'https://i.pinimg.com/564x/61/dd/80/61dd80ef9b856cff9c4407590a0966d8.jpg',
+                title: 'Implementing, testing, and improving ideas in a Lean way',
+                content: "I'll throw in the details of this milestone soon.",
+            },
+            {
+                image: 'https://i.pinimg.com/564x/20/c6/4d/20c64de015e9e6acf8239f9d45016cc2.jpg',
+                title: 'Documenting the process and leaving new leaders on charge',
+                content: "I'll throw in the details of this milestone soon.",
             },
         ],
         projectImages: [

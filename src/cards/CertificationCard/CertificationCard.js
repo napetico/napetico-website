@@ -20,8 +20,8 @@ const CertificationCard = ({data}) => {
             </div>
             <div className={styles.certButtonBox}>
                 {data.completed ? 
-                    <a className={styles.openLink} href={data.url} >
-                        <p>open cert.</p>
+                    <a className={styles.openLink} href={data.url} target='_blank' rel='noopener noreferrer'>
+                        <p>open certificate</p>
                     </a> :
                     <div className={styles.blackButton}>
                         <p>taking now</p>

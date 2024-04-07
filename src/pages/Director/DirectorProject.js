@@ -33,9 +33,9 @@ const DirectorProject = ({data}) => {
     {/* --- OVERVIEW TITLE SECTION --- */}
         <section className={styles.projectsGallery}>
             <SectionIntro
-                tag='A summary of the work'
-                header='Project overview'
-                info="From challenges and hypothesis to solutions and final outcomes. I squezzed it all into these few sections. Wanna dig deeper? Let me know! I'll be happy go into weeds."
+                tag='A brief overview of the work'
+                header='Project Summary'
+                info="From challenges and hypothesis to solutions and final outcomes, all squezzed into these few sections. Wanna dig deeper? Reach out and we'll talk details."
                 align='center'
             />
         </section>
@@ -150,13 +150,13 @@ const DirectorProject = ({data}) => {
         </section>
     {/* --- GO TO PORTFOLIO PAGE --- */}
         <section className={styles.moreWebsSection}>
-                <h2 className={styles.moreWebsText}>Explore more webs</h2>
+                <h2 className={styles.moreWebsText}>Explore more projects</h2>
                 <div className='centered-link-holder'>
                     <div className='link-group-holder'>
                         <p className='link-group-tag'>Navigate to</p>
                         <img className='link-group-arrow' src='/images/icons/napo-link-arrow-black.svg' alt=''/>
                         <div className='link-group-wrapper'>
-                            <LinkOnWhite text='Web Portfolio' link='/web-design-portfolio' />
+                            <LinkOnWhite text='Manager Portfolio' link='/project-manager-portfolio' />
                         </div>
                     </div>
                 </div>

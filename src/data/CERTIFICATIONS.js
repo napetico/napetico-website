@@ -85,7 +85,7 @@ const CERTIFICATIONS = [
     },
     {
         id: 'PM GOOGLE',
-        url: 'https://coursera.org/share/622049ef9a9cbd94897ef6bbc5f33a3c',
+        url: 'https://www.coursera.org/account/accomplishments/specialization/certificate/7FMZKBRVEQR9',
         title: 'Professional Project Manager',
         academy: {
             name: 'Google + Coursera',
@@ -93,9 +93,9 @@ const CERTIFICATIONS = [
             image: ['https://s0.smartresize.com/wallpaper/363/615/HD-wallpaper-google-technology-logo-colorful-browser.jpg', 'Academy Logo']
         },
         description: '2024 · Business & Productivity',
-        completed: false,
+        completed: true,
         cardImage: ['https://s0.smartresize.com/wallpaper/363/615/HD-wallpaper-google-technology-logo-colorful-browser.jpg', 'Academy Logo'],
-        featTag: [true, 'black', 'almost done']
+        featTag: [true, 'black', 'most recent']
     },
 ]
 

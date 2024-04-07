@@ -23,7 +23,7 @@ const OptionsBar = () => {
                     <div className={styles.optShareLink}>
                         <img className={styles.optShareLinkImage} src='/images/icons/napo-heart-icon.svg' alt=''/>
                     </div>
-                    <a className={styles.optShareLink} href='./napoleon-cv.pdf' target='_blank' rel='noopener noreferrer'>
+                    <a className={styles.optShareLink} href='./napo-cv-eng.pdf' target='_blank' rel='noopener noreferrer'>
                         <img className={styles.optShareLinkImage} src='/images/icons/napo-cv-icon.svg' alt=''/>
                     </a>
                 </div>
