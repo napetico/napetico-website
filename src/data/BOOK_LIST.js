@@ -396,11 +396,24 @@ const BOOK_LIST = [
         title: "The Richest Man in Babylon",
         author: 'George S. Clason',
         category: 'Mindset',
-        image: ['https://media.licdn.com/dms/image/D5612AQG-W39FXjn_uA/article-cover_image-shrink_600_2000/0/1681626477592?e=2147483647&v=beta&t=ICv-EQFDPtzSCkDnOfMpg3Q-4Uhm2s5Hx8UbRHVCkzE', "Book cover: The Richest Man in Babylon"],
+        image: ['https://www.iwillteachyoutoberich.com/wp-content/uploads/2015/12/1kNDtRDE6mk78x3PGF6AQr9xDmEkQXNqK2o9aHo30MA.jpg', "Book cover: The Richest Man in Babylon"],
         sinopsis: 'This book teaches great lessons about finance through stories based on Babylon parables. Once the richest city in the world, where people had a wise perspective about money, work, and good fortune.',
         interest: "It came up, on and off, in many podcasts. Always referred to as one of the best book in finance. With real gems hidden in stories and advices told by wealthy men from Babylon. As with many other 'parables books', it got a bit flat form time to time. But c'mon, it's a classic from 1962, what did I expect 😏.",
         takeAways: "Let me try to sell you the book with this: Fortune is not for whiners and lazy-asses. You have to make it rain, and if you don't know how, go ask some honest person that have. Once you do, control your stupid ego and save a good part of it for the future. When you have enough, invest it wisely (in yourself and in business). When those investments bring you a little profit, guess what? Reinvest that shit too. These, along with honesty, hard-work, and patience will paid off. - Worst summary of a book ever 🤦🏻‍♂️. Just go read it and get smarter :)",
-        featTag: [true, 'yellow', 'most recent']
+        featTag: [true, 'black', 'most recent']
+    },
+    {
+        id: 'PMBA',
+        path: '/reading-list/personal-mba',
+        url: '',
+        title: "The Personal MBA",
+        author: 'Josh Kaufman',
+        category: 'Business',
+        image: ['https://media.karousell.com/media/photos/products/2023/5/1/the_personal_mba_1682950794_22d4d850_progressive.jpg', "Book cover: The Personal MBA"],
+        sinopsis: "Come back later for insights on the book once I finish it. See ya :)",
+        interest: "",
+        takeAways: "",
+        featTag: [true, 'yellow', 'reading now']
     },
 ]
 

@@ -217,10 +217,10 @@ const Home = () => {
                                 <ProjectCard link={true} client={false} card='book' data={BOOK_LIST[BOOK_LIST.length -2]}/>
                             </div>
                             <div className={styles.projectCardHolderBooks}>
-                                <ProjectCard link={true} client={false} card='course' data={COURSE_LIST[COURSE_LIST.length -2]}/>
+                                <ProjectCard link={true} client={false} card='course' data={COURSE_LIST[COURSE_LIST.length -1]}/>
                             </div>
                             <div className={styles.projectCardHolderBooks}>
-                                <ProjectCard link={true} client={false} card='cert' data={CERTIFICATIONS[CERTIFICATIONS.length -1]}/>
+                                <ProjectCard link={true} client={false} card='cert' data={CERTIFICATIONS[CERTIFICATIONS.length -2]}/>
                             </div>
                         {/* Here goes the card slider */}
                         </div>
@@ -282,10 +282,10 @@ const Home = () => {
                             <div className={styles.projectCardHolder}>
                                 <ProjectCard link={true} client={false} card='hobbie' data={{
                                     path: '/under-construction',
-                                    image: ['https://scontent.fmad7-1.fna.fbcdn.net/v/t31.18172-8/22496202_741114852751608_5414144444795781619_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c2f564&_nc_ohc=M34Y7sBXgtEAX_beqA7&_nc_ht=scontent.fmad7-1.fna&oh=00_AfD6hIbVPGDGCCcQ2ZJd8h6e33sLbgByUmB4kkV9K44Ynw&oe=65DF70D0', 'Color pencil illustration of a pineapple'],
+                                    image: ['https://images.unsplash.com/photo-1513717192602-ab369702eb3b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lua2dvJTIwYmlsb2JhfGVufDB8fDB8fHww', 'Color pencil illustration of a ginko leaf'],
                                     featTag: [true, 'black', 'coloring now'],
                                     snippet: 'Pencil Color Hyperrealism',
-                                    title: 'Pineapple in Technicolor: Taken from a Pinterest post',
+                                    title: 'Ginkgo Leaf: A souvenir from the nicest trip with friends',
                                 }}
                                 />
                             </div>

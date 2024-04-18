@@ -86,16 +86,30 @@ const CERTIFICATIONS = [
     {
         id: 'PM GOOGLE',
         url: 'https://www.coursera.org/account/accomplishments/specialization/certificate/7FMZKBRVEQR9',
-        title: 'Professional Project Manager',
+        title: 'Professional Project Manager (PMP)',
         academy: {
-            name: 'Google + Coursera',
+            name: 'Google Certifications',
             site: 'https://grow.google/intl/es/google-career-certificates/project-management/',
             image: ['https://s0.smartresize.com/wallpaper/363/615/HD-wallpaper-google-technology-logo-colorful-browser.jpg', 'Academy Logo']
         },
         description: '2024 · Business & Productivity',
         completed: true,
         cardImage: ['https://s0.smartresize.com/wallpaper/363/615/HD-wallpaper-google-technology-logo-colorful-browser.jpg', 'Academy Logo'],
-        featTag: [true, 'black', 'most recent']
+        featTag: [true, 'black', 'completed']
+    },
+    {
+        id: 'ILLI',
+        url: 'https://www.coursera.org/specializations/business-value-project-management',
+        title: 'Business Value & Project Management',
+        academy: {
+            name: 'University of Illinois',
+            site: 'https://www.coursera.org/specializations/business-value-project-management',
+            image: ['https://pbs.twimg.com/profile_images/1284210829001449472/J0Gg_pqn_400x400.jpg', 'Academy Logo']
+        },
+        description: '2024 · Business & Management',
+        completed: false,
+        cardImage: ['https://pbs.twimg.com/profile_images/1284210829001449472/J0Gg_pqn_400x400.jpg', 'Academy Logo'],
+        featTag: [true, 'black', 'in progress']
     },
 ]
 

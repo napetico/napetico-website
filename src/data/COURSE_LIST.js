@@ -83,9 +83,17 @@ const COURSE_LIST = [
         id: 'GOOGLEPM',
         url: 'https://www.coursera.org/professional-certificates/google-project-management',
         title: 'Professional Project Manager',
-        academy: 'Coursera + Google',
-        image: ['https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/600px-Coursera-Logo_600x600.svg.png', 'Coursera and Google course poster'],
+        academy: 'Google Certifications',
+        image: ['https://s0.smartresize.com/wallpaper/363/615/HD-wallpaper-google-technology-logo-colorful-browser.jpg', 'Google course poster'],
         featTag: [true, 'black', 'most recent']
+    },
+    {
+        id: 'ILLI',
+        url: 'https://www.coursera.org/specializations/business-value-project-management',
+        title: 'Business Value & Project Management',
+        academy: 'University of Illinois',
+        image: ['https://pbs.twimg.com/profile_images/1284210829001449472/J0Gg_pqn_400x400.jpg', 'University of Illinois Logo'],
+        featTag: [true, 'yellow', 'in progress']
     },
 ]
 
